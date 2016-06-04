@@ -83,10 +83,15 @@
     <div class="row column">
 	<h3><a name="Projects"></a> Recent Projects</h3>
     </div>
-    <div class="row medium-up-3 large-up-1"><div class="column" align="center">
-    	<a class="btn btn-primary view-pdf" href="/pdfs/The_Influence_of_Reference_Group_Contributions.pdf" target="_blank">View PDF in New Window</a> 
-    	<iframe style="width:718px; height:700px;" frameborder="0" src="/pdfs/The_Influence_of_Reference_Group_Contributions.pdf " width="600" height="800">Not compatible with your browser</iframe>
+    <div id='outerdiv' class="row medium-up-3 large-up-1"><div class="column" align="center">
+    	[B]<a href="javascript:closeFrame();">[X]</a>[/B] 
+    	<iframe style="width:718px; height:700px;" frameborder="0" src="/pdfs/The_Influence_of_Reference_Group_Contributions.pdf ">Not compatible with your browser</iframe>
     </div>
+    [B]<script type="text/javascript">
+function closeFrame() {
+    document.getElementById("outerdiv").style.display="none";
+}
+</script>[/B]
     <div class="column" align="center">
         <iframe style="width:718px; height:700px;" frameborder="0" src="/pdfs/Keegan_Skeate_Forecasting_Paper.pdf">Not compatible with your browser</iframe>
     </div>
