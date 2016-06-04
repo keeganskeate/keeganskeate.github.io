@@ -5,18 +5,18 @@ height:75px
 padding: 20px;
 font-weight: bold;
 font-size: 100%;
-background: #1585cf;
+background: #881f0e;
 color: #FFFFFF;
 cursor: pointer;
 border: 1px solid #999999;
 border-radius: 10px;
--webkit-box-shadow: 6px 6px 5px #999999;
--moz-box-shadow: 6px 6px 5px #999999;
-box-shaddow: 6px 6px 5px; #999999;
+-webkit-box-shadow: 4px 4px 5px #999999;
+-moz-box-shadow: 4px 4px 5px #999999;
+box-shaddow: 4px 4px 5px; #999999;
 }
 input.MyButton:hover {
 color: #FFFF00;
-background: #3366CC;
+background: #1585cf;
 border: 1px solid #A3A3A3;
 -webkit-box-shadow: 2px 2px 5px #666666;
 -moz-box-shadow: 2px 2px 5px #666666;
