@@ -75,12 +75,20 @@
 	I aided Dr. Paul Gaggl in his research on the distributional effect on wages 
 	from electricity adoption in the early 20th century. Now, as a member
 	of the Department of Economics at UC Irvine, I am engaged in teaching intermediate economics,
-	and pursuing the advanced study of economics and political economy. <pre class="prettyprint">class Voila {
-public:
-  // Voila
-  static const string VOILA = "Voila";
-
-  // will not interfere with embedded <a href="#voila2">tags</a>.
+	and pursuing the advanced study of economics and political economy. <pre class="prettyprint linenums">def gamma_pdf(alpha,beta):  
+    X = np.arange(80, 190, .1) #the support of the pdf  
+    pdf = np.zeros(len(X))      
+    if alpha==22.5 or alpha==1180.5:  
+        log_gamma_product = math.log(math.sqrt(math.pi))  
+        for j in np.arange(1,alpha):  
+            log_gamma_product += math.log(alpha-j)             
+    for i in np.arange(0,len(X)):  
+      if alpha!=22.5 and alpha!=1180.5:  
+          z = -alpha*math.log(beta)+(alpha-1)*math.log(X[i])-X[i]/beta-math.log(math.factorial(alpha-1))  
+          else:  
+        z = -alpha*math.log(beta)+(alpha-1)*math.log(X[i])-X[i]/beta-log_gamma_product  
+        pdf[i] = math.exp(z)  
+	  return pdf,X  <a href="#voila2">tags</a>.
 }</pre></p>
       </div>
     </div>
