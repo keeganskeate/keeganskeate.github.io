@@ -1,0 +1,57 @@
+/* Personal Dropdown Button */
+.dropbtn {
+	background:none; 
+	background-size: 75%;
+	padding: 30px;
+	position: relative;
+	color: white;
+	font-size: 2em;
+	border: none;
+	outline:none;
+	cursor: pointer;}
+.dropbtn:hover, .dropbtn:focus: {
+	opacity: .5;  filter:alpha(opacity=50);}
+.dropdown {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none;
+	float: left center;
+	background:url(../images/e_logo.png) no-repeat;
+	background-size: 75%;
+	opacity:0.75;
+	position: relative;
+	padding: 0px 0px 0px 0px;
+	margin: 8px 0 0 0px;
+	display: inline-block;
+	line-height:2em;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+	-ms-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out; }
+.dropdown:hover {  opacity: 1;  filter:alpha(opacity=100); }
+.dropdown:onclick {  opacity: 1;  filter:alpha(opacity=100); }
+.dropdown-content {
+	line-height: 1em;
+	top:75px;
+	right:0px;
+	display: none;
+	position: absolute;
+	width:360px;
+	height:220px;
+	background: url(../images/bluebook_background.png);
+	background-size: 100%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	color:  #82b440;
+	font-size: 1.6em;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 800;
+}
+.dropdown-content a {
+	padding: 20px 0px 40px 0px;
+	text-decoration: none;
+	display: block;}
+/*Needs to be fixed! */
+.dropdown-content > li >a:hover {color: #82b440;}
+.show {display:inline-block;}
