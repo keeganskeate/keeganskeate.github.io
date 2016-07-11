@@ -75,21 +75,8 @@
 	I aided Dr. Paul Gaggl in his research on the distributional effect on wages 
 	from electricity adoption in the early 20th century. Now, as a member
 	of the Department of Economics at UC Irvine, I am engaged in teaching intermediate economics,
-	and pursuing the advanced study of economics and political economy. <pre class="prettyprint linenums">
-def gamma_pdf(alpha,beta):  
-X = np.arange(80, 190, .1) #the support of the pdf  
-pdf = np.zeros(len(X))      
-	if alpha==22.5 or alpha==1180.5:  
-        	log_gamma_product = math.log(math.sqrt(math.pi))  
-        	for j in np.arange(1,alpha):  
-            	log_gamma_product += math.log(alpha-j)             
-    		for i in np.arange(0,len(X)):  
-      		if alpha!=22.5 and alpha!=1180.5:  
-          	z = -alpha*math.log(beta)+(alpha-1)*math.log(X[i])-X[i]/beta-math.log(math.factorial(alpha-1))  
-          	else:  
-        	z = -alpha*math.log(beta)+(alpha-1)*math.log(X[i])-X[i]/beta-log_gamma_product  
-        	pdf[i] = math.exp(z)  
-        return pdf,X</pre></p>
+	and pursuing the advanced study of economics and political economy.
+        </p>
       </div>
     </div>
     
@@ -116,18 +103,6 @@ pdf = np.zeros(len(X))
     	<iframe style="width:820px; height:700px;" frameborder="0" src="/pdfs/The_Influence_of_Reference_Group_Contributions.pdf ">Error: Not compatible with your browser.</iframe>
     </div>
     
-    <!--<div class="column" align="center">
-    	<p> <form><input class="MyButton" type="button" value="A Forecasting Paper" onclick=window.open('/pdfs/Keegan_Skeate_Forecasting_Paper.pdf') target="_blank"/></form></p>
-        <iframe style="width:820px; height:700px;" frameborder="0" src="/pdfs/Keegan_Skeate_Forecasting_Paper.pdf">Error: Not compatible with your browser.</iframe>
-    </div>
-	
-     <div class="column" align="center">
-    	<p> <form><input class="MyButton" type="button" value="A Replication Paper" onclick=window.open('/pdfs/Econ6257_Replication_KeeganSkeate.pdf') target="_blank"/></form></p>
-        <iframe style="width:820px; height:700px;" frameborder="0" src="/pdfs/Econ6257_Replication_KeeganSkeate.pdf">Error: Not compatible with your browser.</iframe>
-    </div>
-    </div> -->
-    
-    
     <hr>
     <div class="row column">
       <ul class="menu">
@@ -144,8 +119,14 @@ pdf = np.zeros(len(X))
   </body>
 </html>
 
-   <!-- <div class="row">
-   SCRAP
+<!--   SCRAP
+   
+   	<pre class="prettyprint linenums">
+Block o' code
+	</pre>
+	
+	
+	<div class="row">
       <div class="medium-4 columns">
         <h3>Course Work</h3>
         <p>Please brazenly copy for your personal benefit, and at your own peril. 
