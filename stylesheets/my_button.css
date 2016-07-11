@@ -1,0 +1,23 @@
+input.MyButton {
+width: 250px;
+height:150px
+padding: 20px;
+font-weight: bold;
+font-size: 100%;
+background: #2199e8;
+color: #FFFFFF;
+cursor: pointer;
+border: 1px solid #999999;
+border-radius: 10px;
+-webkit-box-shadow: 3px 3px 5px #999999;
+-moz-box-shadow: 3px 3px 5px #999999;
+box-shaddow: 3px 3px 5px; #999999;
+}
+input.MyButton:hover {
+color: #FFFF00;
+background: #1585cf;
+border: 1px solid #A3A3A3;
+-webkit-box-shadow: 2px 2px 5px #666666;
+-moz-box-shadow: 2px 2px 5px #666666;
+box-shaddow: 2px 2px 5px; #666666;
+}
