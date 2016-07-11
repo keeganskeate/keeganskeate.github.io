@@ -1,7 +1,3 @@
-.tex sub, .latex sub, .latex sup {
-  text-transform: uppercase;
-}
-
 .tex sub, .latex sub {
   vertical-align: -0.5ex;
   margin-left: -0.1667em;
