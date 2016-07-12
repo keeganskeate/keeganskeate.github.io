@@ -53,5 +53,5 @@
 	text-decoration: none;
 	display: block;}
 /*Needs to be fixed! */
-.dropdown-content li a:hover {color: #82b440;}
+.dropdown-content li a:focus {color: #82b440;}
 .show {display:inline-block;}
