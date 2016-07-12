@@ -670,7 +670,7 @@ Original template designed by TEMPLATED (templated.co)
 				}
 
 				#nav > ul > li.active a {
-					color: #FFCC00 ;
+					color: #FFE788 ;
 					font-weight: 500;
 				}
 
@@ -678,7 +678,7 @@ Original template designed by TEMPLATED (templated.co)
 					display: none;
 				}
 				#nav ul > li:hover {
-    					color: #FFCC00 ;
+    					color: #FFE788 ;
     					font-weight: 500;
 				}
 /* Dropotron */
@@ -723,7 +723,7 @@ Original template designed by TEMPLATED (templated.co)
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
-				color: #FFCC00;
+				color: #FFE788;
 				font-weight: 500;
 			}
 			/*For highlighting options uncomment  .dropotron > li:hover {background: #246CBD;} */
