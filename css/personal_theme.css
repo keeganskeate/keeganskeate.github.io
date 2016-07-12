@@ -647,7 +647,7 @@ Original template designed by TEMPLATED (templated.co)
 				-ms-transition: all 200ms ease-in;
 				transition: all 200ms ease-in;	
 			}
-		.nav > ul > li > .myname {
+		.nav  .myname {
 			float:left;
 		}
 				#nav > ul > li a {
