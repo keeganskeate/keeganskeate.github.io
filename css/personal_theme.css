@@ -2,12 +2,13 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700,800");
 /*
-	Theme colors: Primary - #82b440, Secondary - #49B440
-	Original template designed by TEMPLATED (templated.co)
+Theme colors: Dark Blue- #235796  Med Blue - #1585CF  Light Blue - #2199E8  Yellow- #FFCC00 Dark yellow - #F0B500 Light Yellow - #FFE788
+Black - #222222  Grey - #555555 Off-white - #f9f9f9
+Original template designed by TEMPLATED (templated.co)
 */
 /* Basic Format*/
 	html,body {
-		background: #222222;
+		background: #2199E8;
 		margin: 0px;
 		padding: 0px;
 		width:100%;
@@ -29,7 +30,7 @@
 		}
 
 	html, body, input, select, textarea {
-		color: #555555;
+		color: #2199E8;
 		font-family: 'Open Sans', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
