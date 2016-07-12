@@ -584,6 +584,20 @@ Original template designed by TEMPLATED (templated.co)
 	.homepage #logo {
 		display: none;
 	}
+	
+	.homepage #myname{
+		position: static;
+		right: none;
+		text-align: center;
+		float:left;
+	}
+	#myname {
+		position: absolute;
+		top: 0;
+		right: 0;
+		display: block;
+    		text-align: center;
+	}
 
 	.homepage #nav {
 		position: static;
