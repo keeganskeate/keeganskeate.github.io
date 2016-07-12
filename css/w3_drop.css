@@ -36,6 +36,8 @@
 	-ms-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;
 }
+.dropdown:hover {  opacity: 1;  filter:alpha(opacity=100); }
+.dropdown:onclick {  opacity: 1;  filter:alpha(opacity=100); }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
