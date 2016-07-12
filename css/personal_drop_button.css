@@ -36,7 +36,7 @@
 	line-height: 1em;
 	top:75px;
 	right:0px;
-	display: none;
+	display: block;
 	position: absolute;
 	width:360px;
 	height:220px;
@@ -54,4 +54,4 @@
 	display: block;}
 /*Needs to be fixed! */
 .dropdown-content > li >a:hover {color: #82b440;}
-.show {display:inline-block;}
+.show {display:block;}
