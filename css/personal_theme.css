@@ -38,7 +38,7 @@ Original template designed by TEMPLATED (templated.co)
 	}
 
 	a {
-		color: #49B440;
+		color: #FFCC00;
 		text-decoration: underline;
 	}
 
@@ -95,13 +95,13 @@ Original template designed by TEMPLATED (templated.co)
 	}
 
 	hr {
-		border-top: solid 1px #49B440  ;
+		border-top: solid 1px #FFCC00;
 		border: 0;
 		margin-bottom: 1.5em;
 	}
 
 	blockquote {
-		border-left: solid 0.5em #49B440;
+		border-left: solid 0.5em #FFCC00;
 		font-style: italic;
 		padding: 1em 0 1em 2em;
 	}
@@ -149,7 +149,7 @@ Original template designed by TEMPLATED (templated.co)
 		-ms-appearance: none;
 		appearance: none;
 		background: none;
-		border: solid 1px #49B440;
+		border: solid 1px #FFCC00;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -162,7 +162,7 @@ Original template designed by TEMPLATED (templated.co)
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #49B440;
+			border-color: #FFCC00;
 		}
 
 	input[type="text"],
@@ -429,8 +429,8 @@ Original template designed by TEMPLATED (templated.co)
 		background: none;
 		border-radius: none;
 		border: 2px solid;
-		border-color: #FFE788
-		color: #FFE788;
+		border-color: #FFCC00;
+		color: #FFCC00;
 		cursor: pointer;
 		display: inline-block;
 		padding: 0.90em 1.2em;
