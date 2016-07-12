@@ -585,13 +585,13 @@ Original template designed by TEMPLATED (templated.co)
 		display: none;
 	}
 	
-	.homepage #myname > a{
+	.homepage #myname{
 		position: static;
 		right: none;
 		text-align: center;
 		float:left;
 	}
-	#myname > a{
+	#myname > span{
 		position: absolute;
 		top: 0;
 		right: 0;
