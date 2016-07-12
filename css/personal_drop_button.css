@@ -1,6 +1,6 @@
 /* Dropdown Button */
 .dropbtn {
-	background:none; 
+	background:blue; 
 	background-size: 75%;
 	padding: 30px;
 	position: relative;
@@ -9,8 +9,9 @@
 	border: none;
 	outline:none;
 	cursor: pointer;}
-.dropbtn:hover, .dropbtn:focus: {
-	opacity: .5;  filter:alpha(opacity=50);}
+.dropbtn:hover, .dropbtn:focus {
+    opacity: .5;  filter:alpha(opacity=50);
+}
 .dropdown {
 	-moz-appearance: none;
 	-webkit-appearance: none;
@@ -36,7 +37,7 @@
 	line-height: 1em;
 	top:75px;
 	right:0px;
-	display: block;
+	display: none;
 	position: absolute;
 	width:360px;
 	height:220px;
@@ -49,9 +50,10 @@
 	font-weight: 800;
 }
 .dropdown-content a {
+	color: black;
 	padding: 20px 0px 40px 0px;
 	text-decoration: none;
 	display: block;}
 /*Needs to be fixed! */
-.dropdown-content > li >a:hover {color: #82b440;}
+.dropdown-content a:hover {color: #82b440;}
 .show {display:block;}
