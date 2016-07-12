@@ -22,7 +22,7 @@
 	-o-appearance: none;
 	-ms-appearance: none;
 	float: left center;
-	background: url(../images/grad_pic.jpg) no-repeat;
+	background: none no-repeat;
 	background-size: 75%;
 	opacity:1;
 	position: relative;
