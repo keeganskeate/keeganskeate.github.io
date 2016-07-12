@@ -1,6 +1,6 @@
 /* Dropdown Button */
 .dropbtn {
-    background-color: none;
+    background: inherit;
     background-size: 75%;
     font-size: 2em;
     color: white;
@@ -22,7 +22,7 @@
 	-o-appearance: none;
 	-ms-appearance: none;
 	float: left center;
-	background:url(../images/my_pic.png) no-repeat;
+	background: url(../images/my_pic.png) no-repeat;
 	background-size: 75%;
 	opacity:0.75;
 	position: relative;
