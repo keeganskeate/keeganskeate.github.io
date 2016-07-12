@@ -597,6 +597,8 @@ Original template designed by TEMPLATED (templated.co)
 		right: 0;
 		display: block;
     		text-align: center;
+    		color:#FFCC00;
+    		font-size: 1em;letter-spacing: 2px;
 	}
 
 	.homepage #nav {
