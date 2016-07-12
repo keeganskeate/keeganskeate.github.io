@@ -574,7 +574,7 @@ Original template designed by TEMPLATED (templated.co)
 	#header {
 		color: white;
 		height: 4em;
-		background: #222222;
+		background: none;
 	}
 
 		#header .container {
