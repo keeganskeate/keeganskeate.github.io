@@ -592,9 +592,8 @@ Original template designed by TEMPLATED (templated.co)
 		float:left;
 	}
 	.myname.span > a{
+		float:left;
 		position: absolute;
-		top: 0;
-		right: 0;
 		display: block;
     		text-align: center;
     		color:#FFCC00;
