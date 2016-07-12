@@ -589,7 +589,6 @@ Original template designed by TEMPLATED (templated.co)
 		position: static;
 		right: none;
 		text-align: center;
-		float:right;
 	}
 
 	#logo {
@@ -617,6 +616,7 @@ Original template designed by TEMPLATED (templated.co)
 		display: block;
     		text-align: center;
 	}
+	
 
 		#nav > ul {
 			margin: 0;
@@ -624,11 +624,13 @@ Original template designed by TEMPLATED (templated.co)
 			list-style-type: none;
 		}
 
+		#nav ul li:first-child { float: left; }
 			#nav > ul > li  {
 				-moz-appearance: none;
 				-webkit-appearance: none;
 				-o-appearance: none;
 				-ms-appearance: none;
+				float: right;
 				border-radius: 2px;
 				display: inline-block;
 				margin-left: 0.5em;
@@ -647,9 +649,6 @@ Original template designed by TEMPLATED (templated.co)
 				-ms-transition: all 200ms ease-in;
 				transition: all 200ms ease-in;	
 			}
-		.nav  .myname {
-			float:left;
-		}
 				#nav > ul > li a {
 					-moz-appearance: none;
 					-webkit-appearance: none;
