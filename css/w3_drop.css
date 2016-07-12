@@ -1,10 +1,14 @@
 /* Dropdown Button */
 .dropbtn {
     background-color: none;
+    background-size: 75%;
+    font-size: 2em;
     color: white;
-    padding: 16px;
-    font-size: 16px;
     border: none;
+    padding: 30px;
+    position: relative;
+    border: none;
+    outline:none;
     cursor: pointer;
 }
 /* Dropdown button on hover & focus */
