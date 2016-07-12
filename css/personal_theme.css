@@ -761,7 +761,7 @@ Original template designed by TEMPLATED (templated.co)
 		padding: 1em 0em 2em 0em;
 		text-align: center;
 		text-transform: uppercase;
-		color: #FDEE00;
+		color: #FFCC00;
 		-moz-transition: all .35s ease-in;
 		-webkit-transition: all .35s ease-in;
 		-o-transition: all .35s ease-in;
@@ -782,7 +782,7 @@ Original template designed by TEMPLATED (templated.co)
 		
 		#banner .container h2:hover{
 			background: none;
-			color: #FFCC00;
+			color: #FDEE00;
 		}
 		#banner span, #banner p{
 			color: #FFE788;
