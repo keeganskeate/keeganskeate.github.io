@@ -24,7 +24,7 @@
 	float: left center;
 	background: url(../images/my_pic.png) no-repeat;
 	background-size: 75%;
-	opacity:0.75;
+	opacity:1;
 	position: relative;
 	padding: 0px 0px 0px 0px;
 	margin: 8px 0 0 0px;
@@ -36,8 +36,8 @@
 	-ms-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;
 }
-.dropdown:hover {  opacity: 1;  filter:alpha(opacity=100); }
-.dropdown:onclick {  opacity: 1;  filter:alpha(opacity=100); }
+.dropdown:hover {  opacity: .5;  filter:alpha(opacity=50); }
+.dropdown:onclick {  opacity: .5;  filter:alpha(opacity=50); }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
 	line-height: 1em;
@@ -47,7 +47,7 @@
 	position: absolute;
 	width:360px;
 	height:220px;
-	background: inherit;
+	background: white;
 	background-size: 100%;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	color:  #2199E8;
@@ -63,7 +63,11 @@
     display: block;
 }
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+	color: black;
+	padding: 20px 0px 40px 0px;
+	text-decoration: none;
+	display: block;}
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
