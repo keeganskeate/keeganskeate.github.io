@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700,800");
 /*
 Theme colors: Dark Blue- #235796  Med Blue - #1585CF  Light Blue - #2199E8  Yellow- #FFCC00 Dark yellow - #F0B500 Light Yellow - #FFE788
-Black - #222222  Grey - #555555 Off-white - #f9f9f9
+Black - #222222  Grey - #555555 Off-white - #f9f9f9 Bright Yellow - #FDEE00
 Original template designed by TEMPLATED (templated.co)
 */
 /* Basic Format*/
@@ -277,7 +277,7 @@ Original template designed by TEMPLATED (templated.co)
 	}
 	
 		ul.icons a:hover {
-			color: #82b440;
+			color: #FDEE00;
 			opacity: 1;
 			}
 
@@ -309,7 +309,7 @@ Original template designed by TEMPLATED (templated.co)
 			}
 
 			ul.icons li a:hover {
-				color: #49B440;
+				color: #FDEE00;
 				opacity: 1;
 			}
 
@@ -379,7 +379,7 @@ Original template designed by TEMPLATED (templated.co)
 			display: inline-block;
 			padding-right: 1em;
 			font-size: 1.4em;
-			color: #49B440;
+			color: #FFE788;
 		}
 
 		ul.special-icons p {
@@ -397,7 +397,7 @@ Original template designed by TEMPLATED (templated.co)
 		}
 
 			table.default tbody tr {
-				border-bottom: solid 1px #82b440;
+				border-bottom: solid 1px #FFE788;
 			}
 
 			table.default td {
@@ -429,8 +429,8 @@ Original template designed by TEMPLATED (templated.co)
 		background: none;
 		border-radius: none;
 		border: 2px solid;
-		border-color: #49B440;
-		color: #49B440;
+		border-color: #FFE788
+		color: #FFE788;
 		cursor: pointer;
 		display: inline-block;
 		padding: 0.90em 1.2em;
@@ -450,9 +450,9 @@ Original template designed by TEMPLATED (templated.co)
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #42B440;
-			color: #white;
-			border-color: #42B440;
+			background: #FDEE00;
+			color: white;
+			border-color: #FDEE00;
 		}
 
 		input[type="submit"].alt,
@@ -468,7 +468,7 @@ Original template designed by TEMPLATED (templated.co)
 			input[type="button"].alt:hover,
 			.button.alt:hover {
 				background: #f2f2f2;
-				color: #42B440;
+				color: #FDEE00;
 			}
 		input[type="submit"].fit,
 		input[type="reset"].fit,
@@ -533,7 +533,7 @@ Original template designed by TEMPLATED (templated.co)
 
 		.wrapper.style3 {
 			padding-bottom: 3em;
-			background: #49B440;
+			background: #FFE788;
 			text-align: center;
 			color: white;
 		}
@@ -553,7 +553,7 @@ Original template designed by TEMPLATED (templated.co)
 		}
 
 		.wrapper.style5 {
-			background: #49B440;
+			background: #FFE788;
 			text-align: center;
 			color: white;
 		}
@@ -670,7 +670,7 @@ Original template designed by TEMPLATED (templated.co)
 				}
 
 				#nav > ul > li.active a {
-					color: #FFE788 ;
+					color: #FDEE00 ;
 					font-weight: 500;
 				}
 
@@ -678,7 +678,7 @@ Original template designed by TEMPLATED (templated.co)
 					display: none;
 				}
 				#nav ul > li:hover {
-    					color: #FFE788 ;
+    					color: #FDEE00 ;
     					font-weight: 500;
 				}
 /* Dropotron */
@@ -723,7 +723,7 @@ Original template designed by TEMPLATED (templated.co)
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
-				color: #FFE788;
+				color: #FDEE00;
 				font-weight: 500;
 			}
 			/*For highlighting options uncomment  .dropotron > li:hover {background: #246CBD;} */
@@ -747,7 +747,7 @@ Original template designed by TEMPLATED (templated.co)
 		padding: 1em 0em 2em 0em;
 		text-align: center;
 		text-transform: uppercase;
-		color: #49B440;
+		color: #FDEE00;
 		-moz-transition: all .35s ease-in;
 		-webkit-transition: all .35s ease-in;
 		-o-transition: all .35s ease-in;
@@ -768,10 +768,10 @@ Original template designed by TEMPLATED (templated.co)
 		
 		#banner .container h2:hover{
 			background: none;
-			color: #82b440;
+			color: #FFCC00;
 		}
 		#banner span, #banner p{
-			color: #49B440;
+			color: #FFE788;
 			display: block;
 			letter-spacing: 1px;
 			text-transform: uppercase;
