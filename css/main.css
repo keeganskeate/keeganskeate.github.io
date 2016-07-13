@@ -794,7 +794,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			text-align: left;
 			font-size: .8em;
 			font-weight: 300;
-			overflow:auto;
 		}
 		#banner p > a{
 			color: #2199E8;
@@ -871,6 +870,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	position: absolute;
 	width:500px;
 	height:200px;
+	overflow:auto;
 	background: #FFEBD0;
 	background-size: 100%;
 	box-shadow:  0 -1px 0 #000;
