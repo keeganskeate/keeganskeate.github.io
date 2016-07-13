@@ -792,9 +792,9 @@ Original template designed by TEMPLATED (templated.co)*/
 			color: #FFCC00;
 			display: block;
 			letter-spacing: 1px;
-			text-transform: uppercase;
-			font-size: 1.6em;
-			font-weight: 400;
+			text-align: left;
+			font-size: 1em;
+			font-weight: 300;
 		}
 		#banner span {
 			font-weight:500;
