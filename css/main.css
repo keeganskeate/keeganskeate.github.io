@@ -603,6 +603,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		position: static;
 		right: none;
 		text-align: center;
+		vertical-align: bottom;
 	}
 
 	#logo {
