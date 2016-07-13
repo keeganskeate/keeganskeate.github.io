@@ -773,7 +773,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		#banner .container h2 {
 			display: inline-block;
-			left: 0;
+			text-align: left;
 			padding: 0.0em .2em;
 			background: none;
 			font-size: 4.8 em;
