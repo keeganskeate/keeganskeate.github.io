@@ -10,8 +10,8 @@
 	text-transform: none; line-height: 1;  -webkit-font-smoothing: antialiased; }
 /* THEME
 Background: Sunset beige - #FFEBD0
-Text color:  Yellow- #FFCC00  Light Blue - #2199E8
-Hover Color: Dark yellow - #F0B500
+Text color:  Dark yellow - #F0B500Yellow- #FFCC00  Light Blue - #2199E8
+Hover Color: Light Blue - #2199E8Dark yellow - #F0B500
 Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788
 Special colors: Dark Blue- #235796  Med Blue - #1585CF
 Misc colors: Black - #222222  Grey - #555555  Off-white - #f9f9f9
@@ -739,7 +739,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
-				color: #2199E8;
+				color: #235796;
 				font-weight: 500;
 			}
 			/*For highlighting options uncomment  .dropotron > li:hover {background: #246CBD;} */
