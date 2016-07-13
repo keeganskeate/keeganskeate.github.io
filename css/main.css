@@ -788,7 +788,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			color: #F0B500;
 		}
 		#banner span, #banner p{
-			color: #FFCC00;
+			color: #F0B500;
 			display: block;
 			letter-spacing: 1px;
 			text-align: left;
@@ -876,8 +876,8 @@ Original template designed by TEMPLATED (templated.co)*/
 	font-size: 1.6em;
 	font-family: 'Josefin Slab', serif;
 	font-weight: 800;
-	width:450px;
-	height:300px;
+	width:800px;
+	height:250px;
 	overflow:auto;
 }
 /* Links inside the dropdown */
