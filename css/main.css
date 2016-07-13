@@ -11,8 +11,8 @@
 /* THEME
 Background: Sunset beige - #FFEBD0
 Text color:  Yellow- #FFCC00 
-Hover Color: Bright Yellow - #FDEE00
-Alt colors: Dark yellow - #F0B500 Light Yellow - #FFE788
+Hover Color: Dark yellow - #F0B500
+Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788
 Special colors: Light Blue - #2199E8 Dark Blue- #235796  Med Blue - #1585CF
 Misc colors: Black - #222222  Grey - #555555  Off-white - #f9f9f9
 Original template designed by TEMPLATED (templated.co)*/
@@ -287,7 +287,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	}
 	
 		ul.icons a:hover {
-			color: #FDEE00;
+			color: #F0B500;
 			opacity: 1;
 			}
 
@@ -319,7 +319,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			}
 
 			ul.icons li a:hover {
-				color: #FDEE00;
+				color: #F0B500;
 				opacity: 1;
 			}
 
@@ -461,7 +461,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		input[type="button"]:hover,
 		.button:hover {
 			background: #FDEE00;
-			color: white;
+			color: #FFEBD0;
 			border-color: #FDEE00;
 		}
 
@@ -478,7 +478,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			input[type="button"].alt:hover,
 			.button.alt:hover {
 				background: #FFEBD0;
-				color: #FDEE00;
+				color: #F0B500;
 			}
 		input[type="submit"].fit,
 		input[type="reset"].fit,
@@ -691,7 +691,7 @@ Original template designed by TEMPLATED (templated.co)*/
 					display: none;
 				}
 				#nav ul > li:hover {
-    					color: #FDEE00 ;
+    					color: #F0B500 ;
     					font-weight: 500;
 				}
 /* Dropotron */
@@ -736,7 +736,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
-				color: #FDEE00;
+				color: #F0B500;
 				font-weight: 500;
 			}
 			/*For highlighting options uncomment  .dropotron > li:hover {background: #246CBD;} */
@@ -781,7 +781,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		
 		#banner .container h2:hover{
 			background: none;
-			color: #FDEE00;
+			color: #F0B500;
 		}
 		#banner span, #banner p{
 			color: #FFCC00;
@@ -967,7 +967,7 @@ Original template designed by TEMPLATED (templated.co)*/
 }
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-	color: #FDEE00;
+	color: #F0B500;
 	padding: 20px 0px 40px 0px;
 	text-decoration: none;
 	display: block;}
