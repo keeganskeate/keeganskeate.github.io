@@ -817,23 +817,17 @@ Original template designed by TEMPLATED (templated.co)*/
 			border-color: #2199E8;
 }
 
-
 /* Picture Dropdown Button */
-.dropbtn {
-    background: inherit;
-    font-size: 2em;
-    color: #FFCC00;
-    border: none;
-    padding: 30px;
-    position: relative;
-    border: none;
-    outline:none;
-    cursor: pointer;
-}
+.dropbtn {    		float:left;
+			position:relative;
+			cursor: pointer;
+			display: inline-block;
+			padding: 0.0em .2em;
+			background: none;
+			font-size: 4.8 em;
+			font-weight: 700;}
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    opacity: .5;  filter:alpha(opacity=50);
-}
+.dropbtn:hover, .dropbtn:focus {border-color:#2199E8;}
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     -moz-appearance: none;
@@ -850,6 +844,16 @@ Original template designed by TEMPLATED (templated.co)*/
 	margin: 0px 0 0 0px;
 	display: inline-block;
 	line-height:2em;
+	border:2px solid;
+	border-color: #FFCC00;
+	border-radius: 25px;
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    	background-image: linear-gradient(right, #111 11%, #333 56%);
+	background-image: -o-linear-gradient(right, #111 11%, #333 56%);
+	background-image: -moz-linear-gradient(right, #111 11%, #333 56%);
+	background-image: -webkit-linear-gradient(right, #111 11%, #333 56%);
+	background-image: -ms-linear-gradient(right, #111 11%, #333 56%);
+	background-image: gradient(right, #111 11%, #333 56%);
 	-moz-transition: all 0.35s ease-in-out;
 	-webkit-transition: all 0.35s ease-in-out;
 	-o-transition: all 0.35s ease-in-out;
