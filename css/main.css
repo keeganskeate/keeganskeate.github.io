@@ -818,17 +818,18 @@ Original template designed by TEMPLATED (templated.co)*/
 }
 
 /* Picture Dropdown Button */
-.dropbtn {    		float:left center;
+.dropbtn {    		float:left;
 			position:relative;
 			cursor: pointer;
 			display: inline-block;
-			padding: 0.0em .2em;
+			padding: 0.0em .0em;
 			background: url(../images/my_pic.png) no-repeat;
 			background-size: contain;
 			width: 95px;
     			height: 108px;
 			border:2px solid;
 			border-color: #FFCC00;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 			border-radius: 25px;
 			font-size: 4.8 em;
 			font-weight: 700;}
@@ -840,7 +841,6 @@ Original template designed by TEMPLATED (templated.co)*/
 	-webkit-appearance: none;
 	-o-appearance: none;
 	-ms-appearance: none;
-	float: left center;
 	background: url(../images/my_pic.png) no-repeat;
 	width: 95px;
     	height: 108px;
