@@ -641,13 +641,13 @@ Original template designed by TEMPLATED (templated.co)*/
 			vertical-align: bottom;
 		}
 		#nav ul li:not(:first-child){
-			padding: 5em 0 0 0;
+			padding: 4em 0.5em 0 0.5em;
 			
 		}
 		#nav ul li:first-child { 
 			float: left;
 			font-size: 1em;
-			padding: 3em 0.5em 0em 0.5em;
+			padding: 2em 0.5em 0em 0.5em;
 		}
 			#nav > ul > li  {
 				-moz-appearance: none;
