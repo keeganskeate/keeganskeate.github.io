@@ -802,7 +802,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			border:2px solid;
 			border-color: #FFCC00;
 			border-radius: 25px;
-    			box-shadow: 0 0 10px #F0B500;
+    			box-shadow: 0 0 10px #FFCC00;
     			background-image: linear-gradient(right, #111 11%, #333 56%);
 			background-image: -o-linear-gradient(right, #111 11%, #333 56%);
 			background-image: -moz-linear-gradient(right, #111 11%, #333 56%);
@@ -813,6 +813,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			
 		#banner .profile_pic:hover { 
 			border-color: #F0B500;
+			border-radius: 25px;
 			box-shadow: 0 0 10px #F0B500;
 }
 
