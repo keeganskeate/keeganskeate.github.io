@@ -796,7 +796,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			font-weight: 300;
 		}
 		#banner p > a{
-			display: block;
+			display: inline;
 			color: #2199E8;
 		}
 		#banner span {
