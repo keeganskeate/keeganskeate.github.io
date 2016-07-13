@@ -794,6 +794,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			text-align: left;
 			font-size: .8em;
 			font-weight: 300;
+			overflow:auto;
 		}
 		#banner p > a{
 			color: #2199E8;
