@@ -796,6 +796,18 @@ Original template designed by TEMPLATED (templated.co)*/
 			font-weight:500;
 			padding: .5em 0em 2em 0em;
 		}
+		#banner .profile_pic > img{
+			border:2px solid;
+			float: left;
+			border-radius: 25px;
+    			box-shadow: 0 3px 0.7px 1px #777777, 0 -7px rgba(0, 0, 0, 0.4) inset;
+    			background-image: linear-gradient(right, #111 11%, #333 56%);
+			background-image: -o-linear-gradient(right, #111 11%, #333 56%);
+			background-image: -moz-linear-gradient(right, #111 11%, #333 56%);
+			background-image: -webkit-linear-gradient(right, #111 11%, #333 56%);
+			background-image: -ms-linear-gradient(right, #111 11%, #333 56%);
+			background-image: gradient(right, #111 11%, #333 56%);
+			}
 
 /* Main */
 
@@ -908,10 +920,6 @@ Original template designed by TEMPLATED (templated.co)*/
 	}
 
 /* Picture Dropdown Button */
-div.profile_pic > img{
-border:1px solid;
-float: left;
-}
 .dropbtn {
     background: inherit;
     font-size: 2em;
