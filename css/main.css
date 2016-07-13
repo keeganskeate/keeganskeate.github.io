@@ -908,6 +908,9 @@ Original template designed by TEMPLATED (templated.co)*/
 	}
 
 /* Picture Dropdown Button */
+div.profile_pic > img{
+border:1px solid;
+}
 .dropbtn {
     background: inherit;
     font-size: 2em;
@@ -930,12 +933,13 @@ Original template designed by TEMPLATED (templated.co)*/
 	-o-appearance: none;
 	-ms-appearance: none;
 	float: left center;
-	background: url(../images/grad_pic.jpg) no-repeat;
-	background-size: 75%;
+	background: url(../images/my_pic.png) no-repeat;
+	background-size: 100%;
 	opacity:1;
 	position: relative;
+	float: left;
 	padding: 0px 0px 0px 0px;
-	margin: 8px 0 0 0px;
+	margin: 0px 0 0 0px;
 	display: inline-block;
 	line-height:2em;
 	-moz-transition: all 0.35s ease-in-out;
