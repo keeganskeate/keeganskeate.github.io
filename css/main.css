@@ -772,7 +772,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			padding: 0em 0em;
 		}
 		#banner .container h2 {
-			line-height: 1em;
 			display: inline-block;
 			padding: 0.2em .2em;
 			background: none;
@@ -799,6 +798,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		#banner .profile_pic > img{
 			border:2px solid;
 			float: left;
+			border-color: #FFE788;
 			border-radius: 25px;
     			box-shadow: 0 3px 0.7px 1px #777777, 0 -7px rgba(0, 0, 0, 0.4) inset;
     			background-image: linear-gradient(right, #111 11%, #333 56%);
