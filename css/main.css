@@ -869,9 +869,6 @@ Original template designed by TEMPLATED (templated.co)*/
 	line-height: 1em;
 	display: none;
 	position: absolute;
-	width:450px;
-	height:300px;
-	overflow:auto;
 	background: #FFEBD0;
 	background-size: 100%;
 	box-shadow:  0 -1px 0 #000;
@@ -879,6 +876,11 @@ Original template designed by TEMPLATED (templated.co)*/
 	font-size: 1.6em;
 	font-family: 'Josefin Slab', serif;
 	font-weight: 800;
+	width:450px;
+	height:300px;
+	overflow:scroll;
+	-webkit-scrollbar-track {background-color: #FFE788;
+}
 }
 /* Links inside the dropdown */
 .dropdown-content a {
