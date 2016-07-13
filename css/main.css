@@ -641,7 +641,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			vertical-align: bottom;
 		}
 		#nav ul li:not(:first-child){
-			padding: 3.5em 0.5em 0 0.5em;
+			padding: 3em 0.5em 0 0.5em;
 			
 		}
 		#nav ul li:first-child { 
