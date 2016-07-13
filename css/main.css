@@ -10,10 +10,10 @@
 	text-transform: none; line-height: 1;  -webkit-font-smoothing: antialiased; }
 /* THEME
 Background: Sunset beige - #FFEBD0
-Text color:  Dark yellow - #F0B500Yellow- #FFCC00  Light Blue - #2199E8
-Hover Color: Light Blue - #2199E8Dark yellow - #F0B500
-Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788
-Special colors: Dark Blue- #235796  Med Blue - #1585CF
+Text color:  Dark yellow - #F0B500 
+Hover Color: Dark Blue- #235796
+Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 Yellow- #FFCC00
+Special colors: Light Blue - #2199E8  Med Blue - #1585CF
 Misc colors: Black - #222222  Grey - #555555  Off-white - #f9f9f9
 Original template designed by TEMPLATED (templated.co)*/
 /* Basic Format*/
@@ -619,7 +619,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 
 		#logo a {
-			color: #FFE788;
+			color: #F0B500 ;
 		}
 
 	#nav {
@@ -650,7 +650,7 @@ Original template designed by TEMPLATED (templated.co)*/
 				margin-left: 0.5em;
 				padding: 0 0.5em;
 				background: inherit; 
-				color:#FFE788; 
+				color:#F0B500; 
 				text-decoration: none;
 				text-transform: uppercase;
 				font-size: 1em;letter-spacing: 2px;
@@ -707,7 +707,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		top: 1em;
 		background: #FFEBD0;
 		border-radius: 2px;
-		color: #FFE788;
 		font-weight: 500;
 		padding: 0.0em 0.5em;
 		color:  #F0B500;
@@ -764,7 +763,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		-ms-appearance: none;
 		padding: 0em 0em 6em 0em;
 		text-align: center;
-		color: #FFCC00;
+		color: #F0B500;
 		-moz-transition: all .35s ease-in;
 		-webkit-transition: all .35s ease-in;
 		-o-transition: all .35s ease-in;
@@ -808,7 +807,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		#banner .profile_pic > img{
 			border:2px solid;
-			border-color: #FFCC00;
+			border-color: #F0B500;
 			border-radius: 25px;
     			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     			background-image: linear-gradient(right, #111 11%, #333 56%);
@@ -829,12 +828,12 @@ Original template designed by TEMPLATED (templated.co)*/
 			cursor: pointer;
 			display: inline-block;
 			padding: 0.0em .0em;
-			background:#FFE788 url(../images/my_pic.png) no-repeat;
+			background:#F0B500 url(../images/my_pic.png) no-repeat;
 			background-size: 100%;
 			width: 95px;
     			height: 108px;
 			border:2px solid;
-			border-color: #FFE788;
+			border-color: #F0B500;
 			box-shadow:  -2px #000;
 			border-radius: 25px;
 			font-size: 4.8 em;
@@ -849,7 +848,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	-webkit-appearance: none;
 	-o-appearance: none;
 	-ms-appearance: none;
-	background: url(../images/my_pic.png) no-repeat;
+	background: #F0B500 url(../images/my_pic.png) no-repeat;
 	background-size: 100%;
 	border-radius: 25px;
 	width: 95px;
@@ -875,7 +874,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	background: #FFEBD0;
 	background-size: 100%;
 	box-shadow:  0 -1px 0 #000;
-	color:  #2199E8;
+	color:  #F0B500;
 	font-size: 1.6em;
 	font-family: 'Josefin Slab', serif;
 	font-weight: 800;
@@ -885,7 +884,7 @@ Original template designed by TEMPLATED (templated.co)*/
 }
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: #FFCC00;
+    color: #F0B500;
     padding: 0px 0px;
     text-decoration: none;
     display: block;
@@ -931,7 +930,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	#footer {
 		padding: 6em 0 2em 0;
 		text-align: center;
-		color: #FFE788;
+		color: #F0B500;
 		text-shadow: 0 -1px 0 #000;
 	}
 
