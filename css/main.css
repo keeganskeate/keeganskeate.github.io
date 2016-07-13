@@ -681,14 +681,6 @@ Original template designed by TEMPLATED (templated.co)*/
 					margin-left: 0;
 					 position: relative;
 				}
-				#nav > ul > li:first-child:before {
-  					position: absolute;
-  					font-family: 'FontAwesome';
-  					color: white;
-  					font-size:3em;
-  					top: 0;
-  					margin-left: 0;
-					 content: "\f0c2";}
 
 				#nav > ul > li.active a {
 					color: #FDEE00 ;
