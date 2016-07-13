@@ -707,7 +707,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		font-weight: 500;
 		min-width: 12em;
 		padding: 0.0em 0.0em;
-		color: #FFE788;
+		color:  #F0B500;
 		-moz-transition: all 200ms ease-in;
 		-webkit-transition: all 200ms ease-in;
 		-o-transition: all 200ms ease-in;
@@ -723,7 +723,7 @@ Original template designed by TEMPLATED (templated.co)*/
 				-webkit-appearance: none;
 				-o-appearance: none;
 				-ms-appearance: none;
-				color: #FFE788;
+				color:  #F0B500;
 				font-weight: 500;
 				letter-spacing: 2px;
 				text-decoration: none;
@@ -750,7 +750,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			font-size: 1em;
 			margin-left:0em;
 			margin-top:1em;
-			position:relative;
 		}
 /* Banner */
 	#banner {
