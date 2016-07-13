@@ -910,6 +910,7 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Picture Dropdown Button */
 div.profile_pic > img{
 border:1px solid;
+float: left;
 }
 .dropbtn {
     background: inherit;
