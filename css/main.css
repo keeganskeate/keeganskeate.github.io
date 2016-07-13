@@ -824,19 +824,12 @@ Original template designed by TEMPLATED (templated.co)*/
 			display: inline-block;
 			padding: 0.0em .0em;
 			background:#FFE788 url(../images/my_pic.png) no-repeat;
-			border: -moz-linear-gradient(top, #f6e6b4 0%, #ed9017 100%);
-			border: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6e6b4), color-stop(100%,#ed9017));
-			border: -webkit-linear-gradient(top, #f6e6b4 0%,#ed9017 100%);
-			border: -o-linear-gradient(top, #f6e6b4 0%,#ed9017 100%);
-			border: -ms-linear-gradient(top, #f6e6b4 0%,#ed9017 100%);
-			border linear-gradient(top, #f6e6b4 0%,#ed9017 100%);
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 );
 			background-size: 100%;
 			width: 95px;
     			height: 108px;
 			border:2px solid;
 			border-color: #FFE788;
-			box-shadow:  0 -1px 0 #000;
+			box-shadow:  0 -.5px 0 #000;
 			border-radius: 25px;
 			font-size: 4.8 em;
 			font-weight: 700;}
