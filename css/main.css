@@ -640,7 +640,7 @@ Original template designed by TEMPLATED (templated.co)*/
 
 		#nav ul li:first-child { 
 			float: left;
-			font-size: 1.8em;
+			font-size: 1em;
 			padding: 0 0.5em;
 		}
 			#nav > ul > li  {
