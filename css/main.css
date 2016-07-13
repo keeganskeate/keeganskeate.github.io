@@ -639,7 +639,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 
 		#nav ul li:first-child { 
-			float: left; 
+			float: left top; 
 			font-size: 2em;
 			top: 0;
 		}
