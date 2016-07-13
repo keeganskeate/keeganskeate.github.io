@@ -773,7 +773,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		#banner .container h2 {
 			display: inline-block;
-			text-align: left;
 			padding: 0.0em .2em;
 			background: none;
 			font-size: 4.8 em;
@@ -798,6 +797,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			padding: .5em 0em 2em 0em;
 		}
 		#banner .profile_pic > img{
+			float:left;
 			border:2px solid;
 			border-color: #FFE788;
 			border-radius: 25px;
