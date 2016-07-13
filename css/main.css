@@ -761,7 +761,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		-ms-appearance: none;
 		padding: 0em 0em 2em 0em;
 		text-align: center;
-		text-transform: uppercase;
 		color: #FFCC00;
 		-moz-transition: all .35s ease-in;
 		-webkit-transition: all .35s ease-in;
@@ -793,7 +792,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			display: block;
 			letter-spacing: 1px;
 			text-align: left;
-			font-size: 1em;
+			font-size: .8em;
 			font-weight: 300;
 		}
 		#banner span {
@@ -866,8 +865,8 @@ Original template designed by TEMPLATED (templated.co)*/
 	line-height: 1em;
 	display: none;
 	position: absolute;
-	width:360px;
-	height:220px;
+	width:400px;
+	height:200px;
 	background: #FFEBD0;
 	background-size: 100%;
 	box-shadow:  0 -1px 0 #000;
