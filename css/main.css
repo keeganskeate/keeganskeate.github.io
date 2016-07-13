@@ -810,6 +810,12 @@ Original template designed by TEMPLATED (templated.co)*/
 			background-image: -ms-linear-gradient(right, #111 11%, #333 56%);
 			background-image: gradient(right, #111 11%, #333 56%);
 			}
+			
+		#banner .profile_pic:hover { 
+			outline: none;
+			border-color: #9ecaed;
+			box-shadow: 0 0 10px #9ecaed;
+}
 
 /* Main */
 
