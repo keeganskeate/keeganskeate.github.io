@@ -879,8 +879,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	width:450px;
 	height:300px;
 	overflow:scroll;
-	-webkit-scrollbar-track {background-color: #FFE788;
-}
+	scrollbar-face-color: #b46868;
 }
 /* Links inside the dropdown */
 .dropdown-content a {
