@@ -651,7 +651,7 @@ Original template designed by TEMPLATED (templated.co)*/
 				-ms-appearance: none;
 				float: right;
 				border-radius: 2px;
-				display: inline-block;
+				display: inline;
 				margin-left: 0.5em;
 				padding: 0 0.5em;
 				background: inherit; 
