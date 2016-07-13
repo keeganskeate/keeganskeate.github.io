@@ -635,8 +635,9 @@ Original template designed by TEMPLATED (templated.co)*/
 
 		#nav > ul {
 			margin: 0;
-			padding:0;
+			padding:1em 0 0 0;
 			list-style-type: none;
+			vertical-align: bottom;
 		}
 
 		#nav ul li:first-child { 
@@ -662,7 +663,6 @@ Original template designed by TEMPLATED (templated.co)*/
 				font-weight: 500;
 				text-shadow: 0 -1px 0 #000;
 				position: relative;
-				vertical-align: bottom;
 				-moz-transition: all 200ms ease-in;
 				-webkit-transition: all 200ms ease-in;
 				-o-transition: all 200ms ease-in;
