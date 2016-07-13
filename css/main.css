@@ -765,7 +765,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
-		padding: 0em 0em 0em 0em;
+		padding: 0em 0em 6em 0em;
 		text-align: center;
 		color: #F0B500;
 		-moz-transition: all .35s ease-in;
@@ -807,7 +807,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		#banner span {
 			font-weight:500;
-			padding: .5em 0em 2em 0em;
+			padding: 0em 0em 2em 0em;
 		}
 		#banner .profile_pic > img{
 			border:2px solid;
