@@ -878,8 +878,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	font-weight: 800;
 	width:450px;
 	height:300px;
-	overflow:scroll;
-	scrollbar-face-color: #b46868;
+	overflow:auto;
 }
 /* Links inside the dropdown */
 .dropdown-content a {
