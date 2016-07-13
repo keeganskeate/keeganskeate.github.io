@@ -40,7 +40,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 
 	html, body, input, select, textarea {
-		color: #2199E8;
+		color: #FFCC00;
 		font-family: 'Open Sans', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
@@ -389,7 +389,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			display: inline-block;
 			padding-right: 1em;
 			font-size: 1.4em;
-			color: #FFE788;
+			color: #2199E8;
 		}
 
 		ul.special-icons p {
@@ -545,7 +545,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			padding-bottom: 3em;
 			background: #FFEBD0;
 			text-align: center;
-			color: white;
+			color: #FFCC00;
 		}
 
 			.wrapper.style3 .container {
@@ -565,7 +565,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.style5 {
 			background: #FFEBD0;
 			text-align: center;
-			color: white;
+			color: #FFCC00;
 		}
 
 			.wrapper.style5 .image {
@@ -582,7 +582,7 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Header */
 
 	#header {
-		color: white;
+		color: #FFCC00;
 		height: 4em;
 		background: none;
 	}
@@ -683,7 +683,7 @@ Original template designed by TEMPLATED (templated.co)*/
 				}
 
 				#nav > ul > li.active a {
-					color: #FDEE00 ;
+					color: #F0B500 ;
 					font-weight: 500;
 				}
 
