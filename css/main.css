@@ -841,6 +841,9 @@ Original template designed by TEMPLATED (templated.co)*/
 		#footer .major h2 {
 			color: inherit;
 		}
+		#footer .major h2:hover {
+			color: #F0B500;
+			}
 
 		#footer .major .byline {
 			color: inherit;
