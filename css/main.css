@@ -581,6 +581,7 @@ Original template designed by TEMPLATED (templated.co)*/
 					border-radius: 50%;
 					border: 10px solid;
 					border-color: #FDB500;
+					vertical-align: text-top;
 				}
 /* Header */
 
@@ -853,7 +854,6 @@ Original template designed by TEMPLATED (templated.co)*/
 	-o-appearance: none;
 	-ms-appearance: none;
 	background: #F0B500 url(../images/my_pic.png) no-repeat;
-	vertical-align: text-top;
 	background-size: 100%;
 	border-radius: 25px;
 	width: 95px;
