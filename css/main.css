@@ -627,7 +627,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		position: relative;
 		top: 2em;
 		right: 0;
-		display: table;
+		display: block;
     		text-align: center;
     		vertical-align: baseline
     		padding: 0em 0 0 0;
@@ -653,7 +653,7 @@ Original template designed by TEMPLATED (templated.co)*/
 				-ms-appearance: none;
 				float: right;
 				border-radius: 2px;
-				display: table-cell;
+				display: inline-block;
 				margin-left: 0.5em;
 				padding: 0 0.5em;
 				background: inherit; 
