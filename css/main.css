@@ -644,7 +644,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		#nav ul li:first-child { 
 			float: left;
 			font-size: 1em;
-			padding: 0 0.5em 1em 0;
+			padding: 0 0.5em 3em 0.5em;
 		}
 			#nav > ul > li  {
 				-moz-appearance: none;
