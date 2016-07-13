@@ -621,7 +621,7 @@ Original template designed by TEMPLATED (templated.co)*/
 
 	#nav {
 		position: absolute;
-		top: 0;
+		top: 1em;
 		right: 0;
 		display: block;
     		text-align: center;
