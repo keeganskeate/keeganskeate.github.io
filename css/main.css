@@ -636,15 +636,18 @@ Original template designed by TEMPLATED (templated.co)*/
 
 		#nav > ul {
 			margin: 0;
-			padding:3em 0 0 0;
+			padding: 1em 0 0 0;
 			list-style-type: none;
 			vertical-align: bottom;
 		}
-
+		#nav ul li:not(:first-child){
+			padding:2em 0 0 0;
+			
+		}
 		#nav ul li:first-child { 
 			float: left;
 			font-size: 1em;
-			padding: 0 0.5em 3em 0.5em;
+			padding: 0 0.5em;
 		}
 			#nav > ul > li  {
 				-moz-appearance: none;
