@@ -621,10 +621,11 @@ Original template designed by TEMPLATED (templated.co)*/
 
 	#nav {
 		position: absolute;
-		top: 1em;
+		top: 0;
 		right: 0;
 		display: block;
     		text-align: center;
+    		padding: 2em 0 0 0;
 	}
 	
 
