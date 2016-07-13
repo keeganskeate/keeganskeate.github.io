@@ -855,12 +855,6 @@ Original template designed by TEMPLATED (templated.co)*/
 	border-color: #FFCC00;
 	border-radius: 25px;
     	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    	background-image: linear-gradient(right, #111 11%, #333 56%);
-	background-image: -o-linear-gradient(right, #111 11%, #333 56%);
-	background-image: -moz-linear-gradient(right, #111 11%, #333 56%);
-	background-image: -webkit-linear-gradient(right, #111 11%, #333 56%);
-	background-image: -ms-linear-gradient(right, #111 11%, #333 56%);
-	background-image: gradient(right, #111 11%, #333 56%);
 	-moz-transition: all 0.35s ease-in-out;
 	-webkit-transition: all 0.35s ease-in-out;
 	-o-transition: all 0.35s ease-in-out;
