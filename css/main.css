@@ -825,7 +825,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			padding: 0.0em .0em;
 			background: url(../images/my_pic.png) no-repeat;
 			background-size: 100%;
-			overflow: hidden;
 			width: 95px;
     			height: 108px;
 			border:2px solid;
@@ -844,6 +843,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	-ms-appearance: none;
 	background: url(../images/my_pic.png) no-repeat;
 	background-size: 100%;
+	border-radius: 25px;
 	width: 95px;
     	height: 108px;
 	opacity:1;
