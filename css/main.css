@@ -946,6 +946,9 @@ Original template designed by TEMPLATED (templated.co)*/
 		#footer .major h2:hover {
 			color: #235796;
 			}
+		#footer .major h3, p{
+			text-align: left;
+		}
 
 		#footer .major .byline {
 			color: inherit;
