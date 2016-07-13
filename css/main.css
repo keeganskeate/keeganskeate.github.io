@@ -811,8 +811,8 @@ Original template designed by TEMPLATED (templated.co)*/
 			background-image: gradient(right, #111 11%, #333 56%);
 			}
 			
-		#banner .profile_pic:hover { 
-			border-color: #F0B500;
+		#banner .profile_pic> img:hover { 
+			border-color: black;
 }
 
 /* Main */
