@@ -645,7 +645,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			font-size: 1em;
 			padding: 0 0.5em;
 		}
-		#nav ul li:second-shild:lastchild{
+		#nav ul li:second-child:last-child{
 			padding:6em 0 0 0;
 		}
 			#nav > ul > li  {
