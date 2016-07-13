@@ -744,12 +744,14 @@ Original template designed by TEMPLATED (templated.co)*/
 		border-radius: 0 0 5px 5px;
 		font-size: 1em;
 		margin-left:0em;
+		text-shadow: 0 -1px 0 #000;
 	}
 		.dropotron.level-1 {
 			border-radius: 5px;
 			font-size: 1em;
 			margin-left:0em;
 			margin-top:1em;
+			text-shadow: 0 -1px 0 #000;
 		}
 /* Banner */
 	#banner {
