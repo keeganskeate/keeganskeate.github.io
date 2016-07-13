@@ -864,8 +864,6 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
 	line-height: 1em;
-	top:75px;
-	right:0px;
 	display: none;
 	position: absolute;
 	width:360px;
@@ -881,7 +879,7 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Links inside the dropdown */
 .dropdown-content a {
     color: #FFCC00;
-    padding: 12px 16px;
+    padding: 0px 0px;
     text-decoration: none;
     display: block;
 }
