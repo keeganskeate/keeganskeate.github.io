@@ -566,10 +566,10 @@ Original template designed by TEMPLATED (templated.co)*/
 			background: #FFEBD0;
 			text-align: center;
 			color: #FFCC00;
+			text-decoration: none;
 		}
 		.wrapper.style5 a:hover {
 			color: #235796;
-			text-decoration: none;
 			}
 
 			.wrapper.style5 .image {
