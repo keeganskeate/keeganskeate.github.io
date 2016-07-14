@@ -734,6 +734,8 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		.dropotron > li > ul> li{
 			float: left;
+			display:inline-block;
+			width: 50%;
 		}
 			.dropotron > li > a {
 				-moz-appearance: none;
