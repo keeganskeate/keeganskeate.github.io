@@ -732,7 +732,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			padding: 0 0.0em;
 			position: relative;
 		}
-		.dropotron > li > ul::first-child{
+		.dropotron > li > ul> li .special_float{
 			position: absolute;
 			display:block;
 		}
