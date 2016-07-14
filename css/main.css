@@ -566,7 +566,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			background: #FFEBD0;
 			text-align: center;
 			color: #FFCC00;
-			text-decoration: none;
 		}
 		.wrapper.style5 a:hover {
 			color: #235796;
@@ -952,7 +951,8 @@ Original template designed by TEMPLATED (templated.co)*/
 		text-align: left;
 		color: #F0B500;
 		text-shadow: 0 -1px 0 #000;
-		list-style: none
+		list-style: none;
+		text-decoration: none;
 	}
 
 		#footer hr {
