@@ -733,6 +733,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			position: relative;
 		}
 		.dropotron > li > ul> li{
+			position: absolute;
 			float: left;
 			display:block;
 			width: 50%;
