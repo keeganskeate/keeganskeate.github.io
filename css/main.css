@@ -653,10 +653,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			padding: 2em 1em 0em 1em;
 		}
 			#nav > ul > li  {
-				-moz-appearance: none;
-				-webkit-appearance: none;
-				-o-appearance: none;
-				-ms-appearance: none;
 				float: right;
 				border-radius: 2px;
 				display: inline-block;
@@ -670,17 +666,8 @@ Original template designed by TEMPLATED (templated.co)*/
 				font-weight: 500;
 				text-shadow: 0 -1px 0 #000;
 				position: relative;
-				-moz-transition: all 200ms ease-in;
-				-webkit-transition: all 200ms ease-in;
-				-o-transition: all 200ms ease-in;
-				-ms-transition: all 200ms ease-in;
-				transition: all 200ms ease-in;	
 			}
 				#nav > ul > li a {
-					-moz-appearance: none;
-					-webkit-appearance: none;
-					-o-appearance: none;
-					-ms-appearance: none;
 					color: inherit;
 					line-height: 1.5em;
 					letter-spacing: 2px;
@@ -688,11 +675,6 @@ Original template designed by TEMPLATED (templated.co)*/
 					text-transform: uppercase;
 					font-weight: 500;
 					font-size: 1em;
-					-moz-transition: all 200ms ease-in;
-					-webkit-transition: all 200ms ease-in;
-					-o-transition: all 200ms ease-in;
-					-ms-transition: all 200ms ease-in;
-					transition: all 200ms ease-in;
 				}
 				#nav > ul > li:first-child {
 					margin-left: 0;
@@ -713,10 +695,6 @@ Original template designed by TEMPLATED (templated.co)*/
 				}
 /* Dropotron */
 .dropotron {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-o-appearance: none;
-		-ms-appearance: none;
 		position:relative;
 		top: 0em;
 		background: #FFEBD0;
@@ -724,11 +702,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		font-weight: 500;
 		padding: 0.0em 1em;
 		color:  #F0B500;
-		-moz-transition: all 200ms ease-in;
-		-webkit-transition: all 200ms ease-in;
-		-o-transition: all 200ms ease-in;
-		-ms-transition: all 200ms ease-in;
-		transition: all 200ms ease-in;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
@@ -741,20 +714,11 @@ Original template designed by TEMPLATED (templated.co)*/
 			width: 50%;
 		}
 			.dropotron > li > a {
-				-moz-appearance: none;
-				-webkit-appearance: none;
-				-o-appearance: none;
-				-ms-appearance: none;
 				color:  #F0B500;
 				font-weight: 500;
 				letter-spacing: 2px;
 				text-decoration: none;
 				text-transform: uppercase;
-				-moz-transition: all 200ms ease-in;
-				-webkit-transition: all 200ms ease-in;
-				-o-transition: all 200ms ease-in;
-				-ms-transition: all 200ms ease-in;
-				transition: all 200ms ease-in;
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
