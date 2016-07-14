@@ -789,7 +789,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			position:relative;
 			cursor: pointer;
 			display: inline-block;
-			padding: 0.0em .2em;
+			padding: 0.0em 1em;
 			background: none;
 			font-size: 4.8 em;
 			font-weight: 700;
@@ -889,7 +889,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	font-size: 1.6em;
 	font-family: 'Josefin Slab', serif;
 	font-weight: 800;
-	width:780px;
+	width:760px;
 	height:180px;
 	overflow:auto;
 }
