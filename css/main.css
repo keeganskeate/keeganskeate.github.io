@@ -733,7 +733,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			position: relative;
 		}
 		.dropotron > li > ul> li{
-			float:right;
+			float: left;
 		}
 			.dropotron > li > a {
 				-moz-appearance: none;
