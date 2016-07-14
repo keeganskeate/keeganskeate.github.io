@@ -734,7 +734,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		.dropotron > li > ul> li{
 			float: left;
-			display:inline-block;
+			display:block;
 			width: 50%;
 		}
 			.dropotron > li > a {
