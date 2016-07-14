@@ -735,8 +735,8 @@ Original template designed by TEMPLATED (templated.co)*/
 		.dropotron > li > ul > li{
 			line-height: 2.25em;
 			padding: 0 0.0em;
-			position: absolute;
-			display:inline;
+			position: relative;
+			display:inline-block;
 		}
 			.dropotron > li > a {
 				-moz-appearance: none;
