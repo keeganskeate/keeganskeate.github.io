@@ -145,6 +145,7 @@ Original template designed by TEMPLATED (templated.co)*/
 
 	footer.major {
 		padding-top: 3em;
+		text-decoration: none;
 	}
 
 /* Form */
@@ -566,6 +567,9 @@ Original template designed by TEMPLATED (templated.co)*/
 			background: #FFEBD0;
 			text-align: center;
 			color: #FFCC00;
+		}
+		.wrapper.style5 a{
+			text-decoration:none;
 		}
 		.wrapper.style5 a:hover {
 			color: #235796;
