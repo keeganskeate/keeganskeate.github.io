@@ -732,11 +732,11 @@ Original template designed by TEMPLATED (templated.co)*/
 			padding: 0 0.0em;
 			position: relative;
 		}
-		.dropotron > li > ul:first-child > li{
+		.dropotron > li > ul > li{
 			line-height: 2.25em;
 			padding: 0 0.0em;
 			position: absolute;
-			display:block;
+			display:inline-block;
 		}
 			.dropotron > li > a {
 				-moz-appearance: none;
