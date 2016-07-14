@@ -772,7 +772,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		-o-appearance: none;
 		-ms-appearance: none;
 		top:0;
-		padding: 0em 0em 6em 0em;
+		padding: 0em 0em 6em 1em;
 		text-align: center;
 		color: #F0B500;
 		-moz-transition: all .35s ease-in;
@@ -789,7 +789,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			position:relative;
 			cursor: pointer;
 			display: inline-block;
-			padding: 0.0em 1em;
+			padding: 0.0em .2em;
 			background: none;
 			font-size: 4.8 em;
 			font-weight: 700;
