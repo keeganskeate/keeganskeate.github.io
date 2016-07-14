@@ -730,6 +730,11 @@ Original template designed by TEMPLATED (templated.co)*/
 		.dropotron > li {
 			line-height: 2.25em;
 			padding: 0 0.0em;
+			position: relative;
+		}
+		.dropotron > li >ul>li{
+			line-height: 2.25em;
+			padding: 0 0.0em;
 			position: absolute;
 		}
 			.dropotron > li > a {
@@ -764,7 +769,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			border-radius: 5px;
 			font-size: 1em;
 			margin-top:1em;
-			position:absolute;
 			display:block;
 			float: right;
 			text-shadow: 0 -1px 0 #000;
