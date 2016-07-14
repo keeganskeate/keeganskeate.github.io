@@ -714,6 +714,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
+		position:relative;
 		top: 0em;
 		background: #FFEBD0;
 		border-radius: 2px;
@@ -729,7 +730,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		.dropotron > li {
 			line-height: 2.25em;
 			padding: 0 0.0em;
-			position: relative;
+			position: absolute;
 		}
 			.dropotron > li > a {
 				-moz-appearance: none;
