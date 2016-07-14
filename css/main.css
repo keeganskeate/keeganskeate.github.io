@@ -736,7 +736,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			line-height: 2.25em;
 			padding: 0 0.0em;
 			position: relative;
-			display:inline-block;
+			display:block;
 		}
 			.dropotron > li > a {
 				-moz-appearance: none;
