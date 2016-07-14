@@ -940,9 +940,10 @@ Original template designed by TEMPLATED (templated.co)*/
 
 	#footer {
 		padding: 6em 0 2em 0;
-		text-align: center;
+		text-align: left;
 		color: #F0B500;
 		text-shadow: 0 -1px 0 #000;
+		list-style: none
 	}
 
 		#footer hr {
@@ -957,8 +958,12 @@ Original template designed by TEMPLATED (templated.co)*/
 		#footer .major h2:hover {
 			color: #235796;
 			}
-		#footer .major h3, p{
-			text-align: left;
+		#footer .major h3{
+			text-align: center;
+			display: inline-block;
+		}
+		#footer .major li{
+			display: inline-block;
 		}
 
 		#footer .major .byline {
