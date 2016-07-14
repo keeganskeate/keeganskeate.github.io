@@ -569,6 +569,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		.wrapper.style5 a:hover {
 			color: #235796;
+			text-decoration: none;
 			}
 
 			.wrapper.style5 .image {
@@ -963,12 +964,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		#footer .major h2 {
 			color: inherit;
 		}
-		#footer .major h2:hover {
-			color: #235796;
-			}
-		#footer .major a:hover {
-			color: #235796;
-			}
 		#footer .major h3{
 			text-align: center;
 			display: inline-block;
