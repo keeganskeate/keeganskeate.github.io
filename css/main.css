@@ -732,12 +732,9 @@ Original template designed by TEMPLATED (templated.co)*/
 			padding: 0 0.0em;
 			position: relative;
 		}
-		.dropotron > li > ul > li{
-			line-height: 2.25em;
-			padding: 0 0.0em;
-			position: relative;
+		.dropotron > li > ul::first-child{
+			position: absolute;
 			display:block;
-			margin: 0 auto;
 		}
 			.dropotron > li > a {
 				-moz-appearance: none;
