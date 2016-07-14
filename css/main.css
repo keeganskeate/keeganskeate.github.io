@@ -732,9 +732,8 @@ Original template designed by TEMPLATED (templated.co)*/
 			padding: 0 0.0em;
 			position: relative;
 		}
-		.dropotron > li > ul> li .special_float{
-			position: absolute;
-			display:block;
+		.dropotron > li > ul> li{
+			float:right;
 		}
 			.dropotron > li > a {
 				-moz-appearance: none;
