@@ -657,7 +657,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 			#nav > ul > li  {
 				float: right;
-				display: inline-block;
+				display: block;
 				margin-left: 0em;
 				padding: 0 1em 0 1em;
 				background: inherit; 
