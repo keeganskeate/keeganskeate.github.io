@@ -677,6 +677,11 @@ Original template designed by TEMPLATED (templated.co)*/
 				border-radius: 25px;
 				line-height: 1.3em;
 			}
+			#nav > ul > li.active,
+			#nav ul> li:hover {
+				border-color: #F0B500;
+				background: #FFEBD0;
+			}
 				#nav > ul > li a {
 					color: inherit;
 					line-height: 1.2em;
@@ -697,8 +702,6 @@ Original template designed by TEMPLATED (templated.co)*/
 
 				#nav > ul > li.active a,
 				#nav ul > li:hover {
-					border-color: #F0B500;
-					background: #FFEBD0;
 					color: #235796 ;
 					font-weight: 500;
 				}
