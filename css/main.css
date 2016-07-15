@@ -808,6 +808,9 @@ Original template designed by TEMPLATED (templated.co)*/
 			display: inline;
 			color: #2199E8;
 		}
+		#banner p > a:hover{
+			color: #235796;
+		}
 		#banner span {
 			font-weight:500;
 			padding: 0em 0em 2em 0em;
