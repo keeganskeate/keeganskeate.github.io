@@ -568,10 +568,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.style5 {
 			background: #FFEBD0;
 			text-align: center;
-			color: #2199E8;
-		}
-		.wrapper.style5 p{
-			color: #F0B500;
 		}
 		.wrapper.style5 a{
 			text-decoration:none;
@@ -579,13 +575,12 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.style5 a:hover {
 			color: #235796;
 			}
-
 			.wrapper.style5 .image {
+				color: #1585CF;
 				display: block;
 				width: 60%;
 				margin: 0em auto 2em auto;
 			}
-
 				.wrapper.style5 .image img {
 					border-radius: 50%;
 					border: 10px solid;
@@ -956,7 +951,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 
 		#footer .major h2 {
-			color: #235796;
+			color: #1585CF;
 		}
 		#footer .major h3{
 			color: #1585CF;
