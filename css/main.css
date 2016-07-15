@@ -970,15 +970,15 @@ Original template designed by TEMPLATED (templated.co)*/
 		#footer .major h3:hover{
 			color: #235796;
 		}
+		
+		#footer .major h3 > span{
+			text-align: center;
+		}
+		
 		#footer .major li{
 			display: inline-block;
 			color: #FFEBD0;
 		}
-		#footer .major span{
-			color: #2199E8;
-			text-align: center;
-		}
-
 		#footer .major .byline {
 			color: inherit;
 			opacity: .4;
