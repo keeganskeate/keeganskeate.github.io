@@ -817,7 +817,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			position:relative;
 			cursor: pointer;
 			display: inline-block;
-			padding: 0.0em .0em;
+			padding: 0.0em .0em 2em 0em;
 			background:#F0B500 url(../images/my_pic.png) no-repeat;
 			background-size: 100%;
 			width: 95px;
