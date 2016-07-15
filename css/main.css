@@ -751,7 +751,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		-o-appearance: none;
 		-ms-appearance: none;
 		top:0;
-		padding: 0em 0em 6em 1em;
+		padding: 0em 0em 8em 1em;
 		text-align: center;
 		color: #F0B500;
 		-moz-transition: all .35s ease-in;
@@ -817,7 +817,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			position:relative;
 			cursor: pointer;
 			display: inline-block;
-			padding: 0.0em .0em 2em 0em;
+			padding: 0.0em .0em 0em 0em;
 			background:#F0B500 url(../images/my_pic.png) no-repeat;
 			background-size: 100%;
 			width: 95px;
@@ -846,7 +846,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	opacity:1;
 	position: relative;
 	float: left;
-	padding: 0.0em .0em 2em 0em;
+	padding: 0.0em .0em 0em 0em;
 	margin: 0px 0 0 0px;
 	display: inline-block;
 	-moz-transition: all 0.35s ease-in-out;
