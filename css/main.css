@@ -841,7 +841,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			border:2px solid;
 			border-color: #F0B500;
 			box-shadow:  -2px #000;
-			border-radius: 25px;
+			border-radius: 5px;
 			font-size: 4.8 em;
 			font-weight: 700;}
 /* Dropdown button on hover & focus */
@@ -856,7 +856,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	-ms-appearance: none;
 	background: #F0B500 url(../images/my_pic.png) no-repeat;
 	background-size: 100%;
-	border-radius: 25px;
+	border-radius: 5px;
 	width: 95px;
     	height: 108px;
 	opacity:1;
