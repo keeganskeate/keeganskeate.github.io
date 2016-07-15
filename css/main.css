@@ -572,9 +572,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.style5 li,p{
 			text-align: left;
 		}
-		.wrapper.style5 span{
-			text-align: left;
-		}
 		.wrapper.style5 a{
 			text-decoration:none;
 		}
@@ -944,7 +941,7 @@ Original template designed by TEMPLATED (templated.co)*/
 
 	#footer {
 		padding: 2em 0 2em 0;
-		text-align: center;
+		text-align: left;
 		color: #F0B500;
 		text-shadow: 0 -1px 0 #000;
 		list-style: none;
