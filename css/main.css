@@ -719,7 +719,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		box-shadow:  -2px #000;
 		border-radius: 5px;
 		font-weight: 500;
-		padding: 0.0em 0em;
+		padding: 0.0em 1em;
 		color:  #F0B500;
 	}
 		.dropotron > li {
@@ -879,7 +879,10 @@ Original template designed by TEMPLATED (templated.co)*/
 	position: absolute;
 	background: #FFEBD0;
 	background-size: 100%;
-	box-shadow:  0 -1px 0 #000;
+	border:2px solid;
+	border-color: #235796;
+	box-shadow:  -2px #000;
+	border-radius: 5px;
 	color:  #F0B500;
 	font-size: 1.6em;
 	font-family: 'Josefin Slab', serif;
