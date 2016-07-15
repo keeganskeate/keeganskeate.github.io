@@ -660,6 +660,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		#nav ul li:first-child:hover{
 			border:2px solid;
 			border-color: #235796;
+			cursor: pointer;
 		}
 			#nav > ul > li  {
 				float: right;
