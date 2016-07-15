@@ -875,6 +875,7 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
 	line-height: 1em;
+	padding: 0px 0px 0px 0.5em;
 	display: none;
 	position: absolute;
 	background: #FFEBD0;
