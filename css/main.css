@@ -710,11 +710,14 @@ Original template designed by TEMPLATED (templated.co)*/
 			padding: 0 0.0em;
 			position: relative;
 		}
+		.dropotron > li > ul{
+			border-radius: 2px;
+			background: #FFEBD0;
+		}
 		.dropotron > li > ul> li{
 			position: absolute;
 			display:block;
 			width: 50%;
-			background: #FFEBD0;
 		}
 			.dropotron > li > a {
 				color:  #F0B500;
