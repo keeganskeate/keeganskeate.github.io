@@ -690,25 +690,27 @@ Original template designed by TEMPLATED (templated.co)*/
 					margin-left: 0;
 					position: relative;
 				}
-
-				#nav > ul > li.active a {
-					color: #235796 ;
-					font-weight: 500;
-				}
-
+				
 				#nav > ul > li > ul {
 					display: none;
 				}
+
+				#nav > ul > li.active a,
 				#nav ul > li:hover {
-    					color: #235796;
-    					font-weight: 500;
+					border-color: #F0B500;
+					background: #FFEBD0;
+					color: #235796 ;
+					font-weight: 500;
 				}
 /* Dropotron */
 .dropotron {
 		position:relative;
 		top: 0em;
 		background: #FFEBD0;
-		border-radius: 2px;
+		border:2px solid;
+		border-color: #235796;
+		box-shadow:  -2px #000;
+		border-radius: 25px;
 		font-weight: 500;
 		padding: 0.0em 1em;
 		color:  #F0B500;
