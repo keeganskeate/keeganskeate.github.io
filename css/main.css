@@ -652,7 +652,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		#nav ul li:first-child { 
 			float: left;
-			font-size: 1em;
 			padding: 2em 1em 0em 1em;
 		}
 			#nav > ul > li  {
@@ -665,10 +664,15 @@ Original template designed by TEMPLATED (templated.co)*/
 				color:#F0B500; 
 				text-decoration: none;
 				text-transform: uppercase;
-				font-size: 1em;letter-spacing: 2px;
+				font-size: 1.5em;
+				letter-spacing: 2px;
 				font-weight: 500;
 				text-shadow: 0 -1px 0 #000;
 				position: relative;
+				border:2px solid;
+				border-color: #F0B500;
+				box-shadow:  -2px #000;
+				border-radius: 25px;
 			}
 				#nav > ul > li a {
 					color: inherit;
