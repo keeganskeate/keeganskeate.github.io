@@ -568,7 +568,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.style5 {
 			background: #FFEBD0;
 			text-align: center;
-			color: #235796;
+			color: #2199E8;
 		}
 		.wrapper.style5 p{
 			color: #F0B500;
@@ -965,6 +965,9 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		#footer .major li{
 			display: inline-block;
+			color: #2199E8;
+		}
+		#footer .major a{
 			color: #2199E8;
 		}
 
