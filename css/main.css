@@ -809,6 +809,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			color: #2199E8;
 		}
 		#banner p > a:hover{
+			font-weight: 400;
 			color: #235796;
 		}
 		#banner span {
@@ -897,14 +898,12 @@ Original template designed by TEMPLATED (templated.co)*/
 }
 /* Links inside the dropdown */
 .dropdown-content a {
-    color:  #235796;
     padding: 0px 0px;
     text-decoration: none;
     display: block;
 }
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-	color: #235796;
 	padding: 0px 0px 0px 0px;
 	text-decoration: none;
 	display: block;}
