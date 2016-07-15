@@ -959,15 +959,18 @@ Original template designed by TEMPLATED (templated.co)*/
 			color: #235796;
 		}
 		#footer .major h3{
-			color: #2199E8;
+			color: #1585CF;
 			text-align: center;
 			display: inline-block;
+		}
+		#footer .major h3:hover{
+			color: #235796;
 		}
 		#footer .major li{
 			display: inline-block;
 			color: #FFEBD0;
 		}
-		#footer .major a{
+		#footer .major span{
 			color: #2199E8;
 		}
 
