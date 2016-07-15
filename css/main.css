@@ -657,6 +657,10 @@ Original template designed by TEMPLATED (templated.co)*/
 			padding: 0em 1em 0em 1em;
 			border: none;
 		}
+		#nav ul li:first-child:hover{
+			border:2px solid;
+			border-color: #235796;
+		}
 			#nav > ul > li  {
 				float: right;
 				display: block;
@@ -674,7 +678,7 @@ Original template designed by TEMPLATED (templated.co)*/
 				border:2px solid;
 				border-color: #F0B500;
 				box-shadow:  -2px #000;
-				border-radius: 25px;
+				border-radius: 5px;
 				line-height: 1.3em;
 			}
 			#nav > ul > li.active,
@@ -713,7 +717,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		border:2px solid;
 		border-color: #235796;
 		box-shadow:  -2px #000;
-		border-radius: 25px;
+		border-radius: 5px;
 		font-weight: 500;
 		padding: 0.0em 1em;
 		color:  #F0B500;
