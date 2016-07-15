@@ -569,7 +569,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			background: #FFEBD0;
 			text-align: center;
 		}
-		.wrapper.style5 span{
+		.wrapper.style5 h3 >span{
 			text-align: center;
 		}
 		.wrapper.style5 a{
@@ -969,10 +969,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		#footer .major h3:hover{
 			color: #235796;
-		}
-		
-		#footer .major h3 > span{
-			text-align: center;
 		}
 		
 		#footer .major li{
