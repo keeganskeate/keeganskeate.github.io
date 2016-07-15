@@ -501,11 +501,11 @@ Original template designed by TEMPLATED (templated.co)*/
 	}
 
 		.wrapper.style1 {
-			background:#F0B500 url(../images/tucson_sunset_narrower.png) no-repeat center center fixed;
-			-webkit-background-size: contain;
-			-moz-background-size: contain;
-			-o-background-size: contain;
-			background-size: contain;
+			background:#FFEBD0 url(../images/tucson_sunset_narrower.png) no-repeat center center fixed;
+			-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+			-o-background-size: 100%;
+			background-size: 100%;
 			margin: 0;
 			padding: 0em;
 		}
