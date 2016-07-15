@@ -568,16 +568,17 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.style5 {
 			background: #FFEBD0;
 			text-align: center;
-			color: #FFCC00;
+			color: #235796;
 		}
-		.wrapper.style5 li > a{
+		.wrapper.style5 li,
+		.wrapper.style5 a{
 			color: #2199E8;
 		}
 		.wrapper.style5 a{
 			text-decoration:none;
 		}
 		.wrapper.style5 a:hover {
-			color: #235796;
+			color: #FFCC00;
 			}
 
 			.wrapper.style5 .image {
