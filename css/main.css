@@ -941,7 +941,7 @@ Original template designed by TEMPLATED (templated.co)*/
 
 	#footer {
 		padding: 2em 0 2em 0;
-		text-align: left;
+		text-align: center;
 		color: #F0B500;
 		text-shadow: 0 -1px 0 #000;
 		list-style: none;
@@ -964,7 +964,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		#footer .major h3{
 			color:  #F0B500;
-			text-align: center;
+			text-align: left;
 			display: inline-block;
 		}
 		#footer .major h3:hover{
@@ -972,6 +972,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		
 		#footer .major li{
+			text-align: left;
 			display: inline-block;
 			color: #FFEBD0;
 		}
