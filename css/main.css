@@ -846,7 +846,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	opacity:1;
 	position: relative;
 	float: left;
-	padding: 0px 0px 0px 0px;
+	padding: 0.0em .0em 2em 0em;
 	margin: 0px 0 0 0px;
 	display: inline-block;
 	-moz-transition: all 0.35s ease-in-out;
