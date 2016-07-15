@@ -713,7 +713,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	}
 		.dropotron > li {
 			line-height: 2.25em;
-			padding: 0 1em;
+			padding: 0 .5em;
 			position: relative;
 		}
 		.dropotron > li > ul> li{
