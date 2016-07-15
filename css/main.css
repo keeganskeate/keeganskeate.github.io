@@ -569,6 +569,9 @@ Original template designed by TEMPLATED (templated.co)*/
 			background: #FFEBD0;
 			text-align: center;
 		}
+		.wrapper.style5 span{
+			text-align: center;
+		}
 		.wrapper.style5 a{
 			text-decoration:none;
 		}
