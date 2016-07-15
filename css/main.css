@@ -570,6 +570,9 @@ Original template designed by TEMPLATED (templated.co)*/
 			text-align: center;
 			color: #FFCC00;
 		}
+		.wrapper.style5 li{
+			color: #2199E8;;
+		}
 		.wrapper.style5 a{
 			text-decoration:none;
 		}
@@ -960,7 +963,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			display: inline-block;
 		}
 		#footer .major li{
-			color: #2199E8;
 			display: inline-block;
 		}
 
