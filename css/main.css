@@ -1047,30 +1047,13 @@ height: 85px;
 width: 489px;
 text-align: center;
 }
-/*hr.bottomstyle:after {
-top:-.5em;
-content: "www.keeganskeate.com";
-text-align: right;
-display: inline-block;
-position: relative;
-font-size: .8em;
-padding: 0 1em;
-background: none;
-opacity: 0.75;  filter:alpha(opacity=50);
-} */
+
 #subfooter{
 	color: #235796;
 	opacity: 0.75;  filter:alpha(opacity=50);
-	top:-85px;
-	padding: 0 8em 0 10em;
+	text-align: center;
 	position: relative;
-	font-size: .8em;
-}
-.bottomleft {
-	float: left;
-}
-.bottomright {
-	float: right;
+	font-size: 1em;
 }
 /* Portfolio Wrapper */
 .wrap {
