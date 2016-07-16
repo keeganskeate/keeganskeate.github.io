@@ -1062,8 +1062,7 @@ opacity: 0.75;  filter:alpha(opacity=50);
 	color: #235796;
 	opacity: 0.75;  filter:alpha(opacity=50);
 	top:-85px;
-	padding: 0 0em;
-	margin 0 10em ;
+	padding: 0 8em 0 10em;
 	position: relative;
 	font-size: .8em;
 }
