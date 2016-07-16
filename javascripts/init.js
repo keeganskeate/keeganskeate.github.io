@@ -73,8 +73,8 @@
 				hoverDelay: 0
 			});
 			
-		//Portfolio Pics
-		$('.boxInner').tooltip({show: {effect:"blind", delay:0}});
+		//Hover Title Appearance
+		$(document).tooltip({show: null});
 	});
 
 })(jQuery);
