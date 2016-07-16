@@ -686,8 +686,8 @@ Original template designed by TEMPLATED (templated.co)*/
 				border-radius: 5px;
 				line-height: 1.3em;
 			}
-			#nav > ul > li.active,
-			#nav ul> li:hover {
+			#nav ul > li.active,
+			#nav ul > li:hover {
 				border-color: #235796;
 				background: #FFEBD0;
 			}
