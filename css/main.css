@@ -707,13 +707,14 @@ Original template designed by TEMPLATED (templated.co)*/
 				
 				#nav > ul > li > ul{
 				overflow:hidden;
-    max-height:0;
+    				max-height:0;
 				}
 
 				#nav > ul > li.active,
 				#nav ul > li:hover {
 					color: #235796 ;
 					font-weight: 500;
+					max-height:150px;
 				}
 /* Dropotron */
 .dropotron {
@@ -727,7 +728,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		font-weight: 500;
 		padding: 0.0em 1em;
 		color:  #F0B500;
-		max-height:150px;
 		-webkit-transition:max-height 500ms ease;
     	-moz-transition:max-height 500ms ease;
     -o-transition:max-height 500ms ease;
