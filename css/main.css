@@ -705,7 +705,7 @@ Original template designed by TEMPLATED (templated.co)*/
 					position: relative;
 				}
 				
-				#nav > ul > li > ul {
+				#nav > ul > li {
 					display: none;
 					overflow:hidden;
 					height:0;
