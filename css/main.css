@@ -708,6 +708,11 @@ Original template designed by TEMPLATED (templated.co)*/
 				#nav > ul > li > ul{
 				overflow:hidden;
     				max-height:0;
+    				-webkit-transition:max-height 500ms ease;
+    	-moz-transition:max-height 500ms ease;
+    -o-transition:max-height 500ms ease;
+    -ms-transition: max-height 500ms ease;
+    transition:max-height 500ms ease;
 				}
 
 				#nav > ul > li.active,
@@ -728,11 +733,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		font-weight: 500;
 		padding: 0.0em 1em;
 		color:  #F0B500;
-		-webkit-transition:max-height 500ms ease;
-    	-moz-transition:max-height 500ms ease;
-    -o-transition:max-height 500ms ease;
-    -ms-transition: max-height 500ms ease;
-    transition:max-height 500ms ease;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
