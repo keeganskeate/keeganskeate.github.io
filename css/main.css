@@ -1070,12 +1070,12 @@ opacity: 0.75;  filter:alpha(opacity=50);
 } */
 .wrap {
    overflow: hidden;
-   margin: 10px;
+   margin: 0 1em;
 }
 .box {
    float: left;
    position: relative;
-   width: 50%;
+   width: 30%;
    padding-bottom: 20%;
 }
 .boxInner {
