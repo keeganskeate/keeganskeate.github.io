@@ -1063,6 +1063,9 @@ opacity: 0.75;  filter:alpha(opacity=50);
 	opacity: 0.75;  filter:alpha(opacity=50);
 	top:-42.5px;
 	padding: 0 3em;
+	display: inline-block;
+	position: relative;
+	font-size: .8em;
 }
 .bottomleft {
 	float: left;
