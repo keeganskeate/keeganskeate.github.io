@@ -72,7 +72,9 @@
 				offsetY: -15,
 				hoverDelay: 0
 			});
-
+			
+		//Portfolio Pics
+		$('.boxInner').tooltip({show: {effect:"none", delay:0}});
 	});
 
 })(jQuery);
@@ -98,4 +100,3 @@ window.onclick = function(event) {
   }
 }
 
-$('.boxInner').tooltip({show: {effect:"none", delay:0}});
