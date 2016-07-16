@@ -574,8 +574,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.style5 li,p{
 			text-align: left;
 			padding: 0 0 0 3em;
-			color: #F0B500;
-			opacity: 1.0; filter:alpha(opacity=100);
 		}
 		.wrapper.style5 h3{
 			left:0;
@@ -976,6 +974,10 @@ Original template designed by TEMPLATED (templated.co)*/
 		#footer .major li,p{
 			text-align: left;
 			display: inline-block;
+		}
+		#footer p{
+			color: #F0B500;
+			opacity: 1.0; filter:alpha(opacity=100);
 		}
 		#footer .major .byline {
 			color: inherit;
