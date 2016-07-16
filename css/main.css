@@ -1058,9 +1058,7 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 85px;
 width: 489px;
-color: #235796;
 text-align: center;
-opacity: 0.75;  filter:alpha(opacity=50);
 }
 /*hr.bottomstyle:after {
 top:-.5em;
@@ -1073,13 +1071,16 @@ padding: 0 1em;
 background: none;
 opacity: 0.75;  filter:alpha(opacity=50);
 } */
-.bottomleft {
+#subfooter{
+	color: #235796;
+	opacity: 0.75;  filter:alpha(opacity=50);
+}
+#subfooter.bottomleft {
 	float: left;
 }
-.bottomright {
+#subfooter.bottomright {
 	float: right;
 }
-
 /* Portfolio Wrapper */
 .wrap {
    overflow: hidden;
