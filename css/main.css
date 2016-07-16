@@ -730,6 +730,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		font-weight: 500;
 		padding: 0.0em 1em;
 		color:  #F0B500;
+		text-align:left;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
@@ -1053,7 +1054,7 @@ text-align: center;
 
 #subfooter, a{
 	color: #235796;
-	opacity: 0.75;  filter:alpha(opacity=50);
+	opacity: 0.75;  filter:alpha(opacity=75);
 	text-align: center;
 	position: relative;
 	font-size: 1em;
