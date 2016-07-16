@@ -74,7 +74,7 @@
 			});
 			
 		//Portfolio Pics
-		$('.boxInner').tooltip({show: {effect:"blind", delay:800}});
+		$('.boxInner').tooltip({show: {effect:"blind", delay:0}});
 	});
 
 })(jQuery);
