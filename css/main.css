@@ -1056,10 +1056,10 @@ hr.substyle {
 hr.bottomstyle {
 padding: 0;
 border: 0;
-background-image: url(../images/gold_divider.PNG);
+background-image: url(../images/gold_leaf_divider.PNG);
 background-repeat: no-repeat;
-height: 45px;
-width: 558px;
+height: 85px;
+width: 489px;
 color: #235796;
 text-align: center;
 opacity: 0.75;  filter:alpha(opacity=50);
@@ -1069,7 +1069,7 @@ hr.bottomstyle:after {
 content: "www.keeganskeate.com";
 display: inline-block;
 position: relative;
-font-size: 1em;
+font-size: .8em;
 padding: 0 1em;
 background: none;
 opacity: 0.75;  filter:alpha(opacity=50);
