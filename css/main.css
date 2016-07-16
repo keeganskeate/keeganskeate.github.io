@@ -1051,13 +1051,14 @@ width: 489px;
 text-align: center;
 }
 
-#subfooter, p{
+#subfooter, a{
 	color: #235796;
 	opacity: 0.75;  filter:alpha(opacity=50);
 	text-align: center;
 	position: relative;
 	font-size: 1em;
 	cursor:pointer;
+	text-decoration: none;
 }
 /* Portfolio Wrapper */
 .wrap {
