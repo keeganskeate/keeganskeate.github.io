@@ -730,12 +730,12 @@ Original template designed by TEMPLATED (templated.co)*/
 		font-weight: 500;
 		padding: 0.0em 1em;
 		color:  #F0B500;
-		text-align:left;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
 			padding: 0 .5em;
 			position: relative;
+			text-align:left;
 		}
 		.dropotron > li > ul> li{
 			position: relative; display:block;
