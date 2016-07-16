@@ -1080,6 +1080,7 @@ opacity: 0.75;  filter:alpha(opacity=50);
    float: left;
    position: relative;
    width: 30%;
+   height:30%;
    padding-bottom: 20%;
    text-align: center;
 }
