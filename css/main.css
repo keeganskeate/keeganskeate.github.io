@@ -1089,6 +1089,13 @@ opacity: 0.75;  filter:alpha(opacity=50);
 }
 .boxInner img {
    width: 100%;
+   background: #FFEBD0;
+   opacity: 0.75;  filter:alpha(opacity=50);
+   color: #2199E8;
+   			border:2px solid;
+			border-color: #F0B500;
+			box-shadow:  -2px #000;
+			border-radius: 5px;
 }
 .boxInner .titleBox {
    position: absolute;
@@ -1099,10 +1106,6 @@ opacity: 0.75;  filter:alpha(opacity=50);
    background: #FFEBD0;
    opacity: 0.75;  filter:alpha(opacity=50);
    color: #2199E8;
-   			border:2px solid;
-			border-color: #F0B500;
-			box-shadow:  -2px #000;
-			border-radius: 5px;
    padding: 10px;
    text-align: center;
    -webkit-transition: all 0.3s ease-out;
