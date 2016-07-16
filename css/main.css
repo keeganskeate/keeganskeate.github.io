@@ -706,22 +706,22 @@ Original template designed by TEMPLATED (templated.co)*/
 				}
 				
 				#nav > ul > li > ul{
-				overflow:hidden;
-    height:0;
-    -webkit-transition:height 200ms ease-in;
-    -moz-transition:height 200ms ease-in;
-    -o-transition:height 200ms ease-in;
-    transition:height 200ms ease-in;
+				 overflow:hidden;
+    max-height:0;
+    -webkit-transition:max-height 500ms ease;
+    -moz-transition:max-height 500ms ease;
+    -o-transition:max-height 500ms ease;
+    transition:max-height 500ms ease;
 				}
 
 				#nav > ul > li.active,
 				#nav ul > li:hover {
 					color: #235796 ;
 					font-weight: 500;
-					height:36px;
 				}
 /* Dropotron */
 .dropotron {
+	max-height:150px;
 		position:relative;
 		top: 0em;
 		background: #FFEBD0;
