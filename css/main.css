@@ -1061,9 +1061,8 @@ opacity: 0.75;  filter:alpha(opacity=50);
 #subfooter{
 	color: #235796;
 	opacity: 0.75;  filter:alpha(opacity=50);
-	top:-42.5px;
+	top:-85px;
 	padding: 0 3em;
-	display: inline-block;
 	position: relative;
 	font-size: .8em;
 }
