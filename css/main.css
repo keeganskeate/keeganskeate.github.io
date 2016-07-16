@@ -572,7 +572,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			text-align: left;
 		}
 		.wrapper.style5 h3{
-			float:left center;
+			margin-left:0;
 			text-align: center;
 		}
 		.wrapper.style5 a{
