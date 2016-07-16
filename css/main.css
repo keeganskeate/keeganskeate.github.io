@@ -707,11 +707,6 @@ Original template designed by TEMPLATED (templated.co)*/
 				
 				#nav > ul > li > ul{
 					height: 0;
--webkit-transition: height 0.5s ease-in;
--moz-transition: height 0.5s ease-in;
--o-transition: height 0.5s ease-in;
--ms-transition: height 0.5s ease-in;
-transition: height 0.5s ease-in;
 				}
 
 				#nav > ul > li.active,
@@ -721,6 +716,11 @@ transition: height 0.5s ease-in;
 				}
 /* Dropotron */
 .dropotron {
+	-webkit-transition: height 0.5s ease-in;
+-moz-transition: height 0.5s ease-in;
+-o-transition: height 0.5s ease-in;
+-ms-transition: height 0.5s ease-in;
+transition: height 0.5s ease-in;
 		position:relative;
 		top: 0em;
 		background: #FFEBD0;
