@@ -745,7 +745,6 @@ Original template designed by TEMPLATED (templated.co)*/
 				letter-spacing: 2px;
 				text-decoration: none;
 				text-transform: uppercase;
-				text-align:left;
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
@@ -1052,14 +1051,16 @@ width: 489px;
 text-align: center;
 }
 
-#subfooter > a{
+#subfooter{
 	color: #235796;
 	opacity: 0.75;  filter:alpha(opacity=75);
 	text-align: center;
 	position: relative;
 	font-size: 1em;
-	cursor:pointer;
 	text-decoration: none;
+}
+#subfooter > a{
+	cursor:pointer;
 }
 /* Portfolio Wrapper */
 .wrap {
