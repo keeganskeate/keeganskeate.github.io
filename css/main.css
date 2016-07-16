@@ -708,10 +708,10 @@ Original template designed by TEMPLATED (templated.co)*/
 				#nav > ul > li > ul{
 				 overflow:hidden;
     max-height:0;
-    -webkit-transition:max-height 500ms ease;
-    -moz-transition:max-height 500ms ease;
-    -o-transition:max-height 500ms ease;
-    transition:max-height 500ms ease;
+    -webkit-transition:max-height 1s ease;
+    -moz-transition:max-height 1s ease;
+    -o-transition:max-height 1s ease;
+    transition:max-height 1s ease;
 				}
 
 				#nav > ul > li.active,
