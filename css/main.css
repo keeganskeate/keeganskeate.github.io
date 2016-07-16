@@ -974,7 +974,8 @@ Original template designed by TEMPLATED (templated.co)*/
 		#footer .major li,p{
 			text-align: left;
 			display: inline-block;
-			color: #FFEBD0;
+			color: #F0B500;
+			opacity: 1.0; filter:alpha(opacity=100);
 		}
 		#footer .major .byline {
 			color: inherit;
