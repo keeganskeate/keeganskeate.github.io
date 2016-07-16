@@ -1072,6 +1072,7 @@ padding: 0 1em;
 background: none;
 opacity: 0.75;  filter:alpha(opacity=50);
 } */
+/* Portfolio Wrapper */
 .wrap {
    overflow: hidden;
    margin: 0 0em;
@@ -1102,38 +1103,32 @@ box-shadow:  -2px #000;
 border-radius: 5px;
 cursor: pointer;
 }
-
 .boxInner img:hover {
 opacity: 1.0;  filter:alpha(opacity=100);
 border-color: #235796;
 }
-
 body.no-touch .boxInner:hover, body.touch .boxInner.touchFocus{
    margin-bottom: 0;
 }
 @media only screen and (max-width : 480px) {
-   /* Smartphone view: 1 tile */
    .box {
       width: 100%;
       padding-bottom: 100%;
    }
 }
 @media only screen and (max-width : 650px) and (min-width : 481px) {
-   /* Tablet view: 2 tiles */
    .box {
       width: 50%;
       padding-bottom: 50%;
    }
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
-   /* Small desktop / ipad view: 3 tiles */
    .box {
       width: 33.3%;
       padding-bottom: 33.3%;
    }
 }
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
-   /* Medium desktop: 4 tiles */
    .box {
       width: 25%;
       padding-bottom: 25%;
