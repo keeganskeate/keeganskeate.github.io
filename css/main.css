@@ -1061,6 +1061,8 @@ opacity: 0.75;  filter:alpha(opacity=50);
 #subfooter{
 	color: #235796;
 	opacity: 0.75;  filter:alpha(opacity=50);
+	top:-42.5px;
+	padding: 0 3em;
 }
 .bottomleft {
 	float: left;
