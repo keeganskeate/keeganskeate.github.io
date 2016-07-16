@@ -1093,12 +1093,17 @@ opacity: 0.75;  filter:alpha(opacity=50);
 .boxInner img {
    width: 100%;
    background: #FFEBD0;
-   opacity: 0.75;  filter:alpha(opacity=50);
+   opacity: 0.5;  filter:alpha(opacity=50);
    color: #2199E8;
-   			border:2px solid;
-			border-color: #F0B500;
-			box-shadow:  -2px #000;
-			border-radius: 5px;
+border:2px solid;
+border-color: #F0B500;
+box-shadow:  -2px #000;
+border-radius: 5px;
+}
+
+.boxInner img:hover {
+opacity: 1.0;  filter:alpha(opacity=100);
+border-color: #235796;
 }
 .boxInner .titleBox {
    position: absolute;
