@@ -730,7 +730,7 @@ Original template designed by TEMPLATED (templated.co)*/
     -o-transition:max-height 1s ease;
     transition:max-height 1s ease;
 	}
-	.nav ul > li:hover ul {
+	#nav ul > li:hover ul {
    max-height:150px;
 }
 		.dropotron > li {
