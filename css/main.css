@@ -1052,7 +1052,7 @@ width: 489px;
 text-align: center;
 }
 
-#subfooter, a{
+#subfooter > a{
 	color: #235796;
 	opacity: 0.75;  filter:alpha(opacity=75);
 	text-align: center;
