@@ -1065,7 +1065,7 @@ text-align: center;
 opacity: 0.75;  filter:alpha(opacity=50);
 }
 hr.bottomstyle:after {
-top:-.7em;
+top:1em;
 content: "www.keeganskeate.com";
 display: inline-block;
 position: relative;
