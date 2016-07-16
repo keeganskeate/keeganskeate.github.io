@@ -10,7 +10,7 @@
 	text-transform: none; line-height: 1;  -webkit-font-smoothing: antialiased; }
 /* THEME
 Background: Sunset beige - #FFEBD0
-Text color:  Dark yellow - #F0B500 
+Text color:  Dark yellow - #F0B500  and Light Blue - #2199E8 
 Hover Color: Dark Blue- #235796
 Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 Yellow- #FFCC00
 Special colors: Light Blue - #2199E8  Med Blue - #1585CF
@@ -626,7 +626,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		#logo h1 {
 			display: inline-block;
 			margin: 0;
-			padding: 0;
+			padding: 0 1em;
 		}
 
 		#logo a {
