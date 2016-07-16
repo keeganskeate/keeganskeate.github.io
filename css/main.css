@@ -1053,6 +1053,7 @@ padding: 0;
 border: 0;
 background-image: url(../images/gold_leaf_divider.png);
 background-repeat: no-repeat;
+background-size: cover;
 height: 85px;
 width: 489px;
 color: #235796;
