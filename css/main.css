@@ -1073,10 +1073,10 @@ padding: 0 1em;
 background: none;
 opacity: 0.75;  filter:alpha(opacity=50);
 } */
-.alignleft {
+.bottomleft {
 	float: left;
 }
-.alignright {
+.bottomright {
 	float: right;
 }
 
