@@ -89,7 +89,7 @@
 
 			.row > * {
 				/* padding-left: (gutters) */
-				padding-left: 80px;
+				padding-left: 40px;
 			}
 
 			.row + .row > * {
