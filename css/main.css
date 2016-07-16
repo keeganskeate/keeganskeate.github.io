@@ -1048,7 +1048,7 @@ width: 489px;
 text-align: center;
 }
 
-#subfooter{
+#subfooter, p{
 	color: #235796;
 	opacity: 0.75;  filter:alpha(opacity=50);
 	text-align: center;
