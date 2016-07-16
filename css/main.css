@@ -1080,8 +1080,7 @@ opacity: 0.75;  filter:alpha(opacity=50);
    float: left;
    position: relative;
    width: 30%;
-   height:30%;
-   padding-bottom: 20%;
+   padding-bottom: 30%;
    text-align: center;
 }
 .boxInner {
@@ -1091,10 +1090,6 @@ opacity: 0.75;  filter:alpha(opacity=50);
    top: 10px;
    bottom: 10px;
    overflow: hidden;
-}
-.boxInner img {
-   width: 100%;
-   height:100%;
    background: #FFEBD0;
    opacity: 0.75;  filter:alpha(opacity=75);
    color: #2199E8;
@@ -1103,6 +1098,10 @@ border-color: #F0B500;
 box-shadow:  -2px #000;
 border-radius: 5px;
 cursor: pointer;
+}
+.boxInner img {
+   width: 100%;
+   height:100%;
 }
 
 .boxInner img:hover {
@@ -1117,7 +1116,6 @@ body.no-touch .boxInner:hover, body.touch .boxInner.touchFocus{
    /* Smartphone view: 1 tile */
    .box {
       width: 100%;
-      height: 100%;
       padding-bottom: 100%;
    }
 }
@@ -1125,7 +1123,6 @@ body.no-touch .boxInner:hover, body.touch .boxInner.touchFocus{
    /* Tablet view: 2 tiles */
    .box {
       width: 50%;
-      height: 50%;
       padding-bottom: 50%;
    }
 }
@@ -1133,7 +1130,6 @@ body.no-touch .boxInner:hover, body.touch .boxInner.touchFocus{
    /* Small desktop / ipad view: 3 tiles */
    .box {
       width: 33.3%;
-      height: 33.3%;
       padding-bottom: 33.3%;
    }
 }
@@ -1141,7 +1137,6 @@ body.no-touch .boxInner:hover, body.touch .boxInner.touchFocus{
    /* Medium desktop: 4 tiles */
    .box {
       width: 25%;
-      height: 25%;
       padding-bottom: 25%;
    }
 }
