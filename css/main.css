@@ -973,7 +973,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		
 		#footer .major li,p{
 			text-align: left;
-			display: inline;
+			display: block;
 		}
 		#footer p{
 			color: #F0B500;
