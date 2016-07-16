@@ -1100,6 +1100,7 @@ border:2px solid;
 border-color: #F0B500;
 box-shadow:  -2px #000;
 border-radius: 5px;
+cursor: pointer;
 }
 
 .boxInner img:hover {
