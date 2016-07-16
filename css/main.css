@@ -569,11 +569,10 @@ Original template designed by TEMPLATED (templated.co)*/
 			background: #FFEBD0;
 		}
 		.wrapper.style5 li,p{
-			position: relative;
 			text-align: left;
 		}
 		.wrapper.style5 h3{
-			float:left;
+			float:left center;
 			text-align: center;
 		}
 		.wrapper.style5 a{
