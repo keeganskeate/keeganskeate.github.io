@@ -705,14 +705,6 @@ Original template designed by TEMPLATED (templated.co)*/
 					position: relative;
 				}
 				
-				#nav > ul > li > ul{
-				 overflow:hidden;
-    max-height:0;
-    -webkit-transition:max-height 1s ease;
-    -moz-transition:max-height 1s ease;
-    -o-transition:max-height 1s ease;
-    transition:max-height 1s ease;
-				}
 
 				#nav > ul > li.active,
 				#nav ul > li:hover {
@@ -721,7 +713,6 @@ Original template designed by TEMPLATED (templated.co)*/
 				}
 /* Dropotron */
 .dropotron {
-	max-height:150px;
 		position:relative;
 		top: 0em;
 		background: #FFEBD0;
@@ -732,6 +723,16 @@ Original template designed by TEMPLATED (templated.co)*/
 		font-weight: 500;
 		padding: 0.0em 1em;
 		color:  #F0B500;
+		overflow:hidden;
+    max-height:0;
+    -webkit-transition:max-height 1s ease;
+    -moz-transition:max-height 1s ease;
+    -o-transition:max-height 1s ease;
+    transition:max-height 1s ease;
+	}
+	.dropotron.active,
+	.dropotron:hover{
+		max-height:150px;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
