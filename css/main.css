@@ -735,7 +735,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			line-height: 2.25em;
 			padding: 0 .5em;
 			position: relative;
-			text-align:left;
 		}
 		.dropotron > li > ul> li{
 			position: relative; display:block;
@@ -746,6 +745,7 @@ Original template designed by TEMPLATED (templated.co)*/
 				letter-spacing: 2px;
 				text-decoration: none;
 				text-transform: uppercase;
+				text-align:left;
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
