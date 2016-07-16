@@ -707,6 +707,12 @@ Original template designed by TEMPLATED (templated.co)*/
 				
 				#nav > ul > li > ul {
 					display: none;
+					overflow:hidden;
+					height:0;
+					-webkit-transition:height 200ms ease-in;
+					-moz-transition:height 200ms ease-in;
+					-o-transition:height 200ms ease-in;
+					transition:height 200ms ease-in;
 				}
 
 				#nav > ul > li.active,
