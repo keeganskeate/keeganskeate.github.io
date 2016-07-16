@@ -706,12 +706,7 @@ Original template designed by TEMPLATED (templated.co)*/
 				}
 				
 				#nav > ul > li > ul{
-					overflow:hidden;
-					height:0;
-					-webkit-transition:height 200ms ease-in;
-					-moz-transition:height 200ms ease-in;
-					-o-transition:height 200ms ease-in;
-					transition:height 200ms ease-in;
+					display:none;
 				}
 
 				#nav > ul > li.active,
@@ -731,6 +726,12 @@ Original template designed by TEMPLATED (templated.co)*/
 		font-weight: 500;
 		padding: 0.0em 1em;
 		color:  #F0B500;
+		overflow:hidden;
+					height:0;
+					-webkit-transition:height 200ms ease-in;
+					-moz-transition:height 200ms ease-in;
+					-o-transition:height 200ms ease-in;
+					transition:height 200ms ease-in;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
