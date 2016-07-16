@@ -1079,8 +1079,8 @@ opacity: 0.75;  filter:alpha(opacity=50);
 .box {
    float: left;
    position: relative;
-   width: 30%;
-   padding-bottom: 30%;
+   width: 20%;
+   padding-bottom: 20%;
    text-align: center;
 }
 .boxInner {
@@ -1090,6 +1090,9 @@ opacity: 0.75;  filter:alpha(opacity=50);
    top: 10px;
    bottom: 10px;
    overflow: hidden;
+}
+.boxInner img {
+   width: 100%;
    background: #FFEBD0;
    opacity: 0.75;  filter:alpha(opacity=75);
    color: #2199E8;
@@ -1098,9 +1101,6 @@ border-color: #F0B500;
 box-shadow:  -2px #000;
 border-radius: 5px;
 cursor: pointer;
-}
-.boxInner img {
-   width: 100%;
 }
 
 .boxInner img:hover {
