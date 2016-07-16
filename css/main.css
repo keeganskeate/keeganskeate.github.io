@@ -1073,8 +1073,10 @@ opacity: 0.75;  filter:alpha(opacity=50);
    margin: 10px;
 }
 .box {
-   float: left;
-   position: relative;
+   float: right;
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
    width: 20%;
    padding-bottom: 20%;
 }
