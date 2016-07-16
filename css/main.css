@@ -1062,16 +1062,29 @@ color: #235796;
 text-align: center;
 opacity: 0.75;  filter:alpha(opacity=50);
 }
-/*hr.bottomstyle:after {
-top:1em;
+hr.bottomstyle:after {
+top:-.5em;
 content: "www.keeganskeate.com";
+text-align: right;
 display: inline-block;
 position: relative;
 font-size: .8em;
 padding: 0 1em;
 background: none;
 opacity: 0.75;  filter:alpha(opacity=50);
-} */
+}
+hr.bottomstyle:after {
+top:-.5em;
+content: "Keegan Leon Skeate";
+text-align: left;
+display: inline-block;
+position: relative;
+font-size: .8em;
+padding: 0 1em;
+background: none;
+opacity: 0.75;  filter:alpha(opacity=50);
+}
+
 /* Portfolio Wrapper */
 .wrap {
    overflow: hidden;
