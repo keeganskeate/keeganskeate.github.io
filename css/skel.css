@@ -72,6 +72,9 @@
 
 		.row > * {
 			float: left;
+  position: relative;
+  right: -50%;
+  text-align: left;
 		}
 
 		.row:after {
