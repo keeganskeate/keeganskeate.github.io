@@ -45,7 +45,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 <!--Header-->
-	<body class="homepage">
+	<body class="homepage" class="no-touch">
 		<!-- Header Wrapper -->
 			<div class="wrapper style1">
 			<!-- Header -->
@@ -153,55 +153,65 @@
 						</div>
 						<div class="3u">
 							<h3><a href="#"><span class="fa fa-wrench" style="font-size:52px"></span><br>Select Projects</br></a></h3>
-  <!-- WRAPPER
+  <!-- WRAPPER -->
   <div class="wrap">
+  <!-- Define all of the tiles: -->
   <div class="box">
     <div class="boxInner">
       <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/7.jpg" />
+      <div class="titleBox">Butterfly</div>
     </div>
   </div>
   <div class="box">
     <div class="boxInner">
       <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
+      <div class="titleBox">An old greenhouse</div>
     </div>
   </div>
   <div class="box">
     <div class="boxInner">
       <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg" />
+      <div class="titleBox">Purple wildflowers</div>
     </div>
   </div>
   <div class="box">
     <div class="boxInner">
       <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/3.jpg" />
+      <div class="titleBox">A birdfeeder</div>
     </div>
   </div>
   <div class="box">
     <div class="boxInner">
       <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/10.jpg" />
+      <div class="titleBox">Crocus close-up</div>
     </div>
   </div>
   <div class="box">
     <div class="boxInner">
       <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/4.jpg" />
+      <div class="titleBox">The garden shop</div>
     </div>
   </div>
   <div class="box">
     <div class="boxInner">
       <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/5.jpg" />
+      <div class="titleBox">Spring daffodils</div>
     </div>
   </div>
   <div class="box">
     <div class="boxInner">
       <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/6.jpg" />
+      <div class="titleBox">Iris along the path</div>
     </div>
   </div>
   <div class="box">
     <div class="boxInner">
       <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/8.jpg" />
+      <div class="titleBox">The garden blueprint</div>
     </div>
   </div>
-  </div>
- /#wrap -->
+</div>
+<!-- /#wrap -->
 						</div>
 						
 						<div class="3u">
@@ -236,5 +246,21 @@
 		</div> -->
 
 <hr class="bottomstyle">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<script type="text/javascript">
+$(function(){
+   // See if this is a touch device
+   if ('ontouchstart' in window)
+   {
+      // Set the correct [touchscreen] body class
+      $('body').removeClass('no-touch').addClass('touch');
+     
+      // Add the touch toggle to show text when tapped
+      $('div.boxInner img').click(function(){
+         $(this).closest('.boxInner').toggleClass('touchFocus');
+      });
+   }
+});
+</script>
 	</body>
 </html>
