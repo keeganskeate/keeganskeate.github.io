@@ -724,14 +724,15 @@ Original template designed by TEMPLATED (templated.co)*/
 		padding: 0.0em 1em;
 		color:  #F0B500;
 		overflow:hidden;
-    max-height:0;
-    -webkit-transition:max-height 1s ease;
-    -moz-transition:max-height 1s ease;
-    -o-transition:max-height 1s ease;
-    transition:max-height 1s ease;
+overflow-y: hidden;
+	max-height: 500px; /* approximate max height */
+
+	transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 	}
-	#nav ul li:hover .dropotron {
-   	max-height:150px;
+.dropotron.closed {
+	max-height: 0;
 }
 		.dropotron > li {
 			line-height: 2.25em;
