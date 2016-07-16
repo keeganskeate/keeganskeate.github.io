@@ -971,7 +971,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			color: #235796;
 		}
 		
-		#footer .major li{
+		#footer .major li,p{
 			text-align: left;
 			display: inline-block;
 			color: #FFEBD0;
