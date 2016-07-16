@@ -724,12 +724,12 @@ Original template designed by TEMPLATED (templated.co)*/
 		padding: 0.0em 1em;
 		color:  #F0B500;
 		overflow:hidden;
-overflow-y: hidden;
-	max-height: 500px; /* approximate max height */
-
-	transition-property: all;
-	transition-duration: .5s;
-	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+overflow:hidden;
+    max-height:150px;
+    -webkit-transition:max-height 1s ease;
+    -moz-transition:max-height 1s ease;
+    -o-transition:max-height 1s ease;
+    transition:max-height 1s ease;
 	}
 .dropotron.closed {
 	max-height: 0;
