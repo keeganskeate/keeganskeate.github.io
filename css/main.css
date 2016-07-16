@@ -1055,7 +1055,7 @@ text-align: center;
 	text-align: center;
 	position: relative;
 }
-#subfooter > p{
+#subfooter > p > a{
 	color: #235796;
 	opacity: 0.75;  filter:alpha(opacity=75);
 	cursor:pointer;
