@@ -964,11 +964,8 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		#footer .major h3{
 			color:  #F0B500;
-			text-align: left;
-			display: inline-block;
-		}
-		#footer .major h3:first-line{
 			text-align: center;
+			display: inline-block;
 		}
 		
 		#footer .major h3:hover{
