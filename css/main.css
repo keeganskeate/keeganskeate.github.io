@@ -509,6 +509,9 @@ Original template designed by TEMPLATED (templated.co)*/
 			padding: 0em;
 		}
 
+		.wrapper.style1 p{
+			padding: 0 0 0 0em;
+		}
 
 		.wrapper.style2 {
 			background: #FFEBD0;
@@ -570,7 +573,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		.wrapper.style5 li,p{
 			text-align: left;
-			padding: 0 0 0 0em;
+			padding: 0 0 0 3em;
 		}
 		.wrapper.style5 h3{
 			left:0;
