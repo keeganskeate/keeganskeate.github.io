@@ -967,7 +967,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			text-align: left;
 			display: inline-block;
 		}
-		#footer .major h3::first-line{
+		#footer .major h3:first-line{
 			text-align: center;
 		}
 		
