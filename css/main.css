@@ -716,11 +716,6 @@ Original template designed by TEMPLATED (templated.co)*/
 				}
 /* Dropotron */
 .dropotron {
-	-webkit-transition: height 0.5s ease-in;
--moz-transition: height 0.5s ease-in;
--o-transition: height 0.5s ease-in;
--ms-transition: height 0.5s ease-in;
-transition: height 0.5s ease-in;
 		position:relative;
 		top: 0em;
 		background: #FFEBD0;
@@ -731,7 +726,6 @@ transition: height 0.5s ease-in;
 		font-weight: 500;
 		padding: 0.0em 1em;
 		color:  #F0B500;
-		height:200px;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
