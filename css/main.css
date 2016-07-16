@@ -570,6 +570,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		.wrapper.style5 li,p{
 			text-align: left;
+			padding: 0 0 0 2em;
 		}
 		.wrapper.style5 h3{
 			left:0;
@@ -971,7 +972,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			text-align: left;
 			display: inline-block;
 			color: #FFEBD0;
-			padding: 0em 3em 0em 0em;
 		}
 		#footer .major .byline {
 			color: inherit;
