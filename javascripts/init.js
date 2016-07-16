@@ -97,3 +97,5 @@ window.onclick = function(event) {
     }
   }
 }
+
+$('.boxInner').tooltip({show: {effect:"none", delay:0}});
