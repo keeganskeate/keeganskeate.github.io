@@ -709,7 +709,7 @@ Original template designed by TEMPLATED (templated.co)*/
 					display: none;
 				}
 
-				#nav > ul > li.active a,
+				#nav > ul > li.active,
 				#nav ul > li:hover {
 					color: #235796 ;
 					font-weight: 500;
