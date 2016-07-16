@@ -1056,7 +1056,7 @@ hr.substyle {
 hr.bottomstyle {
 padding: 0;
 border: none;
-background none url(../images/gold_divider.png) no-repeat;
+background: none url(../images/gold_divider.png) no-repeat;
 height: 45px;
 width: 558px;
 color: #235796;
