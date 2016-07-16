@@ -730,8 +730,8 @@ Original template designed by TEMPLATED (templated.co)*/
     -o-transition:max-height 1s ease;
     transition:max-height 1s ease;
 	}
-	#nav ul > li:hover .dropotron {
-   max-height:150px;
+	#nav ul li:hover .dropotron {
+   	max-height:150px;
 }
 		.dropotron > li {
 			line-height: 2.25em;
