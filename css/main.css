@@ -1080,8 +1080,8 @@ opacity: 0.75;  filter:alpha(opacity=50);
 .box {
    float: left;
    position: relative;
-   width: 50%;
-   padding-bottom: 50%;
+   width: 33.3%;
+   padding-bottom: 33.3%;
    text-align: center;
 }
 .boxInner {
