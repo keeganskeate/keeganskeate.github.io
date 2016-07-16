@@ -582,13 +582,13 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.style5 a:hover {
 			color: #235796;
 			}
-			.wrapper.style5 .image {
+			/*.wrapper.style5 .image {
 				color: #1585CF;
 				display: block;
 				width: 60%;
 				margin: 0em auto 2em auto;
 			}
-				/*.wrapper.style5 .image img {
+				.wrapper.style5 .image img {
 					border-radius: 50%;
 					border: 10px solid;
 					border-color: #FDB500;
