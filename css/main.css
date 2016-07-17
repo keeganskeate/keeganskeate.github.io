@@ -1100,7 +1100,6 @@ border-color: #235796;
    position: absolute;
    width: 100%;
    height 100%;
-   padding 10px;
    overflow: hidden;
    text-align: center;
    opacity: 0;  filter:alpha(opacity=0);
