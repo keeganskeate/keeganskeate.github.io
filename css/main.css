@@ -1069,8 +1069,8 @@ text-align: center;
 .box {
    float: left;
    position: relative;
-   width: 33.3%;
-   padding-bottom: 33.3%;
+   width: 50%;
+   padding-bottom: 50%;
    text-align: center;
 }
 .boxInner {
@@ -1085,7 +1085,6 @@ text-align: center;
    width: 100%;
    background: #FFEBD0;
    opacity: 0.75;  filter:alpha(opacity=75);
-   color: #2199E8;
 border:2px solid;
 border-color: #F0B500;
 box-shadow:  -2px #000;
@@ -1096,8 +1095,23 @@ cursor: pointer;
 opacity: 1.0;  filter:alpha(opacity=100);
 border-color: #235796;
 }
-body.no-touch .boxInner:hover, body.touch .boxInner.touchFocus{
-   margin-bottom: 0;
+.boxInner .titleBox {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   opacity: 0;  filter:alpha(opacity=0);
+   background: #FFEBD0;
+   color:  #2199E8;
+   padding: 10px;
+   text-align: center;
+   -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
+}
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox{
+	opacity: 1.0;  filter:alpha(opacity=100);
 }
 @media only screen and (max-width : 480px) {
    .box {
