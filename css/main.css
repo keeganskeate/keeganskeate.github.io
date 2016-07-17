@@ -1098,11 +1098,9 @@ border-color: #235796;
 }
 .boxInner .titleBox {
    position: absolute;
-   width: 100%;
-   left: 10px;
-   right: 10px;
-   top: 10px;
-   bottom: 10px;
+bottom: 0;
+   left: 0;
+   right: 0;
    overflow: hidden;
    text-align: center;
    opacity: 0;  filter:alpha(opacity=0);
