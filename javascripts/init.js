@@ -76,7 +76,7 @@
 		//Portfolio Pictures
 		$(function(){if ('ontouchstart' in window){
 		$('div').removeClass('no-touch').addClass('touch');
-		$('div.boxInner img').click(function(){
+		$('div.boxInner img').on("scrollstart",function(){
 	        $(this).closest('.boxInner').toggleClass('touchFocus'); }); } });
 		
 		//Hover Title Appearance
