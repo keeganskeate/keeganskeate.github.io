@@ -1103,6 +1103,7 @@ border-color: #235796;
    left: 10px;
    right: 10px;
    overflow: hidden;
+   padding: 10px;
    opacity: 0;  filter:alpha(opacity=0);
    background: #FFEBD0;
    color:  #235796;
