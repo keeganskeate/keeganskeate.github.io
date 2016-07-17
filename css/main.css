@@ -1107,7 +1107,6 @@ background: #FFEBD0;
    opacity: 100;  filter:alpha(opacity=100);
    background: none;
    color:  #235796;
-   padding: 10px;
    text-align: center;
    -webkit-transition: all 0.3s ease-out;
    -moz-transition: all 0.3s ease-out;
