@@ -81,14 +81,6 @@
 		
 		//Hover Title Appearance
 		$(document).tooltip({show: null});
-		
-		//Hover on Portfolio
-		$(function() {
-			$('.boxInner .titleBox').hover(function() {
-				$('div.boxInner img').css('background-color', '#235796');
-			}, function() {
-    			// on mouseout, reset the background colour
-    			$('div.boxInner img').css('background-color', ''); }); });
 	});
 
 })(jQuery);
