@@ -989,6 +989,10 @@ Original template designed by TEMPLATED (templated.co)*/
 			margin-top: 3em;
 			text-align: center;
 		}
+		
+		#footer .images {
+			max-width: 100%;
+		}
 
 /* Copyright */
 
