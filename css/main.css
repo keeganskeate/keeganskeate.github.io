@@ -1114,6 +1114,7 @@ border-color: #235796;
 }
 div.no-touch .boxInner:hover .titleBox + .boxInner img, div.touch .boxInner.touchFocus .titleBox + .boxInner img{
 	border-color: #235796;
+	opacity: 100;  filter:alpha(opacity=100);
 }
 @media only screen and (max-width : 480px) {
    .box {
