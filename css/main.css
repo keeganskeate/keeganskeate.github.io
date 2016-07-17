@@ -1101,9 +1101,9 @@ border-color: #235796;
    bottom: 10px;;
    left: 10px;;
    right: 10px;;
-   opacity: 100;  filter:alpha(opacity=100);
-   background: none;
-   color:  #2199E8;
+   opacity: 0;  filter:alpha(opacity=0);
+   background: #FFEBD0;
+   color:  #235796;
    padding: 10px;
    text-align: center;
    -webkit-transition: all 0.3s ease-out;
@@ -1112,7 +1112,7 @@ border-color: #235796;
    transition: all 0.3s ease-out;
 }
 body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox{
-	opacity: 1.0;  filter:alpha(opacity=100);
+	opacity: .75;  filter:alpha(opacity=75);
 }
 @media only screen and (max-width : 480px) {
    .box {
