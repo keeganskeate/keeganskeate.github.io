@@ -1080,6 +1080,7 @@ text-align: center;
    top: 10px;
    bottom: 10px;
    overflow: hidden;
+   text-align: center;
 }
 .boxInner img {
    width: 100%;
@@ -1103,7 +1104,7 @@ border-color: #235796;
    left: 10px;
    right: 10px;
    overflow: hidden;
-   padding: 10px;
+   text-align: center;
    opacity: 0;  filter:alpha(opacity=0);
    background: #FFEBD0;
    color:  #235796;
@@ -1111,7 +1112,6 @@ border-color: #235796;
    border-color: #F0B500;
    box-shadow:  -2px #000;
    border-radius: 5px;
-   text-align: center;
    cursor: pointer;
    -webkit-transition: all 0.35s ease-in-out;
    -moz-transition: all 0.35s ease-in-out;
