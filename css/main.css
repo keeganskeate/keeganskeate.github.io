@@ -1101,7 +1101,7 @@ cursor: pointer;
    overflow: hidden;
    text-align: center;
    opacity: 0;  filter:alpha(opacity=0);
-   background: white;
+   background: none;
    color:  #235796;
    cursor: pointer;
    -webkit-transition: all 0.35s ease-in-out;
