@@ -1093,7 +1093,6 @@ border-radius: 5px;
 cursor: pointer;
 }
 .boxInner img:hover {
-opacity: .75;  filter:alpha(opacity=75);
 border-color: #235796;
 }
 .boxInner .titleBox {
@@ -1102,25 +1101,19 @@ border-color: #235796;
    top: 0;
    left: 0;
    right: 0;
-   bottom: 0;
    overflow: hidden;
    text-align: center;
    opacity: 0;  filter:alpha(opacity=0);
-   background: #FFEBD0;
+   background: none;
    color:  #235796;
-   border:2px solid;
-   border-color: #F0B500;
-   box-shadow:  -2px #000;
-   border-radius: 5px;
    cursor: pointer;
    -webkit-transition: all 0.35s ease-in-out;
    -moz-transition: all 0.35s ease-in-out;
    -o-transition: all 0.35s ease-in-out;
    transition: all 0.35s ease-in-out;
 }
-div.no-touch .boxInner:hover .titleBox, div.touch .boxInner.touchFocus .titleBox{
+div.no-touch .boxInner:hover .titleBox + .boxInner img, div.touch .boxInner.touchFocus .titleBox + .boxInner img{
 	border-color: #235796;
-	opacity: 75;  filter:alpha(opacity=75);
 }
 @media only screen and (max-width : 480px) {
    .box {
