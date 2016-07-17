@@ -1097,11 +1097,12 @@ border-color: #235796;
 }
 .boxInner .titleBox {
    position: absolute;
-   bottom: 0;
-   left: 0;
-   right: 0;
+   top: 10px;
+   bottom: 10px;;
+   left: 10px;;
+   right: 10px;;
    opacity: 100;  filter:alpha(opacity=100);
-   background: #FFEBD0;
+   background: none;
    color:  #2199E8;
    padding: 10px;
    text-align: center;
