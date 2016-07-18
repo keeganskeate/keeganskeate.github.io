@@ -419,14 +419,13 @@ Original template designed by TEMPLATED (templated.co)*/
 		
 		.wrapper.endstyle {
 			background: #FFEBD0;
-			margin: 0 auto;
 		}
 		.wrapper.endstyle li,p{
 			text-align: left;
 			padding: 0 0 0 2.5em;
 		}
 		.wrapper.endstyle h3{
-			left:0;
+			margin: 0 auto;
 			text-align: center;
 		}
 		.wrapper.endstyle a{
