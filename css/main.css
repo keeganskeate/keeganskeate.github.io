@@ -132,14 +132,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			letter-spacing: 1px;
 			font-size: 1.4em;
 		}
-
-	footer > :last-child {
-		margin-bottom: 0;
-	}
-
-	footer.major {
-		padding-top: 3em;
-	}
 /* Form */
 	input[type="text"],
 	input[type="password"],
@@ -734,6 +726,8 @@ Original template designed by TEMPLATED (templated.co)*/
 .show {display:block;}
 
 /* Footer */
+footer > :last-child {margin-bottom: 0;}
+footer.major {padding-top: 3em;}
 	#footer {
 		text-align: center;
     		margin: 0 auto;
@@ -742,11 +736,10 @@ Original template designed by TEMPLATED (templated.co)*/
 		text-shadow: 0 -1px 0 #000;
 		list-style: none;
 	}
-		#footer p{
+		#footer p, #footer h3{
 			margin: auto;
 			display: block;
 			color: #F0B500;
-			opacity: 1.0; filter:alpha(opacity=100);
 		}
 		#footer .images {
 			max-width: 100%;
