@@ -858,8 +858,9 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 #subfooter p  a {
 			padding: 2em 0 0em 0;
+			margin: 0 auto;
 			display: block;
-			position:relative;
+			position: relative;
 			list-style: none;
 			text-shadow: 0 -1px 0 #000;
 			text-transform:uppercase;
