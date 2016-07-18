@@ -409,9 +409,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			margin: 0;
 			padding: 0em;
 		}
-		.wrapper.topstyle p{
-			padding: 0 0 0 0em;
-		}
+		.wrapper.topstyle p{padding: 0em;}
 		
 		.wrapper .topstyle #aboutme{
 			background:#FFEBD0
@@ -419,8 +417,9 @@ Original template designed by TEMPLATED (templated.co)*/
 		
 		.wrapper.endstyle {
 			background: #FFEBD0;
-			margin: 0 auto;
+			margin: auto;
 			text-align: center;
+			display: block;
 		}
 		.wrapper.endstyle li,p{
 			text-align: left;
@@ -741,6 +740,7 @@ Original template designed by TEMPLATED (templated.co)*/
 
 /* Footer */
 	#footer {
+		margin: 0 auto;
 		padding: 2em 0 0em 0;
 		color: #F0B500;
 		text-shadow: 0 -1px 0 #000;
