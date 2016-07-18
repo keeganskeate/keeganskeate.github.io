@@ -495,12 +495,9 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 
 /* Wrapper */
-
-	.wrapper {
-		padding: 0em 0em 0em 0em;
-	}
-
-		.wrapper.style1 {
+	.wrapper {padding: 0em;}
+	
+		.wrapper.topstyle {
 			background:#FFEBD0 url(../images/tucson_sunset_best.png) no-repeat center center;
 			background-size: cover;
 			width: 100%;
@@ -510,80 +507,25 @@ Original template designed by TEMPLATED (templated.co)*/
 			padding: 0em;
 		}
 
-		.wrapper.style1 p{
+		.wrapper.topstyle p{
 			padding: 0 0 0 0em;
 		}
-
-		.wrapper.style2 {
+		
+		.wrapper.endstyle {
 			background: #FFEBD0;
 		}
-
-			.wrapper.style2 .major {
-				text-align: left !important;
-			}
-
-				.wrapper.style2 .major h2 {
-					display: block;
-					margin-bottom: 0.70em;
-					letter-spacing: 1px;
-					line-height: 1.8em;
-					text-transform: uppercase;
-					font-size: 1.6em;
-					font-weight: 400;
-				}
-				.wrapper.style2 .major .byline {
-					letter-spacing: normal;
-					line-height: 1.6em;
-					text-transform: capitalize;
-					font-size: 1.4em;
-				}
-
-			.wrapper.style2 h3 {
-				display: block;
-				margin-bottom: 1em;
-				letter-spacing: 1px;
-				line-height: 1.8em;
-				text-transform: uppercase;
-				font-size: 1.8em;
-				font-weight: 400;
-			}
-
-		.wrapper.style3 {
-			padding-bottom: 3em;
-			background: #FFEBD0;
-			text-align: center;
-			color: #FFCC00;
-		}
-
-			.wrapper.style3 .container {
-				padding-left: 0em;
-				padding-right: 0em;
-			}
-
-			.wrapper.style3 p {
-				font-size: 1.6em;
-				text-align: center;
-			}
-
-		.wrapper.style4 {
-			background: #FFEBD0
-		}
-
-		.wrapper.style5 {
-			background: #FFEBD0;
-		}
-		.wrapper.style5 li,p{
+		.wrapper.endstyle li,p{
 			text-align: left;
 			padding: 0 0 0 2.5em;
 		}
-		.wrapper.style5 h3{
+		.wrapper.endstyle h3{
 			left:0;
 			text-align: center;
 		}
-		.wrapper.style5 a{
+		.wrapper.endstyle a{
 			text-decoration:none;
 		}
-		.wrapper.style5 a:hover {
+		.wrapper.endstyle a:hover {
 			color: #235796;
 			}
 			/*.wrapper.style5 .image {
@@ -1048,8 +990,6 @@ Original template designed by TEMPLATED (templated.co)*/
 hr.bottomstyle {
 padding: 0;
 border: 0;
-display: block;
-position: relative;
 background-image: url(../images/gold_leaf_divider.png);
 background-repeat: no-repeat;
 background-size: cover;
