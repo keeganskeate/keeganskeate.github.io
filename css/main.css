@@ -743,6 +743,8 @@ Original template designed by TEMPLATED (templated.co)*/
 		list-style: none;
 	}
 		#footer p{
+			margin: auto;
+			display: block;
 			color: #F0B500;
 			opacity: 1.0; filter:alpha(opacity=100);
 		}
