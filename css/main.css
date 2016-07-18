@@ -1048,7 +1048,8 @@ Original template designed by TEMPLATED (templated.co)*/
 hr.bottomstyle {
 padding: 0;
 border: 0;
-display: relative;
+display: block;
+position: relative;
 background-image: url(../images/gold_leaf_divider.png);
 background-repeat: no-repeat;
 background-size: cover;
