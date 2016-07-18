@@ -740,10 +740,10 @@ footer.major {padding-top: 3em;}
 	#footer .subject{
 		display: inline-block;
 		margin:auto;
-		padding:; 0em 10em 0em 10em;
 	}
-		#footer li{
+		#footer li,p{
 			text-align: left;
+			padding:; 0em 10em 0em 10em;
 		}
 		#footer .images {
 			max-width: 100%;
