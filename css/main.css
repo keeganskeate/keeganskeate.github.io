@@ -729,17 +729,13 @@ Original template designed by TEMPLATED (templated.co)*/
 footer > :last-child {margin-bottom: 0;}
 footer.major {padding-top: 3em;}
 	#footer {
-		width:100%;
 		text-align: center;
-    		margin: 0 auto;
 		padding: 2em 0 0em 0;
 		color: #F0B500;
 		text-shadow: 0 -1px 0 #000;
 		list-style: none;
 	}
 		#footer p, #footer h3{
-			margin: auto;
-			display: block;
 			color: #F0B500;
 		}
 		#footer .images {
