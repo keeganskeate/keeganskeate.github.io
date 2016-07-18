@@ -736,9 +736,11 @@ footer.major {padding-top: 3em;}
 		text-shadow: 0 -1px 0 #000;
 		list-style: none;
 	}
+	#footer .subject{
+		display: block;
+		margin:auto;
+	}
 		#footer p{
-			display: block;
-			margin:auto;
 			color: #F0B500;
 			text-align: left;
 		}
