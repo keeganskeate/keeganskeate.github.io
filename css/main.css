@@ -859,21 +859,19 @@ Original template designed by TEMPLATED (templated.co)*/
 		
 #subfooter{
 			padding: 2em 0 0em 0;
-			display: inline-block;
+			display: block;
 			position: relative;
 			left: 50%; transform: translate(-50%, 0);
 			list-style: none;
-			color: #235796;
 			text-shadow: 0 -1px 0 #000;
 			text-transform:uppercase;
 			font-size: 1em;
 			letter-spacing: 2px;
 			font-weight: 400;
 			text-shadow: 0 -1px 0 #000;
-			min-height: 1em;
-		    	min-width: 33.3%;
 		}
-#subfooter > p > a {
+#subfooter p  a {
+			color: #235796;
 			text-decoration: none;
 			text-align:center;
 			opacity: 75;  filter:alpha(opacity=75);
