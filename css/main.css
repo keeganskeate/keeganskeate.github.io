@@ -856,12 +856,16 @@ Original template designed by TEMPLATED (templated.co)*/
 		#footer .images {
 			max-width: 100%;
 		}
-#subfooter p  a {
+		
+#subfooter {
 			padding: 2em 0 0em 0;
 			margin: 0 auto;
 			display: block;
 			position: relative;
 			list-style: none;
+	
+}
+#subfooter p  a {
 			text-shadow: 0 -1px 0 #000;
 			text-transform:uppercase;
 			font-size: 1em;
