@@ -759,10 +759,14 @@ Original template designed by TEMPLATED (templated.co)*/
 			color:  #F0B500;
 			text-align: center;
 			display: inline-block;
+		}
+		
+		#footer .major h3 > img {
 			border:2px solid;
 			border-color: #F0B500;
 			box-shadow:  -2px #000;
 			border-radius: 5px;
+			
 		}
 		
 		#footer .major h3:hover{
