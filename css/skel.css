@@ -64,15 +64,15 @@
 	.\-6u { margin-left: 50% }
 	.\-5u { margin-left: 41.6666666667% }
 	.\-4u { margin-left: 33.3333333333% }
-	.\-3u { margin-left: auto }
+	.\-3u { margin-left: 25% }
 	.\-2u { margin-left: 16.6666666667% }
 	.\-1u { margin-left: 8.3333333333% }
 
 	/* Rows */
 
-	/*	.row > * {
-			float: left;
-		} */
+		.row > * {
+			margin: 0 auto;
+		}
 
 		.row:after {
 			content: '';
