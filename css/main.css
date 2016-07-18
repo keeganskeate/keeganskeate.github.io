@@ -412,6 +412,11 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.topstyle p{
 			padding: 0 0 0 0em;
 		}
+		
+		.wrapper .topstyle #aboutme{
+			background:#FFEBD0
+		}
+		
 		.wrapper.endstyle {
 			background: #FFEBD0;
 		}
@@ -754,6 +759,10 @@ Original template designed by TEMPLATED (templated.co)*/
 			color:  #F0B500;
 			text-align: center;
 			display: inline-block;
+			border:2px solid;
+			border-color: #F0B500;
+			box-shadow:  -2px #000;
+			border-radius: 5px;
 		}
 		
 		#footer .major h3:hover{
