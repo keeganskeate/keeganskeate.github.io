@@ -420,9 +420,9 @@ Original template designed by TEMPLATED (templated.co)*/
 			width: 100%;
 			margin: auto;
 			text-align: center;
-			display: block;
 		}
 		.wrapper.endstyle li,p{
+			display: block;
 			margin: auto;
 			text-align: left;
 			padding: 0 0 0 2.5em;
