@@ -1017,13 +1017,18 @@ border: 0;
 background-image: url(../images/gold_leaf_divider.png);
 background-repeat: no-repeat;
 background-size: cover;
+line-height: 85px;
 height: 85px;
 width: 489px;
 text-align: center;
+ overflow: hidden;
 }
 #subfooter{
+	display: inline-block;
 	text-align: center;
 	position: relative;
+	min-height: 1em;
+    	min-width: 33.3%;
 }
 #subfooter > p > a{
 	color: #235796;
