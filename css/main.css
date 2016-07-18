@@ -735,8 +735,9 @@ footer.major {padding-top: 3em;}
 		text-shadow: 0 -1px 0 #000;
 		list-style: none;
 	}
-		#footer p, #footer h3{
+		#footer p{
 			color: #F0B500;
+			text-align: left;
 		}
 		#footer .images {
 			max-width: 100%;
