@@ -71,7 +71,7 @@
 	/* Rows */
 
 		.row > * {
-			margin: 0 auto;
+			float:right;
 		}
 
 		.row:after {
