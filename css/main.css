@@ -730,7 +730,7 @@ footer > :last-child {margin-bottom: 0;}
 footer.major {padding-top: 3em;}
 
 	#footer {
-	padding: 2em 0 10em 10em;
+	padding: 2em 0 0 0 ;
 	margin: 0 auto;
 	text-align:center;
 		color: #F0B500;
@@ -740,6 +740,7 @@ footer.major {padding-top: 3em;}
 	#footer .subject{
 		display: inline-block;
 		margin:auto;
+		padding:; 0em 10em 0em 10em;
 	}
 		#footer li{
 			text-align: left;
