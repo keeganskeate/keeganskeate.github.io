@@ -737,11 +737,10 @@ footer.major {padding-top: 3em;}
 		list-style: none;
 	}
 	#footer .subject{
-		display: block;
+		display: inline-block;
 		margin:auto;
 	}
-		#footer p{
-			color: #F0B500;
+		#footer li{
 			text-align: left;
 		}
 		#footer .images {
