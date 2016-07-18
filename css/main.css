@@ -859,10 +859,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		
 #subfooter {
 			padding: 2em 0 0em 0;
-			margin: 0 auto;
-			display: block;
-			position: relative;
-			list-style: none;
 	
 }
 #subfooter p  a {
@@ -874,7 +870,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			text-shadow: 0 -1px 0 #000;
 			color: #235796;
 			text-decoration: none;
-			text-align:center;
 			opacity: 75;  filter:alpha(opacity=75);
 		}
 
