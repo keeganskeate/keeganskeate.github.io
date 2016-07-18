@@ -856,8 +856,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		#footer .images {
 			max-width: 100%;
 		}
-		
-#subfooter{
+#subfooter p  a {
 			padding: 2em 0 0em 0;
 			display: block;
 			list-style: none;
@@ -867,8 +866,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			letter-spacing: 2px;
 			font-weight: 400;
 			text-shadow: 0 -1px 0 #000;
-		}
-#subfooter p  a {
 			left: 50%; transform: translate(-50%, 0);
 			color: #235796;
 			text-decoration: none;
