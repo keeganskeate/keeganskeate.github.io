@@ -1026,11 +1026,11 @@ text-align: center;
 #subfooter{
 	display: inline-block;
 	text-align: center;
-	position: relative;
 	min-height: 1em;
     	min-width: 33.3%;
 }
 #subfooter > p > a{
+	text-align:center;
 	color: #235796;
 	opacity: 0.75;  filter:alpha(opacity=75);
 	cursor:pointer;
