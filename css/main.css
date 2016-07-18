@@ -422,6 +422,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			display: block;
 		}
 		.wrapper.endstyle li,p{
+			margin: auto;
 			text-align: left;
 			padding: 0 0 0 2.5em;
 		}
@@ -740,7 +741,7 @@ Original template designed by TEMPLATED (templated.co)*/
 
 /* Footer */
 	#footer {
-		margin: 0 auto;
+		margin: auto;
 		padding: 2em 0 0em 0;
 		color: #F0B500;
 		text-shadow: 0 -1px 0 #000;
