@@ -70,9 +70,9 @@
 
 	/* Rows */
 
-		.row > * {
+	/*	.row > * {
 			float: left;
-		}
+		} */
 
 		.row:after {
 			content: '';
