@@ -761,7 +761,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			display: inline-block;
 		}
 		
-		#footer .major h3 > img {
+		#footer .major img {
 			border:2px solid;
 			border-color: #F0B500;
 			box-shadow:  -2px #000;
