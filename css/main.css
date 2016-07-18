@@ -744,7 +744,18 @@ Original template designed by TEMPLATED (templated.co)*/
 		text-shadow: 0 -1px 0 #000;
 		list-style: none;
 	}
-
+		#footer p{
+			display: block;
+			color: #F0B500;
+			opacity: 1.0; filter:alpha(opacity=100);
+		}
+		#footer .images {
+			max-width: 100%;
+			border:2px solid;
+			border-color: #F0B500;
+			box-shadow:  -2px #000;
+			border-radius: 5px;
+		}
 		#footer .major h2 {
 			color:#F0B500; 
 			text-decoration: none;
@@ -769,10 +780,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			text-align: left;
 			display: inline-block;
 		}
-		#footer p{
-			color: #F0B500;
-			opacity: 1.0; filter:alpha(opacity=100);
-		}
 		#footer .major .byline {
 			color: inherit;
 			opacity: .4;
@@ -781,14 +788,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		#footer .copyright {
 			margin-top: 3em;
 			text-align: center;
-		}
-		
-		#footer .images {
-			max-width: 100%;
-			border:2px solid;
-			border-color: #F0B500;
-			box-shadow:  -2px #000;
-			border-radius: 5px;
 		}
 /* Portfolio Wrapper */
 .wrap {
