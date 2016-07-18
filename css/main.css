@@ -729,6 +729,7 @@ Original template designed by TEMPLATED (templated.co)*/
 footer > :last-child {margin-bottom: 0;}
 footer.major {padding-top: 3em;}
 	#footer {
+		width:100%;
 		text-align: center;
     		margin: 0 auto;
 		padding: 2em 0 0em 0;
