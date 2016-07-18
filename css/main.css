@@ -49,7 +49,7 @@ Original template designed by TEMPLATED (templated.co)*/
 
 	a {
 		color: #FFCC00;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 	strong, b {
@@ -104,12 +104,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		top: -0.5em;
 	}
 
-	hr {
-		border-top: solid 1px #FFCC00;
-		border: 0;
-		margin-bottom: 1.5em;
-	}
-
 	blockquote {
 		border-left: solid 0.5em #FFCC00;
 		font-style: italic;
@@ -146,9 +140,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	footer.major {
 		padding-top: 3em;
 	}
-
 /* Form */
-
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
@@ -208,39 +200,25 @@ Original template designed by TEMPLATED (templated.co)*/
 	}
 
 /* Image */
-
 	.image {
 		border: 0;
-		position: relative;
-	}
-
+		position: relative;}
 		.image.fit {
-			display: block;
-		}
-
+			display: block;}
 			.image.fit img {
 				display: block;
 				width: 100%;
-				max-width: 100%
-			}
-
+				max-width: 100%	}
 		.image.feature {
 			display: block;
-			margin: 0 0 2em 0;
-		}
-
+			margin: 0 0 2em 0;}
 			.image.feature img {
 				display: block;
 				width: 100%;
-				max-width: 100%
-			}
+				max-width: 100%	}
 
 /* Icon */
-
-	.icon {
-		position: relative;
-	}
-
+	.icon {position: relative;}
 		.icon:before {
 			content: "";
 			-moz-osx-font-smoothing: grayscale;
@@ -248,34 +226,21 @@ Original template designed by TEMPLATED (templated.co)*/
 			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
-			text-transform: none !important;
-		}
-
-		.icon > .label {
-			display: none;
-		}
+			text-transform: none !important;}
+		.icon > .label {display: none;}
 
 /* Lists */
-
 	ol.default {
 		list-style: decimal;
-		padding-left: 1.25em;
-	}
-
+		padding-left: 1.25em;}
 		ol.default li {
-			padding-left: 0.25em;
-		}
-
+			padding-left: 0.25em;}
 	ul.default {
 		margin: 0;
 		padding: 0;
-		list-style: none;
-	}
-
+		list-style: none;}
 		ul.default li {
-			padding: 0.40em 0em;
-		}
-
+			padding: 0.40em 0em;}
 	ul.icons {
 		cursor: default;
 		padding-bottom: 2em;
@@ -283,29 +248,17 @@ Original template designed by TEMPLATED (templated.co)*/
 		-webkit-transition: all 0.35s ease-in-out;
 		-o-transition: all 0.35s ease-in-out;
 		-ms-transition: all 0.35s ease-in-out;
-		transition: all 0.35s ease-in-out;
-	}
-	
+		transition: all 0.35s ease-in-out;}
 		ul.icons a:hover {
 			color: #235796;
 			opacity: 1;
 			}
-
-
 		ul.icons li {
 			display: inline-block;
 			line-height: 1em;
-			padding: 0.5em 1em;
-		}
-
-			ul.icons li:first-child {
-				padding-left: 0;
-			}
-
-			ul.icons li span {
-				display: none;
-			}
-
+			padding: 0.5em 1em;}
+			ul.icons li:first-child {padding-left: 0;}
+			ul.icons li span {display: none;}
 			ul.icons li a {
 				text-decoration: none;
 				font-size: 2em;
@@ -315,14 +268,10 @@ Original template designed by TEMPLATED (templated.co)*/
 				-webkit-transition: all 0.35s ease-in-out;
 				-o-transition: all 0.35s ease-in-out;
 				-ms-transition: all 0.35s ease-in-out;
-				transition: all 0.35s ease-in-out;
-			}
-
+				transition: all 0.35s ease-in-out;}
 			ul.icons li a:hover {
 				color: #235796;
-				opacity: 1;
-			}
-
+				opacity: 1;}
 	ul.actions {
 		cursor: default;
 	}
