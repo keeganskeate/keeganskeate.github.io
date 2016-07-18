@@ -858,25 +858,22 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		
 #subfooter {
-			padding: 1em 0 0em 0;
+			padding: 0em 0 0em 0;
 			margin: 0 auto;
 			text-align:center;
 	
 }
 #subfooter img {
-	padding: 0;
-	border: 0;
-    display: block;
-    margin: auto;
-    width: 100%; height="85px"
+	display: block;
+	margin: auto;
+	width: 100%; height="85px"
 }
-#subfooter p  a {
+#subfooter p > a {
 			display: block;
-			text-align:center;
 			margin:auto;
 			text-shadow: 0 -1px 0 #000;
 			text-transform:uppercase;
-			font-size: 1em;
+			font-size: .8em;
 			letter-spacing: 2px;
 			font-weight: 400;
 			text-shadow: 0 -1px 0 #000;
