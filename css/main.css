@@ -860,8 +860,6 @@ Original template designed by TEMPLATED (templated.co)*/
 #subfooter{
 			padding: 2em 0 0em 0;
 			display: block;
-			position: relative;
-			left: 50%; transform: translate(-50%, 0);
 			list-style: none;
 			text-shadow: 0 -1px 0 #000;
 			text-transform:uppercase;
@@ -871,6 +869,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			text-shadow: 0 -1px 0 #000;
 		}
 #subfooter p  a {
+			left: 50%; transform: translate(-50%, 0);
 			color: #235796;
 			text-decoration: none;
 			text-align:center;
