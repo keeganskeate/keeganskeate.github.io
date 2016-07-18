@@ -413,6 +413,9 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.endstyle h3{
 			text-align:center;
 		}
+		.wrapper.endstyle li,p{
+			padding: 0em;
+		}
 		.wrapper.endstyle a{
 			text-decoration:none;
 		}
