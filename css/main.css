@@ -761,14 +761,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			display: inline-block;
 		}
 		
-		#footer .major img {
-			border:2px solid;
-			border-color: #F0B500;
-			box-shadow:  -2px #000;
-			border-radius: 5px;
-			
-		}
-		
 		#footer .major h3:hover{
 			color: #235796;
 		}
@@ -793,6 +785,10 @@ Original template designed by TEMPLATED (templated.co)*/
 		
 		#footer .images {
 			max-width: 100%;
+			border:2px solid;
+			border-color: #F0B500;
+			box-shadow:  -2px #000;
+			border-radius: 5px;
 		}
 /* Portfolio Wrapper */
 .wrap {
