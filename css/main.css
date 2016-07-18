@@ -414,7 +414,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			text-align:center;
 		}
 		.wrapper.endstyle li,p{
-			padding: 0em;
+			padding: 0em 40px;
 		}
 		.wrapper.endstyle a{
 			text-decoration:none;
