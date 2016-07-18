@@ -866,6 +866,7 @@ Original template designed by TEMPLATED (templated.co)*/
 #subfooter img {
 	padding: 0em;
 	margin: auto;
+	display: block;
 	width: 50%;
 }
 #subfooter p{
