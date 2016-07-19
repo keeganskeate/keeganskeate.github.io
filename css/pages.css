@@ -19,17 +19,27 @@
 		}
 .wrapper.blogstyle li,p,a{
 	padding: 0em;
-	color:black;
 	}
 .wrapper.blogstyle a{
 	text-decoration:none;
 	}
 
-.blog {
-	text-align:left;
-}
-
 blog > :last-child {margin-bottom: 0;}
 blog.major {margin: 3em 0 0 0;}
 
+#blog {
+	text-align:left;
+} 
+
+#blog h5 {
+	color:black;
+}
+
+#blog p {
+	color:blue;
+}
+
+#blog .blogpost {
+	text-align:center;
+}
 
