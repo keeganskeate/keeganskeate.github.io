@@ -395,6 +395,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.topstyle {
 			background: #FFEBD0 url(../images/tucson_sunset_background_small.svg) no-repeat center center;
 			background-size: cover;
+			max-width:100%;
 			width:1932.11px;
 			height:275px;
 			margin: 0;
