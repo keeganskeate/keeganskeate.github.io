@@ -84,7 +84,7 @@
 		
 		//Connected Hover on image and title
 		$(function() {
-  $('#footer .major h3').hover(function() {
+  $('#footer .subject h3').hover(function() {
     $('#footer .images').css('border-color', '#235796');
   }, function() {
     // on mouseout, reset the background colour
