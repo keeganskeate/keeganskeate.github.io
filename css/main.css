@@ -756,7 +756,7 @@ footer.major {padding-top: 3em;}
 			box-shadow:  -2px #000;
 			border-radius: 5px;
 		}
-		#footer .images:hover,#footer .images:active {
+		#footer .images:hover {
 			border-color: #235796;
 		}
 		
@@ -770,8 +770,8 @@ footer.major {padding-top: 3em;}
 			text-shadow: 0 -1px 0 #000;
 		}
 		
-			#footer .major h2:hover {
-				color:white;
+			#footer .major h2:hover ~ #footer .images{
+				border-color: #235796;
 			}
 		
 		#footer .major h3{
