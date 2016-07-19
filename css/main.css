@@ -666,10 +666,10 @@ Original template designed by TEMPLATED (templated.co)*/
 			position:relative;
 			cursor: pointer;
 			display: inline-block;
-			background:#F0B500 url(../images/my_pic.png) no-repeat;
+			background:#F0B500 url(../images/grad_pic.png) no-repeat;
 			background-size: 100%;
-			width: 95px;
-    			height: 108px;
+			width: 155px;
+    			height: 175px;
 			border:2px solid;
 			border-color: #F0B500;
 			box-shadow:  -2px #000;
@@ -682,11 +682,11 @@ Original template designed by TEMPLATED (templated.co)*/
 	-webkit-appearance: none;
 	-o-appearance: none;
 	-ms-appearance: none;
-	background: #F0B500 url(../images/my_pic.png) no-repeat;
+	background: #F0B500 url(../images/grad_pic.png) no-repeat;
 	background-size: 100%;
 	border-radius: 5px;
-	width: 95px;
-    	height: 108px;
+	width: 155px;
+    	height: 175px;
 	opacity:1;
 	position: relative;
 	float: left;
