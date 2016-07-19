@@ -29,4 +29,7 @@
 	text-align:left;
 }
 
+blog > :last-child {margin-bottom: 0;}
+blog.major {margin: 3em 0 0 0;}
+
 
