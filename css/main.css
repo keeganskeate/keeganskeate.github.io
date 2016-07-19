@@ -409,13 +409,13 @@ Original template designed by TEMPLATED (templated.co)*/
 		
 		.wrapper.endstyle {
 			background: #FFEBD0;
-			margin: 0 3em;
 		}
 		.wrapper.endstyle h3{
 			text-align:center;
 		}
 		.wrapper.endstyle li,p,a{
 			padding: 0em;
+						margin: 0 3em;
 		}
 		.wrapper.endstyle a{
 			text-decoration:none;
