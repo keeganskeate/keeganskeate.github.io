@@ -393,7 +393,7 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Wrapper */
 	.wrapper {padding: 0em;}
 		.wrapper.topstyle {
-			background-image: url(../images/tucson_sunset_background_small.svg);
+			background: #FFEBD0 url(../images/tucson_sunset_background_small.svg) no-repeat center center;
 			background-size: cover;
 			margin: 0;
 			padding: 0em;
