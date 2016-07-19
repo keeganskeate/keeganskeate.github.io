@@ -756,7 +756,7 @@ footer.major {padding-top: 3em;}
 			box-shadow:  -2px #000;
 			border-radius: 5px;
 		}
-		#footer .images:hover {
+		#footer .images:hover,#footer .images:active {
 			border-color: #235796;
 		}
 		
