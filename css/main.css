@@ -401,11 +401,8 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		}
 		.wrapper.topstyle p{padding: 0em;}
-		
-		.wrapper .topstyle #aboutme{
-			background:#FFEBD0
-		}
-		
+
+
 		.wrapper.endstyle {
 			background: #FFEBD0;
 		}
@@ -865,6 +862,7 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 	padding: 0em;
 	margin: auto;
 	display: block;
+	width:50%;
 }
 #subfooter p{
 	padding: 0em;
