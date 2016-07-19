@@ -755,7 +755,7 @@ footer.major {padding-top: 3em;}
 			text-align: center;
 			display: inline-block;
 		}
-		#footer .major h3:hover + #footer .images {
+		#footer .major h3:hover ~ #footer .images {
    border-color: #235796;}
 
 		
