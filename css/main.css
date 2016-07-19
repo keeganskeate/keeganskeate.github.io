@@ -748,13 +748,13 @@ footer.major {padding-top: 3em;}
 		display: inline-block;
 		margin: auto;
 		text-align: left;
-	}
-		#footer .images {
-			max-width: 100%;
 			border:2px solid;
 			border-color: #F0B500;
 			box-shadow:  -2px #000;
 			border-radius: 5px;
+	}
+		#footer .images {
+			max-width: 100%;
 		}
 		#footer .images:hover {
 			border-color: #235796;
@@ -765,8 +765,6 @@ footer.major {padding-top: 3em;}
 			text-align: center;
 			display: inline-block;
 		}
-		.subject:hover + #footer .images {
-   border-color: #235796;}
 		
 		#footer h2 {
 			color:#F0B500; 
