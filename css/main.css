@@ -410,7 +410,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.endstyle {
 			background: #FFEBD0;
 		}
-		.wrapper.endstyle .subject{
+		.wrapper.endstyle #footer .subject{
 			margin: 0 5em;
 		}
 		.wrapper.endstyle h3{
