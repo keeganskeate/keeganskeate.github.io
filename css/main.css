@@ -410,6 +410,9 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.endstyle {
 			background: #FFEBD0;
 		}
+		.wrapper.endstyle .subject{
+			margin: 0 5em;
+		}
 		.wrapper.endstyle h3{
 			text-align:center;
 		}
