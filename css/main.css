@@ -740,6 +740,9 @@ footer.major {padding-top: 3em;}
 		text-shadow: 0 -1px 0 #000;
 		list-style: none;
 	}
+	#footer li,p{
+		text-align: left;
+	}
 	#footer .subject{
 		display: inline-block;
 		margin:auto;
