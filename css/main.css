@@ -423,10 +423,10 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.endstyle a{
 			text-decoration:none;
 		}
-		.wrapper.endstyle a:hover {
+	/*	.wrapper.endstyle a:hover {
 			color: #235796;
 			}
-			/*.wrapper.style5 .image {
+			.wrapper.style5 .image {
 				color: #1585CF;
 				display: block;
 				width: 60%;
@@ -773,6 +773,8 @@ footer.major {padding-top: 3em;}
 		#footer h2:hover{
 			color:white;
 		}
+		
+		#footer li:hover, #footer p:hover { color:white;}
 
 		#footer .major h3{
 			font-weight: 500;
