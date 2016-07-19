@@ -482,7 +482,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	}
 		#nav > ul {
 			margin: 0;
-			padding: 2em 0 0 0;
+			padding: 0em 0 0 0;
 			list-style-type: none;
 			vertical-align: bottom;
 		}
