@@ -756,6 +756,10 @@ footer.major {padding-top: 3em;}
 			box-shadow:  -2px #000;
 			border-radius: 5px;
 		}
+		#footer .images:hover {
+			border-color: #235796;
+		}
+		
 		#footer .major h2 {
 			color:#F0B500; 
 			text-decoration: none;
