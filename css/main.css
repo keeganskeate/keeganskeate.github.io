@@ -666,7 +666,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			position:relative;
 			cursor: pointer;
 			display: inline-block;
-			background:#F0B500 url(../images/grad_pic.png) no-repeat;
+			background:#F0B500 url(../images/grad_pic.jpg) no-repeat;
 			background-size: 100%;
 			width: 155px;
     			height: 175px;
@@ -682,7 +682,7 @@ Original template designed by TEMPLATED (templated.co)*/
 	-webkit-appearance: none;
 	-o-appearance: none;
 	-ms-appearance: none;
-	background: #F0B500 url(../images/grad_pic.png) no-repeat;
+	background: #F0B500 url(../images/grad_pic.jpg) no-repeat;
 	background-size: 100%;
 	border-radius: 5px;
 	width: 155px;
