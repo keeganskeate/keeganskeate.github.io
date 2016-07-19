@@ -393,11 +393,11 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Wrapper */
 	.wrapper {padding: 0em;}
 		.wrapper.topstyle {
-			background:#FFEBD0 url(../images/tucson_sunset_best.png) no-repeat center center;
+			background:#FFEBD0 url(../images/optimized_tucson_sunset.svg) no-repeat center center;
 			background-size: cover;
-			width: 100%;
+			width: 4075px
 			max-width: 100%;
-			height: 20em;
+			height: 580px;
 			margin: 0;
 			padding: 0em;
 		}
