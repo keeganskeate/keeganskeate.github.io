@@ -81,6 +81,17 @@
 		
 		//Hover Title Appearance
 		$(document).tooltip({show: null});
+		
+		//Connected Hover on image and title
+		$(function() {
+  $('#footer .major h2').hover(function() {
+    $('#footer .images').css('border-color', '#235796');
+  }, function() {
+    // on mouseout, reset the background colour
+    $('#footer .images').css('border-color', '');
+  });
+});
+
 	});
 
 })(jQuery);
