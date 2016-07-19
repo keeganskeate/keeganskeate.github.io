@@ -391,13 +391,14 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Wrapper */
 	.wrapper {padding: 0em;}
 		.wrapper.topstyle {
-			background: #FFEBD0 url(../images/tucson.svg) no-repeat center center;
+			background:#FFEBD0 url(../images/tucson_sunset_best.png) no-repeat center center;
 			background-size: cover;
-			max-width:100%;
-			width:2107.75px;
-			height:300px;
+			width: 2000px;
+			height: 280px;
+			max-width: 100%;
 			margin: 0;
 			padding: 0em;
+		}
 		}
 		.wrapper.topstyle p{padding: 0em;}
 		
