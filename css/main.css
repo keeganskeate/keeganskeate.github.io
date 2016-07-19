@@ -497,7 +497,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			border: none;
 		}
 		
-		.homepage ul li:first-child { 
+		.homepage #nav ul li:first-child { 
 			margin: 2em 0 0 0;}
 		
 		#nav ul li:first-child:hover{
