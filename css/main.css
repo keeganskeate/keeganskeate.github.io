@@ -749,16 +749,6 @@ footer.major {padding-top: 3em;}
 		margin: auto;
 		text-align: left;
 	}
-		#footer .major h3{
-			font-weight: 500;
-			color:  #F0B500;
-			text-align: center;
-			display: inline-block;
-		}
-		#footer .major h3:hover ~ #footer .images {
-   border-color: #235796;}
-
-		
 		#footer .images {
 			max-width: 100%;
 			border:2px solid;
@@ -769,6 +759,14 @@ footer.major {padding-top: 3em;}
 		#footer .images:hover {
 			border-color: #235796;
 		}
+		#footer .major h3{
+			font-weight: 500;
+			color:  #F0B500;
+			text-align: center;
+			display: inline-block;
+		}
+		#footer .major h3:hover + #footer .images {
+   border-color: #235796;}
 		
 		#footer h2 {
 			color:#F0B500; 
