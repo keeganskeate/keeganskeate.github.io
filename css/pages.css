@@ -40,7 +40,9 @@
 	color:blue;
 }
 
-#blog .blogpost {
+#blog .blogpost {}
+
+#blog .blogpost .paper {
 	text-align:center;
 }
 
