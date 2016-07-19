@@ -12,6 +12,7 @@
 }
 .wrapper.blogstyle {
 	background: #FFEBD0;
+	text-align:left;
 	}
 
 .wrapper.blogstyle h2{
@@ -28,7 +29,6 @@ blog > :last-child {margin-bottom: 0;}
 blog.major {margin: 3em 0 0 0;}
 
 #blog {
-	text-align:left;
 } 
 
 #blog h5 {
