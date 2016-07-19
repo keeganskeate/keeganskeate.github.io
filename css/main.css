@@ -745,7 +745,7 @@ footer.major {padding-top: 3em;}
 	}
 	#footer .subject{
 		display: inline-block;
-		margin:auto;
+		margin: 0 auto;
 		text-align: left;
 	}
 		#footer .images {
