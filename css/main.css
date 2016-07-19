@@ -748,22 +748,22 @@ footer.major {padding-top: 3em;}
 		display: inline-block;
 		margin: auto;
 		text-align: left;
-			border:2px solid;
-			border-color: #F0B500;
-			box-shadow:  -2px #000;
-			border-radius: 5px;
 	}
 		#footer .images {
 			max-width: 100%;
-		}
-		#footer .images:hover {
-			border-color: #235796;
 		}
 		#footer .major h3{
 			font-weight: 500;
 			color:  #F0B500;
 			text-align: center;
 			display: inline-block;
+			border:2px solid;
+			border-color: #F0B500;
+			box-shadow:  -2px #000;
+			border-radius: 5px;
+		}
+		#footer .major h3:hover {
+			border-color: #235796;
 		}
 		
 		#footer h2 {
