@@ -10,5 +10,23 @@
 	padding: 0em 1em 0em 0em;
 	margin:2em 0 0 -1.4em;
 }
+.wrapper.blogstyle {
+	background: #FFEBD0;
+	}
+
+.wrapper.blogstyle h2{
+			text-align:center;
+		}
+.wrapper.blogstyle li,p,a{
+	padding: 0em;
+	color:black;
+	}
+.wrapper.blogstyle a{
+	text-decoration:none;
+	}
+
+.blog {
+	text-align:left;
+}
 
 
