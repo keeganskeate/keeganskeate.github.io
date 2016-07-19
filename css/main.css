@@ -117,7 +117,6 @@ Original template designed by TEMPLATED (templated.co)*/
 	header.major {
 		padding-bottom: 3em;
 		text-align: center;
-		text-transform: uppercase;
 	}
 
 		header.major h2 {
@@ -349,7 +348,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		letter-spacing: 1px;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
 		font-size: 1.4em;
 		-moz-transition: all 0.35s ease-in-out;
 		-webkit-transition: all 0.35s ease-in-out;
@@ -510,7 +508,6 @@ Original template designed by TEMPLATED (templated.co)*/
 				background: inherit; 
 				color:#F0B500; 
 				text-decoration: none;
-				text-transform: uppercase;
 				font-size: 1.2em;
 				letter-spacing: 2px;
 				font-weight: 500;
@@ -532,7 +529,6 @@ Original template designed by TEMPLATED (templated.co)*/
 					line-height: 1.2em;
 					letter-spacing: 2px;
 					text-decoration: none;
-					text-transform: uppercase;
 					font-weight: 500;
 					font-size: 1em;
 				}
@@ -573,7 +569,6 @@ Original template designed by TEMPLATED (templated.co)*/
 				font-weight: 500;
 				letter-spacing: 2px;
 				text-decoration: none;
-				text-transform: uppercase;
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
@@ -769,7 +764,6 @@ footer.major {padding-top: 3em;}
 		#footer h2 {
 			color:#F0B500; 
 			text-decoration: none;
-			text-transform: uppercase;
 			font-size: 1.8em;
 			letter-spacing: 2px;
 			font-weight: 500;
@@ -875,7 +869,6 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 			display: block;
 			margin:auto;
 			text-shadow: 0 -1px 0 #000;
-			text-transform:uppercase;
 			font-size: .8em;
 			letter-spacing: 2px;
 			font-weight: 400;
