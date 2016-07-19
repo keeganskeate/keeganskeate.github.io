@@ -769,11 +769,7 @@ footer.major {padding-top: 3em;}
 			font-weight: 500;
 			text-shadow: 0 -1px 0 #000;
 		}
-		
-			#footer .major h2:hover ~ #footer .images{
-				border-color: #235796;
-			}
-		
+
 		#footer .major h3{
 			font-weight: 500;
 			color:  #F0B500;
