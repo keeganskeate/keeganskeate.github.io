@@ -1,3 +1,12 @@
+	.subpage #logo {
+		display: none;
+	}
+	.subpage #nav {
+		position: static;
+		right: none;
+		text-align: center;
+	}
+
 .backbutton{
   float:left;
 }
