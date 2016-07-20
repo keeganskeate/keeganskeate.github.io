@@ -19,6 +19,7 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Basic Format*/
 	html,body {
 		background: #FFEBD0;
+		border : 2px solid #080808;
 		margin: 0px;
 		padding: 0px;
 		width:100%;
