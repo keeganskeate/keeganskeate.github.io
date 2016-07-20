@@ -583,7 +583,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		-o-appearance: none;
 		-ms-appearance: none;
 		top:0;
-		padding: 0em 0em 0em 1em;
+		padding: 0em;
 		text-align: center;
 		color: #F0B500;
 		-moz-transition: all .35s ease-in;
