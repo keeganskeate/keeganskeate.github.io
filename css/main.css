@@ -700,6 +700,20 @@ Original template designed by TEMPLATED (templated.co)*/
 .wrapper.endstyle h3{text-align:center;}
 .wrapper.endstyle li, .wrapper.endstylep, .wrapper.endstyle a{padding: 0em;}
 .wrapper.endstyle a{text-decoration:none;}
+
+
+.wrapper.endstyle.container{
+    width: 400px;
+    background: red;
+}
+.wrapper.endstyle.container.subject{
+    float: left;
+    width:200px;
+    background:green;
+    height: 100px;
+}
+
+
 .wrapper.endstyle #footer .subject{
 		vertical-align:top;
 		margin: 1em;
