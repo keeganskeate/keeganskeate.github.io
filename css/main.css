@@ -756,12 +756,12 @@ footer.major {padding-top: 3em;}
 		border-radius: 5px;
 	}
 	
-	#footer li{
-		line-height:2em;
+	#footer ul{
+		padding: 1em 2.5em;
 	}
 	
-	#footer ul{
-		padding: 1em 2em;
+	#footer .major li{
+		line-height: 2em;
 	}
 	
 		#footer .images {
