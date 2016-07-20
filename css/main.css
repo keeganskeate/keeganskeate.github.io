@@ -852,6 +852,11 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
    .box {width: 25%; padding-bottom: 25%;}
    .boxInner .titleBox { opacity: 100;  filter:alpha(opacity=100);}}
+   
+.hr{
+	margin:0,auto;
+	padding:0em;
+}
 	
 #subfooter {
 	padding: 0em;
