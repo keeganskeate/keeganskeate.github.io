@@ -729,7 +729,7 @@ footer > :last-child {margin-bottom: 0;}
 footer.major {padding-top: 3em;}
 
 	#footer {
-	padding: 2em 0 0 0 ;
+	padding: 1.8em 0 0 0 ;
 	margin: 0 auto;
 	text-align:center;
 	text-shadow: 0 -1px 0 #000;
@@ -741,7 +741,7 @@ footer.major {padding-top: 3em;}
 	}
 .wrapper.endstyle #footer .subject{
 			vertical-align:top;
-			margin: 0 1em;
+			margin: 0 1.5em;
 		}
 	#footer .subject{
 		display: inline-block;
@@ -757,7 +757,7 @@ footer.major {padding-top: 3em;}
 	}
 	
 	#footer ul{
-		padding: 2em .5em .5em .5em;
+		padding: 2em .5em .5em 1em;
 	}
 	
 	#footer li{
