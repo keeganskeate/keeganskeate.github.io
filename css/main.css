@@ -853,18 +853,9 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
    .box {width: 25%; padding-bottom: 25%;}
    .boxInner .titleBox { opacity: 100;  filter:alpha(opacity=100);}}
    
-.divider{
-	text-align:center
-	background: url(../images/slim_divider.png) no-repeat center center;
-	border: none;
-	width: 1350px;
-	height: 20px;
-	max-width: 100%;
-	margin: 0 auto;
-	padding: 0em;}
-	
-hr {
-	text-align:center;
+.divider{text-align:center}
+
+.divider hr {
 height: 20px;
 background: url(../images/slim_divider.png) no-repeat center;
 border: none;
