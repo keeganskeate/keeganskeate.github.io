@@ -407,10 +407,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.endstyle {
 			background: #FFEBD0;
 		}
-		.wrapper.endstyle #footer .subject{
-			vertical-align:top;
-			margin: 0 4em;
-		}
 		.wrapper.endstyle h3{
 			text-align:center;
 		}
@@ -743,6 +739,10 @@ footer.major {padding-top: 3em;}
 	#footer li,p{
 		text-align: left;
 	}
+.wrapper.endstyle #footer .subject{
+			vertical-align:top;
+			margin: 0 2em;
+		}
 	#footer .subject{
 		display: inline-block;
 		margin: auto;
