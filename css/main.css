@@ -764,22 +764,20 @@ footer.major {padding-top: 3em;}
 		line-height: 2em;
 	}
 	
-	#footer li:first-child{
-		padding:3em 0 0 0;
-	}
-	
+
 		#footer .images {
 			max-width: 100%;
 		}
-		#footer .major h3{
-			font-weight: 500;
-			color:  #F0B500;
+		#footer h3{
+			font-weight: 400;
+			color:  #201408;
 			text-align: center;
 			display: inline-block;
 			border:2px solid;
 			border-color: #F0B500;
 			box-shadow:  -2px #000;
 			border-radius: 5px;
+			padding:0 0 1em 0;
 		}
 		#footer .major h3:hover {
 			border-color: #235796;
