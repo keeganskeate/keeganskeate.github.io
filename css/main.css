@@ -749,6 +749,7 @@ footer.major {padding-top: 3em;}
 	}
 	#footer .subject{
 		display: block;
+		float:left;
         	width:25%;
 		overflow:auto;
 		border:2px solid;
