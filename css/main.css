@@ -748,7 +748,7 @@ footer.major {padding-top: 3em;}
 		margin: auto;
 		text-align: left;
 		
-		width:340px;
+		width:350px;
 		height:450px;
 		border:2px solid;
 		border-color: #F0B500;
@@ -757,7 +757,7 @@ footer.major {padding-top: 3em;}
 	}
 	
 	#footer ul{
-		padding: 1.5em .5em;
+		padding: 2em .5em .5em .5em;
 	}
 	
 	#footer li{
