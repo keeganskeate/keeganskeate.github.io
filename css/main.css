@@ -854,8 +854,8 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
    .boxInner .titleBox { opacity: 100;  filter:alpha(opacity=100);}}
    
 .hr{
-	margin:0,auto;
-	padding:0em;
+	margin: 0 auto;
+	padding: 0em;
 }
 	
 #subfooter {
