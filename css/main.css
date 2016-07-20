@@ -853,12 +853,12 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
    .box {width: 25%; padding-bottom: 25%;}
    .boxInner .titleBox { opacity: 100;  filter:alpha(opacity=100);}}
    
-.divider{text-align:center;margin: 0 auto;padding: 0em;}
+.divider{text-align:center;}
 .divider hr {
 height: 20px;
 background: url(../images/slim_divider.png) no-repeat center;border: none;
 max-width: 100%;
-	
+margin: 0 auto;padding: 0em;	
 }
 	
 #subfooter {
