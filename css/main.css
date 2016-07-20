@@ -730,8 +730,6 @@ Original template designed by TEMPLATED (templated.co)*/
     border-bottom:2px solid #000; }}
 
 
-
-
 .wrapper.endstyle {background: #FFEBD0;}
 .wrapper.endstyle h3{text-align:center;}
 .wrapper.endstyle li, .wrapper.endstylep, .wrapper.endstyle a{padding: 0em;}
@@ -752,11 +750,16 @@ footer.major {padding-top: 3em;}
 	list-style: none;
 	overflow:hidden;
 	min-height: 200px;
+	float: left;
+	position: relative;
+	left: 50%;
 	}
 	#footer .subject{
 		margin: auto;
 		text-align: left;
-float:left; 
+		float: left;
+      position: relative;
+      left: -50%;
 margin-right:20px;
 width:20%;
 		overflow:auto;
