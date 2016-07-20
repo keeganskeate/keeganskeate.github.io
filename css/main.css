@@ -746,10 +746,10 @@ footer.major {padding-top: 3em;}
 	#footer .subject{
 		display: inline-block;
 		margin: auto;
+		overflow:auto;
 		text-align: left;
 		
 		width:25%;
-		height:460px;
 		border:2px solid;
 		border-color: #F0B500;
 		box-shadow:  -2px #000;
