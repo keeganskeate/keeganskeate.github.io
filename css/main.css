@@ -555,6 +555,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			font-size: 1em;
 			margin-top:1em;
 			display:block;
+			position:absolute;
 			float: right;
 			text-shadow: 0 -1px 0 #000;
 		}
