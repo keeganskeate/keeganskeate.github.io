@@ -1,7 +1,7 @@
 .subpage #logo{display: none;}
 .subpage #nav{position: static;right: none;text-align: center;}
 .subpage #nav ul li:first-child{padding: 0em 1em 0em 0em;margin:2em 0 0 -1.4em;}
-
+/* WORK PAGE */
 .wrapper.blogstyle {background: #FFEBD0;}
 .wrapper.blogstyle h2{text-align:center;}
 .wrapper.blogstyle li,p,a{padding: 0em;}
@@ -23,6 +23,42 @@
 	text-align:center;
 }
 
+.subjects { 
+  border : 2px solid #000; 
+  overflow:hidden;}
+.subjects div {
+   min-height: 200px;
+   padding: 10px;}
+#one {
+  background-color: gray;
+  float:left; 
+  margin-right:20px;
+  width:20%;
+  border-right:2px solid #000;}
+#two { 
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+  border:2px
+  min-height:170px;}
+#three { 
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+  border:2px;
+  min-height:170px;}
+
+@media screen and (max-width: 400px) {
+   #one { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000; }}
+
+
+
+/* CONTACT PAGE */
 #contact {
 	width: 430px; margin: 60px auto; padding: 60px 30px;
 	background: #c9d0de; border: 1px solid #e1e1e1;
