@@ -553,9 +553,8 @@ Original template designed by TEMPLATED (templated.co)*/
 			border-radius: 5px;
 			background: #FFEBD0;;
 			font-size: 1em;
-			margin-top:1em;
+			margin:1em 0 0 0;
 			display:block;
-			position:absolute;
 			float: right;
 			text-shadow: 0 -1px 0 #000;
 		}
