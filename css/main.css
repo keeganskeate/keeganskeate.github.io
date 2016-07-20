@@ -730,7 +730,10 @@ Original template designed by TEMPLATED (templated.co)*/
     border-bottom:2px solid #000; }}
 
 
-.wrapper.endstyle {background: #FFEBD0;}
+.wrapper.endstyle {background: #FFEBD0;
+	width: 70%;
+    margin: 0 auto;
+}
 .wrapper.endstyle h3{text-align:center;}
 .wrapper.endstyle li, .wrapper.endstylep, .wrapper.endstyle a{padding: 0em;}
 .wrapper.endstyle a{text-decoration:none;}
