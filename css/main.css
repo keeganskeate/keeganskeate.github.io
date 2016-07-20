@@ -406,6 +406,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			height: 280px;
 			background:#FFEBD0 url(../images/title_paper.png) no-repeat center center;
 			background-size: cover;
+			min-width:100%;
 			margin: 0 auto;
 			padding: 0em;
 		}
@@ -414,9 +415,11 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Header */
 	#header {
 		color: #FFCC00;
+		width:1336px;
 		height: 120px;
 		background: url(../images/brown_nav_bar.png) no-repeat center center;
 		background-size: cover;
+		min-width:100%;
 	}
 		#header .container {
 			position: relative;
