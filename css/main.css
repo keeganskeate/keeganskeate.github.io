@@ -19,7 +19,6 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Basic Format*/
 	html,body {
 		background: #FFEBD0;
-		border : 2px solid #080808;
 		margin: 0px;
 		padding: 0px;
 		width:100%;
@@ -41,6 +40,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 
 	html, body, input, select, textarea {
+		border : 2px solid #080808;
 		color: #FFCC00;
 		font-family: 'Open Sans', sans-serif;
 		font-size: 12pt;
