@@ -404,6 +404,7 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Wrapper */
 	.wrapper {padding: 0em;}
 		.wrapper.topstyle {
+			top:0;
 			width:1366px;
 			height: 280px;
 			background:#FFEBD0 url(../images/paper_back2.png) no-repeat center center;
