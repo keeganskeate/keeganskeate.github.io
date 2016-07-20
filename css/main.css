@@ -854,6 +854,11 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
    .boxInner .titleBox { opacity: 100;  filter:alpha(opacity=100);}}
    
 .hr{text-align:center;margin:0 auto;padding:0em; width:100%; height:20px;min-width:100%;max-width:100%;}
+hr {
+height: 20px;
+background: url(../images/slim_divider.png) no-repeat center;
+border: none;
+}
 	
 #subfooter {
 	padding: 0em;
