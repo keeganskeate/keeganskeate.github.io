@@ -746,14 +746,18 @@ footer.major {padding-top: 3em;}
 	list-style: none;
 	}
 	#footer .subject{
-		width:350px;
+		display: block;
+        	float:left; 
+        	width:33%;
 		overflow:auto;
 		border:2px solid;
 		border-color: #F0B500;
 		box-shadow:  -2px #000;
 		border-radius: 5px;
 	}
-	#footer li, #footer p, #footer a{
+@media screen and (max-width: 800px) { #footer .subject{ float: none; width:auto; } }
+
+#footer li, #footer p, #footer a{
 		text-align: left;
 		color: #4e4e4e;
 	}
