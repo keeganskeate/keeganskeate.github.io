@@ -465,7 +465,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			vertical-align: bottom;
 		}
 		#nav ul li:not(:first-child){
-			margin: 3em 0 0 0;
+			margin: 2em 0 0 0;
 			padding: 0em 1em 0 1em;
 			
 		}
@@ -473,7 +473,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			text-transform: uppercase;
 			float: left;
 			padding: 0em 1em 0em 1em;
-			margin: 2em 0 0 0;
+			margin: 1em 0 0 0;
 			border: none;
 		}
 
@@ -583,7 +583,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		-o-appearance: none;
 		-ms-appearance: none;
 		top:0;
-		padding: 0em;
+		padding: 0 0 0 1em;
 		text-align: center;
 		color: #F0B500;
 		-moz-transition: all .35s ease-in;
@@ -610,7 +610,7 @@ Original template designed by TEMPLATED (templated.co)*/
 			background: none;
 			color: #235796;
 		}
-		#banner span, #banner p{
+		#banner p{
 			color: #2199E8;
 			display: block;
 			letter-spacing: 1px;
@@ -624,10 +624,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		}
 		#banner p > a:hover{
 			color: #235796;
-		}
-		#banner span {
-			font-weight:500;
-			padding: 0em 0em 2em 0em;
 		}
 		#banner .profile_pic > img{
 			border:2px solid;
