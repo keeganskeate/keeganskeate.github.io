@@ -741,16 +741,17 @@ Original template designed by TEMPLATED (templated.co)*/
 footer > :last-child {margin-bottom: 0;}
 footer.major {padding-top: 3em;}
 #footer {
+	text-shadow: 0 -1px 0 #000;
+	list-style: none;
+	
 	padding: 2em 0 0 0 ;
 	margin: 0 auto;
 	text-align:center;
-	text-shadow: 0 -1px 0 #000;
-	list-style: none;
 	}
 	#footer .subject{
 		display: block;
-		margin: 0 auto;
-        	width:25%;
+		margin: auto;
+        	max-width:25%;
 		overflow:auto;
 		border:2px solid;
 		border-color: #F0B500;
