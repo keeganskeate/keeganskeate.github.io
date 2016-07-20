@@ -16,6 +16,8 @@ Ochre - #C06014  fades to Peach #EDDBCD
 Vermillion #333A56  fades to Sunshine #52658F
 Grey #E8E8E8  Offwhite #F7F5E6
 
+Text Colors:
+Grey: #D6D6D6
 
 
 
@@ -402,9 +404,9 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Wrapper */
 	.wrapper {padding: 0em;}
 		.wrapper.topstyle {
-			width:1336px;
+			width:1366px;
 			height: 280px;
-			background:#FFEBD0 url(../images/title_paper.png) no-repeat center center;
+			background:#FFEBD0 url(../images/paper_back1.png) no-repeat center center;
 			background-size: cover;
 			min-width:100%;
 			margin: 0 auto;
@@ -415,7 +417,7 @@ Original template designed by TEMPLATED (templated.co)*/
 /* Header */
 	#header {
 		color: #FFCC00;
-		width:1336px;
+		width:1366px;
 		height: 120px;
 		background: url(../images/brown_nav_bar.png) no-repeat center center;
 		background-size: cover;
