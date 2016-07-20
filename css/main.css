@@ -855,13 +855,13 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
    
 hr{
 	text-align:center
-	background: #FFEBD0 url(../images/slim_divider.png) no-repeat center center;
-	background-size: cover;
+	background: url(../images/slim_divider.png) no-repeat center center;
+	border: none;
 	width: 1350px;
 	height: 20px;
 	max-width: 100%;
 	margin: 0 auto;
-	padding: 1em;}
+	padding: 0em;}
 	
 #subfooter {
 	padding: 0em;
