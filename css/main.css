@@ -722,7 +722,7 @@ footer.major {padding-top: 3em;}
 		box-shadow:  -2px #000;
 		border-radius: 5px;
 	}
-@media screen and (max-width: 800px) { #footer .subject{ float: none; width:auto; } }
+@media screen and (max-width: 800px) { #footer .subject{ display: block; width:auto; } }
 
 #footer li, #footer p, #footer a{
 		text-align: left;
