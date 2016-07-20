@@ -715,7 +715,7 @@ footer.major {padding-top: 3em;}
 	#footer .subject{
 		display: inline-block;
 		margin: auto;
-        	max-width:25%;
+        	width:30%;
 		overflow:auto;
 		border:2px solid;
 		border-color: #F0B500;
