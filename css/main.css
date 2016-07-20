@@ -756,8 +756,12 @@ footer.major {padding-top: 3em;}
 		border-radius: 5px;
 	}
 	
-	#footer .subject >li{
+	#footer li{
 		line-height:2em;
+	}
+	
+	#footer ul{
+		padding: 1em 2em;
 	}
 	
 		#footer .images {
@@ -787,10 +791,6 @@ footer.major {padding-top: 3em;}
 		}
 
 		#footer a:hover { color:#235796;}
-		
-		#footer ul{
-			padding: 2em 3em;
-		}
 		
 		#footer .major li, #footer .major p, #footer .major a{
 			text-align: left;
