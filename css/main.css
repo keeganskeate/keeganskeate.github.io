@@ -702,7 +702,7 @@ Original template designed by TEMPLATED (templated.co)*/
 .wrapper.endstyle a{text-decoration:none;}
 .wrapper.endstyle #footer .subject{
 		vertical-align:top;
-		margin: 1em;
+		margin: 1em 0em;
 		}
 footer > :last-child {margin-bottom: 0;}
 footer.major {padding-top: 3em;}
