@@ -747,6 +747,10 @@ footer.major {padding-top: 3em;}
 		display: inline-block;
 		margin: auto;
 		text-align: left;
+		border:2px solid;
+			border-color: #F0B500;
+			box-shadow:  -2px #000;
+			border-radius: 5px;
 	}
 		#footer .images {
 			max-width: 100%;
