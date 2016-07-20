@@ -843,9 +843,9 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
    
 .divider{text-align:center;}
 .divider hr {
+width:1366px;
 height: 20px;
-background: url(../images/slim_divider.png) no-repeat center;border: none;
-max-width: 100%;
+background: url(../images/brown_divider.png) no-repeat center;border: none;
 margin: 0 auto;padding: 0em;	
 }
 	
