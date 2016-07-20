@@ -756,7 +756,7 @@ footer.major {padding-top: 3em;}
 		border-radius: 5px;
 	}
 	
-	#footer .subject li{
+	#footer .subject >li{
 		line-height:2em;
 	}
 	
