@@ -783,7 +783,7 @@ footer.major {padding-top: 3em;}
 
 		#footer a:hover { color:#235796;}
 		
-		#footer .major li,p,a{
+		#footer .major li, #footer .major p, #footer .major a{
 			text-align: left;
 			display: inline-block;
 			line-height: 2.25em;
