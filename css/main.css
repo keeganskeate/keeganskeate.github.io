@@ -734,11 +734,7 @@ Original template designed by TEMPLATED (templated.co)*/
 .wrapper.endstyle h3{text-align:center;}
 .wrapper.endstyle li, .wrapper.endstylep, .wrapper.endstyle a{padding: 0em;}
 .wrapper.endstyle a{text-decoration:none;}
-
-.wrapper.endstyle #footer .subject{
-	vertical-align:top;
-	margin: 1em;
-	}
+.wrapper.endstyle #footer .subject{vertical-align:top;margin: 1em;}
 	
 footer > :last-child {margin-bottom: 0;}
 footer.major {padding-top: 3em;}
@@ -748,12 +744,10 @@ footer.major {padding-top: 3em;}
 	text-align:center;
 	text-shadow: 0 -1px 0 #000;
 	list-style: none;
-
-
 	}
 	#footer .subject{
-
-		
+		width:350px;
+		overflow:auto;
 		border:2px solid;
 		border-color: #F0B500;
 		box-shadow:  -2px #000;
