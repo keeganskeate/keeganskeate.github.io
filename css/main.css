@@ -696,40 +696,6 @@ Original template designed by TEMPLATED (templated.co)*/
 .show {display:block;}
 
 /* Footer */
-.subjects { 
-  border : 2px solid #000; 
-  overflow:hidden;}
-.subjects div {
-   min-height: 200px;
-   padding: 10px;}
-#one {
-  background-color: gray;
-  float:left; 
-  margin-right:20px;
-  width:20%;
-  border-right:2px solid #000;}
-#two { 
-  background-color: white;
-  overflow:hidden;
-  margin:10px;
-  border:2px
-  min-height:170px;}
-#three { 
-  background-color: white;
-  overflow:hidden;
-  margin:10px;
-  border:2px;
-  min-height:170px;}
-
-@media screen and (max-width: 400px) {
-   #one { 
-    float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000; }}
-
-
 .wrapper.endstyle {background: #FFEBD0;}
 .wrapper.endstyle h3{text-align:center;}
 .wrapper.endstyle li, .wrapper.endstylep, .wrapper.endstyle a{padding: 0em;}
@@ -747,7 +713,7 @@ footer.major {padding-top: 3em;}
 	text-align:center;
 	}
 	#footer .subject{
-		display: block;
+		display: inline-block;
 		margin: auto;
         	max-width:25%;
 		overflow:auto;
