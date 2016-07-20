@@ -748,7 +748,6 @@ footer.major {padding-top: 3em;}
 		margin: auto;
 		text-align: left;
 		
-		padding 5px 10px;
 		width:320px;
 		height:420px;
 		border:2px solid;
@@ -787,6 +786,8 @@ footer.major {padding-top: 3em;}
 		#footer .major li,p{
 			text-align: left;
 			display: inline-block;
+			line-height: 2.25em;
+			padding: 1em;
 		}
 		#footer .major .byline {
 			color: inherit;
