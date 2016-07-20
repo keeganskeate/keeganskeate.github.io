@@ -749,7 +749,7 @@ footer.major {padding-top: 3em;}
 		text-align: left;
 		
 		width:330px;
-		height:440px;
+		height:475px;
 		border:2px solid;
 		border-color: #F0B500;
 		box-shadow:  -2px #000;
@@ -757,7 +757,7 @@ footer.major {padding-top: 3em;}
 	}
 	
 	#footer ul{
-		padding: 1em 2.8em;
+		padding: 1.5em 2.8em;
 	}
 	
 	#footer li{
@@ -773,7 +773,7 @@ footer.major {padding-top: 3em;}
 			color:  #313131;
 			text-shadow: 0 -1px 0 #000;
 			text-align: center;
-			padding:0 0 1em 0;
+			padding:0 0 .5em 0;
 		}
 		#footer .major h3:hover {
 			border-color: #235796;
