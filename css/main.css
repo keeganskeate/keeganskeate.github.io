@@ -856,10 +856,10 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 .divider{text-align:center;position:relative;width:1350px;margin: 0 auto;}
 .divider hr {
 height: 20px;
-background: url(../images/slim_divider.png) no-repeat center;
-border: none;
+background: url(../images/slim_divider.png) no-repeat center;border: none;
 max-width: 100%;
-padding: 0em;}
+padding: 0em;
+margin: 0 auto;}
 	
 #subfooter {
 	padding: 0em;
