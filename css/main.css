@@ -410,7 +410,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		.wrapper.endstyle h3{
 			text-align:center;
 		}
-		.wrapper.endstyle li,p,a{
+		.wrapper.endstyle li, .wrapper.endstylep, .wrapper.endstyle a{
 			padding: 0em;
 		}
 		.wrapper.endstyle a{
@@ -732,7 +732,7 @@ footer.major {padding-top: 3em;}
 	padding: 2em 0 0 0 ;
 	margin: 0 auto;
 	text-align:center;
-	color: #313131;
+	color: #4e4e4e;
 	text-shadow: 0 -1px 0 #000;
 	list-style: none;
 	}
@@ -770,7 +770,7 @@ footer.major {padding-top: 3em;}
 		}
 		#footer h3{
 			font-weight: 400;
-			color:  #080808;
+			color:  #313131;
 			text-shadow: 0 -1px 0 #000;
 			text-align: center;
 			padding:0 0 1em 0;
@@ -789,20 +789,6 @@ footer.major {padding-top: 3em;}
 		}
 
 		#footer a:hover { color:#235796;}
-		
-		#footer .major li, #footer .major p, #footer .major a{
-			text-align: left;
-			display: inline-block;
-		}
-		#footer .major .byline {
-			color: inherit;
-			opacity: .4;
-		}
-
-		#footer .copyright {
-			margin-top: 3em;
-			text-align: center;
-		}
 /* Portfolio Wrapper */
 .wrap {
    overflow: hidden;
