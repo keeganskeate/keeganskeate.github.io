@@ -864,7 +864,7 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 	padding: 0em;}
 	
 hr {
-	text-align:center
+	text-align:center;
 height: 20px;
 background: url(../images/slim_divider.png) no-repeat center;
 border: none;
