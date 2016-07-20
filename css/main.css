@@ -853,7 +853,7 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
    .box {width: 25%; padding-bottom: 25%;}
    .boxInner .titleBox { opacity: 100;  filter:alpha(opacity=100);}}
    
-.divider{
+hr{
 	text-align:center
 	background: #FFEBD0 url(../images/slim_divider.png) no-repeat center center;
 	background-size: cover;
