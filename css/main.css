@@ -853,7 +853,7 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
    .box {width: 25%; padding-bottom: 25%;}
    .boxInner .titleBox { opacity: 100;  filter:alpha(opacity=100);}}
    
-.hr{text-align:center;margin:0 auto;padding:0em;width:100%;}
+.hr{text-align:center;margin:0 auto;padding:0em;max-width:100%;}
 	
 #subfooter {
 	padding: 0em;
