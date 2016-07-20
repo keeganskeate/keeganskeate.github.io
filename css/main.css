@@ -732,7 +732,6 @@ footer.major {padding-top: 3em;}
 	padding: 2em 0 0 0 ;
 	margin: 0 auto;
 	text-align:center;
-	color: #4e4e4e;
 	text-shadow: 0 -1px 0 #000;
 	list-style: none;
 	}
@@ -742,6 +741,7 @@ footer.major {padding-top: 3em;}
 .wrapper.endstyle #footer .subject{
 			vertical-align:top;
 			margin: 0 2em;
+			color: #4e4e4e;
 		}
 	#footer .subject{
 		display: inline-block;
