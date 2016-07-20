@@ -741,14 +741,14 @@ footer.major {padding-top: 3em;}
 	}
 .wrapper.endstyle #footer .subject{
 			vertical-align:top;
-			margin: 0 2em;
+			margin: 0 1em;
 		}
 	#footer .subject{
 		display: inline-block;
 		margin: auto;
 		text-align: left;
 		
-		width:330px;
+		width:350px;
 		height:475px;
 		border:2px solid;
 		border-color: #F0B500;
