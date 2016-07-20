@@ -853,12 +853,15 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
    .box {width: 25%; padding-bottom: 25%;}
    .boxInner .titleBox { opacity: 100;  filter:alpha(opacity=100);}}
    
-.hr{text-align:center;margin:0 auto;padding:0em; width:100%; height:20px;min-width:100%;max-width:100%;}
-hr {
-height: 20px;
-background: url(../images/slim_divider.png) no-repeat center;
-border: none;
-}
+.divider{
+	text-align:center
+	background: #FFEBD0 url(../images/slim_divider.png) no-repeat center center;
+	background-size: cover;
+	width: 1350px;
+	height: 20px;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0em;}
 	
 #subfooter {
 	padding: 0em;
