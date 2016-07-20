@@ -737,17 +737,6 @@ Original template designed by TEMPLATED (templated.co)*/
 .wrapper.endstyle li, .wrapper.endstylep, .wrapper.endstyle a{padding: 0em;}
 .wrapper.endstyle a{text-decoration:none;}
 
-
-.wrapper.endstyle.container{
-    width: 400px;
-    background: red;
-}
-.wrapper.endstyle.container.subject{
-    float: left;
-    width:200px;
-    background:green;
-    height: 100px;
-}
 .wrapper.endstyle #footer .subject{
 	vertical-align:top;
 	margin: 1em;
@@ -761,10 +750,8 @@ footer.major {padding-top: 3em;}
 	text-align:center;
 	text-shadow: 0 -1px 0 #000;
 	list-style: none;
-	}
-#footer li, #footer p, #footer a{
-		text-align: left;
-		color: #4e4e4e;
+	overflow:hidden;
+	min-height: 200px;
 	}
 	#footer .subject{
 		margin: auto;
@@ -776,6 +763,10 @@ footer.major {padding-top: 3em;}
 		border-color: #F0B500;
 		box-shadow:  -2px #000;
 		border-radius: 5px;
+	}
+	#footer li, #footer p, #footer a{
+		text-align: left;
+		color: #4e4e4e;
 	}
 	#footer ul{
 		padding: 0em;
