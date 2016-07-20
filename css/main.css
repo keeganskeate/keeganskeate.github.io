@@ -755,6 +755,11 @@ footer.major {padding-top: 3em;}
 		box-shadow:  -2px #000;
 		border-radius: 5px;
 	}
+	
+	#footer .subject li{
+		line-height:1.6em;
+	}
+	
 		#footer .images {
 			max-width: 100%;
 		}
@@ -790,7 +795,6 @@ footer.major {padding-top: 3em;}
 		#footer .major li, #footer .major p, #footer .major a{
 			text-align: left;
 			display: inline-block;
-			line-height:1.6em;
 		}
 		#footer .major .byline {
 			color: inherit;
