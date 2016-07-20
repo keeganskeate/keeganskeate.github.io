@@ -712,12 +712,11 @@ Original template designed by TEMPLATED (templated.co)*/
     background:green;
     height: 100px;
 }
-
-
 .wrapper.endstyle #footer .subject{
-		vertical-align:top;
-		margin: 1em;
-		}
+	vertical-align:top;
+	margin: 1em;
+	}
+	
 footer > :last-child {margin-bottom: 0;}
 footer.major {padding-top: 3em;}
 #footer {
@@ -732,29 +731,30 @@ footer.major {padding-top: 3em;}
 		color: #4e4e4e;
 	}
 	#footer .subject{
-		display: block;
 		margin: auto;
-		overflow:auto;
 		text-align: left;
-		
 		width:25%;
+		overflow:auto;
+		
 		border:2px solid;
 		border-color: #F0B500;
 		box-shadow:  -2px #000;
 		border-radius: 5px;
 	}
-	
 	#footer ul{
-		padding: 1.5em .5em .5em 1em;
+		padding: 0em;
 	}
 	
 	#footer li{
 		line-height: 2em;
 	}
-	
-
-		#footer .images {
-			max-width: 100%;
+		#footer h2 {
+			color:#617ec0; 
+			text-decoration: none;
+			font-size: 1.8em;
+			letter-spacing: 2px;
+			font-weight: 500;
+			text-shadow: 0 -1px 0 #000;
 		}
 		#footer h3{
 			font-weight: 400;
@@ -766,17 +766,13 @@ footer.major {padding-top: 3em;}
 		#footer .major h3:hover {
 			border-color: #235796;
 		}
-		
-		#footer h2 {
-			color:#617ec0; 
-			text-decoration: none;
-			font-size: 1.8em;
-			letter-spacing: 2px;
-			font-weight: 500;
-			text-shadow: 0 -1px 0 #000;
+		#footer a:hover { 
+			color:#080808;
+			text-decoration: underline;
 		}
-
-		#footer a:hover { color:#235796;}
+		#footer .images {
+			max-width: 100%;
+		}
 /* Portfolio Wrapper */
 .wrap {
    overflow: hidden;
