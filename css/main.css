@@ -731,13 +731,12 @@ Original template designed by TEMPLATED (templated.co)*/
 
 
 .wrapper.endstyle {background: #FFEBD0;
-	width: 70%;
-    margin: 0 auto;
+	width: 100%;margin: 0 auto;
 }
 .wrapper.endstyle h3{text-align:center;}
 .wrapper.endstyle li, .wrapper.endstylep, .wrapper.endstyle a{padding: 0em;}
 .wrapper.endstyle a{text-decoration:none;}
-.wrapper.endstyle #footer .subject{vertical-align:top;margin: 1em;}
+.wrapper.endstyle #footer .subject{vertical-align:top;margin: 1em 3%;}
 	
 footer > :last-child {margin-bottom: 0;}
 footer.major {padding-top: 3em;}
@@ -750,8 +749,7 @@ footer.major {padding-top: 3em;}
 	}
 	#footer .subject{
 		display: block;
-        	float:left; 
-        	width:33%;
+        	width:30%;
 		overflow:auto;
 		border:2px solid;
 		border-color: #F0B500;
