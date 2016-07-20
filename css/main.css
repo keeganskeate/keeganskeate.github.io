@@ -757,11 +757,15 @@ footer.major {padding-top: 3em;}
 	}
 	
 	#footer ul{
-		padding: 1em 3em;
+		padding: 1em 2.8em;
 	}
 	
 	#footer li{
 		line-height: 2em;
+	}
+	
+	#footer li:first-child{
+		padding:1em 0 0 0;
 	}
 	
 		#footer .images {
