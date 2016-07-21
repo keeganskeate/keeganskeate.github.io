@@ -321,7 +321,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 				letter-spacing: 2px;
 				font-weight: 500;
 				text-shadow: 0 -1px 0 #000;
-				position: relative;
+				position: absolute;
 			}
 				#nav > ul > li a {
 					color: inherit;
@@ -334,7 +334,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 					text-transform: uppercase;
 					float: left;
 					padding: 0em 1em 0em 1em;
-					margin: 1em 0 0 0;
+					margin: 1.5em 0 0 0;
 					border: none;
 				}
 				#nav ul li:first-child:hover{
