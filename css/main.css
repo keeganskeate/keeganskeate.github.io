@@ -23,18 +23,8 @@ Background: Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Lig
 Hover Color: Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 Yellow- #FFCC00
 Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #222222  Grey - #555555  Off-white - #f9f9f9 */
 
-.divider{
-	position: relative;
-    height: 20px;
-    width: 1336px;
-}
-
-.divider img {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-
+.divider{position: relative;height: 20px;width: 1336px;}
+.divider img {position: absolute;bottom: 0;}
 
 
 /* Basic Format*/
