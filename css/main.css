@@ -461,10 +461,10 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		}
 		#banner p > a{
 			display: inline;
-			color: #F0B500;
+			color: #333A56;
 		}
 		#banner p > a:hover{
-			color: #235796;
+			color: #52658F;
 		}
 /* Picture Dropdown Button */
 .dropbtn {    		
