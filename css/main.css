@@ -572,7 +572,9 @@ footer.major {padding-top: 3em;}
 	}
 .wrapper.endstyle #footer .subject1{vertical-align:top;margin: 1em;}
 	#footer .subject1{
-		display: inline-block;margin: auto;
+		float: left;
+		margin: 0 1em;
+		display: inline-block;
 		border:2px solid; border-color: #F0B500; box-shadow:  -2px #000; border-radius: 5px;
         	width:20%;
 		overflow:auto;
