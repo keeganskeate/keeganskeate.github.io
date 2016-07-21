@@ -459,7 +459,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 			text-decoration: underline;
 		}
 		#banner p > a:hover{
-			color: #66B9BF;
+			color: #813772;
 		}
 /* Picture Dropdown Button */
 .dropbtn {    		
@@ -581,7 +581,7 @@ footer.major {padding-top: 3em;}
 		line-height: 2em;
 	}
 		#footer h2 {
-			color:#13156; 
+			color:#131516; 
 			text-decoration: none;
 			font-size: 1.8em;
 			letter-spacing: 2px;
@@ -590,7 +590,7 @@ footer.major {padding-top: 3em;}
 		}
 		#footer h3{
 			font-weight: 400;
-			color:  #13156;
+			color:  #131516;
 			text-shadow: 0 -1px 0 #000;
 			text-align: center;
 			padding:0 0 .5em 0;
