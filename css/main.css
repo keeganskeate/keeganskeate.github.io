@@ -516,7 +516,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 	position: relative;
 	float: left;
 	padding: 0.0em 0em 0em 0em;
-	margin: -15px 1em 0 1em;
+	margin: -20px 1em 0 1em;
 	display: inline-block;
 	-moz-transition: all 0.35s ease-in-out;
 	-webkit-transition: all 0.35s ease-in-out;
