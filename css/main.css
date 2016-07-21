@@ -313,7 +313,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		#nav ul li:not(:first-child){
 			margin: 0em;
 			padding: 40px 1em 0 1em;
-			border-bottom: 1px solid #52658F;
+			color #C06014
 		}
 		#nav ul li:not(:first-child):hover{
 			border-bottom: 1px solid #52658F;
