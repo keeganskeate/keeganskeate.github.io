@@ -551,7 +551,7 @@ footer.major {padding-top: 3em;}
 @media screen and (max-width: 650px){ #footer .subject1{ display:block; width:auto; }}
 .wrapper.endstyle #footer .subject2{vertical-align:top;margin: 1em;}
 	#footer .subject2{
-		display: inline-block; margin: auto;
+		display: inline-block; margin: 0 auto;
 		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
         	width:80%;
 		overflow:auto;
