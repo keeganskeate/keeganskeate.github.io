@@ -560,7 +560,6 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 .wrapper.endstyle h3{text-align:center;}
 .wrapper.endstyle li, .wrapper.endstylep, .wrapper.endstyle a{padding: 0em;}
 .wrapper.endstyle a{text-decoration:none;}
-.wrapper.endstyle #footer .subject{vertical-align:top;margin: 1em;}
 	
 footer > :last-child {margin-bottom: 0;}
 footer.major {padding-top: 3em;}
@@ -573,6 +572,7 @@ footer.major {padding-top: 3em;}
 	text-align:center;
 	}
 	#footer .subject{
+		vertical-align:top;margin: 1em;
 		display: inline-block;
 		margin: auto;
         	width:30%;
