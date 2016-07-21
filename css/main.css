@@ -498,9 +498,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			border:2px solid;
 			border-color: #F0B500;
 			box-shadow:  -2px #000;
-			border-radius: 5px;
-			font-size: 4.8 em;
-			font-weight: 700;}
+			border-radius: 5px;}
 .dropbtn:hover, .dropbtn:focus {outline:none;border-color:#235796;}
 .dropdown {
     -moz-appearance: none;
