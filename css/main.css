@@ -545,7 +545,7 @@ footer.major {padding-top: 3em;}
 		float: left;
 		display: inline-block;
 		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
-        	width:auto;
+        	width:40%;
 		overflow:auto;
 		background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .subject1{ display:block; width:auto; }}
