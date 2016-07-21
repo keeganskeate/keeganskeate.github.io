@@ -331,7 +331,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 					text-transform: uppercase;
 					float: left;
 					padding: 0em 1em 0em 1em;
-					margin: 1.5em 0 0 0;
+					margin: 1em 0 0 0;
 					border: none;
 				}
 				#nav ul li:first-child:hover{
@@ -346,7 +346,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 				}
 				#nav ul li:not(:first-child){
 					margin: 0em;
-					padding: 25px 1em 0 1em;
+					padding: 1emx 1em 0 1em;
 				}
 				#nav ul li:not(:first-child).active,
 				#nav ul li:not(:first-child):hover{
