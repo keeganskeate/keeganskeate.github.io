@@ -1,7 +1,7 @@
 /* Fonts */
 @import url("font-awesome-4.6.3/css/font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
-@import url("https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800");
 @font-face {
         font-family: 'icomoon'; src:url('../fonts/icomoon.eot'); src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
             url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg#icomoon') format('svg');
@@ -461,10 +461,11 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		}
 		#banner p > a{
 			display: inline;
-			color: #333A56;
+			color: #07889B;
+			text-decoration: underline;
 		}
 		#banner p > a:hover{
-			color: #52658F;
+			color: #66B9BF;
 		}
 /* Picture Dropdown Button */
 .dropbtn {    		
@@ -516,7 +517,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 	box-shadow:  -2px #000;
 	border-radius: 5px;
 	font-size: 1.6em;
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 800;
 	width:600px;
 	height:180px;
@@ -534,7 +535,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 .show {display:block;}
 
 /* Footer */
-.wrapper.endstyle {background: #FFEBD0;}
+.wrapper.endstyle {background: #FFEBD0;font-family: 'Lato', sans-serif;}
 .wrapper.endstyle h3{text-align:center;}
 .wrapper.endstyle li, .wrapper.endstyle p, .wrapper.endstyle a{padding: 0em;}
 .wrapper.endstyle a{text-decoration:none;}
