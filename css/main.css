@@ -571,20 +571,30 @@ footer.major {padding-top: 3em;}
 	margin: 0 auto;
 	text-align:center;
 	}
-.wrapper.endstyle #footer .subject{vertical-align:top;margin: 1em;}
-	#footer .subject{
-		display: inline-block;
-		margin: auto;
+.wrapper.endstyle #footer .subject1{vertical-align:top;margin: 1em;}
+	#footer .subject1{
+		display: inline-block;margin: auto;
+		border:2px solid; border-color: #F0B500; box-shadow:  -2px #000; border-radius: 5px;
         	width:30%;
 		overflow:auto;
-		background: url(../images/parchment_back.png) no-repeat center center;
-		background-size: cover;
-		border:2px solid;
-		border-color: #F0B500;
-		box-shadow:  -2px #000;
-		border-radius: 5px;
-	}
-@media screen and (max-width: 650px) { #footer .subject{ display: block; width:auto; } }
+		background: url(../images/parchment_back.png) no-repeat center center;background-size: cover;}
+@media screen and (max-width: 650px){ #footer .subject1{ display:block; width:auto; }}
+.wrapper.endstyle #footer .subject2{vertical-align:top;margin: 1em;}
+	#footer .subject2{
+		display: inline-block;margin: auto;
+		border:2px solid; border-color: #F0B500; box-shadow:  -2px #000; border-radius: 5px;
+        	width:30%;
+		overflow:auto;
+		background: url(../images/parchment_back.png) no-repeat center center;background-size: cover;}
+@media screen and (max-width: 650px){ #footer .subject2{ display:block; width:auto; }}
+.wrapper.endstyle #footer .subject3{vertical-align:top;margin: 1em;}
+	#footer .subject3{
+		display: inline-block;margin: auto;
+		border:2px solid; border-color: #F0B500; box-shadow:  -2px #000; border-radius: 5px;
+        	width:30%;
+		overflow:auto;
+		background: url(../images/parchment_back.png) no-repeat center center;background-size: cover;}
+@media screen and (max-width: 650px){ #footer .subject3{ display:block; width:auto; }}
 
 #footer li, #footer p, #footer a{
 		text-align: left;
