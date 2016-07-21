@@ -460,9 +460,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 	#banner .professionbin{
 		float: left;
 		display: inline-block;
-		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
-		height:175px;
-		background: #E8E8E8}
+		height:175px;}
 /*@media screen and (max-width: 650px){#banner .professionbin{ display:block; width:auto; }}
 /* Picture Dropdown Button */
 .dropbtn {    		
