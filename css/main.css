@@ -488,7 +488,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		#banner .profile_pic> img:hover {border-color: #235796;}
 /* Picture Dropdown Button */
 .dropbtn {    		
-			top:0;
+			top:-1em;
 			float:left;
 			position:relative;
 			cursor: pointer;
