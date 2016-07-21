@@ -523,7 +523,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 	-o-transition: all 0.35s ease-in-out;
 	-ms-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;}
-@media screen and (max-width: 650px) { .dropdown{ margin: 0em; } }
+@media screen and (max-width: 650px) { .dropdown{ margin: 2em 0 0 0; } }
 .dropdown:hover,.dropdown:onclick {  opacity: .5;  filter:alpha(opacity=50); }
 .dropdown-content {
 	line-height: 1em;
