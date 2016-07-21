@@ -321,36 +321,28 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			padding: 0em 1em 0em 1em;
 			margin: 1em 0 0 0;
 			border: none;
+			color:#F0B500; 
 		}
 
 		#nav ul li:first-child:hover{
 			border:2px solid;
 			border-color: #235796;
 			cursor: pointer;
+			color:#E37222;
 		}
 			#nav > ul > li  {
 				float: right;
 				display: block;
 				margin-left: 0em;
 				padding: 0 1em 0 1em;
-				background: inherit; 
-				color:#F0B500; 
+				background: inherit;
 				text-decoration: none;
-				font-size: 1.2em;
+				font-size: 1.6em;
 				letter-spacing: 2px;
 				font-weight: 500;
 				text-shadow: 0 -1px 0 #000;
 				position: relative;
-				border:2px solid;
-				border-color: #F0B500;
-				box-shadow:  -2px #000;
-				border-radius: 5px;
-				line-height: 1.3em;
-			}
-			#nav ul > li.active,
-			#nav ul > li:hover {
-				border-color: #235796;
-				background: #FFEBD0;
+				line-height: 2em;
 			}
 				#nav > ul > li a {
 					color: inherit;
@@ -369,7 +361,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 				}
 				#nav > ul > li.active,
 				#nav ul > li:hover {
-					color: #235796 ;
+					color: #07889B ;
 					font-weight: 500;}
 /* Dropotron */
 .dropotron {
@@ -400,7 +392,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
-				color: #235796;
+				color: #07889B;
 				font-weight: 500;
 			}
 	.dropotron.level-0 {
