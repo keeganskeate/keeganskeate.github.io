@@ -616,10 +616,10 @@ footer.major {padding-top: 3em;}
 }
 .boxInner {
    position: absolute;
-   left: 5px;
-   right: 5px;
-   top: 5px;
-   bottom: 5px;
+   left: 10px;
+   right: 10px;
+   top: 0px;
+   bottom: 0px;
    overflow: hidden;
    text-align: center;
 }
