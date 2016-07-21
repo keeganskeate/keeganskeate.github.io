@@ -359,15 +359,15 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 				}
 				#nav > ul > li.active,
 				#nav ul > li:hover {
-					color: #07889B ;
+					color: #EEAA7B ;
 					font-weight: 500;}
 /* Dropotron */
 .dropotron {
 		position:relative;
 		top: 0em;
 		background: #FFEBD0;
-		border:2px solid;
-		border-color: #235796;
+		border:1px solid;
+		border-color: #EEAA7B;
 		box-shadow:  -2px #000;
 		border-radius: 5px;
 		font-weight: 500;
@@ -409,9 +409,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			float: right;
 			text-shadow: 0 -1px 0 #000;
 		}
-	.dropotron span{
-		font-size: 1.2em;
-	}
+	.dropotron span{font-size: 1.2em;}
 /* Banner */
 	#banner {
 		-moz-appearance: none;
