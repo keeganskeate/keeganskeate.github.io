@@ -546,7 +546,7 @@ footer.major {padding-top: 3em;}
 		float: left;
 		display: inline-block;
 		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
-        	width:70%;
+        	width:40%;
 		overflow:auto;
 		background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .subject1{ display:block; width:auto; }}
@@ -554,7 +554,7 @@ footer.major {padding-top: 3em;}
 	#footer .subject2{
 		display: inline-block;margin: auto;
 		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
-        	width:20%;
+        	width:40%;
 		overflow:auto;
 		background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .subject2{ display:block; width:auto; }}
@@ -611,8 +611,8 @@ footer.major {padding-top: 3em;}
 .box {
    float: left;
    position: relative;
-   width: 100%;
-   padding-bottom: 100%;
+   width: 50%;
+   padding-bottom: 50%;
    text-align: center;
 }
 .boxInner {
