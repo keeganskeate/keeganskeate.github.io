@@ -639,8 +639,10 @@ Original template designed by TEMPLATED (templated.co)*/
 			}
 		#banner .profile_pic> img:hover {border-color: #235796;}
 /* Picture Dropdown Button */
-.dropbtn {    		float:left;
-			position:absolute;
+.dropbtn {    		
+			top:0;
+			float:left;
+			position:relative;
 			cursor: pointer;
 			display: inline-block;
 			background:#F0B500 url(../images/grad_pic.jpg) no-repeat;
