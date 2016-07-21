@@ -324,8 +324,8 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		}
 
 		#nav ul li:first-child:hover{
-			cursor: pointer;
 			border:none;
+			background:none;
 		}
 			#nav > ul > li  {
 				float: right;
@@ -353,7 +353,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 					position: relative;
 					line-height: 2em;
 				}
-				#nav > ul > li:first-child {
+				#nav > ul > li:not(:first-child) {
 					line-height:100px	
 				}
 				#nav > ul > li > ul{
@@ -361,7 +361,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 				}
 				#nav > ul > li.active,
 				#nav ul > li:hover {
-					color: #E37222;
+					color: #EEAA7B;
 					background:  #FFEBD0;
 				}
 /* Dropotron */
@@ -393,7 +393,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
-				color: #07889B;
+				color: #EEAA7B;
 				font-weight: 500;
 			}
 	.dropotron.level-0 {
