@@ -364,6 +364,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 				#nav ul > li:hover {
 					color: #66B9BF;
 					background:  #FFEBD0;
+					font-weight: 500;
 				}
 				#nav > ul > li > ul{
 					height: 0;
