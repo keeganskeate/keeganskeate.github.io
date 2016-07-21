@@ -451,7 +451,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			color: #235796;
 		}
 		#banner p{
-			color: #2199E8;
+			color: #66B9BF;
 			display: block;
 			letter-spacing: 1px;
 			text-align: left;
@@ -465,19 +465,6 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		#banner p > a:hover{
 			color: #235796;
 		}
-		#banner .profile_pic > img{
-			border:2px solid;
-			border-color: #F0B500;
-			border-radius: 25px;
-    			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    			background-image: linear-gradient(right, #111 11%, #333 56%);
-			background-image: -o-linear-gradient(right, #111 11%, #333 56%);
-			background-image: -moz-linear-gradient(right, #111 11%, #333 56%);
-			background-image: -webkit-linear-gradient(right, #111 11%, #333 56%);
-			background-image: -ms-linear-gradient(right, #111 11%, #333 56%);
-			background-image: gradient(right, #111 11%, #333 56%);
-			}
-		#banner .profile_pic> img:hover {border-color: #235796;}
 /* Picture Dropdown Button */
 .dropbtn {    		
 			float:left;
@@ -489,10 +476,10 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			width: 155px;
     			height: 175px;
 			border:2px solid;
-			border-color: #F0B500;
+			border-color: #EEAA7B;
 			box-shadow:  -2px #000;
 			border-radius: 5px;}
-.dropbtn:hover, .dropbtn:focus {outline:none;border-color:#235796;}
+.dropbtn:hover, .dropbtn:focus {outline:none;border-color:#66B9BF;}
 .dropdown {
     -moz-appearance: none;
 	-webkit-appearance: none;
@@ -523,8 +510,8 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 	position: absolute;
 	background: #FFEBD0;
 	background-size: 100%;
-	border:2px solid;
-	border-color: #235796;
+	border:1px solid;
+	border-color: #EEAA7B;
 	box-shadow:  -2px #000;
 	border-radius: 5px;
 	color:  #F0B500;
