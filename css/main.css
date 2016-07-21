@@ -339,7 +339,6 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 				font-weight: 500;
 				text-shadow: 0 -1px 0 #000;
 				position: relative;
-				line-height: 100px;
 			}
 				#nav > ul > li a {
 					color: inherit;
@@ -352,6 +351,10 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 				#nav > ul > li:first-child {
 					margin-left: 0;
 					position: relative;
+					line-height: 2em;
+				}
+				#nav > ul > li:first-child {
+					line-height:100px	
 				}
 				#nav > ul > li > ul{
 					height: 0;
@@ -359,7 +362,6 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 				#nav > ul > li.active,
 				#nav ul > li:hover {
 					color: #E37222;
-					font-weight: 500;
 					background:  #FFEBD0;
 				}
 /* Dropotron */
