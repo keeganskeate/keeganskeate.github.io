@@ -486,13 +486,13 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 			border-color: #EEAA7B;
 			box-shadow:  -2px #000;
 			border-radius: 5px;}
-.dropbtn:hover, .dropbtn:focus {outline:none;border-color:#49274A;}
+.dropbtn:hover, .dropbtn:focus {outline:none;border-color:#813772;}
 .dropdown {
     -moz-appearance: none;
 	-webkit-appearance: none;
 	-o-appearance: none;
 	-ms-appearance: none;
-	background: #813772 url(../images/grad_pic.jpg) no-repeat;
+	background: #49274A url(../images/grad_pic.jpg) no-repeat;
 	background-size: 100%;
 	border-radius: 5px;
 	width: 155px;
@@ -518,7 +518,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 	background: #E8E8E8;
 	background-size: 100%;
 	border:1px solid;
-	border-color: #813772;
+	border-color: #49274A;
 	box-shadow:  -2px #000;
 	border-radius: 5px;
 	font-size: 1.6em;
