@@ -610,8 +610,8 @@ footer.major {padding-top: 3em;}
 .box {
    float: left;
    position: relative;
-   width: 25%;
-   padding-bottom: 25%;
+   width: 20%;
+   padding-bottom: 20%;
    text-align: center;
 }
 .boxInner {
@@ -636,7 +636,7 @@ footer.major {padding-top: 3em;}
 .boxInner .titleBox {
    position: absolute;
    width:100%;
-   top: 5px;
+   top: 15px;
    left: 0;
    right: 0;
    overflow: hidden;
