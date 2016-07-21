@@ -265,7 +265,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		color: #FFCC00;
 		width:1366px;
 		height: 120px;
-		background: url(../images/brown_nav_bar.png) no-repeat center center;
+		background: url(../images/brown_nav.png) no-repeat center center;
 		background-size: cover;
 	}
 		#header .container {
