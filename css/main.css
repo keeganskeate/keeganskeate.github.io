@@ -347,7 +347,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 				}
 				#nav ul li:not(:first-child){
 					padding: 0em 1em 0 1em;
-					margin:5px 0 0 0;
+					margin:7.5px 0 0 0;
 				}
 				/*#nav ul li:not(:first-child).active,
 				#nav ul li:not(:first-child):hover{
