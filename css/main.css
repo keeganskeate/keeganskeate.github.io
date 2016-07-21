@@ -458,10 +458,13 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		}
 #banner .container .professionbin{vertical-align: top; margin: 0em 1em;}
 	#banner .professionbin{
+		vertical-align: top; margin: 0em 1em;
 		float: left;
 		display: inline-block;
-		height:175px;}
-/*@media screen and (max-width: 650px){#banner .professionbin{ display:block; width:auto; }}
+		height:175px;
+		overflow:auto;
+	}
+@media screen and (max-width: 650px){#banner .professionbin{ display:block; width:auto; }}
 /* Picture Dropdown Button */
 .dropbtn {    		
 			float:left;
@@ -557,7 +560,7 @@ footer.major {padding-top: 3em;}
 	#footer .contactbin{
 		display: inline-block;margin: auto;
 		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
-        	width:50%;
+        	width:95%;
 		overflow:auto;
 		background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .contactbin{ display:block; width:auto; }}
