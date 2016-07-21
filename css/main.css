@@ -588,7 +588,7 @@ footer.major {padding-top: 3em;}
 	#footer .subject3{
 		display: inline-block;margin: auto;
 		border:2px solid; border-color: #F0B500; box-shadow:  -2px #000; border-radius: 5px;
-        	width:90%;
+        	width:95%;
 		overflow:auto;
 		background: url(../images/parchment_back.png) no-repeat center center;background-size: cover;}
 @media screen and (max-width: 650px){ #footer .subject3{ display:block; width:auto; }}
