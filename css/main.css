@@ -368,7 +368,6 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 		position:relative;
 		top: 0em;
 		background: #E8E8E8;
-		border-radius: 0 0 5px 5px;
 		font-weight: 500;
 		padding: 0.0em 1em;
 		color:  #373D3F;
@@ -393,13 +392,13 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 				font-weight: 500;
 			}
 	.dropotron.level-0 {
-		border-radius:5px;
+		border-radius: 0 0 5px 5px;
 		font-size: 1em;
-		margin-left:0em;
+		margin:-2.5px 0 0 0;
 		text-shadow: 0 -1px 0 #000;
 	}
 		.dropotron.level-1 {
-			border-radius: 5px;
+			border-radius: 0 0 5px 5px;
 			background: #E8E8E8;
 			font-size: 1em;
 			margin-top:1em;
