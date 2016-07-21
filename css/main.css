@@ -553,7 +553,7 @@ footer.major {padding-top: 3em;}
 	#footer .projectsbin{
 		display: inline-block; margin: 0 auto;
 		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
-        	width:80%;
+        	width:95%;
 		overflow:auto;
 		background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .projectsbin{ display:block; width:auto; }}
@@ -690,7 +690,7 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 			letter-spacing: 2px;
 			font-weight: 400;
 			text-shadow: 0 -1px 0 #000;
-			color: #813772;
+			color: #49274A
 			text-decoration: none;
 			opacity: 75;  filter:alpha(opacity=75);
 		}
