@@ -21,9 +21,7 @@ Teal #07889B fades to Poweder #66B9BF
 Tangerine #E37222 fades to Tan EEAA7B
 Ochre - #C06014  fades to Peach #EDDBCD
 Vermillion #333A56  fades to Sunshine #52658F
-Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2199E8 
-Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 Yellow- #FFCC00
- Light Blue - #2199E8  Med Blue - #1585CF 
+Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2199E8
 
 /* Basic Format*/
 	html,body {
@@ -47,14 +45,14 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 			animation: none !important;
 		}
 	html, body, input, select, textarea {
-		color: #FFCC00;
+		color: #131516;
 		font-family: 'Open Sans', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
 		line-height: 1.65em;
 	}
 	a {
-		color: #FFCC00;
+		color: #49274A;
 		text-decoration: none;}
 	strong, b {
 		font-weight: 700;}
@@ -175,7 +173,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 			display: inline-block;
 			padding-right: 1em;
 			font-size: 1.4em;
-			color: #2199E8;
+			color: #107896;
 		}
 		ul.special-icons p {padding-left: 2.7em;}
 /* Tables */
@@ -199,7 +197,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 		border-radius: none;
 		border: 2px solid;
 		border-color: #813772;
-		color: #FFCC00;
+		color: #49274A;
 		cursor: pointer;
 		display: inline-block;
 		padding: 0.90em 1.2em;
