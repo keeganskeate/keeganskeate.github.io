@@ -549,22 +549,22 @@ footer.major {padding-top: 3em;}
 		overflow:auto;
 		background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .subject1{ display:block; width:auto; }}
-.wrapper.endstyle #footer .subject2{vertical-align:top;margin: 1em;}
-	#footer .subject2{
+.wrapper.endstyle #footer .projectsbin{vertical-align:top;margin: 1em;}
+	#footer .projectsbin{
 		display: inline-block; margin: 0 auto;
 		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
         	width:80%;
 		overflow:auto;
 		background: #E8E8E8}
-@media screen and (max-width: 650px){ #footer .subject2{ display:block; width:auto; }}
-.wrapper.endstyle #footer .subject3{vertical-align:top;margin: 1em;}
-	#footer .subject3{
+@media screen and (max-width: 650px){ #footer .projectsbin{ display:block; width:auto; }}
+.wrapper.endstyle #footer .contactbin{vertical-align:top;margin: 1em;}
+	#footer .contactbin{
 		display: inline-block;margin: auto;
 		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
         	width:40%;
 		overflow:auto;
 		background: #E8E8E8}
-@media screen and (max-width: 650px){ #footer .subject3{ display:block; width:auto; }}
+@media screen and (max-width: 650px){ #footer .contactbin{ display:block; width:auto; }}
 
 #footer li, #footer p, #footer a{
 		text-align: left;
