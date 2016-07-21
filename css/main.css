@@ -19,15 +19,24 @@ Grey #E8E8E8  Offwhite #F7F5E6
 Text Colors:
 Grey: #D6D6D6
 
+Background: Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2199E8 
+Hover Color: Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 Yellow- #FFCC00
+Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #222222  Grey - #555555  Off-white - #f9f9f9 */
+
+.divider{
+	position: relative;
+    height: 20px;
+    width: 1336px;
+}
+
+.div-wrapper img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
 
 
-Background: Sunset beige - #FFEBD0
-Text color:  Dark yellow - #F0B500  and Light Blue - #2199E8 
-Hover Color: Dark Blue- #235796
-Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 Yellow- #FFCC00
-Special colors: Light Blue - #2199E8  Med Blue - #1585CF
-Misc colors: Black - #222222  Grey - #555555  Off-white - #f9f9f9
-Original template designed by TEMPLATED (templated.co)*/
+
 /* Basic Format*/
 	html,body {
 		background: #FFEBD0;
