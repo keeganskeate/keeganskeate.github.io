@@ -311,7 +311,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			vertical-align: bottom;
 		}
 		#nav ul li:not(:first-child){
-			margin: 1.5em 0 0 0;
+			margin: 1em 0 0 0;
 			padding: 0em 1em 0 1em;
 			
 		}
@@ -354,14 +354,14 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 					line-height: 2em;
 				}
 				#nav > ul > li:not(:first-child) {
-					line-height:100px	
+					line-height:80px	
 				}
 				#nav > ul > li > ul{
 					height: 0;
 				}
 				#nav > ul > li.active,
 				#nav ul > li:hover {
-					color: #EEAA7B;
+					color: #C06014;
 					background:  #FFEBD0;
 				}
 /* Dropotron */
@@ -393,7 +393,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
-				color: #EEAA7B;
+				color: #C06014;
 				font-weight: 500;
 			}
 	.dropotron.level-0 {
