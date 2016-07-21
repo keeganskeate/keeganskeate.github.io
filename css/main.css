@@ -310,26 +310,6 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			list-style-type: none;
 			vertical-align: bottom;
 		}
-		#nav ul li:not(:first-child){
-			margin: 0em;
-			padding: 25px 1em 0 1em;
-			color #C06014
-		}
-		#nav ul li:not(:first-child):hover{
-			border-bottom: 1px solid #52658F;
-		}
-		#nav ul li:first-child { 
-			text-transform: uppercase;
-			float: left;
-			padding: 0em 1em 0em 1em;
-			margin: 1em 0 0 0;
-			border: none;
-		}
-
-		#nav ul li:first-child:hover{
-			border:none;
-			background:none;
-		}
 			#nav > ul > li  {
 				float: right;
 				display: block;
@@ -351,21 +331,44 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 					font-weight: 500;
 					font-size: 1em;
 				}
+				#nav ul li:first-child { 
+					text-transform: uppercase;
+					float: left;
+					padding: 0em 1em 0em 1em;
+					margin: 1em 0 0 0;
+					border: none;
+				}
+				#nav ul li:first-child:hover{
+					cursor:pointer;
+					border:none;
+					background:none;
+				}
 				#nav > ul > li:first-child {
 					margin-left: 0;
 					position: relative;
 					line-height: 2em;
 				}
+				#nav ul li:not(:first-child){
+					margin: 0em;
+					padding: 25px 1em 0 1em;
+					color #C06014
+				}
+				#nav ul li:not(:first-child):hover{
+					border:1px solid;
+					border-color: #EEAA7B;
+					box-shadow:  -2px #000;
+					border-radius: 5px;
+				}
 				#nav > ul > li:not(:first-child) {
 					line-height:50px	
 				}
-				#nav > ul > li > ul{
-					height: 0;
-				}
-				#nav > ul > li:not(:first-child).active,
-				#nav ul > li:not(:first-child):hover {
+				#nav > ul > li.active,
+				#nav ul > li:hover {
 					color: #66B9BF;
 					background:  #FFEBD0;
+				}
+				#nav > ul > li > ul{
+					height: 0;
 				}
 /* Dropotron */
 .dropotron {
