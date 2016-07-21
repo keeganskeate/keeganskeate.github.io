@@ -269,7 +269,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 	#header {
 		color: #131516;
 		width:1366px;
-		height: 40px;
+		height: 55px;
 		background:#E8E8E8;
 	}
 		#header .container {
@@ -361,7 +361,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 					text-decoration:underline;
 				}
 				#nav > ul > li:not(:first-child) {
-					line-height:40px	
+					line-height:50px	
 				}
 				#nav > ul > li.active,
 				#nav ul > li:hover {
@@ -381,7 +381,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 		border-radius: 5px;
 		font-weight: 500;
 		padding: 0.0em 1em;
-		color:  #F0B500;
+		color:  #373D3F;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
@@ -392,7 +392,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 			position: relative; display:block;
 		}
 			.dropotron > li > a {
-				color:  #F0B500;
+				color:  #373D3F;
 				font-weight: 500;
 				letter-spacing: 2px;
 				text-decoration: none;
