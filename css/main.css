@@ -258,7 +258,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 	.wrapper {padding: 0em;}
 		.wrapper.topstyle {
 			width:1366px;
-			height: 300px;
+			height: 200px;
 			background:#F2F3F4;
 			margin: 0 auto;
 			padding: 0em;
@@ -269,7 +269,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 	#header {
 		color: #131516;
 		width:1366px;
-		height: 120px;
+		height: 40px;
 		background:#E8E8E8;
 	}
 		#header .container {
@@ -327,7 +327,6 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 				font-weight: 500;
 				text-shadow: 0 -1px 0 #000;
 				position: relative;
-				border:1px solid;border-color: transparent; box-shadow:  -2px #000;border-radius: 5px;
 			}
 				#nav > ul > li a {
 					color: inherit;
@@ -356,19 +355,17 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 				#nav ul li:not(:first-child){
 					margin: 0em;
 					padding: 25px 1em 0 1em;
-					color #C06014
 				}
 				#nav ul li:not(:first-child).active,
 				#nav ul li:not(:first-child):hover{
-					border:1px solid;border-color: #49274A;box-shadow:  -2px #000;border-radius: 5px;
+					text-decoration:underline;
 				}
 				#nav > ul > li:not(:first-child) {
-					line-height:50px	
+					line-height:40px	
 				}
 				#nav > ul > li.active,
 				#nav ul > li:hover {
-					color: #813772;
-					background:  #EFD469;
+					color: #107896;
 				}
 				#nav > ul > li > ul{
 					height: 0;
