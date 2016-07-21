@@ -571,7 +571,7 @@ footer.major {padding-top: 3em;}
 	margin: 0 auto;
 	text-align:center;
 	}
-.wrapper.endstyle#footer .subject{vertical-align:top;margin: 1em;}	
+.wrapper.endstyle #footer .subject{vertical-align:top;margin: 1em;}
 	#footer .subject{
 		display: inline-block;
 		margin: auto;
