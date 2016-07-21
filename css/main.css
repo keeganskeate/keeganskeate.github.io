@@ -252,8 +252,8 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 	.wrapper {padding: 0em;}
 		.wrapper.topstyle {
 			width:1366px;
-			height: 280px;
-			background:#FFEBD0 url(../images/paper_back2.png) no-repeat center center;
+			height: 300px;
+			background:#FFEBD0 url(../images/paper_header.png) no-repeat center center;
 			background-size: cover;
 			margin: 0 auto;
 			padding: 0em;
@@ -486,7 +486,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			}
 		#banner .profile_pic> img:hover {border-color: #235796;}
 /* Picture Dropdown Button */
-.dropbtn {    		margin:0em auto;
+.dropbtn {    		
 			float:left;
 			position:relative;
 			cursor: pointer;
