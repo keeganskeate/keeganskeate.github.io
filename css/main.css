@@ -452,7 +452,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			color: #235796;
 		}
 		#banner p{
-			color:  #4e4e4e;
+			color:  #D6D6D6;
 			display: block;
 			letter-spacing: 1px;
 			text-align: left;
@@ -577,7 +577,7 @@ footer.major {padding-top: 3em;}
 
 #footer li, #footer p, #footer a{
 		text-align: left;
-		color: #4e4e4e;
+		color: #D6D6D6;
 	}
 	#footer ul{
 		padding: 0em;
