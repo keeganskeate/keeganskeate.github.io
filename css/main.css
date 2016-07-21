@@ -486,7 +486,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			}
 		#banner .profile_pic> img:hover {border-color: #235796;}
 /* Picture Dropdown Button */
-.dropbtn {    		
+.dropbtn {    		margin:0em auto;
 			float:left;
 			position:relative;
 			cursor: pointer;
