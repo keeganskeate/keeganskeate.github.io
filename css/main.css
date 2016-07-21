@@ -430,6 +430,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
+		top:-2em;
 		padding: 0 0 0 1em;
 		margin:0 auto;
 		text-align: center;
@@ -488,7 +489,6 @@ Original template designed by TEMPLATED (templated.co)*/
 		#banner .profile_pic> img:hover {border-color: #235796;}
 /* Picture Dropdown Button */
 .dropbtn {    		
-			top:-1em;
 			float:left;
 			position:relative;
 			cursor: pointer;
