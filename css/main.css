@@ -553,7 +553,7 @@ footer.major {padding-top: 3em;}
 	#footer .subject2{
 		display: inline-block;margin: auto;
 		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
-        	width:40%;
+        	width:80%;
 		overflow:auto;
 		background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .subject2{ display:block; width:auto; }}
@@ -610,8 +610,8 @@ footer.major {padding-top: 3em;}
 .box {
    float: left;
    position: relative;
-   width: 50%;
-   padding-bottom: 50%;
+   width: 25%;
+   padding-bottom: 25%;
    text-align: center;
 }
 .boxInner {
