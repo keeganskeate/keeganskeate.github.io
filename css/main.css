@@ -37,8 +37,7 @@ Original template designed by TEMPLATED (templated.co)*/
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
-
-		html.loading,body.loading * {
+	html.loading,body.loading * {
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
 			-o-transition: none !important;
@@ -50,7 +49,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			-ms-animation: none !important;
 			animation: none !important;
 		}
-
 	html, body, input, select, textarea {
 		color: #FFCC00;
 		font-family: 'Open Sans', sans-serif;
@@ -58,169 +56,20 @@ Original template designed by TEMPLATED (templated.co)*/
 		font-weight: 300;
 		line-height: 1.65em;
 	}
-
 	a {
 		color: #FFCC00;
-		text-decoration: none;
-	}
-
+		text-decoration: none;}
 	strong, b {
-		font-weight: 700;
-	}
-
+		font-weight: 700;}
 	em, i {
-		font-style: italic;
-	}
-
-	p, ul, ol, dl, table, blockquote {
-		margin: 0 0 2em 0;
-	}
-
-	p {
-		line-height: 1.8em;
-	}
-
-		p.medium {
-			font-size: 1.4em;
-		}
-
-	h1, h2, h3, h4, h5, h6 {
-		color: inherit;
-		font-weight: 700;
-	}
-
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			text-decoration: none;
-		}
-
-	h2 {
-		line-height: 1.5em;
-		font-size: 1.5em;
-	}
-
-	h3 {
-		line-height: 1.5em;
-		font-size: 1.5em;
-	}
-
-	sub {
-		font-size: 0.8em;
-		position: relative;
-		top: 0.5em;
-	}
-
-	sup {
-		font-size: 0.8em;
-		position: relative;
-		top: -0.5em;
-	}
-
-	blockquote {
-		border-left: solid 0.5em #FFCC00;
-		font-style: italic;
-		padding: 1em 0 1em 2em;
-	}
-
-	section.special, article.special {
-		text-align: center;
-	}
-
-	header.major {
-		padding-bottom: 0em;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-		header.major h2 {
-			line-height: 1em;
-			font-size: 2.6em;
-			font-weight: 700;
-		}
-
-		header.major .byline {
-			display: block;
-			padding-top: 1em;
-			letter-spacing: 1px;
-			font-size: 1.4em;
-		}
-/* Form */
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	textarea {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-o-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		background: none;
-		border: solid 1px #FFCC00;
-		color: inherit;
-		display: block;
-		outline: 0;
-		padding: 0.75em;
-		text-decoration: none;
-		width: 100%;
-	}
-
-		input[type="text"]:focus,
-		input[type="password"]:focus,
-		input[type="email"]:focus,
-		textarea:focus {
-			border-color: #FFCC00;
-		}
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"] {
-		line-height: 1em;
-	}
-
-	::-webkit-input-placeholder {
-		color: inherit;
-		opacity: 0.5;
-		position: relative;
-		top: 3px;
-	}
-
-	:-moz-placeholder {
-		color: inherit;
-		opacity: 0.5;
-	}
-
-	::-moz-placeholder {
-		color: inherit;
-		opacity: 0.5;
-	}
-
-	:-ms-input-placeholder {
-		color: inherit;
-		opacity: 0.5;
-	}
-
-	.formerize-placeholder {
-		color: rgba(85, 85, 85, 0.5) !important;
-	}
-
-/* Image */
-	.image {
-		border: 0;
-		position: relative;}
-		.image.fit {
-			display: block;}
-			.image.fit img {
-				display: block;
-				width: 100%;
-				max-width: 100%	}
-		.image.feature {
-			display: block;
-			margin: 0 0 2em 0;}
-			.image.feature img {
-				display: block;
-				width: 100%;
-				max-width: 100%	}
-
+		font-style: italic;}
+	p, ul, ol, dl, table {
+		margin: 0 0 2em 0;}
+	p {line-height: 1.8em;}
+	h1, h2, h3, h4, h5, h6 {color: inherit;	font-weight: 700;}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: inherit;text-decoration: none;}
+	h2 {line-height: 1.5em;	font-size: 1.5em;}
+	h3 {line-height: 1.5em;font-size: 1.5em;}
 /* Icon */
 	.icon {position: relative;}
 		.icon:before {
@@ -232,7 +81,6 @@ Original template designed by TEMPLATED (templated.co)*/
 			font-weight: normal;
 			text-transform: none !important;}
 		.icon > .label {display: none;}
-
 /* Lists */
 	ol.default {
 		list-style: decimal;
