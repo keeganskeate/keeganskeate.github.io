@@ -2,12 +2,7 @@
 @import url("font-awesome-4.6.3/css/font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800");
-@font-face {
-        font-family: 'icomoon'; src:url('../fonts/icomoon.eot'); src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-            url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg#icomoon') format('svg');
-        font-weight: normal; font-style: normal; }
-[data-icon]:before { font-family: 'icomoon'; content: attr(data-icon); speak: none; font-weight: normal; font-variant: normal;
-	text-transform: none; line-height: 1;  -webkit-font-smoothing: antialiased; }
+@font-face {font-family: 'icomoon'; src:url('../fonts/icomoon.eot'); src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg#icomoon') format('svg');font-weight: normal; font-style: normal; }[data-icon]:before { font-family: 'icomoon'; content: attr(data-icon); speak: none; font-weight: normal; font-variant: normal;text-transform: none; line-height: 1;  -webkit-font-smoothing: antialiased;}
 /* THEME
 Text Headers Black: #131516
 Text Main Black: #373D3F
@@ -21,17 +16,14 @@ Light Purple: #813772
 Dark Purple: #49274A
 Golden: #EFD469
 
-oldColors:
+Old Colors:
 Teal #07889B fades to Poweder #66B9BF
 Tangerine #E37222 fades to Tan EEAA7B
 Ochre - #C06014  fades to Peach #EDDBCD
 Vermillion #333A56  fades to Sunshine #52658F
 Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2199E8 
 Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 Yellow- #FFCC00
- Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #222222  Grey - #555555  Off-white - #f9f9f9 */
-
-.divider{height: 20px;width: 1366px;margin: 0 auto;}
-
+ Light Blue - #2199E8  Med Blue - #1585CF 
 
 /* Basic Format*/
 	html,body {
@@ -706,9 +698,10 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 			opacity: 75;  filter:alpha(opacity=75);
 		}
 		
-		
+
+/*.divider{height: 20px;width: 1366px;margin: 0 auto;}		
 extrablockquote {
 	margin: 1em 3em;
 	color: #999;
 	border-left: 2px solid #813772;
-	padding-left: 1em; }
+	padding-left: 1em; }*/
