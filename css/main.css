@@ -568,10 +568,9 @@ footer.major {padding-top: 3em;}
 	margin: 0 auto;
 	text-align:center;
 	}
-.wrapper.endstyle #footer .subject1{vertical-align:top;margin: 1em;}
+.wrapper.endstyle #footer .subject1{vertical-align:top;margin: 1em 2em;}
 	#footer .subject1{
 		float: left;
-		margin: 0 1em 0 2em;
 		display: inline-block;
 		border:2px solid; border-color: #F0B500; box-shadow:  -2px #000; border-radius: 5px;
         	width:20%;
@@ -582,7 +581,7 @@ footer.major {padding-top: 3em;}
 	#footer .subject2{
 		display: inline-block;margin: auto;
 		border:2px solid; border-color: #F0B500; box-shadow:  -2px #000; border-radius: 5px;
-        	width:50%;
+        	width:70%;
 		overflow:auto;
 		background: url(../images/parchment_back.png) no-repeat center center;background-size: cover;}
 @media screen and (max-width: 650px){ #footer .subject2{ display:block; width:auto; }}
