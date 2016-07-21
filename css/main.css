@@ -443,6 +443,20 @@ Original template designed by TEMPLATED (templated.co)*/
 		#banner .container {
 			padding: 0em 0em;
 		}
+		#banner .container h2 {
+			float:left;
+			position:relative;
+			cursor: pointer;
+			display: inline-block;
+			padding: 0.0em .2em;
+			background: none;
+			text-transform: none;
+			font-weight: 700;
+		}
+		#banner .container h2:hover{
+			border-color: #235796;
+			background: none;
+			color: #235796;
 		}
 		#banner p{
 			color: #2199E8;
