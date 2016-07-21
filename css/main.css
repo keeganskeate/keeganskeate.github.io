@@ -566,7 +566,6 @@ footer.major {padding-top: 3em;}
 #footer {
 	text-shadow: 0 -1px 0 #000;
 	list-style: none;
-	
 	padding: 2em 0 0 0 ;
 	margin: 0 auto;
 	text-align:center;
@@ -575,7 +574,7 @@ footer.major {padding-top: 3em;}
 	#footer .subject1{
 		display: inline-block;margin: auto;
 		border:2px solid; border-color: #F0B500; box-shadow:  -2px #000; border-radius: 5px;
-        	width:30%;
+        	width:20%;
 		overflow:auto;
 		background: url(../images/parchment_back.png) no-repeat center center;background-size: cover;}
 @media screen and (max-width: 650px){ #footer .subject1{ display:block; width:auto; }}
@@ -583,7 +582,7 @@ footer.major {padding-top: 3em;}
 	#footer .subject2{
 		display: inline-block;margin: auto;
 		border:2px solid; border-color: #F0B500; box-shadow:  -2px #000; border-radius: 5px;
-        	width:30%;
+        	width:50%;
 		overflow:auto;
 		background: url(../images/parchment_back.png) no-repeat center center;background-size: cover;}
 @media screen and (max-width: 650px){ #footer .subject2{ display:block; width:auto; }}
@@ -591,7 +590,7 @@ footer.major {padding-top: 3em;}
 	#footer .subject3{
 		display: inline-block;margin: auto;
 		border:2px solid; border-color: #F0B500; box-shadow:  -2px #000; border-radius: 5px;
-        	width:30%;
+        	width:70%;
 		overflow:auto;
 		background: url(../images/parchment_back.png) no-repeat center center;background-size: cover;}
 @media screen and (max-width: 650px){ #footer .subject3{ display:block; width:auto; }}
