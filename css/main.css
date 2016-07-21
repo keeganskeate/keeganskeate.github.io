@@ -357,7 +357,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 				}
 				#nav > ul > li.active,
 				#nav ul > li:hover {
-					color: #107896;
+					color: #813772;
 				}
 				#nav > ul > li > ul{
 					height: 0;
@@ -459,12 +459,12 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 			text-decoration: underline;
 		}
 		#banner p > a:hover{
-			color: #813772;
+			color: #107896;
 		}
 /* Picture Dropdown Button */
 .dropbtn {    		
 			float:left;
-			position:absolute;
+			position:relative;
 			cursor: pointer;
 			display: inline-block;
 			background:#49274A url(../images/grad_pic.jpg) no-repeat;
