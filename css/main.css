@@ -414,6 +414,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		-o-appearance: none;
 		-ms-appearance: none;
 		padding: 0 0 0 1em;
+		margin: 0 auto;
 		color: #131516;
 		-moz-transition: all .35s ease-in;
 		-webkit-transition: all .35s ease-in;
