@@ -551,7 +551,7 @@ footer.major {padding-top: 3em;}
 @media screen and (max-width: 650px){ #footer .subject1{ display:block; width:auto; }}
 .wrapper.endstyle #footer .subject2{vertical-align:top;margin: 1em;}
 	#footer .subject2{
-		display: inline-block;margin: auto;
+		display: inline-block; margin: auto;
 		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
         	width:80%;
 		overflow:auto;
@@ -616,10 +616,10 @@ footer.major {padding-top: 3em;}
 }
 .boxInner {
    position: absolute;
-   left: 10px;
-   right: 10px;
-   top: 10px;
-   bottom: 10px;
+   left: 5px;
+   right: 5px;
+   top: 5px;
+   bottom: 5px;
    overflow: hidden;
    text-align: center;
 }
@@ -636,7 +636,7 @@ footer.major {padding-top: 3em;}
 .boxInner .titleBox {
    position: absolute;
    width:100%;
-   top: 10px;
+   top: 5px;
    left: 0;
    right: 0;
    overflow: hidden;
