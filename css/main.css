@@ -464,7 +464,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 /* Picture Dropdown Button */
 .dropbtn {    		
 			float:left;
-			position:relative;
+			position:absolute;
 			cursor: pointer;
 			display: inline-block;
 			background:#49274A url(../images/grad_pic.jpg) no-repeat;
