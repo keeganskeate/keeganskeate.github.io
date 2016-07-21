@@ -322,6 +322,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 				font-weight: 500;
 				text-shadow: 0 -1px 0 #000;
 				position: relative;
+				border:1px solid;border-color: #EEAA7B;box-shadow:  -2px #000;border-radius: 5px;
 			}
 				#nav > ul > li a {
 					color: inherit;
@@ -351,12 +352,9 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 					margin: 0em;
 					padding: 25px 1em 0 1em;
 					color #C06014
-					border:1px solid;border-color: #EEAA7B;box-shadow:  -2px #000;border-radius: 5px;
 				}
 				#nav ul li:not(:first-child).active,
 				#nav ul li:not(:first-child):hover{
-					margin: 0em;
-					padding: 25px 1em 0 1em;
 					border:1px solid;border-color: #EEAA7B;box-shadow:  -2px #000;border-radius: 5px;
 				}
 				#nav > ul > li:not(:first-child) {
