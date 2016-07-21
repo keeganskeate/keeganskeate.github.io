@@ -9,26 +9,33 @@
 [data-icon]:before { font-family: 'icomoon'; content: attr(data-icon); speak: none; font-weight: normal; font-variant: normal;
 	text-transform: none; line-height: 1;  -webkit-font-smoothing: antialiased; }
 /* THEME
-New Colors:
+Text Headers Black: #131516
+Text Main Black: #373D3F
+Light White: #F2F3F4
+White:#F7F5E6
+Offwhite: #E8E8E8
+Darkest White: #D6D6D6
+Light Blue: #107896 
+Dark Blue:  #333A56
+Light Purple: #813772
+Dark Purple: #49274A
+Golden: #EFD469
+
+oldColors:
 Teal #07889B fades to Poweder #66B9BF
 Tangerine #E37222 fades to Tan EEAA7B
 Ochre - #C06014  fades to Peach #EDDBCD
 Vermillion #333A56  fades to Sunshine #52658F
-Grey #E8E8E8  Offwhite #F7F5E6
-
-Text Colors:
-Grey: #D6D6D6
-
-Background: Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2199E8 
-Hover Color: Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 Yellow- #FFCC00
-Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #222222  Grey - #555555  Off-white - #f9f9f9 */
+Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2199E8 
+Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 Yellow- #FFCC00
+ Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #222222  Grey - #555555  Off-white - #f9f9f9 */
 
 .divider{height: 20px;width: 1366px;margin: 0 auto;}
 
 
 /* Basic Format*/
 	html,body {
-		background: #FFEBD0;
+		background: #F2F3F4;
 		margin: 0px;
 		padding: 0px;
 		width:100%;
@@ -100,7 +107,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		-ms-transition: all 0.35s ease-in-out;
 		transition: all 0.35s ease-in-out;}
 		ul.icons a:hover {
-			color: #235796;
+			color: #49274A;
 			opacity: 1;
 			}
 		ul.icons li {
@@ -120,7 +127,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 				-ms-transition: all 0.35s ease-in-out;
 				transition: all 0.35s ease-in-out;}
 			ul.icons li a:hover {
-				color: #235796;
+				color: #813772;
 				opacity: 1;}
 	ul.actions {
 		cursor: default;
@@ -182,10 +189,10 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 /* Tables */
 	table {width: 100%;}
 		table.default {width: 100%;}
-			table.default tbody tr {border-bottom: solid 1px #FFE788;}
+			table.default tbody tr {border-bottom: solid 1px #813772;}
 			table.default td {padding: 0.5em 1em 0.5em 1em;}
 			table.default th {font-weight: 700;padding: 0.5em 1em 0.5em 1em;text-align: left;}
-			table.default thead {background: #FFEBD0;color: #FFCC00;}
+			table.default thead {background:#F2F3F4;color: #131516;}
 /* Button */
 	input[type="submit"],
 	input[type="reset"],
@@ -199,7 +206,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		background: none;
 		border-radius: none;
 		border: 2px solid;
-		border-color: #FFCC00;
+		border-color: #813772;
 		color: #FFCC00;
 		cursor: pointer;
 		display: inline-block;
@@ -218,9 +225,9 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #FDEE00;
-			color: #235796;
-			border-color: #FDEE00;
+			background: #F2F3F4;
+			color: #49274A;
+			border-color: #49274A;
 		}
 		input[type="submit"].alt,
 		input[type="reset"].alt,
@@ -233,8 +240,8 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
 			.button.alt:hover {
-				background: #FFEBD0;
-				color: #235796;
+				background: #F2F3F4;
+				color: #49274A;
 			}
 		input[type="submit"].fit,
 		input[type="reset"].fit,
@@ -252,8 +259,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		.wrapper.topstyle {
 			width:1366px;
 			height: 300px;
-			background:#FFEBD0 url(../images/paper_header.png) no-repeat center center;
-			background-size: cover;
+			background:#F2F3F4;
 			margin: 0 auto;
 			padding: 0em;
 		}
@@ -261,11 +267,10 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		.wrapper.topstyle p{padding: 0em;}
 /* Header */
 	#header {
-		color: #FFCC00;
+		color: #131516;
 		width:1366px;
 		height: 120px;
-		background: url(../images/brown_nav.png) no-repeat center center;
-		background-size: cover;
+		background:#E8E8E8;
 	}
 		#header .container {
 			position: relative;
@@ -292,7 +297,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		}
 
 		#logo a {
-			color: #F0B500 ;
+			color: #131516 ;
 		}
 	#nav {
 		position: relative;
@@ -355,15 +360,15 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 				}
 				#nav ul li:not(:first-child).active,
 				#nav ul li:not(:first-child):hover{
-					border:1px solid;border-color: #EEAA7B;box-shadow:  -2px #000;border-radius: 5px;
+					border:1px solid;border-color: #49274A;box-shadow:  -2px #000;border-radius: 5px;
 				}
 				#nav > ul > li:not(:first-child) {
 					line-height:50px	
 				}
 				#nav > ul > li.active,
 				#nav ul > li:hover {
-					color: #66B9BF;
-					background:  #FFEBD0;
+					color: #813772;
+					background:  #EFD469;
 				}
 				#nav > ul > li > ul{
 					height: 0;
@@ -372,9 +377,9 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 .dropotron {
 		position:relative;
 		top: 0em;
-		background: #FFEBD0;
+		background: #E8E8E8;
 		border:1px solid;
-		border-color: #EEAA7B;
+		border-color: #813772;
 		box-shadow:  -2px #000;
 		border-radius: 5px;
 		font-weight: 500;
@@ -397,7 +402,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
-				color: #66B9BF;
+				color: #813772;
 				font-weight: 500;
 			}
 	.dropotron.level-0 {
@@ -408,7 +413,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 	}
 		.dropotron.level-1 {
 			border-radius: 5px;
-			background: #FFEBD0;;
+			background: #E8E8E8;
 			font-size: 1em;
 			margin-top:1em;
 			padding:0 0.5em;
@@ -426,7 +431,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		padding: 0 0 0 1em;
 		margin:0 auto;
 		text-align: center;
-		color: #F0B500;
+		color: #131516;
 		-moz-transition: all .35s ease-in;
 		-webkit-transition: all .35s ease-in;
 		-o-transition: all .35s ease-in;
@@ -447,12 +452,12 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			font-weight: 700;
 		}
 		#banner .container h2:hover{
-			border-color: #235796;
+			border-color: #49274A;
 			background: none;
-			color: #235796;
+			color: #131516;
 		}
 		#banner p{
-			color:  #D6D6D6;
+			color:  #373D3F;
 			display: block;
 			letter-spacing: 1px;
 			text-align: left;
@@ -461,7 +466,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 		}
 		#banner p > a{
 			display: inline;
-			color: #07889B;
+			color: #373D3F;
 			text-decoration: underline;
 		}
 		#banner p > a:hover{
@@ -473,7 +478,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			position:relative;
 			cursor: pointer;
 			display: inline-block;
-			background:#F0B500 url(../images/grad_pic.jpg) no-repeat;
+			background:#49274A url(../images/grad_pic.jpg) no-repeat;
 			background-size: 100%;
 			width: 155px;
     			height: 175px;
@@ -481,13 +486,13 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 			border-color: #EEAA7B;
 			box-shadow:  -2px #000;
 			border-radius: 5px;}
-.dropbtn:hover, .dropbtn:focus {outline:none;border-color:#66B9BF;}
+.dropbtn:hover, .dropbtn:focus {outline:none;border-color:#49274A;}
 .dropdown {
     -moz-appearance: none;
 	-webkit-appearance: none;
 	-o-appearance: none;
 	-ms-appearance: none;
-	background: #F0B500 url(../images/grad_pic.jpg) no-repeat;
+	background: #813772 url(../images/grad_pic.jpg) no-repeat;
 	background-size: 100%;
 	border-radius: 5px;
 	width: 155px;
@@ -510,10 +515,10 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 	padding: 0 0.5em 0 0.5em;
 	display: none;
 	position: absolute;
-	background: #FFEBD0;
+	background: #E8E8E8;
 	background-size: 100%;
 	border:1px solid;
-	border-color: #EEAA7B;
+	border-color: #813772;
 	box-shadow:  -2px #000;
 	border-radius: 5px;
 	font-size: 1.6em;
@@ -535,7 +540,7 @@ Special colors: Light Blue - #2199E8  Med Blue - #1585CF Misc colors: Black - #2
 .show {display:block;}
 
 /* Footer */
-.wrapper.endstyle {background: #FFEBD0;font-family: 'Lato', sans-serif;}
+.wrapper.endstyle {background: #F2F3F4;font-family: 'Lato', sans-serif;}
 .wrapper.endstyle h3{text-align:center;}
 .wrapper.endstyle li, .wrapper.endstyle p, .wrapper.endstyle a{padding: 0em;}
 .wrapper.endstyle a{text-decoration:none;}
@@ -553,31 +558,31 @@ footer.major {padding-top: 3em;}
 	#footer .subject1{
 		float: left;
 		display: inline-block;
-		border:2px solid; border-color: #F0B500; box-shadow:  -2px #000; border-radius: 5px;
+		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
         	width:20%;
 		overflow:auto;
-		background: url(../images/parchment_back.png) no-repeat center center;background-size: cover;}
+		background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .subject1{ display:block; width:auto; }}
 .wrapper.endstyle #footer .subject2{vertical-align:top;margin: 1em;}
 	#footer .subject2{
 		display: inline-block;margin: auto;
-		border:2px solid; border-color: #F0B500; box-shadow:  -2px #000; border-radius: 5px;
+		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
         	width:70%;
 		overflow:auto;
-		background: url(../images/parchment_back.png) no-repeat center center;background-size: cover;}
+		background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .subject2{ display:block; width:auto; }}
 .wrapper.endstyle #footer .subject3{vertical-align:top;margin: 1em;}
 	#footer .subject3{
 		display: inline-block;margin: auto;
-		border:2px solid; border-color: #F0B500; box-shadow:  -2px #000; border-radius: 5px;
+		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
         	width:95%;
 		overflow:auto;
-		background: url(../images/parchment_back.png) no-repeat center center;background-size: cover;}
+		background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .subject3{ display:block; width:auto; }}
 
 #footer li, #footer p, #footer a{
 		text-align: left;
-		color: #D6D6D6;
+		color: #373D3F;
 	}
 	#footer ul{
 		padding: 0em;
@@ -587,7 +592,7 @@ footer.major {padding-top: 3em;}
 		line-height: 2em;
 	}
 		#footer h2 {
-			color:#617ec0; 
+			color:#13156; 
 			text-decoration: none;
 			font-size: 1.8em;
 			letter-spacing: 2px;
@@ -596,16 +601,16 @@ footer.major {padding-top: 3em;}
 		}
 		#footer h3{
 			font-weight: 400;
-			color:  #313131;
+			color:  #13156;
 			text-shadow: 0 -1px 0 #000;
 			text-align: center;
 			padding:0 0 .5em 0;
 		}
 		#footer .major h3:hover {
-			border-color: #235796;
+			border-color: #49274A;
 		}
-		#footer a:hover { 
-			color:#080808;
+		#footer a:hover {
+			opacity: 75;  filter:alpha(opacity=75);
 			text-decoration: underline;
 		}
 		#footer .images {
@@ -634,10 +639,10 @@ footer.major {padding-top: 3em;}
 }
 .boxInner img {
    width: 100%;
-   background: #FFEBD0;
+   background: #E8E8E8;
    opacity: 100;  filter:alpha(opacity=100);
    border:2px solid;
-   border-color: #F0B500;
+   border-color: #813772;
    box-shadow:  -2px #000;
    border-radius: 5px;
    cursor: pointer;
@@ -651,7 +656,7 @@ footer.major {padding-top: 3em;}
    overflow: hidden;
    text-align: center;
    background: none;
-   color:  #F0B500;
+   color:  #813772;
    opacity: 0;  filter:alpha(opacity=0);
    cursor: pointer;
    -webkit-transition: all 0.35s ease-in-out;
@@ -659,8 +664,8 @@ footer.major {padding-top: 3em;}
    -o-transition: all 0.35s ease-in-out;
    transition: all 0.35s ease-in-out;}
    
-div.no-touch .boxInner:hover .titleBox, div.touch .boxInner.touchFocus .titleBox{color:  #235796;opacity: 100;  filter:alpha(opacity=100);}
-div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-color: #235796;}
+div.no-touch .boxInner:hover .titleBox, div.touch .boxInner.touchFocus .titleBox{color:  #4927FA;opacity: 100;  filter:alpha(opacity=100);}
+div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-color: #49274A;}
 
 @media only screen and (max-width : 480px) {
    .box { width: 100%; padding-bottom: 100%; }
@@ -699,7 +704,7 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 			letter-spacing: 2px;
 			font-weight: 400;
 			text-shadow: 0 -1px 0 #000;
-			color: #235796;
+			color: #813772;
 			text-decoration: none;
 			opacity: 75;  filter:alpha(opacity=75);
 		}
@@ -708,5 +713,5 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 extrablockquote {
 	margin: 1em 3em;
 	color: #999;
-	border-left: 2px solid #999;
+	border-left: 2px solid #813772;
 	padding-left: 1em; }
