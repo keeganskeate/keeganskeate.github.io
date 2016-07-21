@@ -262,7 +262,8 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 		color: #131516;
 		width:1366px;
 		height: 55px;
-		background:#F2F3F4;
+		background: #49274A;
+		color:#F2F3F4;
 	}
 		#header .container {
 			position: relative;
@@ -357,7 +358,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 				}
 				#nav > ul > li.active,
 				#nav ul > li:hover {
-					color: #813772;
+					color: #EFD469;
 				}
 				#nav > ul > li > ul{
 					height: 0;
