@@ -262,7 +262,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 		color: #131516;
 		width:1366px;
 		height: 55px;
-		background: #49274A;
+		background: #333A56;
 		color:#F2F3F4;
 	}
 		#header .container {
@@ -416,8 +416,6 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 		-o-appearance: none;
 		-ms-appearance: none;
 		padding: 0 0 0 1em;
-		margin:0 auto;
-		text-align: center;
 		color: #131516;
 		-moz-transition: all .35s ease-in;
 		-webkit-transition: all .35s ease-in;
@@ -427,6 +425,7 @@ Dark Blue- #235796   Alt colors: Bright Yellow - #FDEE00 Light Yellow - #FFE788 
 	}
 		#banner .container {
 			padding: 0em 0em;
+			margin:1em 0 0 0;
 		}
 		#banner .container h2 {
 			float:left;
@@ -546,7 +545,7 @@ footer.major {padding-top: 3em;}
 		float: left;
 		display: inline-block;
 		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
-        	width:40%;
+        	width:30%;
 		overflow:auto;
 		background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .subject1{ display:block; width:auto; }}
@@ -562,7 +561,7 @@ footer.major {padding-top: 3em;}
 	#footer .subject3{
 		display: inline-block;margin: auto;
 		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
-        	width:560px;
+        	width:40%;
 		overflow:auto;
 		background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .subject3{ display:block; width:auto; }}
