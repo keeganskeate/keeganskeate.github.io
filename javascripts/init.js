@@ -80,8 +80,8 @@
 		$(document).tooltip({show: null});
 		
 		//Scroll Popup
-		$(window).scroll(function() {if ($('#specsallA').is(':visible')) {myFunction()}
-});
+		
+		$(window).scroll(function(){myFunction();})
 
 	});
 
