@@ -473,7 +473,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 			width: 155px;
     			height: 175px;
 			border:2px solid;
-			border-color: #EEAA7B;
+			border-color: #49274A;
 			box-shadow:  -2px #000;
 			border-radius: 5px;}
 .dropbtn:hover, .dropbtn:focus {outline:none;border-color:#813772;}
@@ -498,7 +498,6 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 	-ms-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;}
 @media screen and (max-width: 650px) { .dropdown{ margin: 1em 0 0 0; } }
-.dropdown:hover,.dropdown:onclick {  opacity: .5;  filter:alpha(opacity=50); }
 .dropdown-content {
 	line-height: 1em;
 	padding: 0 0.5em 0 0.5em;
@@ -521,11 +520,12 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 .dropdown-content a {padding: 0px 0px; text-decoration: none; display: block;}
 .dropdown-content a:hover {padding: 0px 0px 0px 0px;text-decoration: none;display: block;}
 .show {display:block;left:500px;}
-
 .picwrapper {overflow:display;width:100%;max-width:1366px;margin: 2.5em auto 0 auto;vertical-align:top;}
 .picwrapper div {min-height: 175px;}
 #profilepic {float:left; width:155px;margin:0em 0 0em 5.5em;}
 #profbin {overflow:hidden;margin:0 0 0 275px; min-height:175px;}
+.dropdown:hover,.dropdown:onclick {  opacity: .5;  filter:alpha(opacity=50); }
+
 @media screen and (max-width: 650px) {.picwrapper{margin:auto;}}
 @media screen and (max-width: 650px) {#profilepic {float: none;margin:0 0 0 1em;width:auto;}}
 @media screen and (max-width: 650px) {#profbin {margin: 3em auto 0 1em;}}
@@ -623,7 +623,7 @@ footer > :last-child {margin-bottom: 0;}
    background: #E8E8E8;
    opacity: 100;  filter:alpha(opacity=100);
    border:2px solid;
-   border-color: #813772;
+   border-color: #49274A;
    box-shadow:  -2px #000;
    border-radius: 5px;
    cursor: pointer;
