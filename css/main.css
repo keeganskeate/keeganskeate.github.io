@@ -30,7 +30,6 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
    padding: 0;
 }
 #one {
-	padding:10px;
   float:left; 
   margin:2em 0 1em 5.5em;
   width:155px;
@@ -39,12 +38,11 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 #two { 
 padding:10px;
   overflow:hidden;
-  margin: 2em 0 0 275px;
+  margin: 2em 0 2em 275px;
   min-height:175px;
 }
 
 @media screen and (max-width: 650px) {#one {float: none;margin-right:0; width:auto;}}
-@media screen and (max-width: 650px) {#two {margin: 1em auto;width:auto;}}
 
 
 
