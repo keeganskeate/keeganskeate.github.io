@@ -499,10 +499,11 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		width:300px;
 		height:175px;
 	}
-@media screen and (max-width: 650px){#banner .container .professionbin{display:block; width:auto; }}
-
+@media screen and (max-width: 650px){#banner .container .professionbin{float: none;
+    margin-right:0;
+    width:auto; }}
 /* Picture Dropdown Button */
-.dropbtn {
+.dropbtn {margin-right:0;
 			float:left;
 			position:relative;
 			cursor: pointer;
