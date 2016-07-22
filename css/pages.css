@@ -1,8 +1,19 @@
+/*  SUBPAGES
+Text Main Black: #373D3F
+Light White: #F2F3F4
+White:#F7F5E6
+Offwhite: #E8E8E8
+Darkest White: #D6D6D6
+Light Blue: #107896 
+Dark Blue:  #333A56
+Light Purple: #813772
+Dark Purple: #49274A
+Golden: #EFD469 */
 .subpage #logo{display: none;}
 .subpage #nav{position: static;right: none;text-align: center;}
-.subpage #nav ul li:first-child{padding: 0em 1em 0em 0em;margin:2em 0 0 -1.4em;}
+.subpage #nav ul li:first-child{padding: 0em 1em 0em 0em;margin:10px 0 0 0;}
 /* WORK PAGE */
-.wrapper.blogstyle {background: #FFEBD0;}
+.wrapper.blogstyle {background: #F2F3F4;}
 .wrapper.blogstyle h2{text-align:center;}
 .wrapper.blogstyle li,p,a{padding: 0em;}
 .wrapper.blogstyle a{text-decoration:none;}
@@ -22,7 +33,6 @@
 #blog .blogpost .paper {
 	text-align:center;
 }
-
 .subjects { 
   border : 2px solid #000; 
   overflow:hidden;}
@@ -47,7 +57,6 @@
   margin:10px;
   border:2px;
   min-height:170px;}
-
 @media screen and (max-width: 400px) {
    #one { 
     float: none;
@@ -55,6 +64,18 @@
     width:auto;
     border:0;
     border-bottom:2px solid #000; }}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
