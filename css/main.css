@@ -463,8 +463,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		}
 #banner .container .professionbin{vertical-align: top; margin: 0em 1em;}
 	#banner .professionbin{
-		position:relative;
-		vertical-align: top; margin: 0em 1em;
+		vertical-align: top;
 		float: left;
 		display: inline-block;
 		width:300px;
@@ -536,7 +535,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 	text-decoration: none;
 	display: block;
 }
-.show {display:block;left:300px;}
+.show {display:block;left:475px;}
 
 /* Footer */
 .wrapper.endstyle {background: #F2F3F4;font-family: 'Lato', sans-serif;}
