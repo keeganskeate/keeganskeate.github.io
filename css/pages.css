@@ -1,55 +1,48 @@
 /*  SUBPAGES
-Text Main Black: #373D3F  Light White: #F2F3F4  White:#F7F5E6  Offwhite: #E8E8E8  Darkest White: #D6D6D6
+Header Black: #131516  Text Main Black: #373D3F  Light White: #F2F3F4  White:#F7F5E6  Offwhite: #E8E8E8  Darkest White: #D6D6D6
 Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #49274A Golden: #EFD469 */
 .subpage #logo{display: none;}.subpage #nav{position: static;right: none;text-align: center;}
 .subpage #nav ul li:first-child{padding: 0em 1em 0 0em; margin:10px 0 0px -.8em;}
 /* WORK PAGE */
 .wrapper.blogstyle {background: #F2F3F4;}
-.wrapper.blogstyle h2{text-align:center;}
-.wrapper.blogstyle li,p,a{padding: 0em;}
-.wrapper.blogstyle a{text-decoration:none;}
-.blog{text-align:left;}
-#blog h2{
-	color:black;
-}
-#blog h5 {
-	color:black;
-}
-#blog p {
-	color:blue;
-}
-#blog .blogpost {
-	
-}
-#blog .blogpost .paper {
-	text-align:center;
-}
-.subjects { 
+#blog h2{text-align:center;color:#131516}
+.wrapper.blogstyle li,.wrapper.blogstyle p{padding: 0em;}
+.wrapper.blogstyle a{text-decoration:none;padding: 0em;}
+
+#blog h5 {color:#131516;}
+
+#blog .paperpost {text-align:left;margin:0 auto;}
+#blog .paperpost h5{width:560px;}
+#blog .paperpost p{color:#D6D6D6;width:560px;}
+
+#blog .paperpost .paper {text-align:center;}
+
+.snip { 
   border : 2px solid #000; 
   overflow:hidden;}
-.subjects div {
+.snip div {
    min-height: 200px;
    padding: 10px;}
-#one {
+#sniptitle {
   background-color: gray;
   float:left; 
   margin-right:20px;
   width:20%;
   border-right:2px solid #000;}
-#two { 
+#snipdescrip { 
   background-color: white;
   overflow:hidden;
   margin:10px;
   border:2px
   min-height:170px;}
-#three { 
+#snipcode { 
   background-color: white;
   overflow:hidden;
   margin:10px;
   border:2px;
   min-height:170px;}
 @media screen and (max-width: 400px) {
-   #one { 
+   #sniptitle { 
     float: none;
     margin-right:0;
     width:auto;
