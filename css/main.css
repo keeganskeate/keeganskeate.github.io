@@ -517,14 +517,15 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 	height:180px;
 	overflow:auto;
 }
-.dropdown-content a {padding: 0px 0px; text-decoration: none; display: block;}
-.dropdown-content a:hover {padding: 0px 0px 0px 0px;text-decoration: none;display: block;}
+.picwrapper #profilepic .dropdown-content a {padding: 0px 0px; text-decoration: none; display: block;}
+.picwrapper #profilepic .dropdown-content a:hover {padding: 0px 0px 0px 0px;text-decoration: none;display: block;}
 .show {display:block;left:500px;}
 .picwrapper {overflow:display;width:100%;max-width:1366px;margin: 2.5em auto 0 auto;vertical-align:top;}
 .picwrapper div {min-height: 175px;}
 #profilepic {float:left; width:155px;margin:0em 0 0em 5.5em;}
+.picwrapper #profilepic .dropdown:hover,.dropdown:onclick {  opacity: .5;  filter:alpha(opacity=50); }
+
 #profbin {overflow:hidden;margin:0 0 0 275px; min-height:175px;}
-.dropdown:hover,.dropdown:onclick {  opacity: .5;  filter:alpha(opacity=50); }
 
 @media screen and (max-width: 650px) {.picwrapper{margin:auto;}}
 @media screen and (max-width: 650px) {#profilepic {float: none;margin:0 0 0 1em;width:auto;}}
