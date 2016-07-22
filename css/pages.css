@@ -1,14 +1,8 @@
 /*  SUBPAGES
 Text Main Black: #373D3F  Light White: #F2F3F4  White:#F7F5E6  Offwhite: #E8E8E8  Darkest White: #D6D6D6
 Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #49274A Golden: #EFD469 */
-.subpage #logo{display: none;}
-.subpage #nav{position: static;right: none;text-align: center;}
-.subpage #nav ul li:first-child{padding: 0em 1em 0 0em; margin:10px 0 0px -1em;}
-.subpage #nav ul li:not(:first-child){
-					padding: 0em 1em 0 1em;
-					margin:7.5px 0 0 0;
-				}
-
+.subpage #logo{display: none;}.subpage #nav{position: static;right: none;text-align: center;}
+.subpage #nav ul li:first-child{padding: 0em 1em 0 0em; margin:10px 0 0px -.8em;}
 /* WORK PAGE */
 .wrapper.blogstyle {background: #F2F3F4;}
 .wrapper.blogstyle h2{text-align:center;}
