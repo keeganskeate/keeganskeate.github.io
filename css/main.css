@@ -23,14 +23,6 @@ Vermillion #333A56  fades to Sunshine #52658F
 Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2199E8
 
 /* Basic Format*/
-.stack {overflow:display;width:100%;max-width:1366px;margin: 2.5em auto 0 auto;vertical-align:top;}
-.stack div {min-height: 175px;}
-#one {float:left; width:155px;margin:0em 0 0em 5.5em;}
-#two {overflow:hidden;margin:0 0 0 275px; min-height:175px;}
-@media screen and (max-width: 650px) {.stack{margin:auto;}}
-@media screen and (max-width: 650px) {#one {float: none;margin:0 0 0 1em;width:auto;}}
-@media screen and (max-width: 650px) {#two {margin: 3em auto 0 1em;}}
-
 	html,body {
 		background: #F2F3F4;
 		margin: 0px;
@@ -470,18 +462,6 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		#banner p > a:hover{
 			color: #107896;
 		}
-#banner .container .professionbin{vertical-align:top;margin: 0em  3em;}
-	#banner .professionbin{
-		position:relative;
-		display: inline-block;
-		float: left;
-		display: inline-block;
-		width:300px;
-		height:175px;
-	}
-@media screen and (max-width: 650px){#banner .container .professionbin{float: none;
-    margin-right:0;
-    width:auto; }}
 /* Picture Dropdown Button */
 .dropbtn {
 			float:left;
@@ -517,7 +497,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 	-o-transition: all 0.35s ease-in-out;
 	-ms-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;}
-@media screen and (max-width: 650px) { .dropdown{ margin: 2em 0 0 0; } }
+@media screen and (max-width: 650px) { .dropdown{ margin: 1em 0 0 0; } }
 .dropdown:hover,.dropdown:onclick {  opacity: .5;  filter:alpha(opacity=50); }
 .dropdown-content {
 	line-height: 1em;
@@ -538,17 +518,17 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 	height:180px;
 	overflow:auto;
 }
-.dropdown-content a {
-    padding: 0px 0px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-content a:hover {
-	padding: 0px 0px 0px 0px;
-	text-decoration: none;
-	display: block;
-}
+.dropdown-content a {padding: 0px 0px; text-decoration: none; display: block;}
+.dropdown-content a:hover {padding: 0px 0px 0px 0px;text-decoration: none;display: block;}
 .show {display:block;left:500px;}
+
+.picwrapper {overflow:display;width:100%;max-width:1366px;margin: 2.5em auto 0 auto;vertical-align:top;}
+.picwrapper div {min-height: 175px;}
+#profilepic {float:left; width:155px;margin:0em 0 0em 5.5em;}
+#profbin {overflow:hidden;margin:0 0 0 275px; min-height:175px;}
+@media screen and (max-width: 650px) {.picwrapper{margin:auto;}}
+@media screen and (max-width: 650px) {#profilepic {float: none;margin:0 0 0 1em;width:auto;}}
+@media screen and (max-width: 650px) {#profbin {margin: 3em auto 0 1em;}}
 
 /* Footer */
 .wrapper.endstyle {background: #F2F3F4;font-family: 'Lato', sans-serif;}
