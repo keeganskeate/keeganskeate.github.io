@@ -5,7 +5,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 .subpage #nav ul li:first-child{padding: 0em 1em 0 0em; margin:10px 0 0px -.9em;}
 
 
-.subpage #pagetitle h2{width:30%;text-align:center;color:#131516}
+.subpage #pagetitle{width:100%;margin: 0 auto;text-align:center;color:#131516}
 /* WORK PAGE */
 .wrapper.blogstyle {background: #F2F3F4;}
 @media screen and (max-width: 750px) {.wrapper.blogstyle{width:auto;}}
