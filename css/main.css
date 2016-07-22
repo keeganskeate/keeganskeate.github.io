@@ -529,7 +529,6 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 @media screen and (max-width: 650px) {#profbin {margin: 3em auto 0 1em;}}
 
 #profilepic a {padding: 0px 0px; text-decoration: none; display: block;}
- #profilepic a:hover {padding: 0px 0px 0px 0px;text-decoration: none;display: block;}
 #profbin li a:hover{text-decoration: underline;color:  #373D3F;}
 		#profilepic p > a{
 			display: inline;
@@ -537,7 +536,8 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 			text-decoration: underline;}
 		#profilepic p > a:hover{color: #107896;}
 		
- #profilepic:hover, #profilepic:onclick {  opacity: .5;  filter:alpha(opacity=50); }
+/* #profilepic:hover, #profilepic:onclick {  opacity: .5;  filter:alpha(opacity=50); }
+  #profilepic a:hover {padding: 0px 0px 0px 0px;text-decoration: none;display: block;} */
 
 
 /* Footer */
