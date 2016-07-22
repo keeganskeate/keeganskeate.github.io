@@ -530,9 +530,8 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 	padding: 0px 0px 0px 0px;
 	text-decoration: none;
 	display: block;
-	margin-right:0;
 }
-.show {display:block;}
+.show {display:block;margin-right:0;}
 
 /* Footer */
 .wrapper.endstyle {background: #F2F3F4;font-family: 'Lato', sans-serif;}
