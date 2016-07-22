@@ -440,13 +440,18 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 			background: none;
 			color: #131516;
 		}
-		#banner p{
+		#banner p, #banner li{
 			color:  #373D3F;
 			display: block;
 			letter-spacing: 1px;
 			text-align: left;
 			font-size: 1em;
 			font-weight: 300;
+		}
+		
+		#banner li:hover{
+			text-decoration: underline;
+			color: #107896;
 		}
 		#banner p > a{
 			display: inline;
