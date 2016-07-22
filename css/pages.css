@@ -11,7 +11,7 @@ Dark Purple: #49274A
 Golden: #EFD469 */
 .subpage #logo{display: none;}
 .subpage #nav{position: static;right: none;text-align: center;}
-.subpage #nav ul li:first-child{padding: 0em 1em 0em 0em;margin:10px 0 0 0;}
+.subpage #nav ul li:first-child{padding: 0em 1em 0em -1.4em;margin:10px 0 0 0;}
 /* WORK PAGE */
 .wrapper.blogstyle {background: #F2F3F4;}
 .wrapper.blogstyle h2{text-align:center;}
