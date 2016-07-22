@@ -45,9 +45,7 @@ padding:5px;
 @media screen and (max-width: 400px) {#one {float: none;
     margin-right:0;
     width:auto;}}
-@media screen and (max-width: 400px) {#two {float: none;
-    margin-right:0;
-    width:auto;}}
+@media screen and (max-width: 400px) {#two {margin:auto 0;}}
 
 
 
