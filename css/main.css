@@ -476,6 +476,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 
 /* Picture Dropdown Button */
 .dropbtn {
+			margin:0 auto;
 			float:left;
 			position:relative;
 			cursor: pointer;
