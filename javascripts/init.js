@@ -78,11 +78,6 @@
 		
 		//Hover Title Appearance
 		$(document).tooltip({show: null});
-		
-		//Scroll Popup
-		
-		$(window).scroll(function(){myFunction();})
-
 	});
 
 })(jQuery);
