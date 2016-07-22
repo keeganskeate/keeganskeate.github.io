@@ -23,13 +23,12 @@ Vermillion #333A56  fades to Sunshine #52658F
 Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2199E8
 
 /* Basic Format*/
-.stack {overflow:display;width:1366px;}
+.stack {overflow:display;}
 
 .stack div {
    min-height: 175px;
 }
 #one {
-  float:left; 
   margin:1em 0 1em 5.5em;
   width:155px;
 }
