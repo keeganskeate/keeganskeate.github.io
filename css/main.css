@@ -26,9 +26,9 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 .stack {overflow:display;width:100%;max-width:1366px;margin: auto;}
 .stack div {min-height: 175px;}
 #one {float:left; width:155px;margin:1.5em 0 1em 5.5em;}
-#two {overflow:hidden;margin: 1.5em 0 2em 275px;min-height:175px;padding:;40px 0 0 0;}
+#two {overflow:hidden;margin: 1.5em 0 2em 275px;min-height:175px;}
 @media screen and (max-width: 650px) {#one {float: none;margin:0 0 0 1em;width:auto;}}
-@media screen and (max-width: 650px) {#two {margin: 3em auto 0 1em;padding:0;}}
+@media screen and (max-width: 650px) {#two {margin: 3em auto 0 1em;}}
 
 	html,body {
 		background: #F2F3F4;
@@ -605,7 +605,7 @@ footer.major {padding-top: 3em;}
 			color:  #131516;
 			text-shadow: 0 -1px 0 #000;
 			text-align: center;
-			padding:0 0 .5em 0;
+			padding:.5em 0 .5em 0;
 		}
 		#footer .major h3:hover {
 			border-color: #813772;
