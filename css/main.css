@@ -461,7 +461,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		#banner p > a:hover{
 			color: #107896;
 		}
-#banner .container .professionbin{vertical-align: top; margin: 0em 1em;float: left;}
+#banner .container .professionbin{vertical-align: top;}
 	#banner .professionbin{
 		vertical-align: top;
 		float: left;
