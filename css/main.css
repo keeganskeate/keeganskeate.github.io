@@ -464,6 +464,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 #banner .container .professionbin{vertical-align: top;}
 	#banner .professionbin{
 		vertical-align: top;
+		position:relative;
 		float: left;
 		display: inline-block;
 		width:300px;
