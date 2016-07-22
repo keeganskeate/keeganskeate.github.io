@@ -556,7 +556,6 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 .wrapper.endstyle a{text-decoration:none;}
 	
 footer > :last-child {margin-bottom: 0;}
-footer.major {padding-top: 3em;}
 #footer {
 	text-shadow: 0 -1px 0 #000;
 	list-style: none;
