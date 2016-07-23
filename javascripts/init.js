@@ -81,7 +81,21 @@
 		
 		
 		//Popup
-		$("#profbin").scroll(function(){  document.getElementById("myDropdown").classList.toggle("show");
+		window.onscroll = function() {myFunction()};
+
+function myFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        ocument.getElementById("myDropdown").classList.toggle("show");
+    } else {
+       var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }}
+    }
+}
 });
 	
 		
