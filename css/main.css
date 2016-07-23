@@ -504,7 +504,7 @@ margin-left:0;
 @media screen and (max-width: 650px) { .dropdown{ margin: 1em 0 0 0; } }
 .dropdown-content {
 	line-height: 1em;
-	padding: 0 0.5em 0 0.5em;
+	padding: 0em;
 	display: none;
 	position: absolute;
 	float: left;
@@ -521,7 +521,7 @@ margin-left:0;
 	height:180px;
 	overflow:auto;
 }
-.show {display:block;left:500px;}
+.show {display:block;left:33.3%;}
 
 .wrapper.picwrapper {overflow:display;width:100%;margin: 1em auto 0 auto;vertical-align:top;}
 .wrapper.picwrapper div {min-height: 175px;}
@@ -551,7 +551,7 @@ margin-left:0;
 #one {
   background-color: gray;
   float:left; 
-  margin: 0 0 0 2em;
+  margin: 0 0 0 0em;
   width:155px;
   border-right:2px solid #000;
 }
