@@ -5,7 +5,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 .subpage #nav ul li:first-child{padding: 0em 1em 0 0em; margin:10px 0 0px -.9em;}
 .subpage #nav ul li:not(:first-child){
 					padding: 0em 1em 0 1em;
-					margin:8px 0 0 0;
+					margin:7.5px 0 0.5px 0;
 				}
 .subpage #nav .thispage {color:#EFD469;}
 
