@@ -315,7 +315,7 @@ width:1366px;
 position: relative;
 margin:0 0 0 auto;
 				float: right;
-				display: block;
+				display: inline-block;
 				padding: 0 1em 0 1em;
 				background: inherit;
 				text-decoration: none;
