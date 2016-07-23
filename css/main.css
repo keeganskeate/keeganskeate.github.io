@@ -679,10 +679,9 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 #subfooter p{
 	padding: 0em;
 	text-align:center;
-	text-decoration: none;
-	color:#333A56;
-	font-size:1em;
+	font-size:0.8em;
 }
+#subfooter a{color:#333A56;}
 		
 
 /*.divider{height: 20px;width: 1366px;margin: 0 auto;}		
