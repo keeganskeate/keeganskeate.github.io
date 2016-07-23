@@ -81,17 +81,13 @@
 		
 		
 		//Popup
-		$(window).on('scroll', function() {
-    var y_scroll_pos = window.pageYOffset;
-    var scroll_pos_test = 55;             // set to whatever you want it to be
-
-    if(y_scroll_pos > scroll_pos_test) {
-        document.getElementById("myDropdown").classList.toggle("show");
-    }
+		$("#profbin").scroll(function(){  document.getElementById("myDropdown").classList.toggle("show");
 });
-	});
-
-})(jQuery);
+	
+		
+		
+		
+});})(jQuery);
 
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
