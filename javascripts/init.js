@@ -81,22 +81,6 @@
 		
 		
 		//Popup
-		window.onscroll = function() {myFunction()};
-
-function myFunction() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        ocument.getElementById("myDropdown").classList.toggle("show");
-    } else {
-       var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }}
-    }
-}
-});
 	
 		
 		
@@ -122,5 +106,20 @@ window.onclick = function(event) {
       }
     }
   }
+}
+
+window.onscroll = function() {myPopup()};
+function myPopup() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        ocument.getElementById("myDropdown").classList.toggle("show");
+    } else {
+       var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }}
+    }
 }
 
