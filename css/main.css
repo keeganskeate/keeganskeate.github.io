@@ -521,11 +521,9 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 .picwrapper div {min-height: 175px;}
 #profilepic {float:left; width:155px;margin:0em 0 0em 5.5em;}
 #profilepic a {padding: 0px 0px; text-decoration: none; display: block;}
-#profilepic p > a{display: inline;text-decoration: underline;}
-
-#profilepic p > a:hover{color: #107896;}
+#profilepic p > a{display: inline;text-decoration: underline;color:#107896;}
 .dropbtn:hover, .dropbtn:focus {outline:none;border-color:#813772;}
-#profilepic .dropbtn:hover, #profilepic .dropbtn:focus {opacity: .75;  filter:alpha(opacity=75);}
+#profilepic .dropbtn:hover{opacity: .75;  filter:alpha(opacity=75);}
 
 #profbin {overflow:hidden;margin:0 0 0 275px; min-height:175px;}
 #profbin li a:hover{text-decoration: underline;color:  #373D3F;}
