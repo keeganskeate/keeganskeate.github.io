@@ -31,11 +31,11 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 }
 #blog .paperpost p{color:#373D3F;font-weight:300; font-size:1em;}
 #blog .paperpost > p{
-	margin:0 auto 2em auto;
+	margin:0 auto 1em auto;
 	max-width:560px;
 }
 #blog .paperpost .paper {text-align:center;}
-#blog .paperpost .paper {position: relative;height: 0;width:720px;overflow: hidden;}
+#blog .paperpost .paper {position: relative;width:720px;overflow: hidden;}
 #blog .paperpost .paper-16x9{padding-bottom: 56.25%;}
 #blog .paperpost .paper-4x3{padding-bottom: 75%;}
 #blog .paperpost .paper-full{padding-bottom: 100%;}
