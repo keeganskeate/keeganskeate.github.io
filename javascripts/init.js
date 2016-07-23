@@ -110,7 +110,7 @@ window.onclick = function(event) {
 
 window.onscroll = function() {myPopup()};
 function myPopup() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    if (document.body.scrollTop > 50 ) {
         document.getElementById("myDropdown").classList.toggle("show");
     } 
 }
