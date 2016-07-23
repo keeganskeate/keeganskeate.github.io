@@ -377,11 +377,6 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		padding: 0.0em 1em;
 		margin:-2.5px 0 0 0;
 		color:  #373D3F;
-		-moz-transition: all opacity 0.2s ease;
-		-webkit-transition: all opacity 0.2s ease;
-		-o-transition: all opacity 0.2s ease;
-		-ms-transition: all opacity 0.2s ease;
-		transition: all opacity 0.2s ease;
 	}
 		.dropotron > li {
 			-moz-appearance: none;
@@ -391,11 +386,11 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 			line-height: 2.25em;
 			padding: 0 0em;
 			position: relative;
-			-moz-transition: all opacity 0.2s ease;
-		-webkit-transition: all opacity 0.2s ease;
-		-o-transition: all .opacity 0.2s ease;
-		-ms-transition: all opacity 0.2s ease;
-		transition: all opacity 0.2s ease;
+			-moz-transition: opacity 0.35s ease;
+		-webkit-transition: opacity 035s ease;
+		-o-transition: .opacity 0.35s ease;
+		-ms-transition:  opacity 0.35s ease;
+		transition:  opacity 0.35s ease;
 		}
 		.dropotron > li > ul> li{
 			-moz-appearance: none;
@@ -403,11 +398,11 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		-o-appearance: none;
 		-ms-appearance: none;
 			position: relative; display:block;
-			-moz-transition: all .35s ease-out;
-		-webkit-transition: all .35s ease-out;
-		-o-transition: all .35s ease-out;
-		-ms-transition: all .35s ease-out;
-		transition: all .35s ease-out;
+			-moz-transition: opacity 0.35s ease;
+		-webkit-transition: opacity 035s ease;
+		-o-transition: .opacity 0.35s ease;
+		-ms-transition:  opacity 0.35s ease;
+		transition:  opacity 0.35s ease;
 		}
 			.dropotron > li > a {
 				color:  #373D3F;
