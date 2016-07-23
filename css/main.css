@@ -521,7 +521,7 @@ margin-left:0;
 	height:180px;
 	overflow:auto;
 }
-.show {display:block;margin-left:66.6%;}
+.show {display:block;margin-left:33.3%;}
 
 .wrapper.picwrapper {overflow:display;width:100%;margin: 1em auto 0 auto;vertical-align:top;}
 .wrapper.picwrapper div {min-height: 175px;}
@@ -554,6 +554,7 @@ text-align:left;
    padding: 0px;
 }
 #one {
+	vertical-align:bottom;
   background-color: gray;
   float:left; 
   margin-right:0em;
@@ -606,6 +607,7 @@ text-align:left;
 /* Footer */
 .wrapper.endstyle {font-family: 'Lato', sans-serif;}
 .wrapper.endstyle h3{text-align:center;}
+.wrapper.endstyle h3:first-child{text-align:left;}
 .wrapper.endstyle li, .wrapper.endstyle p, .wrapper.endstyle a{padding: 0em;}
 .wrapper.endstyle a{text-decoration:none;}
 	
