@@ -517,7 +517,7 @@ margin-left:0;
 	height:180px;
 	overflow:auto;
 }
-.show {display:block;margin-right:33.3%;}
+.show {display:block;right:33.3%;}
 
 
 /* #profilepic {float:left;width:155px;margin: 0 0 0 2em;}
