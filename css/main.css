@@ -263,7 +263,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 /* Header */
 	#header {
 		color: #131516;
-		width:1366px;
+		width:100%;
 		height: 55px;
 		background: #333A56;
 		color:#F2F3F4;
@@ -427,7 +427,7 @@ margin-left:0;
 		transition: all .35s ease-in;
 	}
 		#banner .container {
-			width:1366px;
+			width:100%;
 			padding: 0em 0em;
 			margin:2em auto 0 auto;
 			float:left;
