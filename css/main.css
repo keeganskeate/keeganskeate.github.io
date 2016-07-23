@@ -664,7 +664,7 @@ footer > :last-child {margin-bottom: 0;}
 			text-align: center;
 			padding:0em 0 .5em 0;
 		}
-		#footer h3:first-child{
+		#footer h6{
 			text-align:left;padding:0em;
 		}
 		
