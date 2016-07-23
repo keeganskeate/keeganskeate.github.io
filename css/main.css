@@ -521,7 +521,7 @@ margin-left:0;
 	height:180px;
 	overflow:auto;
 }
-.show {display:block;left:66.6%;}
+.show {display:block;margin-left:66.6%;}
 
 .wrapper.picwrapper {overflow:display;width:100%;margin: 1em auto 0 auto;vertical-align:top;}
 .wrapper.picwrapper div {min-height: 175px;}
@@ -555,7 +555,7 @@ margin-left:0;
 #one {
   background-color: gray;
   float:left; 
-  margin: 0 0 0 0em;
+  margin-right:0em;
   width:155px;
   border-right:2px solid #000;
 }
