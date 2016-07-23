@@ -557,10 +557,13 @@ text-align:left;
   border:2px dashed #ccc;
   min-height:170px;
 }
+#profiletext li{line-height: 1.4em;}
 
-#profiletext li{
-	line-height: 1.4em;
-}
+#profilepic p > a{display: inline;text-decoration: underline;color:#107896;}
+
+#profilepic .dropbtn:hover{opacity: .75;  filter:alpha(opacity=75);}
+#profiletext {overflow:hidden;margin:0 auto; min-height:175px;}
+#profiletext li a:hover{text-decoration: underline;color:  #373D3F;}
 
 @media screen and (max-width: 650px) {
    #profilepic { 
@@ -627,19 +630,12 @@ footer > :last-child {margin-bottom: 0;}
 		background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .contactbin{ display:block; width:auto; }}
 
-#footer li, #footer p, #footer a{
-		text-align: left;
-		color: #373D3F;
-	}
-		#footer a:hover {
-			opacity: 75;  filter:alpha(opacity=75);
-			text-decoration: underline;
-		}
-	#footer ul{
-		padding: 0em;
-	}
+#footer li, #footer p, #footer a{text-align: left;color: #373D3F;}
+	#footer a:hover {text-decoration: underline;}
 	
-	#footer li{
+	#footer ul{padding: 0em;}
+	
+#footer .contactbin li{
 		line-height: 2em;
 	}
 		#footer h3{
