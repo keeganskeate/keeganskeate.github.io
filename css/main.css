@@ -33,6 +33,9 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
+	.skel-layers-wrapper{
+		background:#F2F3F4;
+	}
 	html.loading,body.loading * {
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
@@ -245,8 +248,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		input[type="button"].small,
 		.button.small {
 			font-size: 0.8em;}
-/* Wrapper */
-	.wrapper {background:#F2F3F4;}
+/* Wrappers */
 		.wrapper.topstyle {
 			width:1366px;
 			height: 55px;
