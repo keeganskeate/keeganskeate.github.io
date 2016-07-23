@@ -78,6 +78,24 @@
 		
 		//Hover Title Appearance
 		$(document).tooltip({show: null});
+		
+		
+		//Popup
+		$(window).on('scroll', function() {
+    var y_scroll_pos = window.pageYOffset;
+    var scroll_pos_test = 55;             // set to whatever you want it to be
+
+    if(y_scroll_pos > scroll_pos_test) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+    }
+});
 	});
 
 })(jQuery);
