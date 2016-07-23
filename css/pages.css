@@ -24,10 +24,10 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	box-shadow:  -2px #000;
 	border-radius: 5px;}
 @media screen and (max-width: 750px) {#blog .paperpost{width:auto;}}
+#blog h5{color:#131516;}
 #blog .paperpost h5{
 	margin:0 auto;
 	max-width:560px;
-	color:#131516;
 }
 #blog .paperpost > p{
 	margin:0 auto 2em auto;
