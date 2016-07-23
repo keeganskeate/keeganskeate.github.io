@@ -536,6 +536,68 @@ margin-left:0;
 @media screen and (max-width: 650px) {#profilepic {float: none;margin:0 0 0 1em;width:auto;}}
 @media screen and (max-width: 650px) {#profbin {margin: 3em auto 0 1em;}}
 
+
+
+
+.fuck { 
+  border : 2px solid #000; 
+  overflow:hidden;
+}
+
+.fuck div {
+   min-height: 200px;
+   padding: 10px;
+}
+#one {
+  background-color: gray;
+  float:left; 
+  margin-right:20px;
+  width:140px;
+  border-right:2px solid #000;
+}
+#two { 
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+  border:2px dashed #ccc;
+  min-height:170px;
+}
+
+@media screen and (max-width: 400px) {
+   #one { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 .wrapper.endstyle {font-family: 'Lato', sans-serif;}
 .wrapper.endstyle h3{text-align:center;}
