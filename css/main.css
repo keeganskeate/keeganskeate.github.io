@@ -385,7 +385,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
-				opacity:75; filter:alpha(opacity=75);
+				color:#EFD469;
 				font-weight: 500;
 			}
 	.dropotron.level-0 {
