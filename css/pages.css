@@ -16,7 +16,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 .wrapper.blogstyle a{text-decoration:none;padding: 0em;}
 
 #blog .paperpost {
-	margin:2em auto;
+	margin:3em auto;
 	width:720px;
 	background: #FFF;
 	border:1px solid;
@@ -48,7 +48,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 #blog .paperpost a{text-decoration:underline;color:#107896;cursor:pointer;}
 
 #blog .paperpost a span{position:absolute;font-size:3em;}
-#blog .paperpost .blogicon{float:right;margin-top:0.5em;}
+#blog .paperpost .blogicon{float:right;}
 
 
 
