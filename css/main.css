@@ -267,6 +267,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		}
 	.homepage{
 		background:#F2F3F4;
+		max-width:1366px;
 	}
 	.homepage #logo {
 		display: none;
