@@ -343,7 +343,7 @@ margin-left:0;
 					padding: 0em 1em;
 					margin:7.5px 0 0 0;
 				}
-				#nav ul li:second-child{
+				#nav ul li:nth-child(2){
 					padding: 0em 2.5% 0 1em;
 				}
 				/*#nav ul li:not(:first-child).active,
