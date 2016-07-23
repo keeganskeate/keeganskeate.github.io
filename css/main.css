@@ -525,7 +525,7 @@ margin-left:0;
 
 .wrapper.picwrapper {overflow:display;width:100%;margin: 1em auto 0 auto;vertical-align:top;}
 .wrapper.picwrapper div {min-height: 175px;}
-#profilepic {width:155px;margin: 0 0 0 2em;}
+#profilepic {float:left;width:155px;margin: 0 0 0 2em;}
 #profilepic a {padding: 0px 0px; text-decoration: none; display: block;}
 #profilepic p > a{display: inline;text-decoration: underline;color:#107896;}
 .dropbtn:hover, .dropbtn:focus {outline:none;border-color:#813772;}
