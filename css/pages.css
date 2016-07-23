@@ -15,8 +15,9 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 .wrapper.blogstyle li,.wrapper.blogstyle p{padding: 0em;}
 .wrapper.blogstyle a{text-decoration:none;padding: 0em;}
 
-#blog h5 {color:#131516;}
-#blog .paperpost {margin:2em auto; width:720px;
+#blog .paperpost {
+	margin:2em auto;
+	width:720px;
 	background: #FFF;
 	border:1px solid;
 	border-color: #49274A;
@@ -26,31 +27,20 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 #blog .paperpost h5{
 	margin:0 auto;
 	max-width:560px;
+	color:#131516;
 }
-#blog .paperpost p{
-	margin:0 auto;
+#blog .paperpost > p{
+	margin:0 auto 2em auto;
 	max-width:560px;
 	color:#373D3F;
 	font-weight:300;
 }
 #blog .paperpost .paper {text-align:center;}
-#blog .paperpost .paper {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-}
-
+#blog .paperpost .paper {position: relative;height: 0;overflow: hidden;}
 #blog .paperpost .paper-16x9{padding-bottom: 56.25%;}
 #blog .paperpost .paper-4x3{padding-bottom: 75%;}
 #blog .paperpost .paper-full{padding-bottom: 100%;}
- 
-#blog .paperpost .paper iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+#blog .paperpost .paper iframe {position: absolute;top:0;left: 0;width: 100%;height: 100%;}
 
 
 
