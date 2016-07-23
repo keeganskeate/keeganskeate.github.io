@@ -379,8 +379,8 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		color:  #373D3F;
 	}
 		.dropotron > li {
-			-moz-appearance: none;
-	-webkit-appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
 			line-height: 2.25em;
@@ -393,8 +393,8 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		transition:  opacity 0.35s ease;
 		}
 		.dropotron > li > ul> li{
-			-moz-appearance: none;
-	-webkit-appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
 			position: relative; display:block;
