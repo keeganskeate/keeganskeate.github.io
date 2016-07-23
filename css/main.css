@@ -262,7 +262,6 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		.wrapper.topstyle p{padding: 0em;}
 /* Header */
 	#header {
-		position: relative;
 		color: #131516;
 		width:1366px;
 		height: 55px;
@@ -276,7 +275,6 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		display: none;
 	}
 	.homepage #nav {
-		position: relative;
 		right: none;
 		margin: 0 auto;
 		text-align: center;
@@ -313,6 +311,9 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 			vertical-align: bottom;
 		}
 			#nav > ul > li  {
+				width: 960px;
+position: relative;
+margin:0 auto;
 				float: right;
 				display: block;
 				margin-left:0;
