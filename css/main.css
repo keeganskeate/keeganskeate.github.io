@@ -326,7 +326,7 @@ margin-left:0;
 				#nav ul li:first-child {
 					float: left;
 					margin:10px 0 0 0;
-					padding: 0em 0 0em 2.5%
+					padding: 0em 0 0em 2.5%;
 					border: none;
 				}
 				#nav ul li:first-child:hover{
@@ -364,7 +364,7 @@ margin-left:0;
 		top: 0em;
 		background: #E8E8E8;
 		font-weight: 500;
-		padding: 0.0em 1em;
+		padding: 0.0em 2.5%;
 		margin:-2.5px 0 0 0;
 		color:  #373D3F;
 	}
@@ -547,7 +547,8 @@ text-align:left;
   width:155px;
   border-right:2px solid #000;
 }
-#profiletext { 
+#profiletext {
+line-height: 1.4em;
   background-color: white;
   overflow:hidden;
   margin-right:0;
