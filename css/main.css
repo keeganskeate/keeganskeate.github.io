@@ -339,7 +339,7 @@ margin-left:0;
 					position: relative;
 					line-height: 2em;
 				}
-				#nav ul li:not(:first-child){
+				#nav ul li:not(:first-child):not(:second-child){
 					padding: 0em 1em;
 					margin:7.5px 0 0 0;
 				}
