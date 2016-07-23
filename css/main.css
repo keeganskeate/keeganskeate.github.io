@@ -523,14 +523,14 @@ margin-left:0;
 }
 .show {display:block;left:500px;}
 
-.wrapper.picwrapper {overflow:display;width:100%;margin: 2.5em auto 0 auto;vertical-align:top;}
+.wrapper.picwrapper {overflow:display;width:100%;margin: 1em auto 0 auto;vertical-align:top;}
 .wrapper.picwrapper div {min-height: 175px;}
-#profilepic {width:155px;margin: 0 0 0 5.5em;}
+#profilepic {width:155px;margin: 0 0 0 2em;}
 #profilepic a {padding: 0px 0px; text-decoration: none; display: block;}
 #profilepic p > a{display: inline;text-decoration: underline;color:#107896;}
 .dropbtn:hover, .dropbtn:focus {outline:none;border-color:#813772;}
 #profilepic .dropbtn:hover{opacity: .75;  filter:alpha(opacity=75);}
-#profbin {overflow:hidden;margin:0 0 0 275px; min-height:175px;}
+#profbin {overflow:hidden;margin:0 auto; min-height:175px;}
 #profbin li a:hover{text-decoration: underline;color:  #373D3F;}
 @media screen and (max-width: 650px) {.wrapper.picwrapper{margin:0 auto;}}
 @media screen and (max-width: 650px) {#profilepic {float: none;margin:0 0 0 1em;width:auto;}}
