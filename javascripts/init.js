@@ -78,20 +78,7 @@
 		
 		//Hover Title Appearance
 		$(document).tooltip({show: null});
-		
-		
-		//Popup
-	$(document).ready(function(){
-window.onscroll = function() {myPopup()};
-function myPopup() {
-    if (document.body.scrollTop > 50 ) {
-        document.getElementById("myDropdown").classList.add("show");
-    } 
-}
-});
-		
-		
-		
+
 });})(jQuery);
 
 /* When the user clicks on the button, 
@@ -114,5 +101,5 @@ window.onclick = function(event) {
     }
   }
 }
-
-
+window.onscroll = function() {myPopup()};
+function myPopup() {if (document.body.scrollTop > 55 ) {document.getElementById("myDropdown").classList.add("show");}}
