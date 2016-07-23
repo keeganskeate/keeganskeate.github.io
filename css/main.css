@@ -513,11 +513,11 @@ margin-left:0;
 	font-size: 1.2em;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	width:560px;
+	width:40%;
 	height:180px;
 	overflow:auto;
 }
-.show {display:block;left:200%;}
+.show {display:block;left:300%;}
 
 
 /* #profilepic {float:left;width:155px;margin: 0 0 0 2em;}
