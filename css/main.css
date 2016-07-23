@@ -523,7 +523,7 @@ margin-left:0;
 }
 .show {display:block;left:500px;}
 
-.wrapper.picwrapper {overflow:display;width:100%;margin: 2.5em auto 0 auto;vertical-align:top;text-align:center;}
+.wrapper.picwrapper {overflow:display;width:100%;margin: 2.5em auto 0 auto;vertical-align:top;}
 .wrapper.picwrapper div {min-height: 175px;}
 #profilepic {width:155px;margin: 0 0 0 5.5em;}
 #profilepic a {padding: 0px 0px; text-decoration: none; display: block;}
