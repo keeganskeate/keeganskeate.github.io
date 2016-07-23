@@ -370,6 +370,10 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 				}
 /* Dropotron */
 .dropotron {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
 		position:relative;
 		top: 0em;
 		background: #E8E8E8;
@@ -377,6 +381,11 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		padding: 0.0em 1em;
 		margin:-2.5px 0 0 0;
 		color:  #373D3F;
+		-moz-transition: all .35s ease-out;
+		-webkit-transition: all .35s ease-out;
+		-o-transition: all .35s ease-out;
+		-ms-transition: all .35s ease-out;
+		transition: all .35s ease-out;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
