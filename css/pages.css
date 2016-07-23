@@ -3,7 +3,7 @@ Header Black: #131516  Text Main Black: #373D3F  Light White: #F2F3F4  White:#F7
 Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #49274A Golden: #EFD469 */
 .subpage #logo{display: none;}.subpage #nav{position: static;right: none;text-align: center;}
 .subpage #nav ul li:first-child{padding: 0em 1em 0 0em; margin:10px 0 0px -.9em;}
-.subpage #thispage {color:#EFD469;}
+.subpage #nav ul li #thispage {color:#EFD469;}
 
 
 .subpage #pagetitle{width:100%;margin: 0 auto;text-align:center;color:#131516}
