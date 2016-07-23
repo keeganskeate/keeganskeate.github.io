@@ -34,16 +34,10 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
   height: 0;
   overflow: hidden;
 }
- 
-/* 16x9 Aspect Ratio */
-#blog .paperpost .paper-16x9 {
-  padding-bottom: 56.25%;
-}
- 
-/* 4x3 Aspect Ratio */
-#blog .paperpost .paper-4x3 {
-  padding-bottom: 75%;
-}
+
+#blog .paperpost .paper-16x9{padding-bottom: 56.25%;}
+#blog .paperpost .paper-4x3{padding-bottom: 75%;}
+#blog .paperpost .paper-full{padding-bottom: 0%;}
  
 #blog .paperpost .paper iframe {
   position: absolute;
