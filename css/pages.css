@@ -10,7 +10,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 
 
 /* LATEST WORK PAGE */
-.wrapper.blogstyle {background: #F2F3F4;}
+.wrapper.blogstyle {background: #F2F3F4; margin:1em auto;}
 @media screen and (max-width: 750px) {.wrapper.blogstyle{width:auto;}}
 .wrapper.blogstyle li,.wrapper.blogstyle p{padding: 0em;}
 .wrapper.blogstyle a{text-decoration:none;padding: 0em;}
