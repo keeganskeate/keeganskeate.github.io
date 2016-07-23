@@ -1,32 +1,39 @@
-/*  SUBPAGES
+/*Theme Colors
 Header Black: #131516  Text Main Black: #373D3F  Light White: #F2F3F4  White:#F7F5E6  Offwhite: #E8E8E8  Darkest White: #D6D6D6
 Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #49274A Golden: #EFD469 */
+/*  SUBPAGE SPECIFIC */
 .subpage #logo{display: none;}.subpage #nav{position: static;right: none;text-align: center;}
 .subpage #nav ul li:first-child{padding: 0em 1em 0 0em; margin:9px 0 0px -.9em;}
 .subpage #nav ul li:not(:first-child){margin:8.5px 0 0 0;}
 .subpage #nav .thispage {color:#EFD469;}
+/*.subpage #pagetitle{width:100%;margin: 0 auto;text-align:center;color:#131516}*/
 
 
-.subpage #pagetitle{width:100%;margin: 0 auto;text-align:center;color:#131516}
-/* WORK PAGE */
-.wrapper.blogstyle {background: #F2F3F4;}
+/* LATEST WORK PAGE */
+.wrapper.blogstyle {background: #FFF;}
 @media screen and (max-width: 750px) {.wrapper.blogstyle{width:auto;}}
 .wrapper.blogstyle li,.wrapper.blogstyle p{padding: 0em;}
 .wrapper.blogstyle a{text-decoration:none;padding: 0em;}
 
 #blog h5 {color:#131516;}
-
 #blog .paperpost {text-align:left;margin:0 auto;width:720px;
 	border:1px solid;
 	border-color: #49274A;
 	box-shadow:  -2px #000;
 	border-radius: 5px;}
 @media screen and (max-width: 750px) {#blog .paperpost{width:auto;}}
-
 #blog .paperpost h5{}
 #blog .paperpost p{color:#373D3F;}
-
 #blog .paperpost .paper {text-align:center;}
+
+
+
+
+
+
+
+
+
 
 .snip { 
   border : 2px solid #000; 
@@ -134,3 +141,7 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+
+
+
+/* ABOUT ME PAGE */
