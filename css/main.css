@@ -665,7 +665,7 @@ footer > :last-child {margin-bottom: 0;}
 			padding:0em 0 .5em 0;
 		}
 		#footer h3:first-child{
-			text-align:left;
+			text-align:left;padding:0em;
 		}
 		
 		#footer .images {
