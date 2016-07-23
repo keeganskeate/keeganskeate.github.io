@@ -26,13 +26,13 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 /* Basic Format*/
 	html,body {
 		max-width:1366px;
-		background: none;
 		margin: 0 auto;
 		padding: 0px;
 		width:100%;
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
+	body{ background:#F2F3F4;}
 	html.loading,body.loading * {
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
@@ -183,7 +183,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 			table.default tbody tr {border-bottom: solid 1px #813772;}
 			table.default td {padding: 0.5em 1em 0.5em 1em;}
 			table.default th {font-weight: 700;padding: 0.5em 1em 0.5em 1em;text-align: left;}
-			table.default thead {background:#F2F3F4;color: #131516;}
+			table.default thead {color: #131516;}
 /* Button */
 	input[type="submit"],
 	input[type="reset"],
@@ -250,7 +250,6 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		.wrapper.topstyle {
 			width:1366px;
 			height: 55px;
-			background:#F2F3F4;
 			margin: 0 auto;
 			padding: 0em;
 		}
@@ -535,7 +534,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 
 
 /* Footer */
-.wrapper.endstyle {background: #F2F3F4;font-family: 'Lato', sans-serif;}
+.wrapper.endstyle {font-family: 'Lato', sans-serif;}
 .wrapper.endstyle h3{text-align:center;}
 .wrapper.endstyle li, .wrapper.endstyle p, .wrapper.endstyle a{padding: 0em;}
 .wrapper.endstyle a{text-decoration:none;}
