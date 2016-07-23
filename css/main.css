@@ -521,10 +521,12 @@ margin-left:0;
 	height:180px;
 	overflow:auto;
 }
-.show {display:block;left:33.3%;}
+.show {display:block;left:66.6%;}
 
 .wrapper.picwrapper {overflow:display;width:100%;margin: 1em auto 0 auto;vertical-align:top;}
 .wrapper.picwrapper div {min-height: 175px;}
+
+
 #profilepic {float:left;width:155px;margin: 0 0 0 2em;}
 #profilepic a {padding: 0px 0px; text-decoration: none; display: block;}
 #profilepic p > a{display: inline;text-decoration: underline;color:#107896;}
@@ -533,6 +535,8 @@ margin-left:0;
 #profbin {overflow:hidden;margin:0 auto; min-height:175px;}
 #profbin li a:hover{text-decoration: underline;color:  #373D3F;}
 @media screen and (max-width: 650px) {.wrapper.picwrapper{margin:0 auto;}}
+
+
 @media screen and (max-width: 650px) {#profilepic {float: none;margin:0 0 0 1em;width:auto;}}
 @media screen and (max-width: 650px) {#profbin {margin: 3em auto 0 1em;}}
 
@@ -546,7 +550,7 @@ margin-left:0;
 
 .fuck div {
    min-height: 200px;
-   padding: 10px;
+   padding: 0px;
 }
 #one {
   background-color: gray;
@@ -558,7 +562,7 @@ margin-left:0;
 #two { 
   background-color: white;
   overflow:hidden;
-  margin:0;
+  margin-right:0;
   border:2px dashed #ccc;
   min-height:170px;
 }
