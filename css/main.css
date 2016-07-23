@@ -33,6 +33,12 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
+	html{
+		background:#FFF;
+	}
+	body{
+		background: #F2F3F4;
+	}
 	html.loading,body.loading * {
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
@@ -265,10 +271,6 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		#header .container {
 			position: relative;
 		}
-	.homepage{
-		background:#F2F3F4;
-		max-width:1366px;
-	}
 	.homepage #logo {
 		display: none;
 	}
