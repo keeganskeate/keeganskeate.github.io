@@ -692,6 +692,10 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 			text-decoration: none;
 			opacity: 75;  filter:alpha(opacity=75);
 		}
+#subfooter li{
+	font-size:.8em;
+	color:#D6D6D6;
+}
 		
 
 /*.divider{height: 20px;width: 1366px;margin: 0 auto;}		
