@@ -680,11 +680,8 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 	padding: 0em;
 	text-align:center;
 	text-decoration: none;
-}
-
-#subfooter p:second-child{
-	font-size:.8em;
-	color:#D6D6D6;
+	color:#333A56;
+	font-size:1em;
 }
 		
 
