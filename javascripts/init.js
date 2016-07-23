@@ -81,7 +81,14 @@
 		
 		
 		//Popup
-	
+	$(document).ready(function(){
+window.onscroll = function() {myPopup()};
+function myPopup() {
+    if (document.body.scrollTop > 50 ) {
+        document.getElementById("myDropdown").classList.add("show");
+    } 
+}
+});
 		
 		
 		
@@ -108,11 +115,4 @@ window.onclick = function(event) {
   }
 }
 
-
-window.onscroll = function() {myPopup()};
-function myPopup() {
-    if (document.body.scrollTop > 50 ) {
-        document.getElementById("myDropdown").classList.add("show");
-    } 
-}
 
