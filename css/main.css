@@ -551,14 +551,14 @@ margin-left:0;
 #one {
   background-color: gray;
   float:left; 
-  margin-right:20px;
-  width:140px;
+  margin: 0 0 0 2em;
+  width:155px;
   border-right:2px solid #000;
 }
 #two { 
   background-color: white;
   overflow:hidden;
-  margin:10px;
+  margin:0;
   border:2px dashed #ccc;
   min-height:170px;
 }
