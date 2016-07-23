@@ -481,7 +481,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 	-webkit-appearance: none;
 	-o-appearance: none;
 	-ms-appearance: none;
-	background: #49274A url(../images/grad_pic.jpg) no-repeat;
+	background: none;
 	background-size: 100%;
 	border-radius: 5px;
 	width: 155px;
