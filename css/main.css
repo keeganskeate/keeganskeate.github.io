@@ -355,8 +355,11 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 				#nav > ul > li.active,
 				#nav ul > li:hover {
 					color: #EFD469;
-					border-bottom: 5px solid #EFD469;
 				}
+				#nav > ul > li >a.active,
+				#nav ul > li>a:hover {
+				border-bottom: 5px solid #EFD469;}
+				
 				#nav > ul > li > ul{
 					height: 0;
 				}
