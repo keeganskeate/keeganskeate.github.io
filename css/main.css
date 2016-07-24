@@ -646,7 +646,7 @@ margin-left:0;
 #profilepic .dropbtn:hover{opacity: .75;  filter:alpha(opacity=75);}
 #profiletext li a:hover{text-decoration: underline;color:  #373D3F;}
 @media screen and (max-width: 650px) {.profile{float:none;display:block;margin: 0 auto;width:auto;}}
-@media screen and (max-width: 650px) {#profilepic {float: none;margin-right:0;width:auto;}}
+@media screen and (max-width: 650px) {#profilepic {float: none;margin:0 auto;width:auto;}}
 @media screen and (max-width: 650px) {#profiletext{margin-top:2em;padding:0;}}
 /* Footer */
 .wrapper.endstyle {font-family: 'Lato', sans-serif;}
