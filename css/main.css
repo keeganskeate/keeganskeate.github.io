@@ -30,6 +30,9 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 .callto{width:25%;float:left;display:inline-block;position:relative;margin:0 auto 0 2em;}
 .callto a{color:#333A56;text-decoration:none;}
 *,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
 .transbutton {
 cursor:pointer;
     display: inline-block;
@@ -91,6 +94,9 @@ cursor:pointer;
     transform: translate(150%,0);
 }
 /* Span on :hover and :active */
+input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
 .transbutton:hover span,
 .transbutton:active span {
     color: #F2F3F4;
