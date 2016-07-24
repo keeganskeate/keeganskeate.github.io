@@ -546,7 +546,7 @@ text-align:left;
 }
 #profiletext {
   background-color: white;
-  overflow:hidden;
+  overflow:auto;
   border:2px dashed #ccc;
   min-height:155px;
 }
