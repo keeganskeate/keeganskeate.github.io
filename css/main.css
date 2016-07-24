@@ -46,10 +46,10 @@ cursor:pointer;
     outline: none;
     border: 2px solid #333A56;
     color: #333A56;
-    background: transparent;
+    background: none;
     font-family: 'raleway', sans-serif;
 }
-@media screen and (max-width: 650px) {.transbutton{float:none;display:block;width:auto;}}
+@media screen and (max-width: 650px) {.transbutton{float:none;display:block;width:auto;min-height:100px;}}
 .transbutton span {
     -webkit-transition: 0.5s;
     -moz-transition: 0.5;
@@ -85,6 +85,9 @@ cursor:pointer;
     transform: translate(-150%,0);
 }
 /* :after */
+input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
 .transbutton:after {
 	background: #333A56;
     content: attr(data-active);
@@ -131,6 +134,7 @@ input[type="submit"]:hover,
   We hide :before pseudo-element on :active
 */
 .transbutton:active:before {
+	background: #333A56;
     -webkit-transform: translate(-150%,0);
     -moz-transform: translate(-150%,0);
     -ms-transform: translate(-150%,0);
