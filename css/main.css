@@ -558,7 +558,7 @@ text-align:left;
 #profiletext li a:hover{text-decoration: underline;color:  #373D3F;}
 
 @media screen and (max-width: 650px) {#profilepic {float: none;margin-right:0;width:auto;}}
-@media screen and (max-width: 650px) {#profiletext{margin-top:2em}
+@media screen and (max-width: 650px) {#profiletext{margin-top:2em}}
 
 
 
