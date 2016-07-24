@@ -189,7 +189,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		background: none;
 		border-radius: none;
 		border: 2px solid;
-		border-color: #813772;
+		border-color: #49274A;
 		color: #49274A;
 		cursor: pointer;
 		display: inline-block;
@@ -208,8 +208,8 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #F2F3F4;
-			color: #49274A;
+			background: #49274A;
+			color: #F2F3F4;
 			border-color: #49274A;
 		}
 		input[type="submit"].alt,
