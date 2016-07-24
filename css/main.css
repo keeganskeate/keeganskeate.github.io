@@ -25,18 +25,12 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 
 /* Basic Format*/
 	html,body {
-		background:none;
+		background: #F2F3F4;
 		margin: 0 auto;
 		padding: 0px;
 		width:100%;
 		overflow-x: hidden;
 		overflow-y: auto;
-	}
-	html{
-		background:#FFF;
-	}
-	body{
-		background: #F2F3F4;
 	}
 	html.loading,body.loading * {
 			-moz-transition: none !important;
