@@ -27,14 +27,14 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 /* Basic Format*/
 
 /* .button */
-#profiletext .callto{display:inline-block;width:25%;position:absolute;margin:auto;float:left;}
-#profiletext .callto a{color:#333A56;text-decoration:none;}
+.callto{display:inline-block;width:25%;position:absolute;margin:auto;float:left;}
+ .callto a{color:#333A56;text-decoration:none;}
 @media screen and (max-width: 650px) {#profiletext.callto div{min-height: 100px;}}
 *,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
-#profiletext.transbutton {
+.transbutton {
 cursor:pointer;
     display: inline-block;
     position: relative;
@@ -50,7 +50,7 @@ cursor:pointer;
     font-family: 'raleway', sans-serif;
 }
 @media screen and (max-width: 650px) {.callto{display:block;width:auto;}}
-#profiletext.transbutton span {
+.transbutton span {
     -webkit-transition: 0.5s;
     -moz-transition: 0.5;
     -o-transition: 0.5s;
@@ -61,8 +61,8 @@ cursor:pointer;
     transition-delay: 0.2s;
 }
 
-#profiletext.transbutton:before,
-#profiletext.transbutton:after {
+.transbutton:before,
+.transbutton:after {
     content: '';
     position: absolute;
     top: 0;
@@ -76,7 +76,7 @@ cursor:pointer;
     transition: .3s,opacity .5s;
 }
 /* :before */
-#profiletext.transbutton:before {
+.transbutton:before {
     content: attr(data-hover);
     -webkit-transform: translate(-150%,0);
     -moz-transform: translate(-150%,0);
@@ -88,7 +88,7 @@ cursor:pointer;
 input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
-#profiletext.transbutton:after {
+.transbutton:after {
 	background: #333A56;
     content: attr(data-active);
     -webkit-transform: translate(150%,0);
@@ -101,8 +101,8 @@ input[type="submit"]:hover,
 input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
-#profiletext.transbutton:hover span,
-#profiletext.transbutton:active span {
+.transbutton:hover span,
+.transbutton:active span {
     color: #F2F3F4;
     background: #333A56;
     opacity: 0;
@@ -115,8 +115,8 @@ input[type="submit"]:hover,
 /*  
     We show :before pseudo-element on :hover  and :after pseudo-element on :active 
 */
-#profiletext.transbutton:hover:before,
-#profiletext.transbutton:active:after {
+.transbutton:hover:before,
+.transbutton:active:after {
     color: #F2F3F4;
     background: #333A56;
     opacity: 1;
