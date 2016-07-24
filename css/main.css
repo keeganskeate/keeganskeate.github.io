@@ -527,7 +527,7 @@ margin-left:0;
 @media screen and (max-width: 650px) {#profbin {margin: 3em auto 0 1em;}} */
 
 .profile {display:inline-block;
-width:auto; margin:0 auto 0 2.5%;overflow:hidden;
+float:left; margin:0 auto 0 2.5%;overflow:hidden;
 border : 2px solid #000; 
 }
 .profile div {text-align:left; height:175px;
