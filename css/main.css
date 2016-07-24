@@ -640,7 +640,7 @@ margin-left:0;
 
 .profile {display:inline-block;float:left; margin:0 auto 0 2.5%;overflow:hidden;}
 .profile div {text-align:left; height:175px;min-height: 175px;padding: 0px;}
-#profilepic {vertical-align:bottom;float:left;margin-right:0em;}
+#profilepic {display:inline-block;vertical-align:bottom;float:left;margin-right:0em;width:155px;}
 #profiletext {display:inline-block;overflow:hidden;min-height:175px;padding:0 0 0 0.5em;}
 #profiletext li{line-height: 1.6em;}
 #profilepic p > a{display: inline;text-decoration: underline;color:#107896;}
