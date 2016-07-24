@@ -557,16 +557,8 @@ text-align:left;
 #profilepic .dropbtn:hover{opacity: .75;  filter:alpha(opacity=75);}
 #profiletext li a:hover{text-decoration: underline;color:  #373D3F;}
 
-@media screen and (max-width: 650px) {
-   #profilepic { 
-    float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000;    
-  }
-}
-
+@media screen and (max-width: 650px) {#profilepic {float: none;margin-right:0;width:auto;}}
+@media screen and (max-width: 650px) {#profiletext{margin-top:2em}
 
 
 
