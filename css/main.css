@@ -47,7 +47,6 @@ cursor:pointer;
     border: 2px solid #333A56;
     color: #333A56;
     background: none;
-    font-family: 'raleway', sans-serif;
 }
 @media screen and (max-width: 650px) {.callto{display:block;width:auto;}}
 .transbutton span {
