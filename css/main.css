@@ -27,7 +27,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 /* Basic Format*/
 
 /* .button */
-#profiletext .callto{display:inline-block;width:25%;position:absolute;margin:auto;min-height:175px;}
+#profiletext .callto{display:inline-block;width:25%;position:absolute;margin:auto;float:left;}
 #profiletext .callto a{color:#333A56;text-decoration:none;}
 @media screen and (max-width: 650px) {#profiletext.callto div{min-height: 100px;}}
 *,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
