@@ -27,10 +27,11 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 /* Basic Format*/
 
 /* .button */
-.callto{width:30%;float:left;display:inline-block;position:relative;margin:0 auto 0 2em;}
+.callto{width:25%;float:left;display:inline-block;position:relative;margin:0 auto 0 2em;}
 .callto a{color:#333A56;text-decoration:none;}
 *,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 .transbutton {
+cursor:pointer;
     display: inline-block;
     position: relative;
     margin: 0em;
@@ -607,7 +608,7 @@ margin-left:0;
 	line-height: 1em;
 	padding: 0;
 	display: none;
-	position: absolute;
+	position: relative;
 	float: left;
 	background: #E8E8E8;
 	background-size: 100%;
