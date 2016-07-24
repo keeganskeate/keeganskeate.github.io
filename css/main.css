@@ -608,7 +608,7 @@ footer > :last-child {margin-bottom: 0;}
 	text-align:center;
 	}
 	
-#footer p{margin-right:0;}
+#footer p{float:right}
 	
 .wrapper.endstyle #footer .projectsbin{vertical-align:top;margin: 1em;}
 	#footer .projectsbin{
