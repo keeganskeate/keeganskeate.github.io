@@ -189,8 +189,8 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		background: none;
 		border-radius: none;
 		border: 2px solid;
-		border-color: #49274A;
-		color: #49274A;
+		border-color: #333A56;
+		color: #333A56;
 		cursor: pointer;
 		display: inline-block;
 		padding: 0.90em 1.2em;
@@ -208,9 +208,8 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #49274A;
-			color: #F2F3F4;
-			border-color: #49274A;
+			background: #333A56;
+			border-color: #333A56;
 		}
 		input[type="submit"].alt,
 		input[type="reset"].alt,
@@ -529,6 +528,7 @@ margin-left:0;
 
 
 .callto{width:20%;float:left;display:inline-block;position:relative;margin:0 auto;}
+.callto a{color:#333A56;text-decoration:none;}
 
 /* Footer */
 .wrapper.endstyle {font-family: 'Lato', sans-serif;}
