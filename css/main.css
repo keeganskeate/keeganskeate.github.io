@@ -614,7 +614,8 @@ margin-left:0;
 	-o-transition: all 0.35s ease-in-out;
 	-ms-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;}
-@media screen and (max-width: 550px) { .dropdown{ margin: 0em auto; } }
+@media screen and (max-width: 650px) { .dropdown{ margin: 0em auto; } }
+@media screen and (max-width: 650px) {.profile .dropdown{text-align:center;}}
 .dropdown-content {
 	line-height: 1em;
 	padding: 0;
