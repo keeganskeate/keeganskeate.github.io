@@ -527,6 +527,9 @@ margin-left:0;
 @media screen and (max-width: 650px) {#profilepic {float: none;margin-right:0;width:auto;}}
 @media screen and (max-width: 650px) {#profiletext{margin-top:2em;padding:0;}}
 
+
+#callto{display:inline-block;position:absolute;margin:0 auto;}
+
 /* Footer */
 .wrapper.endstyle {font-family: 'Lato', sans-serif;}
 .wrapper.endstyle li, .wrapper.endstyle p, .wrapper.endstyle a{padding: 0em;}
@@ -665,28 +668,6 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 	font-size:0.8em;
 }
 #subfooter a{color:#333A56;}
-
-
-.round-button {width:25%;}
-.round-button-circle {width: 100%;height:0;padding-bottom: 100%;border-radius: 50%;border:10px solid #cfdcec;
-    overflow:hidden;
-    background: #4679BD; 
-    box-shadow: 0 0 3px gray;
-}
-.round-button-circle:hover {background:#30588e;}
-.round-button a { display:inline-block;
-	width:100%;
-	padding-top:50%;
-    padding-bottom:50%;
-	line-height:1em;
-	margin-top:-0.5em;
- 
-	text-align:center;
-	color:#e2eaf3;
-    font-size:1.2em;
-    font-weight:bold;
-    text-decoration:none;
-}	
 
 /*.divider{height: 20px;width: 1366px;margin: 0 auto;}		
 extrablockquote {
