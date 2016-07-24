@@ -535,7 +535,7 @@ border : 2px solid #000;
 	padding: 0px;
 }
 #profilepic {
-	vertical-align:bottom;
+vertical-align:bottom;
   background-color: gray;
   float:left; 
   margin-right:0em;
@@ -554,7 +554,7 @@ border : 2px solid #000;
 
 #profilepic .dropbtn:hover{opacity: .75;  filter:alpha(opacity=75);}
 #profiletext li a:hover{text-decoration: underline;color:  #373D3F;}
-
+@media screen and (max-width: 650px) {.profile{float:none;display:block;margin: 0 auto;width:auto;}}
 @media screen and (max-width: 650px) {#profilepic {float: none;margin-right:0;width:auto;}}
 @media screen and (max-width: 650px) {#profiletext{margin-top:2em}}
 
