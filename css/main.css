@@ -530,11 +530,8 @@ margin-left:0;
 width:95%;margin:0 auto;overflow:hidden;
 border : 2px solid #000; 
 }
-
-.profile div {
-	text-align:left;
-	height:155px;
-	min-height: 155px;
+.profile div {text-align:left; height:175px;
+	min-height: 175px;
 	padding: 0px;
 }
 #profilepic {
@@ -549,7 +546,7 @@ border : 2px solid #000;
   background-color: white;
   overflow:hidden;
   border:2px dashed #ccc;
-  min-height:155px;
+  min-height:175px;
 }
 #profiletext li{line-height: 1.6em;}
 
