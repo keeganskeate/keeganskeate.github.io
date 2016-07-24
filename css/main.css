@@ -637,7 +637,7 @@ margin-left:0;
 @media screen and (max-width: 550px) {.dropdown-content {width:85vw}}
 .show {display:block;}
 
-.profile {display:inline-block;float:left; margin:0 auto 0 2.5%;overflow:hidden;width:60%;}
+.profile {display:inline-block;float:left; margin:0 auto 0 2.5%;overflow:hidden;}
 .profile div {text-align:left; height:175px;min-height: 175px;padding: 0px;}
 #profilepic {vertical-align:bottom;float:left;margin-right:0em;width:155px;}
 #profiletext {display:inline-block;overflow:hidden;min-height:175px;padding:0 0 0 0.5em;}
