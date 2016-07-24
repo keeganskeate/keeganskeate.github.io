@@ -565,7 +565,10 @@ footer > :last-child {margin-bottom: 0;}
 @media screen and (max-width: 650px){ #footer .contactbin{ display:block; width:auto; }}
 
 #footer li, #footer a{text-align: left;color: #373D3F;}
-	#footer a:hover {text-decoration: underline;}
+
+	#footer .profiletext a:hover,
+	#footer .contactbin a:hover,
+	{text-decoration: underline;}
 	
 	#footer ul{padding: 0em;}
 	
