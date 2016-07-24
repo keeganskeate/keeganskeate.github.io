@@ -640,7 +640,7 @@ margin-left:0;
 
 .profile {display:inline-block;float:left; margin:0 auto 0 2.5%;overflow:hidden;}
 .profile div {text-align:left; height:175px;min-height: 175px;padding: 0px;}
-#profilepic {display:inline-block;vertical-align:bottom;float:left;margin-right:0em;width:155px;}
+#profilepic {vertical-align:bottom;float:left;margin-right:0em;width:155px;}
 #profiletext {display:inline-block;overflow:hidden;min-height:175px;padding:0 0 0 0.5em;}
 #profiletext li{line-height: 1.6em;}
 #profilepic p > a{display: inline;text-decoration: underline;color:#107896;}
@@ -648,7 +648,7 @@ margin-left:0;
 #profilepic .dropbtn:hover{opacity: .75;  filter:alpha(opacity=75);}
 #profiletext li a:hover{text-decoration: underline;color:  #373D3F;}
 @media screen and (max-width: 650px) {.profile{float:none;display:block;margin: 0 auto;width:auto;}}
-@media screen and (max-width: 650px) {#profilepic {float:none;margin:0 auto;width:auto;}}
+@media screen and (max-width: 650px) {#profilepic {display:block;float:none;margin:0 auto;width:auto;}}
 @media screen and (max-width: 650px) {#profiletext{margin-top:2em;padding:0;}}
 /* Footer */
 .wrapper.endstyle {font-family: 'Lato', sans-serif;}
