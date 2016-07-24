@@ -101,5 +101,3 @@ window.onclick = function(event) {
     }
   }
 }
-window.onscroll = function() {myPopup()};
-function myPopup() {if (document.body.scrollTop > 55 ) {document.getElementById("myDropdown").classList.add("show");}}
