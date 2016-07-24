@@ -49,7 +49,7 @@ cursor:pointer;
     background: none;
     font-family: 'raleway', sans-serif;
 }
-@media screen and (max-width: 650px) {.transbutton{float:none;display:block;width:auto;min-height:100px;}}
+@media screen and (max-width: 650px) {.callto{display:block;width:auto;}}
 .transbutton span {
     -webkit-transition: 0.5s;
     -moz-transition: 0.5;
