@@ -533,7 +533,7 @@ width:95%;margin:0 auto;
 
 .profile div {
 text-align:left;
-   min-height: 155pxpx;
+   min-height: 160px;
    padding: 0px;
 }
 #profilepic {
@@ -549,9 +549,9 @@ text-align:left;
   overflow:hidden;
   margin-right:0;
   border:2px dashed #ccc;
-  min-height:155px;
+  min-height:160px;
 }
-#profiletext li{line-height: 1.6em;}
+#profiletext li{line-height: 1.5em;}
 
 #profilepic p > a{display: inline;text-decoration: underline;color:#107896;}
 
