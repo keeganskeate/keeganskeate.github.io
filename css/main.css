@@ -38,7 +38,7 @@ input[type="submit"],
 cursor:pointer;
     display: inline-block;
     position: relative;
-    margin: 1em 0em;
+    margin: 0 0 1em 0;
     padding: 0em 0.67em;
     overflow: hidden;
     text-decoration: none;
