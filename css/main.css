@@ -27,6 +27,8 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 /* Basic Format*/
 
 /* .button */
+.callto{width:30%;float:left;display:inline-block;position:relative;margin:0 auto 0 2em;}
+.callto a{color:#333A56;text-decoration:none;}
 *,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 .transbutton {
     display: inline-block;
@@ -79,6 +81,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 }
 /* :after */
 .transbutton:after {
+	background: #333A56;
     content: attr(data-active);
     -webkit-transform: translate(150%,0);
     -moz-transform: translate(150%,0);
@@ -634,11 +637,6 @@ margin-left:0;
 @media screen and (max-width: 650px) {.profile{float:none;display:block;margin: 0 auto;width:auto;}}
 @media screen and (max-width: 650px) {#profilepic {float: none;margin-right:0;width:auto;}}
 @media screen and (max-width: 650px) {#profiletext{margin-top:2em;padding:0;}}
-
-
-.callto{width:20%;float:left;display:inline-block;position:relative;margin:0 auto;}
-.callto a{color:#333A56;text-decoration:none;}
-
 /* Footer */
 .wrapper.endstyle {font-family: 'Lato', sans-serif;}
 .wrapper.endstyle li, .wrapper.endstyle p, .wrapper.endstyle a{padding: 0em;}
