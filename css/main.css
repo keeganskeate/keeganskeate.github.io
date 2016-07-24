@@ -511,7 +511,7 @@ margin-left:0;
 	height:180px;
 	overflow:auto;
 }
-.show {display:block;text-align:right;}
+.show {display:block;}
 
 
 /* #profilepic {float:left;width:155px;margin: 0 0 0 2em;}
@@ -607,6 +607,9 @@ footer > :last-child {margin-bottom: 0;}
 	margin: 0 auto;
 	text-align:center;
 	}
+	
+#foter p{text-align:right;}
+	
 .wrapper.endstyle #footer .projectsbin{vertical-align:top;margin: 1em;}
 	#footer .projectsbin{
 		display: inline-block; margin: 0 auto;
