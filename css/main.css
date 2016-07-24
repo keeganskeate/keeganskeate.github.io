@@ -210,6 +210,7 @@ Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2
 		.button:hover {
 			background: #333A56;
 			border-color: #333A56;
+			color:#F2F3F4;
 		}
 		input[type="submit"].alt,
 		input[type="reset"].alt,
