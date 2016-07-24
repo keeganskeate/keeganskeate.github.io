@@ -547,7 +547,6 @@ text-align:left;
 #profiletext {
   background-color: white;
   overflow:hidden;
-  margin-right:0;
   border:2px dashed #ccc;
   min-height:155px;
 }
@@ -556,7 +555,6 @@ text-align:left;
 #profilepic p > a{display: inline;text-decoration: underline;color:#107896;}
 
 #profilepic .dropbtn:hover{opacity: .75;  filter:alpha(opacity=75);}
-#profiletext {overflow:hidden;margin:0 auto; min-height:175px;}
 #profiletext li a:hover{text-decoration: underline;color:  #373D3F;}
 
 @media screen and (max-width: 650px) {
