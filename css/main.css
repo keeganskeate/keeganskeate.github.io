@@ -511,7 +511,7 @@ margin-left:0;
 	height:180px;
 	overflow:auto;
 }
-@media screen and (max-width: 550px) {.dropdown-content {width:90vw}}
+@media screen and (max-width: 550px) {.dropdown-content {width:80vw}}
 .show {display:block;}
 
 
