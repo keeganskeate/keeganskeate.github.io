@@ -709,10 +709,10 @@ cursor:pointer;
     width: 100%;
     text-align: center;
     opacity: 0;
-    -webkit-transition: .3s,opacity .5s;
-    -moz-transition: .3s,opacity .5s;
-    -o-transition: .3s,opacity .5s;
-    transition: .3s,opacity .5s;
+    -webkit-transition: .3s,opacity .3s;
+    -moz-transition: .3s,opacity .3s;
+    -o-transition: .3s,opacity .3s;
+    transition: .3s,opacity .3s;
 }
 /* :before */
 .transbutton:before {
@@ -746,11 +746,11 @@ input[type="submit"]:hover,
     color: #F2F3F4;
     background: #333A56;
     opacity: 0;
-     -webkit-transform: scale(0.2);
-    -moz-transform: scale(0.2);
-    -ms-transform: scale(0.2);
-    -o-transform: scale(0.2);
-    transform: scale(0.2);
+     -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+    transform: scale(0.3);
 }
 /*  
     We show :before pseudo-element on :hover  and :after pseudo-element on :active 
