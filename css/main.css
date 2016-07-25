@@ -25,127 +25,6 @@ Vermillion #333A56  fades to Sunshine #52658F
 Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2199E8
 
 /* Basic Format*/
-
-/* .button */
-.callto{display:inline-block;width:25%;float:left;margin:0 auto 0 2em;}
- .callto a{color:#333A56;text-decoration:none;}
-@media screen and (max-width: 650px) {#profiletext.callto div{min-height: 100px;}}
-*,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-.transbutton {
-cursor:pointer;
-    display: inline-block;
-    position: relative;
-    margin: 0 0 1em 0;
-    padding: 0em 0.67em;
-    overflow: hidden;
-    text-decoration: none;
-    font-size: 2em;
-    outline: none;
-    border: 2px solid #333A56;
-    color: #333A56;
-    background: none;
-}
-@media screen and (max-width: 650px) {.callto{display:block;width:auto;}}
-.transbutton span {
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-    -webkit-transition-delay: 0.2s;
-    -moz-transition-delay: 0.2s;
-    -o-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-}
-
-.transbutton:before,
-.transbutton:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    -webkit-transition: .3s,opacity .5s;
-    -moz-transition: .3s,opacity .5s;
-    -o-transition: .3s,opacity .5s;
-    transition: .3s,opacity .5s;
-}
-/* :before */
-.transbutton:before {
-    content: attr(data-hover);
-    -webkit-transform: translate(-150%,0);
-    -moz-transform: translate(-150%,0);
-    -ms-transform: translate(-150%,0);
-    -o-transform: translate(-150%,0);
-    transform: translate(-150%,0);
-}
-/* :after */
-input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-.transbutton:after {
-	background: #333A56;
-    content: attr(data-active);
-    -webkit-transform: translate(150%,0);
-    -moz-transform: translate(150%,0);
-    -ms-transform: translate(150%,0);
-    -o-transform: translate(150%,0);
-    transform: translate(150%,0);
-}
-/* Span on :hover and :active */
-input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-.transbutton:hover span,
-.transbutton:active span {
-    color: #F2F3F4;
-    background: #333A56;
-    opacity: 0;
-    -webkit-transform: scale(0.3);
-    -moz-transform: scale(0.3);
-    -ms-transform: scale(0.3);
-    -o-transform: scale(0.3);
-    transform: scale(0.3);
-}
-/*  
-    We show :before pseudo-element on :hover  and :after pseudo-element on :active 
-*/
-.transbutton:hover:before,
-.transbutton:active:after {
-    color: #F2F3F4;
-    background: #333A56;
-    opacity: 1;
-    -webkit-transform: translate(0,0);
-    -moz-transform: translate(0,0);
-    -ms-transform: translate(0,0);
-    -o-transform: translate(0,0);
-    transform: translate(0,0);
-    -webkit-transition-delay: .3s;
-    -moz-transition-delay: .3s;
-    -o-transition-delay: .3s;
-    transition-delay: .3s;
-}
-/* 
-  We hide :before pseudo-element on :active
-  .transbutton:active:before {
-	background: #333A56;
-    -webkit-transform: translate(-150%,0);
-    -moz-transform: translate(-150%,0);
-    -ms-transform: translate(-150%,0);
-    -o-transform: translate(-150%,0);
-    transform: translate(-150%,0);
-    -webkit-transition-delay: 0s;
-    -moz-transition-delay: 0s;
-    -o-transition-delay: 0s;
-    transition-delay: 0s;
-}
-*/
-
-
 	html,body {
 		background: #F2F3F4;
 		margin: 0 auto;
@@ -798,3 +677,112 @@ extrablockquote {
 	color: #999;
 	border-left: 2px solid #813772;
 	padding-left: 1em; }*/
+/* CALL TO ACTION */
+.callto{display:inline-block;width:25%;float:left;margin:0 auto 0 2em;}
+ .callto a{color:#333A56;text-decoration:none;}
+@media screen and (max-width: 650px) {#profiletext.callto div{min-height: 100px;}}
+*,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+.transbutton {
+cursor:pointer;
+    display: inline-block;
+    position: relative;
+    margin: 0 0 1em 0;
+    padding: 0em 0.67em;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 2em;
+    outline: none;
+    border: 2px solid #333A56;
+    color: #333A56;
+    background: none;
+}
+@media screen and (max-width: 650px) {.callto{display:block;width:auto;}}
+.transbutton span {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.transbutton:before,
+.transbutton:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: .3s,opacity .5s;
+    -moz-transition: .3s,opacity .5s;
+    -o-transition: .3s,opacity .5s;
+    transition: .3s,opacity .5s;
+}
+/* :before */
+.transbutton:before {
+    content: attr(data-hover);
+    -webkit-transform: translate(-150%,0);
+    -moz-transform: translate(-150%,0);
+    -ms-transform: translate(-150%,0);
+    -o-transform: translate(-150%,0);
+    transform: translate(-150%,0);
+}
+/* :after */
+input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+.transbutton:after {
+	background: #333A56;
+    content: attr(data-active);
+    -webkit-transform: translate(150%,0);
+    -moz-transform: translate(150%,0);
+    -ms-transform: translate(150%,0);
+    -o-transform: translate(150%,0);
+    transform: translate(150%,0);
+}
+/* Span on :hover and :active */
+input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+.transbutton:hover span,
+.transbutton:active span {
+    color: #F2F3F4;
+    background: #333A56;
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+    transform: scale(0.3);
+}
+/*  
+    We show :before pseudo-element on :hover  and :after pseudo-element on :active 
+*/
+.transbutton:hover:before,
+.transbutton:active:after {
+    color: #F2F3F4;
+    background: #333A56;
+    opacity: 1;
+}
+/* 
+  We hide :before pseudo-element on :active
+  .transbutton:active:before {
+	background: #333A56;
+    -webkit-transform: translate(-150%,0);
+    -moz-transform: translate(-150%,0);
+    -ms-transform: translate(-150%,0);
+    -o-transform: translate(-150%,0);
+    transform: translate(-150%,0);
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+*/
