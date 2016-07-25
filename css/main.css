@@ -562,6 +562,19 @@ footer > :last-child {margin-bottom: 0;}
 			background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .contactbin{ display:block; width:auto; }}
 
+#footer .contactbin .contact1{
+	display:inline-block;
+	float:left;
+}
+#footer .contactbin .contact1{
+	display:inline-block;
+	float:left;
+}
+#footer .contactbin .contact1{
+	display:inline-block;
+	float:left;
+}
+
 	#footer li{
 		text-align: left;
 		color: #373D3F;
@@ -782,9 +795,11 @@ input[type="submit"]:hover,
 }*/
 
 /* EXTRA CODE */
-/*.divider{height: 20px;width: 1366px;margin: 0 auto;}		
-extrablockquote {
+/*.divider{height: 20px;width: 1366px;margin: 0 auto;}	 */	
+blockquote {
 	margin: 1em 3em;
 	color: #999;
 	border-left: 2px solid #813772;
-	padding-left: 1em; }*/
+	padding-left: 1em; }
+
+
