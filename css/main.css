@@ -765,10 +765,10 @@ input[type="submit"]:hover,
     -ms-transform: translate(0,0);
     -o-transform: translate(0,0);
     transform: translate(0,0);
-    -webkit-transition-delay: .3s;
-    -moz-transition-delay: .3s;
-    -o-transition-delay: .3s;
-    transition-delay: .3s;
+    -webkit-transition-delay: .1s;
+    -moz-transition-delay: .1s;
+    -o-transition-delay: .1s;
+    transition-delay: .1s;
 }
 /* 
   We hide :before pseudo-element on :active */
@@ -778,9 +778,9 @@ input[type="submit"]:hover,
     -ms-transform: translate(-150%,0);
     -o-transform: translate(-150%,0);
     transform: translate(-150%,0);
-    -webkit-transition-delay: 0s;
-    -moz-transition-delay: 0s;
-    -o-transition-delay: 0s;
-    transition-delay: 0s;
+    -webkit-transition-delay: .1s;
+    -moz-transition-delay: .1s;
+    -o-transition-delay: .1s;
+    transition-delay: .1s;
 }
 
