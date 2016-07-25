@@ -570,6 +570,8 @@ footer > :last-child {margin-bottom: 0;}
 	#contact1 {display:inline-block;overflow:hidden;padding: 0;margin: auto;}
 	#contact2 {display:inline-block;overflow:hidden;padding: 0; margin: auto;}
 	#contact3 {display:inline-block;overflow:hidden;padding: 0;margin: auto;}
+	
+	#contact3 a{text-decoration:underline;}
 
 @media screen and (max-width: 650px){ #contact1{ display:block; width:auto; }}
 @media screen and (max-width: 650px){ #contact2{ display:block; width:auto; }}
