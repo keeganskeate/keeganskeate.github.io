@@ -579,9 +579,6 @@ footer > :last-child {margin-bottom: 0;}
 		text-align: left;
 		color: #373D3F;
 	}
-	#footer a{
-		text-align: left;
-	}
 		#footer .profiletext a:hover,
 		#footer .contactbin a:hover
 		{text-decoration: underline;}
