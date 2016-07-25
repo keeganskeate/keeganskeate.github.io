@@ -756,11 +756,6 @@ input[type="submit"]:hover,
     color: #F2F3F4;
     background: #333A56;
     opacity: 0;
-    -webkit-transform: scale(0.3);
-    -moz-transform: scale(0.3);
-    -ms-transform: scale(0.3);
-    -o-transform: scale(0.3);
-    transform: scale(0.3);
 }
 /*  
     We show :before pseudo-element on :hover  and :after pseudo-element on :active 
@@ -770,6 +765,15 @@ input[type="submit"]:hover,
     color: #F2F3F4;
     background: #333A56;
     opacity: 1;
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition-delay: .3s;
+    -moz-transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
 }
 /* 
   We hide :before pseudo-element on :active
