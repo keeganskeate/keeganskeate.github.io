@@ -571,7 +571,17 @@ footer > :last-child {margin-bottom: 0;}
 	#contact2 {display:inline-block;overflow:hidden;padding: 0; margin: auto;}
 	#contact3 {display:inline-block;overflow:hidden;padding: 0;margin: auto;}
 
+#fuck {
+    float: left;
+    position: relative;
+    left: 50%;
+}
 
+#this {
+    float: left;
+    position: relative;
+    left: -50%;
+}
 
 @media screen and (max-width: 650px){ #contact1{ display:block; width:auto; }}
 @media screen and (max-width: 650px){ #contact2{ display:block; width:auto; }}
