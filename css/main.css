@@ -542,9 +542,6 @@ footer > :last-child {margin-bottom: 0;}
 	margin: 0 auto;
 	text-align:center;
 	}
-	#footer p{
-		padding: 0 0 0 0.5em;
-	}
 	.wrapper.endstyle #footer .projectsbin{vertical-align:top;margin: 1em;}
 		#footer .projectsbin{
 			display: inline-block; margin: 0 auto;
@@ -570,8 +567,8 @@ footer > :last-child {margin-bottom: 0;}
 	#contact1 {display:inline-block;overflow:hidden;padding: 0;margin: auto;}
 	#contact2 {display:inline-block;overflow:hidden;padding: 0; margin: auto;}
 	#contact3 {display:inline-block;overflow:hidden;padding: 0;margin: auto;}
-	
-	#contact3 a{text-decoration:underline;}
+
+
 
 @media screen and (max-width: 650px){ #contact1{ display:block; width:auto; }}
 @media screen and (max-width: 650px){ #contact2{ display:block; width:auto; }}
