@@ -701,14 +701,7 @@ cursor:pointer;
 }
 @media screen and (max-width: 650px) {.callto{display:block;width:auto;}}
 .transbutton span {
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-    -webkit-transition-delay: 0.2s;
-    -moz-transition-delay: 0.2s;
-    -o-transition-delay: 0.2s;
-    transition-delay: 0.2s;
+
 }
 
 .transbutton:before,
@@ -728,6 +721,11 @@ cursor:pointer;
 /* :before */
 .transbutton:before {
     content: attr(data-hover);
+    -webkit-transform: translate(-150%,0);
+    -moz-transform: translate(-150%,0);
+    -ms-transform: translate(-150%,0);
+    -o-transform: translate(-150%,0);
+    transform: translate(-150%,0);
 }
 /* :after */
 input[type="submit"]:hover,
