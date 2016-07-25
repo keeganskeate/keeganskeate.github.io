@@ -563,7 +563,7 @@ footer > :last-child {margin-bottom: 0;}
 @media screen and (max-width: 650px){ #footer .contactbin{ display:block; width:auto; }}
 
 
-.contactbin div {position:relative;float:left;text-align:left; width:calc(3000% / 95);}
+.contactbin div {position:relative;text-align:left; width:calc(3000% / 95);}
 		.contactbin div li{line-height: 1.6em;}
 		.contactbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 
