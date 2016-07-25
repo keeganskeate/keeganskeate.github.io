@@ -741,11 +741,7 @@ input[type="submit"]:hover,
 .transbutton:after {
 	background: #333A56;
     content: attr(data-active);
-    -webkit-transform: translate(150%,0);
-    -moz-transform: translate(150%,0);
-    -ms-transform: translate(150%,0);
-    -o-transform: translate(150%,0);
-    transform: translate(150%,0);
+
 }
 /* Span on :hover and :active */
 input[type="submit"]:hover,
@@ -756,6 +752,11 @@ input[type="submit"]:hover,
     color: #F2F3F4;
     background: #333A56;
     opacity: 0;
+     -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+    transform: scale(0.3);
 }
 /*  
     We show :before pseudo-element on :hover  and :after pseudo-element on :active 
