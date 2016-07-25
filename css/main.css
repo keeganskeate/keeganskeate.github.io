@@ -567,17 +567,17 @@ footer > :last-child {margin-bottom: 0;}
 		.contactbin div li{line-height: 1.6em;}
 		.contactbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 
-	#contact1 {display:inline-block;overflow:hidden;padding: 0;margin: auto;}
-	#contact2 {display:inline-block;overflow:hidden;padding: 0; margin: auto;}
-	#contact3 {display:inline-block;overflow:hidden;padding: 0;margin: auto;}
+	#contact1 {display:inline-block;overflow:hidden;padding: 0;margin: auto;width:33.3%;}
+	#contact2 {display:inline-block;overflow:hidden;padding: 0; margin: auto;width:33.3%;}
+	#contact3 {display:inline-block;overflow:hidden;padding: 0;margin: auto;width:33.3%;}
 
-#fuck {
+#contactwrap {
     float: left;
     position: relative;
     left: 50%;
 }
 
-#this {
+#contactitem {
     float: left;
     position: relative;
     left: -50%;
