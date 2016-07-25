@@ -700,10 +700,6 @@ cursor:pointer;
     background: none;
 }
 @media screen and (max-width: 650px) {.callto{display:block;width:auto;}}
-.transbutton span {
-
-}
-
 .transbutton:before,
 .transbutton:after {
     content: '';
@@ -750,11 +746,11 @@ input[type="submit"]:hover,
     color: #F2F3F4;
     background: #333A56;
     opacity: 0;
-     -webkit-transform: scale(0.3);
-    -moz-transform: scale(0.3);
-    -ms-transform: scale(0.3);
-    -o-transform: scale(0.3);
-    transform: scale(0.3);
+     -webkit-transform: scale(0.2);
+    -moz-transform: scale(0.2);
+    -ms-transform: scale(0.2);
+    -o-transform: scale(0.2);
+    transform: scale(0.2);
 }
 /*  
     We show :before pseudo-element on :hover  and :after pseudo-element on :active 
