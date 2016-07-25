@@ -728,11 +728,6 @@ cursor:pointer;
 /* :before */
 .transbutton:before {
     content: attr(data-hover);
-    -webkit-transform: translate(-150%,0);
-    -moz-transform: translate(-150%,0);
-    -ms-transform: translate(-150%,0);
-    -o-transform: translate(-150%,0);
-    transform: translate(-150%,0);
 }
 /* :after */
 input[type="submit"]:hover,
@@ -741,6 +736,11 @@ input[type="submit"]:hover,
 .transbutton:after {
 	background: #333A56;
     content: attr(data-active);
+     -webkit-transform: translate(150%,0);
+    -moz-transform: translate(150%,0);
+    -ms-transform: translate(150%,0);
+    -o-transform: translate(150%,0);
+    transform: translate(150%,0);
 
 }
 /* Span on :hover and :active */
