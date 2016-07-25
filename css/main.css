@@ -765,10 +765,6 @@ input[type="submit"]:hover,
     -ms-transform: translate(0,0);
     -o-transform: translate(0,0);
     transform: translate(0,0);
-    -webkit-transition-delay: .3s;
-    -moz-transition-delay: .3s;
-    -o-transition-delay: .3s;
-    transition-delay: .3s;
 }
 /* 
   We hide :before pseudo-element on :active
