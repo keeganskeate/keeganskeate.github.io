@@ -563,13 +563,13 @@ footer > :last-child {margin-bottom: 0;}
 @media screen and (max-width: 650px){ #footer .contactbin{ display:block; width:auto; }}
 
 
-.contactbin div {position:relative;float:left;left:calc(500% / 95);right:calc(500% / 95);text-align:left; width:calc(3000% / 95);}
+.contactbin div {position:relative;float:left;text-align:left; width:calc(2500% / 95);}
 		.contactbin div li{line-height: 1.6em;}
 		.contactbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 
-	#contact1 {display:inline-block;overflow:hidden;padding: 0 0em 1em 0em;margin: auto;}
-	#contact2 {display:inline-block;overflow:hidden;padding: 0; margin: auto;}
-	#contact3 {display:inline-block;overflow:hidden;padding: 0;margin: auto;}
+	#contact1 {display:inline-block;overflow:hidden;padding: 0 calc(500% / 95) 0 calc(250% / 95) ;margin: auto;}
+	#contact2 {display:inline-block;overflow:hidden;padding: 0 calc(250% / 95) 0 calc(250% / 95); margin: auto;}
+	#contact3 {display:inline-block;overflow:hidden;padding: 0 calc(500% / 95) 0 calc(250% / 95);margin: auto;}
 
 @media screen and (max-width: 650px){ #contact1{ display:block; width:auto; }}
 @media screen and (max-width: 650px){ #contact2{ display:block; width:auto; }}
