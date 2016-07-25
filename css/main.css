@@ -542,6 +542,9 @@ footer > :last-child {margin-bottom: 0;}
 	margin: 0 auto;
 	text-align:center;
 	}
+#footer .profile p{
+	padding: 0 0 0 0.5em;
+}
 	.wrapper.endstyle #footer .projectsbin{vertical-align:top;margin: 1em;}
 		#footer .projectsbin{
 			display: inline-block; margin: 0 auto;
