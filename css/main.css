@@ -567,7 +567,7 @@ footer > :last-child {margin-bottom: 0;}
 	.contactbin div li{line-height: 1.6em;}
 	.contactbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 	
-	.contactsection {display:inline-block;overflow:hidden;padding: 0;margin: auto;width:33.3%;}
+	#contactsection {display:inline-block;overflow:hidden;padding: 0;margin: auto;width:33.3%;}
 		#contactwrap {float: left;position: relative;left: 50%;}
 		#contactitem {float: left;position: relative;left: -50%;}
 
