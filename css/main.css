@@ -575,6 +575,7 @@ footer > :last-child {margin-bottom: 0;}
 }
 .projectsbin img:hover{
 	border-color: #813772;
+	opacity: 75;  filter:alpha(opacity=75);
 }
 
 .projectsbin h4{text-align:center;}
