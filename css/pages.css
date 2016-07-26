@@ -15,6 +15,17 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	margin:1em auto 0 auto;
 	max-width:90%;
 	color:#131516;
+	font-weight:400;
+	font-size:1.2em;
+}
+#blog p{
+	color:#373D3F;
+	font-weight:300;
+	}
+#blog p{
+	margin:0 auto 1em auto;
+	max-width:90%;
+	font-size:1em;
 }
 
 /* PDFS */
@@ -27,15 +38,6 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	box-shadow:  -2px #000;
 	border-radius: 5px;}
 @media screen and (max-width: 750px) {#blog .paperpost{width:auto;}}
-#blog .paperpost p{
-	color:#373D3F;
-	font-weight:300;
-	}
-#blog .paperpost > p{
-	margin:0 auto 1em auto;
-	max-width:90%;
-	font-size:1em;
-}
 #blog .paperpost .paper {text-align:center;margin:0;}
 #blog .paperpost .paper {position: relative;overflow: hidden;height:0;}
 #blog .paperpost .paper-16x9{padding-bottom: 56.25%;}
@@ -55,7 +57,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	background-color:#FFF;
 }
 .snip div {
-   padding:0 0 1em 0;}
+   padding:0;}
 #sniptitle {
   margin:0 auto;
   width:90%;
