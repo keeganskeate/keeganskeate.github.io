@@ -140,13 +140,14 @@
 						<div id="sniptitle">Tailored Metropolis-Hastings Algorithm</div>
 						</h5>
 						<div id="snipdescrip">
-							The Metropolis-Hastings algorithm simulates draws from a posterior distribution $\pi(\beta\vert\boldsymbol{y},\boldsymbol{x})$. The algorithm implements the following recursion.
-							<br></br>
+							<p>The Metropolis-Hastings algorithm simulates draws from a posterior distribution $\pi(\beta\vert\boldsymbol{y},\boldsymbol{x})$. The algorithm implements the following recursion.
 							<br>First, draw $\beta^*\sim q(\beta \vert y).$</br>
 							<br>Second, accept the draw with probability $\alpha=\text{min}\{1,\frac{f(y\vert\beta^*)\pi(\beta^*)q(\beta\vert y)}{f(y\vert\beta)\pi(\beta)q(\beta^*\vert y)}\}.$</br>
 							<br>Third, if the draw is accepted, then set $\beta=\beta^*$ and repeat. Otherwise, keep $\beta$.</br>
-							<br>The Tailored Metropolis-Hastings algorithm uses a multivariate $t$-distribution proposal density $q(\beta \vert y) \sim T_{\nu}(\hat{\beta}_{MLE},\hat{\Sigma}_{MLE}).$<br>
-							<br>Below is the algorithm written in Python 2.7. Attached is an example that fits a Logit model, and returns the realized posterior distribution from $i$ iterations.</div>
+							<br>The Tailored Metropolis-Hastings algorithm uses a multivariate $t$-distribution proposal density $q(\beta \vert y) \sim T_{\nu}(\hat{\beta}_{MLE},\hat{\Sigma}_{MLE}).$</br>
+							<br>Below is the algorithm written in Python 2.7. Attached is an example that fits a Logit model, and returns the realized posterior distribution from $i$ iterations.</br>
+							</p>
+							</div>
 						<div id="snipcode">
 							<pre class="prettyprint">
 import numpy as np
