@@ -12,7 +12,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 .wrapper.blogstyle li,.wrapper.blogstyle p{padding: 0em;}
 .wrapper.blogstyle a{text-decoration:none;padding: 0em;}
 #blog h5{
-	margin:1em auto 0 auto;
+	margin:1em auto;
 	max-width:90%;
 	color:#131516;
 	font-weight:400;
