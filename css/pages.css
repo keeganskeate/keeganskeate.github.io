@@ -54,9 +54,8 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	background-color:#FFF;
 }
 .snip div {
-   padding:0;}
+   padding:0 0 1em 0;}
 #sniptitle {
-  float:left; 
   margin:0 auto;
   width:90%;
   border-right:2px solid #000;}
