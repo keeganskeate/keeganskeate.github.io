@@ -46,7 +46,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 #blog .paperpost .blogicon{float:right;}
 /* CODE */
 .snip {
-	width:50%; margin:0 auto;
+	width:50%; margin:1em auto;
 	border:2px solid;
 	border-color: #49274A;
 	border-radius: 5px;
