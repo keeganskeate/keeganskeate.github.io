@@ -56,18 +56,15 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 .snip div {
    padding:0;}
 #sniptitle {
-  background-color: gray;
   float:left; 
   margin:0 auto;
   width:90%;
   border-right:2px solid #000;}
-#snipdescrip { 
-  background-color: white;
+#snipdescrip {
   overflow:hidden;
   margin:0 auto;
   width:90%;}
 #snipcode { 
-  background-color: white;
   overflow:hidden;
   margin:0 auto;
   width:90%;}
