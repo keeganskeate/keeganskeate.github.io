@@ -79,7 +79,9 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
     border:0;
     border-bottom:2px solid #000; }}
 
-
+#blog .snip a{text-decoration:underline;color:#107896;cursor:pointer;}
+#blog .snip a span{position:absolute;font-size:3em;margin-left:-2.5%;}
+#blog .snip .snipicon{float:right;}
 
 
 
