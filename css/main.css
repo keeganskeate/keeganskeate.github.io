@@ -571,13 +571,8 @@ footer > :last-child {margin-bottom: 0;}
 
 .projectsbin h4{text-align:center;}
 
-.projectsbin p{padding:0 1em;}
-.projectsbin p:first-child{
-	padding:0 1em 0 2em;
-}
-.projectsbin p:last-child{
-	padding:0 2em 0 1em;
-}
+.projectsbin p{max-width:80%;}
+
 
 
 
