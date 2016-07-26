@@ -54,28 +54,24 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	background-color:#FFF;
 }
 .snip div {
-   padding: 1em;}
+   padding:0;}
 #sniptitle {
   background-color: gray;
   float:left; 
-  margin:0em;
+  margin:0 auto;
   width:90%;
   border-right:2px solid #000;}
 #snipdescrip { 
   background-color: white;
   overflow:hidden;
-  margin:0em;
+  margin:0 auto;
   width:90%;}
 #snipcode { 
   background-color: white;
   overflow:hidden;
-  margin:0em;
+  margin:0 auto;
   width:90%;}
-@media screen and (max-width: 650px) {
-   #sniptitle { 
-    float: none;
-    margin-right:0;
-    width:auto;}}
+@media screen and (max-width: 650px) {#sniptitle {float: none;width:auto;}}
 
 #blog .snip a{text-decoration:underline;color:#107896;cursor:pointer;}
 #blog .snip a span{position:absolute;font-size:3em;margin-left:-2.5%;}
