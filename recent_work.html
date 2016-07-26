@@ -16,8 +16,8 @@
 		<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 		
 		<!--<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script> -->
-		<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-		
+		<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
+		<script type="text/javascript" async  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
 		
 		<link rel="stylesheet" href="css/main.css"/>
 		<link rel="stylesheet" href="css/pages.css"/>
@@ -128,7 +128,8 @@
 					
 					<div class="snip">
 						<div id="sniptitle">Conditional Logit Model</div>
-						<div id="snipdescrip">Description....</div>
+						<div id="snipdescrip">When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</div>
 						<div id="snipcode">Code...</div>
 					</div>
 				</div>
