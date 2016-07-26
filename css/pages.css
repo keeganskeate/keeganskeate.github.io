@@ -60,16 +60,13 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
    padding:0;}
 	#sniptitle {
 	  margin:0;
-	  width:90%;
 	}
 	#snipdescrip {
 	  overflow:hidden;
-	  margin:0;
-	  width:90%;}
+	  margin:0;}
 	#snipcode { 
 	  overflow:hidden;
-	  margin:0 auto;
-	  width:90%;}
+	  margin:0 auto;}
 @media screen and (max-width: 650px) {#sniptitle {float: none;width:auto;}}
 
 
