@@ -135,11 +135,11 @@
 					</div>
 					<div class="snip">
 						<h5>
-						<div class="snipicon"><a href="code/tailored-metropolis-hastings.zip" download title="Download example"><span aria-hidden="true" data-icon="&#xe9c4;"></span></a></div>
+						<div class="blogicon"><a href="code/tailored-metropolis-hastings.zip" download title="Download example"><span aria-hidden="true" data-icon="&#xe9c4;"></span></a></div>
 						<div id="sniptitle">Tailored Metropolis-Hastings Algorithm</div>
 						<h5>
 						<div id="snipdescrip">
-							<br>The Metropolis-Hastings algorithm simulates draws from a posterior distribution $\pi(\beta\vert\boldsymbol{y},\boldsymbol{x})$. The algorithm implements the following recursion.</br>
+							The Metropolis-Hastings algorithm simulates draws from a posterior distribution $\pi(\beta\vert\boldsymbol{y},\boldsymbol{x})$. The algorithm implements the following recursion.
 							<br>First, draw $\beta^*\sim q(\beta \vert y).$</br>
 							<br>Second, accept the draw with probability $\alpha=\text{min}\{1,\frac{f(y\vert\beta^*)\pi(\beta^*)q(\beta\vert y)}{f(y\vert\beta)\pi(\beta)q(\beta^*\vert y)}\}.$</br>
 							<br>Third, if the draw is accepted, then set $\beta=\beta^*$ and repeat. Otherwise, keep $\beta$.</br>
