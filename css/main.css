@@ -734,7 +734,7 @@ cursor:pointer;
 @media screen and (max-width: 650px) {.callto{display:block;width:auto;}}
 .transbutton:before,
 .transbutton:after {
-	background:#333A56
+	background:#333A56;
     content: '';
     position: absolute;
     top: 0;
