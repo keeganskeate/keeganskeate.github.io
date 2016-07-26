@@ -133,7 +133,8 @@
 						<div id="snipdescrip"></div>
 						<div id="snipcode">Code...</div>
 					</div>
-					<a name="tailored-mh"></a>
+					
+				<a name="tailored-mh"></a>
 					<div class="snip">
 						<h5>
 						<div class="blogicon"><a href="code/tailored-metropolis-hastings.zip" download title="Download example"><span aria-hidden="true" data-icon="&#xe9c4;"></span></a></div>
@@ -148,7 +149,7 @@
 								<p>Below is the algorithm written in Python 2.7. Attached is an example that fits a Logit model to sample data, and returns the realized posterior distribution from $i$ iterations.</p>
 							</div>
 						<div id="snipcode">
-							<pre class="prettyprint">
+<pre class="prettyprint">
 import numpy as np
 from math import *
 
@@ -219,6 +220,23 @@ def Tailored_MH(f,prior,beta0,Sigma0,y,X,i,df):
 							</pre>
 						</div>
 					</div>
+				<a name="gibbs-probit"></a>
+					<div class="snip">
+						<h5>
+						<div class="blogicon"><a href="code/gibbs-probit.zip" download title="Download example"><span aria-hidden="true" data-icon="&#xe9c4;"></span></a></div>
+						<div id="sniptitle">Using Gibbs Sampling with Data Augmentation to Fit a Probit Model</div>
+						</h5>
+						<div id="snipdescrip">
+							<p>You can use Gibbs sampling with data augmentation to fit an ordered probit model where $y_i \in \{1,2,3\}$. The latent variable $y_i^* = x_i'\beta + \epsilon_i$ where $\epsilon_i \sim \mathcal{N}(0,\sigma^2),$ but you observe</p>
+							
+						</div>
+						<div id="snipcode">
+<pre class="prettyprint">
+					
+						</pre>
+						</div>
+					</div>
+					
 				</div>
 			</section>
 		</div>
