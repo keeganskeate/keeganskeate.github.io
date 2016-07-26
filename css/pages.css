@@ -27,6 +27,9 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	max-width:90%;
 	font-size:1em;
 }
+#blog a{text-decoration:underline;color:#107896;cursor:pointer;}
+#blog a span{position:absolute;font-size:3em;margin-left:-2.5%;}
+#blog .blogicon{float:right;}
 
 /* PDFS */
 #blog .paperpost {
@@ -44,9 +47,6 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 #blog .paperpost .paper-4x3{padding-bottom: 75%;}
 #blog .paperpost .paper-full{padding-bottom: 125%;}
 #blog .paperpost .paper iframe {position: absolute;top:0;left: 0;width: 100%;height: 100%;}
-#blog .paperpost a{text-decoration:underline;color:#107896;cursor:pointer;}
-#blog .paperpost a span{position:absolute;font-size:3em;margin-left:-2.5%;}
-#blog .paperpost .blogicon{float:right;}
 /* CODE */
 .snip {
 	width:50%; margin:1em auto;
@@ -58,23 +58,19 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 }
 .snip div {
    padding:0;}
-#sniptitle {
-  margin:0 auto;
-  width:90%;
-  border-right:2px solid #000;}
-#snipdescrip {
-  overflow:hidden;
-  margin:0 auto;
-  width:90%;}
-#snipcode { 
-  overflow:hidden;
-  margin:0 auto;
-  width:90%;}
+	#sniptitle {
+	  margin:0 auto;
+	  width:90%;
+	}
+	#snipdescrip {
+	  overflow:hidden;
+	  margin:0 auto;
+	  width:90%;}
+	#snipcode { 
+	  overflow:hidden;
+	  margin:0 auto;
+	  width:90%;}
 @media screen and (max-width: 650px) {#sniptitle {float: none;width:auto;}}
-
-#blog .snip a{text-decoration:underline;color:#107896;cursor:pointer;}
-#blog .snip a span{position:absolute;font-size:3em;margin-left:-2.5%;}
-#blog .snip .snipicon{float:right;}
 
 
 
