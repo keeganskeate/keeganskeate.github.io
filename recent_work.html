@@ -133,10 +133,12 @@
 					</div>
 					<div class="snip">
 						<div id="sniptitle">Tailored Metropolis-Hastings Algorithm</div>
-						<div id="snipdescrip">The tailored Metropolis-Hastings algorithm implements the following recursion.
+						<div id="snipdescrip">The Metropolis-Hastings algorithm simulates draws from a posterior distribution $\pi(\beta\vert\boldsymbol{y},\boldsymbol{x})$. The algorithm implements the following recursion.
 							<br>First, draw $\beta^*\sim q(\beta \vert y).$</br>
 							<br>Second, accept the draw with probability $\alpha=\text{min}\{1,\frac{f(y\vert\beta^*)\pi(\beta^*)q(\beta\vert y)}{f(y\vert\beta)\pi(\beta)q(\beta^*\vert y)}\}.$</br>
-							<br>Third, if the draw is accepted, then set $\beta=\beta^*$ and repeat. Otherwise, keep $\beta$.</br></div>
+							<br>Third, if the draw is accepted, then set $\beta=\beta^*$ and repeat. Otherwise, keep $\beta$.</br>
+							<br>The Tailored Metropolis-Hastings algorithm uses the proposal density $q(\beta \vert y) \sim T_{\nu}(\hat{\beta}_{MLE},\hat{\Sigma}_{MLE}).$<br>
+							<br> I provide an example routine that fits a Logit model, and plots the realized posterior distributions from $i$ iterations.</div>
 						<div id="snipcode">Code...</div>
 					</div>
 				</div>
