@@ -195,15 +195,15 @@ def Tailored_MH(f,prior,beta0,Sigma0,y,X,i,df):
         Sigma0 - kxk initial values
         y - nx1 observations of the dependent variable.
         X - nxk observations of the independent variables.
-        i - iterations.
+        iters - iterations.
         df - degrees of freedom.
     Returns:
         i draws of beta from the posterior, and the acceptance rate.
     """
-    beta = np.zeros((i,len(beta0)))
+    beta = np.zeros((iters,len(beta0)))
     beta[0]=beta0
-    acceptance = np.zeros(i)
-    for i in range(i):
+    acceptance = np.zeros(iters)
+    for i in range(iters):
         beta_star = MV_t_random_var(beta0, Sigma0, df)
         Numerator = f(beta_star,y,X)*prior(beta_star,beta0,Sigma0)*\
                     MV_t_pdf(beta[i-1],beta0,Sigma0,df)
