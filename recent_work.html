@@ -227,7 +227,8 @@ def Tailored_MH(f,prior,beta0,Sigma0,y,X,i,df):
 						<div id="sniptitle">Using Gibbs Sampling with Data Augmentation to Fit a Probit Model</div>
 						</h5>
 						<div id="snipdescrip">
-							<p>Given observed choices between three ranked alternatives, you can use Gibbs sampling with data augmentation to fit an ordered probit model where $y_i \in \{1,2,3\}$. The latent variable $y_i^* = x_i'\beta + \epsilon_i$ where $\epsilon_i \sim \mathcal{N}(0,\sigma^2),$ but you observe $y_i = \begin{cases} 1, & \text{if} \hspace{1ex}\gamma_0 < y_i^*\leq\gamma_1 \\ 2, & \text{if}\hspace{1ex}\gamma_1 < y_i^*\leq\gamma_2 \\ 3, & \text{if}\hspace{1ex}\gamma_2 < y_i^*\leq\gamma_3.\end{cases}$$</p>
+							<p>Given observed choices between three ranked alternatives, you can use Gibbs sampling with data augmentation to fit an ordered probit model where $y_i \in \{1,2,3\}$. The latent variable $y_i^* = x_i'\beta + \epsilon_i$ where $\epsilon_i \sim \mathcal{N}(0,\sigma^2),$ but you observe
+							$$y_i = \begin{cases} 1, & \text{if} \hspace{1ex}\gamma_0 < y_i^*\leq\gamma_1 \\ 2, & \text{if}\hspace{1ex}\gamma_1 < y_i^*\leq\gamma_2 \\ 3, & \text{if}\hspace{1ex}\gamma_2 < y_i^*\leq\gamma_3.\end{cases}$$</p>
 							
 						</div>
 						<div id="snipcode">
