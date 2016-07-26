@@ -566,7 +566,7 @@ footer > :last-child {margin-bottom: 0;}
 @media screen and (max-width: 650px){ #projectsection{ display:block; width:auto; }}
 
 .projectsbin img{
-	width:75%;
+	max-width:75%;
 }
 
 
