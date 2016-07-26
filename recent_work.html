@@ -134,11 +134,15 @@
 					<div class="snip">
 						<div id="sniptitle">Tailored Metropolis-Hastings Algorithm</div>
 						<div id="snipdescrip">The tailored Metropolis-Hastings algorithm implements the following recursion
-\begin{enumerate}[(1)]
-\item Draw $\beta^* \sim q(\beta \vert y).$
-\item Accept with probability $\alpha=\text{min}\{1,\frac{f(y\vert\beta^*)\pi(\beta^*)q(\beta\vert y)}{f(y\vert\beta)\pi(\beta)q(\beta^*\vert y)}\}.$
-\item If accepted, then set $\beta=\beta^*$ and repeat. Otherwise, keep $\beta$ and repeat.
-\end{enumerate}</div>
+\begin{equation}
+\text{Draw }\beta^*\sim q(\beta \vert y).
+\end{equation}
+\begin{equation}
+\text{Accept with probability }\alpha=\text{min}\{1,\frac{f(y\vert\beta^*)\pi(\beta^*)q(\beta\vert y)}{f(y\vert\beta)\pi(\beta)q(\beta^*\vert y)}\}.
+\end{equation}
+\begin{equation}
+\text{If accepted, then set }\beta=\beta^*\text{ and repeat. Otherwise, keep }\beta\text{ and repeat.}
+\end{equation}</div>
 						<div id="snipcode">Code...</div>
 					</div>
 				</div>
