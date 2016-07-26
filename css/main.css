@@ -524,7 +524,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		#profilepic .dropbtn:focus{outline:0;}
 		#profilepic .dropbtn:hover{opacity: .75;  filter:alpha(opacity=75);}
 		#profiletext {display:inline-block;overflow:hidden;min-height:175px;padding:0 0 0 0.5em;}
-		#profiletext li{line-height: 1.6em;}
+		#profiletext li{line-height: 1.7em;}
 		#profiletext li a:hover{text-decoration: underline;color:  #373D3F;}
 @media screen and (max-width: 650px) {.profile{float:none;display:block;margin: 0 auto;width:auto;}}
 @media screen and (max-width: 650px) {#profilepic {display:block;float:none;margin:0 auto;width:auto;}}
@@ -707,7 +707,7 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 	#subfooter a{color:#333A56;}
 	
 /* CALL TO ACTION */
-.callto{display:inline-block;width:25%;float:left;margin:auto auto auto 3em;}
+.callto{display:inline-block;width:25%;float:left;margin:2em auto 0 3em;}
  .callto a{color:#333A56;text-decoration:none;}
 @media screen and (max-width: 650px) {#profiletext.callto div{min-height: 100px;}}
 *,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
