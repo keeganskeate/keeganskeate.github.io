@@ -532,8 +532,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 
 /* Footer */
 .wrapper.endstyle {font-family: 'Lato', sans-serif;}
-.wrapper.endstyle li, .wrapper.endstyle p, .wrapper.endstyle a{padding: 0em;}
-.wrapper.endstyle a{text-decoration:none;}
+
 footer > :last-child {margin-bottom: 0;}
 #footer {
 	text-shadow: 0 -1px 0 #000;
@@ -559,7 +558,7 @@ footer > :last-child {margin-bottom: 0;}
 		.projectsbin div li{line-height: 1.6em;}
 		.projectsbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 
-#projectsection {display:inline-block;overflow:hidden;padding: 0;margin: auto;width:30%;}
+#projectsection {display:inline-block;overflow:hidden;padding: 0;margin: auto;width:33.3%;}
 #projectwrap {float: left;position: relative;left: 50%;}
 #projectitem {float: left;position: relative;left: -50%;}
 
