@@ -572,11 +572,11 @@ footer > :last-child {margin-bottom: 0;}
 	box-shadow:  -2px #000;
 	border-radius: 5px;
 	cursor: pointer;
-	opacity: 100;  filter:alpha(opacity=100);
+	opacity: 1;  filter:alpha(opacity=100);
 }
 .projectsbin img:hover{
 	border-color: #813772;
-	opacity: 0;  filter:alpha(opacity=0);
+	opacity: .75;  filter:alpha(opacity=75);
 }
 
 .projectsbin h4{text-align:center;}
