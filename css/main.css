@@ -553,6 +553,25 @@ footer > :last-child {margin-bottom: 0;}
 			overflow:auto;
 			background: #E8E8E8}
 @media screen and (max-width: 650px){ #footer .projectsbin{ display:block; width:auto; }}
+
+
+.projectsbin div {position:relative;float:left;text-align:left;}
+		.projectsbin div li{line-height: 1.6em;}
+		.projectsbin div li a:hover{text-decoration: underline;color:  #373D3F;}
+
+#projectsection {display:inline-block;overflow:hidden;padding: 0;margin: auto;width:33.3%;}
+#projectwrap {float: left;position: relative;left: 50%;}
+#projectitem {float: left;position: relative;left: -50%;}
+
+@media screen and (max-width: 650px){ #projectsection{ display:block; width:auto; }}
+
+
+
+
+
+
+
+
 	.wrapper.endstyle #footer .contactbin{vertical-align:top;margin: 1em;}
 		#footer .contactbin{
 			display: inline-block;margin: auto;
@@ -664,6 +683,9 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
    .box {width: 25%; padding-bottom: 25%;}
    .boxInner .titleBox { opacity: 100;  filter:alpha(opacity=100);}}
+   
+   
+   
 /* SUB FOOTER */
 #subfooter {
 	padding: 0em;
