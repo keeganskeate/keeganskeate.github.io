@@ -156,11 +156,12 @@ from math import *
 def MV_t_pdf(x,mu,Sigma,df):
     """
     Inputs:
-        x - kx1 Random variables
-        mu - kx1 Mean values
-        Sigma - kxk Scale matrix
-        df - Degrees of freedom
-    Returns: The density of the given element.
+        x - kx1 Random variables.
+        mu - kx1 Mean values.
+        Sigma - kxk Scale matrix.
+        df - Degrees of freedom.
+    Returns:
+    	The density of the given element.
     """
     p = len(x)
     numerator = gamma(1.*(p+df)/2)
@@ -175,10 +176,11 @@ def MV_t_pdf(x,mu,Sigma,df):
 def MV_t_random_var(mu, Sigma, df):
     """
     Inputs:
-        mu - kx1 Means of the random variables
-        Sigma - kxk Scale matrix
-        df - Degrees of freedom
-    Returns: n Independent draws from a MV-t distribution.
+        mu - kx1 Means of the random variables.
+        Sigma - kxk Scale matrix.
+        df - Degrees of freedom.
+    Returns:
+    	n Independent draws from a MV-t distribution.
     """
     mu = np.asarray(mu)
     p = len(mu)
@@ -239,13 +241,15 @@ def Tailored_MH(f,prior,beta0,Sigma0,y,X,iters,df):
 <pre class="prettyprint">
 import numpy as np
 import scipy.stats as ss
+
 def gibbs(beta0,B0,v0,d0,y,X,iters):
     """
     Inputs:
-        Priors - beta0, B0, v0, d0
-        Data - y and X
-        Desired iterations - iters
-    Returns: a sample of parameters from the posterior
+        Priors - beta0, B0, v0, d0.
+        Data - y and X.
+        Desired iterations - iters.
+    Returns:
+    	A sample of parameters from the posterior.
     """
     beta = np.zeros((iters,len(beta0)))
     sigma_sq = np.ones(iters)
