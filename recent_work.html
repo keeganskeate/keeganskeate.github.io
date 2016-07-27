@@ -126,12 +126,93 @@
 					
 					
 					
+				<a name="conditional-logit"></a>
 					<div class="snip">
 						<h5>
+						<div class="blogicon"><a href="code/conditional-logit.zip" download title="Download example"><span aria-hidden="true" data-icon="&#xe9c4;"></span></a></div>
 						<div id="sniptitle">Conditional Logit Model</div>
 						</h5>
-						<div id="snipdescrip"></div>
-						<div id="snipcode">Code...</div>
+						<div id="snipdescrip">
+							<p>Estimation of a conditional logit begins with the likelihood function 
+							$$\mathscr{L}(\beta)=\prod_{n=1}^N\prod_{j=1}^J(P_{nj})^{y_{nj}},$$
+							that has log-likelihood
+							$$\text{ln}\mathscr{L}(\beta)=\sum_{n=1}^N\sum_{j=1}^Jy_{nj}\text{ln}(P_{nj}),$$
+							where
+							$$y_{ni} =\begin{cases}1, & \text{if } n \text{ choses }j \\ 0, & \text{otherwise,}\end{cases}$$
+							and the probability $n$ chose $j$ is
+							$$P_{nj} = \tfrac{exp(x_{nj}'\beta)}{\sum_{j=1}^Jexp(x_{ni}'\beta)}.$$
+							Exclusively for the conditional logit, the first order condition is
+							$$\frac{\partial\text{ln}\mathscr{L}(\beta)}{\partial\beta} = \sum_{n=1}^N\sum_{j=1}^J(y_{nj}-P_{nj})x_{nj} = 0,$$
+							and the hessian, which is negative semi-definite, is given by
+							$$\frac{\partial^2\text{ln}\mathscr{L}(\beta)}{\partial\beta\partial\beta'} = -\sum_{n=1}^N\sum_{j=1}^JP_{nj}(d_{nj}-\bar{x}_n)(d_{nj}-\bar{x}_n)',$$
+							where
+							$$\bar{x}_n = \sum_{j=1}^JP_{nj}x_{nj}$$
+							$$d_{nj}= \begin{cases}1, & \text{if } i \text{ chose }j \\ 0, & \text{otherwise} .\end{cases}$$
+							In the logit model the asymptotic variance is
+							$$I^{-1}= (-E[\frac{\partial^2l(\beta)}{\partial \beta \partial \beta'}])^{-1}.$$</p>
+						</div>
+							
+						<div id="snipcode">
+<pre class="prettyprint">
+import numpy as np
+import pylab as py
+    
+def Cond_Logit(Y,X,N,J):
+    """Estimates a conditional logit given Y,X, # of N, and # of J."""
+    initial_beta = np.dot(np.linalg.inv(np.dot(X.T,X)),np.dot(X.T,Y))
+    beta_MLE = newton_method(cond_score,cond_hessian,initial_beta,Y,X,N,J)
+    cov = -np.linalg.inv(cond_hessian(beta_MLE,Y,X,N,J))
+    se = np.diag(np.sqrt(cov))    
+    return beta_MLE, se, cov
+
+def cond_Pr(x,beta):
+    """Conditional Logit Choice Probability"""
+    J = len(x)
+    probabilities = []
+    for i in range(J):
+        Num = np.exp(np.dot(x[i],beta))
+        Denom = 0.0
+        for j in range(J):
+            Denom += np.exp(np.dot(x[j],beta))
+        probabilities.append(1.0*Num/Denom)
+    return probabilities
+    
+def cond_score(beta,Y,X,N,J):
+    """Conditional Logit Score Function"""
+    score = 0.0
+    for n in range(N):
+        X_n = X[(n)*J:J+J*n]
+        y_n = Y[(n)*J:J+J*n]
+        for j in range (J):
+            score += (y_n[j] - cond_Pr(X_n,beta)[j])*X_n[[j],:].T
+    return score
+
+def cond_hessian(beta,Y,X,N,J):
+    """Conditional Logit Hessian Function"""
+    hessian = 0.0
+    for n in range(N):
+        X_n = X[(n)*J:J+J*n]
+        x_bar_n = 0.0
+        for j in range(J):
+            x_bar_n += X_n[[j],:]*cond_Pr(X_n,beta)[j]
+        for j in range(J):
+            hessian -= np.dot((X_n[[j],:].T-x_bar_n.T),(X_n[[j],:]-x_bar_n))*\
+                       cond_Pr(X_n,beta)[j]
+    return hessian
+    
+def newton_method(gradient,hessian,beta0,Y,X,N,J,tol=1e-6,maxIter=25):
+    """The Newton-Raphson Algorithm"""
+    beta_old = beta0
+    for i in range(maxIter):
+        beta_new = beta_old - np.dot(np.linalg.inv(hessian(beta_old,Y,X,N,J)),
+                                     gradient(beta_old,Y,X,N,J))
+        if (py.norm(beta_new-beta_old) < tol):
+            break
+        print "Iteration %2.0f estimate:\n" %(i), str(beta_old)[1:-1]
+        beta_old = beta_new
+    return beta_new
+</pre>
+						</div>
 					</div>
 					
 				<a name="tailored-mh"></a>
@@ -146,7 +227,7 @@
 								<p>Second, accept the draw with probability $\alpha=\text{min}\{1,\frac{f(y\vert\beta^*)\pi(\beta^*)q(\beta\vert y)}{f(y\vert\beta)\pi(\beta)q(\beta^*\vert y)}\}.$</p>
 								<p>Third, if the draw is accepted, then set $\beta=\beta^*$ and repeat. Otherwise, keep $\beta$.</p>
 								<p>The Tailored Metropolis-Hastings algorithm uses a multivariate $t$-distribution proposal density $q(\beta \vert y) \sim T_{\nu}(\hat{\beta}_{MLE},\hat{\Sigma}_{MLE}).$</p>
-								<p>Below is the algorithm written in Python 2.7. Attached is an example that fits a Logit model to sample data, and returns the realized posterior distribution from $i$ iterations.</p>
+								<p>Below is the algorithm written in Python 2.7. Attached is an example that fits a logit model to sample data, and returns the realized posterior distribution from $i$ iterations.</p>
 							</div>
 						<div id="snipcode">
 <pre class="prettyprint">
@@ -219,7 +300,7 @@ def Tailored_MH(f,prior,beta0,Sigma0,y,X,iters,df):
             beta[i]=beta[i-1]
     acceptance_rate = np.mean(acceptance)
     return beta, acceptance_rate
-							</pre>
+</pre>
 						</div>
 					</div>
 				<a name="gibbs-probit"></a>
