@@ -52,7 +52,7 @@ html, body, input, select, textarea {
 	font-weight: 300;
 	line-height: 1.65em;
 }
-a {color: #49274A;text-decoration: none;}
+a {color: #373D3F;text-decoration: none;}
 p, ul, ol, dl, table {margin: 0 0 2em 0;}
 p {line-height: 1.8em;}
 h1, h2, h3, h4, h5, h6 {color: inherit;	font-weight: 500;}
@@ -70,113 +70,6 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			font-weight: normal;
 			text-transform: none !important;}
 		.icon > .label {display: none;}
-/* Lists */
-	ol.default {
-		list-style: decimal;
-		padding-left: 1.25em;}
-		ol.default li {
-			padding-left: 0.25em;}
-	ul.default {
-		margin: 0;
-		padding: 0;
-		list-style: none;}
-		ul.default li {
-			padding: 0.40em 0em;}
-	ul.icons {
-		cursor: default;
-		padding-bottom: 2em;
-		-moz-transition: all 0.35s ease-in-out;
-		-webkit-transition: all 0.35s ease-in-out;
-		-o-transition: all 0.35s ease-in-out;
-		-ms-transition: all 0.35s ease-in-out;
-		transition: all 0.35s ease-in-out;}
-		ul.icons a:hover {
-			color: #813772;
-			opacity: 1;
-			}
-		ul.icons li {
-			display: inline-block;
-			line-height: 1em;
-			padding: 0.5em 1em;}
-			ul.icons li:first-child {padding-left: 0;}
-			ul.icons li span {display: none;}
-			ul.icons li a {
-				text-decoration: none;
-				font-size: 2em;
-				color: inherit;
-				opacity: 0.2;
-				-moz-transition: all 0.35s ease-in-out;
-				-webkit-transition: all 0.35s ease-in-out;
-				-o-transition: all 0.35s ease-in-out;
-				-ms-transition: all 0.35s ease-in-out;
-				transition: all 0.35s ease-in-out;}
-			ul.icons li a:hover {
-				color: #813772;
-				opacity: 1;}
-	ul.actions {
-		cursor: default;
-	}
-		ul.actions:last-child {
-			margin-bottom: 0;
-		}
-		ul.actions li {
-			display: inline-block;
-			padding: 0 0 0 1.5em;
-		}
-			ul.actions li:first-child {
-				padding: 0;
-			}
-		ul.actions.vertical li {
-			display: block;
-			padding: 0em 0 0 0;
-		}
-			ul.actions.vertical li:first-child {
-				padding: 0;
-			}
-	ul.special-icons {
-		margin: 0em;
-		padding: 0em;
-	}
-		ul.special-icons > li {
-			position: relative;
-			padding: 0.50em 0em 0.50em 0em;
-		}
-		ul.special-icons > li:before {
-			position: absolute;
-			left: 0;
-			top: 2em;
-			display: block;
-			background: none;
-			font-size: 2em;
-			border-radius: 5px;
-		}
-		ul.special-icons > li:first-child {
-			border-top: none;
-		}
-		ul.icons h3 {
-			margin-bottom: 0.80em;
-			line-height: 2em;
-			font-weight: 400;
-			font-size: 1.2em;
-		}
-		ul.special-icons span {
-			line-height: 190%;
-		}
-		ul.special-icons .fa {
-			float: left;
-			display: inline-block;
-			padding-right: 1em;
-			font-size: 1.4em;
-			color: #107896;
-		}
-		ul.special-icons p {padding-left: 2.7em;}
-/* Tables */
-	table {width: 100%;}
-		table.default {width: 100%;}
-			table.default tbody tr {border-bottom: solid 1px #813772;}
-			table.default td {padding: 0.5em 1em 0.5em 1em;}
-			table.default th {font-weight: 700;padding: 0.5em 1em 0.5em 1em;text-align: left;}
-			table.default thead {color: #131516;}
 /* Button */
 	input[type="submit"],
 	input[type="reset"],
