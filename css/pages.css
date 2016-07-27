@@ -7,6 +7,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 .subpage #nav ul li:not(:first-child){margin:8.5px 0 0 0;}
 .subpage #nav .thispage {color:#EFD469;}
 /* LATEST WORK PAGE */
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
 .wrapper.blogstyle {background: #F2F3F4; margin:10em auto 1em auto;}
 @media screen and (max-width: 750px) {.wrapper.blogstyle{margin:auto;}}
 .wrapper.blogstyle li,.wrapper.blogstyle p{padding: 0em;}
@@ -69,6 +70,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	  margin:0 auto 1em auto;
 		font-size:1em;
 		line-height:1.2em;
+		font-family: 'Inconsolata',monospace ;
 		max-width:90%;
 	}
 @media screen and (max-width: 650px) {#sniptitle {float: none;width:auto;}}
