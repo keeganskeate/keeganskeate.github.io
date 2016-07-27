@@ -68,7 +68,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	  overflow:hidden;
 	  margin:0 auto 1em auto;
 		font-size:0.8em;
-		line-height:0.8em;
+		line-height:1em;
 		max-width:90%;
 	}
 @media screen and (max-width: 650px) {#sniptitle {float: none;width:auto;}}
