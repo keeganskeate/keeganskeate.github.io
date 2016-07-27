@@ -159,9 +159,14 @@ import numpy as np
 import pylab as py
     
 def Cond_Logit(Y,X,N,J):
-    """Estimates a conditional logit given Y,X, # of N, and # of J."""
-    initial_beta = np.dot(np.linalg.inv(np.dot(X.T,X)),np.dot(X.T,Y))
-    beta_MLE = newton_method(cond_score,cond_hessian,initial_beta,Y,X,N,J)
+    """
+    Estimates a conditional logit given
+    Y,X, # of N, and # of J.
+    """
+    initial_beta = np.dot(np.linalg.inv(np.dot(X.T,X)), \
+    		   np.dot(X.T,Y))
+    beta_MLE = newton_method(cond_score,cond_hessian, \
+    	       initial_beta,Y,X,N,J)
     cov = -np.linalg.inv(cond_hessian(beta_MLE,Y,X,N,J))
     se = np.diag(np.sqrt(cov))    
     return beta_MLE, se, cov
@@ -185,7 +190,8 @@ def cond_score(beta,Y,X,N,J):
         X_n = X[(n)*J:J+J*n]
         y_n = Y[(n)*J:J+J*n]
         for j in range (J):
-            score += (y_n[j] - cond_Pr(X_n,beta)[j])*X_n[[j],:].T
+            score += (y_n[j] - cond_Pr(X_n,beta)[j])*\
+            X_n[[j],:].T
     return score
 
 def cond_hessian(beta,Y,X,N,J):
@@ -197,19 +203,18 @@ def cond_hessian(beta,Y,X,N,J):
         for j in range(J):
             x_bar_n += X_n[[j],:]*cond_Pr(X_n,beta)[j]
         for j in range(J):
-            hessian -= np.dot((X_n[[j],:].T-x_bar_n.T),(X_n[[j],:]-x_bar_n))*\
-                       cond_Pr(X_n,beta)[j]
+            hessian -= np.dot((X_n[[j],:].T-x_bar_n.T),\
+            (X_n[[j],:]-x_bar_n))*cond_Pr(X_n,beta)[j]
     return hessian
     
-def newton_method(gradient,hessian,beta0,Y,X,N,J,tol=1e-6,maxIter=25):
+def newton_method(gradient,hessian,beta0,Y,X,N,J,tol,maxIter):
     """The Newton-Raphson Algorithm"""
     beta_old = beta0
     for i in range(maxIter):
-        beta_new = beta_old - np.dot(np.linalg.inv(hessian(beta_old,Y,X,N,J)),
-                                     gradient(beta_old,Y,X,N,J))
+        beta_new = beta_old - np.dot(np.linalg.inv(\
+        hessian(beta_old,Y,X,N,J)),gradient(beta_old,Y,X,N,J))
         if (py.norm(beta_new-beta_old) < tol):
             break
-        print "Iteration %2.0f estimate:\n" %(i), str(beta_old)[1:-1]
         beta_old = beta_new
     return beta_new
 </pre>
