@@ -52,7 +52,7 @@ html, body, input, select, textarea {
 	font-weight: 300;
 	line-height: 1.65em;
 }
-a {color: #373D3F;text-decoration: none;}
+a {text-decoration: none;}
 p, ul {margin: 0 0 2em 0;color: #373D3F;}
 p {line-height: 1.8em;}
 h1, h2, h3, h4, h5, h6 {color: inherit;	font-weight: 500;}
@@ -423,6 +423,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 
 /* Footer */
 .wrapper.endstyle {font-family: 'Lato', sans-serif;}
+.wrapper.endstyle a{color: #373D3F;}
 
 footer > :last-child {margin-bottom: 0;}
 #footer {
