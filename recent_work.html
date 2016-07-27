@@ -225,8 +225,8 @@ def newton_method(gradient,hessian,beta0,Y,X,N,J,tol=1e-6,maxIter=25):
 								<p>The Metropolis-Hastings algorithm simulates draws from a posterior distribution $$\pi(\beta\vert\boldsymbol{y},\boldsymbol{x}).$$ The algorithm iterates the following steps.</p>
 								<p>First, draw $$\beta^*\sim q(\beta \vert y).$$
 								Second, accept the draw with probability $$\alpha=\text{min}\{1,\frac{f(y\vert\beta^*)\pi(\beta^*)q(\beta\vert y)}{f(y\vert\beta)\pi(\beta)q(\beta^*\vert y)}\}.$$
-								Third, if the draw is accepted, then set $\beta=\beta^*$ and repeat. Otherwise, keep $\beta$.</p>
-								<p>The Tailored Metropolis-Hastings algorithm uses a multivariate $t$-distribution proposal density $$q(\beta \vert y) \sim T_{\nu}(\hat{\beta}_{MLE},\hat{\Sigma}_{MLE}).$$
+								Third, if the draw is accepted, then set $\beta=\beta^*$ and repeat. Otherwise, keep $\beta$. The Tailored Metropolis-Hastings algorithm uses a multivariate $t$-distribution proposal density
+								$$q(\beta \vert y) \sim T_{\nu}(\hat{\beta}_{MLE},\hat{\Sigma}_{MLE}).$$
 								Below is the algorithm written in Python 2.7. Attached is an example that fits a logit model to sample data, and returns the realized posterior distribution from $i$ iterations.</p>
 							</div>
 						<div id="snipcode">
