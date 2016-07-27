@@ -711,9 +711,9 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
  .callto a{color:#333A56;text-decoration:none;}
 @media screen and (max-width: 650px) {#profiletext.callto div{min-height: 100px;}}
 *,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
+.callto input[type="submit"],
+.callto input[type="reset"],
+.callto input[type="button"],
 .transbutton {
 cursor:pointer;
     display: inline-block;
@@ -756,9 +756,9 @@ cursor:pointer;
     transform: translate(-150%,0);
 }
 /* :after */
-input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
+.callto input[type="submit"]:hover,
+.callto input[type="reset"]:hover,
+.callto input[type="button"]:hover,
 .transbutton:after {
 	background: #333A56;
     content: attr(data-active);
@@ -770,9 +770,9 @@ input[type="submit"]:hover,
 
 }
 /* Span on :hover and :active */
-input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
+.callto input[type="submit"]:hover,
+.callto input[type="reset"]:hover,
+.callto input[type="button"]:hover,
 .transbutton:hover span,
 .transbutton:active span {
     color: #F2F3F4;
