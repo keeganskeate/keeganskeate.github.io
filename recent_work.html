@@ -255,8 +255,8 @@ def MV_t_pdf(x,mu,Sigma,df):
     denomenator = (gamma(1.*df/2)*pow(df*pi,1.*p/2)*
                   pow(np.linalg.det(Sigma),1./2)*
                   pow(1+(1./df)*
-                  np.dot(np.dot((x-mu),np.linalg.inv(Sigma)),(x-mu)),
-                  1.*(p+df)/2))
+                  np.dot(np.dot((x-mu),np.linalg.inv(Sigma)),
+                  (x-mu)),1.*(p+df)/2))
     density = 1. * numerator/denomenator
     return density
     
@@ -287,17 +287,20 @@ def Tailored_MH(f,prior,beta0,Sigma0,y,X,iters,df):
         iters - iterations.
         df - degrees of freedom.
     Returns:
-        i draws of beta from the posterior, and the acceptance rate.
+        The acceptance rate and
+        i draws of beta from the posterior.
     """
     beta = np.zeros((iters,len(beta0)))
     beta[0]=beta0
     acceptance = np.zeros(iters)
     for i in range(iters):
         beta_star = MV_t_random_var(beta0, Sigma0, df)
-        Numerator = f(beta_star,y,X)*prior(beta_star,beta0,Sigma0)*\
+        Numerator = f(beta_star,y,X)*\
+        	    prior(beta_star,beta0,Sigma0)*\
                     MV_t_pdf(beta[i-1],beta0,Sigma0,df)
-        Denomenator = f(beta[i-1],y,X)*prior(beta[i-1],beta0,Sigma0)*\
-                    MV_t_pdf(beta_star,beta0,Sigma0,df)
+        Denomenator = f(beta[i-1],y,X)*\
+        	      prior(beta[i-1],beta0,Sigma0)*\
+                      MV_t_pdf(beta_star,beta0,Sigma0,df)
         alpha = min(1.,1.*Numerator/Denomenator)
         acceptance[i] = np.random.binomial(1, alpha)
         if acceptance[i]==1:
