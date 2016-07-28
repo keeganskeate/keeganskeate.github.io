@@ -85,8 +85,8 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 .wrapper.contactstyle a{text-decoration:none;padding: 0em;}
 .wrapper.contactstyle .image {position: relative;width:495px;height:431px;max-width:100%;}
 .wrapper.contactstyle h2 {position: absolute; 
-   top: 10px; 
-   left: 275px; 
+   top: 2.5%; 
+   left: 55.5%; 
    width: 100%;
    font-size:1.8em;
 }
