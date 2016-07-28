@@ -90,6 +90,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
    width: 100%;
    font-size:1.8em;
 }
+@media screen and (max-width: 650px) {.wrapper.contactstyle h2{font-size:1.2em;}}
 #tohelp{float:left;margin-left:2.5%;}
 #tohelp img{width:495px;height:431px; max-width:100%;
 	border-radius: 5%;
@@ -100,13 +101,13 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 
 #contact {
 	float:right; margin-right:2.5%;
-		width: 50%;height:431px; padding: 1em;
+		width: 40%;height:431px; padding: 1em;
 	background: #E8E8E8;
 	border: 1px solid #333A56;
 	-moz-box-shadow: 0px 0px 4px #444;
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
-@media screen and (max-width: 750px) {#contact {float:none;margin:0 auto;width:auto;height:auto;}}
+@media screen and (max-width: 1000px) {#contact {float:none;margin:0 auto;width:auto;height:auto;}}
 
 label {
 	float: left; clear: left; margin: 11px 20px 0 0; width: 95px;
