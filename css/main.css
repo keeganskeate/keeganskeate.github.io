@@ -365,7 +365,9 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		#profiletext li{line-height: 1.7em;}
 		#profiletext li a:hover{text-decoration: underline;color:  #373D3F;}
 		@media (max-height:: 1280px) and (max-width: 980px) {#profiletext{margin-top:2em;padding:0;}}
-
+		
+@media (max-height: 1280px) and (max-width: 980px) { #profilepic{float:none;margin: 0em auto; } }
+@media (max-height: 1280px) and (max-width: 980px) {.profile div{text-align:center;}}
 /* Footer */
 .wrapper.endstyle {font-family: 'Lato', sans-serif;}
 .wrapper.endstyle a, .wrapper.endstyle p{color: #373D3F;}
