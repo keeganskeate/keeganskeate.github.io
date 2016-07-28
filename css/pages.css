@@ -99,15 +99,15 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 .wrapper.contactstyle .image { 
    position: relative;
    width: 100%;
+   border-radius: 15%;
 }
 
 .wrapper.contactstyle h2 { 
    position: absolute; 
    top: 25px; 
-   left: 290px; 
+   left: 280px; 
    width: 100%;
    font-size:1.8em;
-   border-radius: 0 0 15% 15%;
 }
 
 
