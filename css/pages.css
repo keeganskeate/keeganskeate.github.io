@@ -106,8 +106,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	width: 50%;height:431px; padding: 0px;
 	background: #E8E8E8;
 	border: 1px solid #333A56;
-	-moz-box-shadow: 0px 0px 4px #444;
-	-webkit-box-shadow: 0px 0px 4px #444;
+	
 }
 @media screen and (max-width: 750px) {#contact {float:none;margin:0 auto;width:auto;height:auto;}}
 
