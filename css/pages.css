@@ -34,13 +34,13 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 
 /* PDFS */
 #blog .paperpost {
-	margin:3em auto;
+	margin:4em auto;
 	width: 50%;
 	background: #FFF;
 	border: 1px solid #333A56;
 	-moz-box-shadow: 0px 0px 4px #444;
 	-webkit-box-shadow: 0px 0px 4px #444;}
-@media screen and (max-width: 750px) {#blog .paperpost{width:auto;}}
+@media screen and (max-width: 750px) {#blog .paperpost{width:auto;margin:3em auto;}}
 #blog .paperpost .paper {text-align:center;margin:0;}
 #blog .paperpost .paper {position: relative;overflow: hidden;height:0;}
 #blog .paperpost .paper-16x9{padding-bottom: 56.25%;}
@@ -56,6 +56,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	overflow:hidden;
 	background-color:#FFF;
 }
+@media screen and (max-width: 750px) {#blog .snip{width:auto;margin:3em auto;}}
 .snip div {
    padding:0;}
 	#sniptitle {
