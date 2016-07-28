@@ -83,22 +83,19 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 @media screen and (max-width: 750px) {.wrapper.blogstyle{margin:auto;}}
 .wrapper.contactstyle li,.wrapper.blogstyle p{padding: 0em;}
 .wrapper.contactstyle a{text-decoration:none;padding: 0em;}
-
-#tohelp{float:left;margin-right:2.5%;}
-#tohelp img{
-	width:495px;
-	height:431px;}
-@media screen and (max-width: 650px) {#tohelp{float: none;width:auto;}}
-@media screen and (max-width: 650px) {#tohelp img{width:auto;height:auto;}}
-
 .wrapper.contactstyle .image {position: relative;width: 100%;border-radius: 15%;}
-
 .wrapper.contactstyle h2 {position: absolute; 
    top: 10px; 
    left: 275px; 
    width: 100%;
    font-size:1.8em;
 }
+#tohelp{float:left;margin-left:2.5%;}
+#tohelp img{
+	width:495px;
+	height:431px;}
+@media screen and (max-width: 650px) {#tohelp{float: none;width:auto;}}
+@media screen and (max-width: 650px) {#tohelp img{width:auto;height:auto;}}
 
 #contact {
 	float:right; margin-right:2.5%;
@@ -130,6 +127,7 @@ input {
 	input:-moz-placeholder {
 	    color: #a1b2c3; text-shadow: 0px -1px 0px #38506b; 
 	}
+
 textarea {
 	width: 40%; height: 170px; padding: 12px 20px 0px 20px; margin: 0 0 20px 0; 
 	background: #5E768D;
@@ -137,7 +135,7 @@ textarea {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D)); /* webkit */
 	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
 	-moz-box-shadow: 0px 1px 0px #f2f2f2;-webkit-box-shadow: 0px 1px 0px #f2f2f2;
-	font-family: sans-serif; font-size: 16px; color: #f2f2f2; text-transform: uppercase; text-shadow: 0px -1px 0px #334f71; 
+	color: #f2f2f2; text-shadow: 0px -1px 0px #334f71; 
 }
 	textarea::-webkit-input-placeholder  {
     	color: #a1b2c3; text-shadow: 0px -1px 0px #38506b;  
