@@ -366,7 +366,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 
 @media (max-height: 1280px) and (max-width: 980px) { #profilepic{float:none;display:block;margin: 0em auto; } }
 @media (max-height:: 1280px) and (max-width: 980px) {#profilepic img{display:block;float:none;margin:0 auto;width:auto;}}
-@media (max-height:: 1280px) and (max-width: 980px) {#profiletext{display:block;float:none;margin:2em auto 0 auto;padding:0;}}
+@media only screen and (max-width: 980px) {#profiletext{display:block;float:none;margin:2em auto 0 auto;padding:0;}}
 
 /* Footer */
 .wrapper.endstyle {font-family: 'Lato', sans-serif;}
