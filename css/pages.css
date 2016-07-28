@@ -83,7 +83,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 @media screen and (max-width: 750px) {.wrapper.blogstyle{margin:auto;}}
 .wrapper.contactstyle li,.wrapper.blogstyle p{padding: 0em;}
 .wrapper.contactstyle a{text-decoration:none;padding: 0em;}
-.wrapper.contactstyle .image {position: relative;width: 100%;border-radius: 15%;}
+.wrapper.contactstyle .image {position: relative;width: 100%;}
 .wrapper.contactstyle h2 {position: absolute; 
    top: 10px; 
    left: 275px; 
@@ -93,7 +93,9 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 #tohelp{float:left;margin-left:2.5%;}
 #tohelp img{
 	width:495px;
-	height:431px;}
+	height:431px;
+	border-radius: 5%;
+}
 @media screen and (max-width: 650px) {#tohelp{float: none;width:auto;}}
 @media screen and (max-width: 650px) {#tohelp img{width:auto;height:auto;}}
 
@@ -129,7 +131,7 @@ input {
 	}
 
 textarea {
-	width: 40%; height: 170px; padding: 12px 20px 0px 20px; margin: 0 0 20px 0; 
+	width: 40%; height: 30%; padding: 15px 20px 0px 20px; margin: 0 0 20px 0; 
 	background: #5E768D;
 	background: -moz-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* firefox */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D)); /* webkit */
