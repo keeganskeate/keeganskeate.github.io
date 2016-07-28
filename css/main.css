@@ -452,7 +452,7 @@ footer > :last-child {margin-bottom: 0;}
 		.projectsbin div li{line-height: 1.6em;}
 		.projectsbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 
-#projectsection {display:inline-block;overflow:hidden;padding: 0 0 0 0.5em;margin: auto;width:33.3%;}
+#projectsection {display:inline-block;overflow:hidden;padding: 0 0 1em 0;margin: auto;width:33.3%;}
 #projectwrap {float: left;position: relative;left: 50%;}
 #projectitem {float: left;position: relative;left: -50%;}
 
@@ -497,7 +497,7 @@ footer > :last-child {margin-bottom: 0;}
 		.contactbin div li{line-height: 1.6em;}
 		.contactbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 
-	#contactsection {display:inline-block;overflow:hidden;padding: 0.5em 0;margin: auto;width:33.3%;}
+	#contactsection {display:inline-block;overflow:hidden;padding: 1em 0;margin: auto;width:33.3%;}
 @media screen and (max-width: 650px){ #contactsection{ display:block; width:auto; }}
 #contactwrap {float: left;position: relative;left: 50%;}
 #contactitem {float: left;position: relative;left: -50%;}
