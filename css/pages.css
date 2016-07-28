@@ -79,12 +79,12 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 
 
 /* CONTACT PAGE */
-.wrapper.contactstyle {background: #F2F3F4; margin:10em auto 1em auto;max-width:95%;}
+.wrapper.contactstyle {background: #F2F3F4; margin:10em auto 1em auto;}
 @media screen and (max-width: 750px) {.wrapper.blogstyle{margin:auto;}}
 .wrapper.contactstyle li,.wrapper.blogstyle p{padding: 0em;}
 .wrapper.contactstyle a{text-decoration:none;padding: 0em;}
 
-#tohelp{float:left;}
+#tohelp{float:left;margin-right:2.5%;}
 #tohelp img{
 	width:495px;
 	height:431px;
@@ -102,8 +102,8 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 }
 
 #contact {
-	float:right;
-	width: 50%; margin: 0 auto; padding: 60px 30px;
+	float:right; margin-right:2.5%;
+	width: 50%;padding: 60px 30px;
 	background: #c9d0de; border: 1px solid #e1e1e1;
 	-moz-box-shadow: 0px 0px 4px #444;
 	-webkit-box-shadow: 0px 0px 4px #444;
