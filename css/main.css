@@ -357,7 +357,8 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		#profilepic {vertical-align:bottom;float:left;margin-right:0em;width:155px;}
 		#profilepic p > a{display: inline;text-decoration: underline;color:#107896;}
 		#profilepic img:hover{opacity: .75;  filter:alpha(opacity=75);}
-		@media screen and (max-width: 1000px) {#profilepic {display:block;float:none;margin:0 auto;width:auto;}}
+		@media (min-width: 768px) and (max-width: 980px) {#profilepic img{display:block;float:none;margin:0 auto;width:auto;}}
+		
 		
 		#profiletext {display:inline-block;overflow:hidden;min-height:175px;padding:0 0 0 0.5em;}
 		#profiletext li{line-height: 1.7em;}
