@@ -96,18 +96,17 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 @media screen and (max-width: 650px) {#tohelp{float: none;width:auto;}}
 @media screen and (max-width: 650px) {#tohelp img{width:auto;}}
 
-
-
 .wrapper.contactstyle .image { 
    position: relative; 
-   width: 100%; /* for IE 6 */
+   width: 100%;
 }
 
 .wrapper.contactstyle h2 { 
    position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 100%; 
+   top: 15px; 
+   right: 0; 
+   width: 100%;
+   font-size:1.8em;
 }
 
 
