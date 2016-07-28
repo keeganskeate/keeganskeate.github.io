@@ -360,7 +360,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		@media (min-width: 1280px) and (max-width: 980px) {#profilepic img{display:block;float:none;margin:0 auto;width:auto;}}
 		
 		
-		#profiletext {display:inline-block;overflow:hidden;min-height:175px;padding:0 0 0 0.5em;}
+		#profiletext {display:inline-block;float:left;overflow:hidden;min-height:175px;padding:0 0 0 0.5em;}
 		#profiletext li{line-height: 1.7em;}
 		#profiletext li a:hover{text-decoration: underline;color:  #373D3F;}
 		@media (min-width: 1280px) and (max-width: 980px) {#profiletext{margin-top:2em;padding:0;}}
