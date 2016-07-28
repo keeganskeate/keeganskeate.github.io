@@ -439,7 +439,9 @@ footer > :last-child {margin-bottom: 0;}
 .wrapper.endstyle #footer .projectsbin{vertical-align:top;margin: 1em;}
 	#footer .projectsbin{
 		display: inline-block; margin: 0 auto;
-		border:2px solid; border-color: #333A56; box-shadow:  -2px #000; border-radius: 5px;
+		border: 1px solid #333A56;
+		-moz-box-shadow: 0px 0px 4px #444;
+		-webkit-box-shadow: 0px 0px 4px #444;
         	width:95%;
 		overflow:auto;
 		background: #E8E8E8}
