@@ -1,6 +1,3 @@
-/*Theme Colors
-Header Black: #131516  Text Main Black: #373D3F  Light White: #F2F3F4  White:#F7F5E6  Offwhite: #E8E8E8  Darkest White: #D6D6D6
-Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #49274A Golden: #EFD469 */
 /*  SUBPAGE SPECIFIC */
 .subpage #logo{display: none;}.subpage #nav{position: static;right: none;text-align: center;}
 .subpage #nav ul li:first-child{padding: 0em 1em 0 0em; margin:9px 0 0px -.9em;}
@@ -31,7 +28,6 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 #blog a{text-decoration:underline;color:#107896;cursor:pointer;}
 #blog a span{position:absolute;font-size:3em;margin-left:-2.5%;}
 #blog .blogicon{float:right;}
-
 /* PDFS */
 #blog .paperpost {
 	margin:4em auto;
@@ -75,9 +71,6 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	}
 @media screen and (max-width: 1000px) {#sniptitle {float: none;width:auto;}}
 
-
-
-
 /* CONTACT PAGE */
 .wrapper.contactstyle {background: #F2F3F4; margin:10em auto 1em auto;}
 @media screen and (max-width: 1000px) {.wrapper.contactstyle{margin:auto;}}
@@ -108,15 +101,14 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
 @media screen and (max-width: 1000px) {#contact {float:none;margin:0 auto;width:auto;height:auto;}}
-
 label {
 	float: left; clear: left; margin: 11px 20px 0 0; width: 95px;
 	text-align: right; font-size: 16px; color: #373D3F; 
-	text-shadow: 0px 1px 0px #444;
+	text-shadow: 0px 1px 0px #F2F3F4;
 }
 input {
 	width: 260px; height: 35px; padding: 5px 20px 0px 20px; margin: 0 0 20px 0; 
-	background: #D6D6D6;
+	background: #131516;
 	background: -moz-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* firefox */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D)); /* webkit */
 	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
