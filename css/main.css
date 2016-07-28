@@ -364,7 +364,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		#profiletext li{line-height: 1.7em;}
 		#profiletext li a:hover{text-decoration: underline;color:  #373D3F;}
 
-@media (max-height:: 1280px) and (max-width: 980px) {.profile{text-align:center;float:none;display:block;margin: 0 auto;width:auto;}}		
+@media (max-height:: 1280px) and (max-width: 980px) {.profile div{text-align:center;float:none;display:block;margin: 0 auto;width:auto;}}		
 @media (max-height: 1280px) and (max-width: 980px) { #profilepic{float:none;display:block;margin: 0em auto; } }
 
 @media (max-height:: 1280px) and (max-width: 980px) {#profilepic img{display:block;float:none;margin:0 auto;width:auto;}}
