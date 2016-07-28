@@ -6,7 +6,7 @@
 /* LATEST WORK PAGE */
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
 .wrapper.blogstyle {background: #F2F3F4; margin:10em auto 1em auto;}
-@media screen and (max-width: 1000px) {.wrapper.blogstyle{margin:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {.wrapper.blogstyle{margin:auto;}}
 .wrapper.blogstyle li,.wrapper.blogstyle p{padding: 0em;}
 .wrapper.blogstyle a{text-decoration:none;padding: 0em;}
 #blog h5{
@@ -36,7 +36,7 @@
 	border: 1px solid #333A56;
 	-moz-box-shadow: 0px 0px 4px #444;
 	-webkit-box-shadow: 0px 0px 4px #444;}
-@media screen and (max-width: 1000px) {#blog .paperpost{width:auto;margin:3em auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {#blog .paperpost{width:auto;margin:3em auto;}}
 #blog .paperpost .paper {text-align:center;margin:0;}
 #blog .paperpost .paper {position: relative;overflow: hidden;height:0;}
 #blog .paperpost .paper-16x9{padding-bottom: 56.25%;}
@@ -52,7 +52,7 @@
 	overflow:hidden;
 	background-color:#FFF;
 }
-@media screen and (max-width: 1000px) {#blog .snip{width:auto;margin:3em auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {#blog .snip{width:auto;margin:3em auto;}}
 .snip div {
    padding:0;}
 	#sniptitle {
@@ -69,11 +69,11 @@
 		font-family: 'Inconsolata',monospace ;
 		max-width:90%;
 	}
-@media screen and (max-width: 1000px) {#sniptitle {float: none;width:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {#sniptitle {float: none;width:auto;}}
 
 /* CONTACT PAGE */
 .wrapper.contactstyle {background: #F2F3F4; margin:10em auto 1em auto;}
-@media screen and (max-width: 1000px) {.wrapper.contactstyle{margin:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle{margin:auto;}}
 .wrapper.contactstyle li,.wrapper.contactstyle p{padding: 0em;}
 .wrapper.contactstyle a{text-decoration:none;padding: 0em;}
 .wrapper.contactstyle .image {position: relative;width:495px;height:431px;max-width:100%;}
@@ -83,14 +83,14 @@
    width: 100%;
    font-size:1.8em;
 }
-@media screen and (max-width: 1000px) {.wrapper.contactstyle h2{font-size:1.2em;}}
+@media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle h2{font-size:1.2em;}}
 #tohelp{float:left;margin-left:2.5%;}
 #tohelp img{width:495px;height:431px; max-width:100%;
 	border-radius: 10%;
 }
-@media screen and (max-width: 1000px) {#tohelp{float: none;width:auto;}}
-@media screen and (max-width: 1000px) {.wrapper.contactstyle .image{width:auto;height:auto;}}
-@media screen and (max-width: 1000px) {#tohelp img{width:auto;height:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {#tohelp{float: none;width:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle .image{width:auto;height:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {#tohelp img{width:auto;height:auto;}}
 
 #contact {
 	float:right; margin-right:2.5%;
@@ -100,7 +100,7 @@
 	-moz-box-shadow: 0px 0px 4px #444;
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
-@media screen and (max-width: 1000px) {#contact {float:none;margin:0 auto;width:auto;height:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {#contact {float:none;margin:0 auto;width:auto;height:auto;}}
 label {
 	float: left; clear: left; margin: 11px 20px 0 0; width: 95px;
 	text-align: right; font-size: 16px; color: #373D3F; 
@@ -156,7 +156,7 @@ input[type=submit] {
 
 /* ABOUT ME PAGE */
 .wrapper.aboutstyle {background: #F2F3F4; margin:10em auto 1em auto;}
-@media screen and (max-width: 1000px) {.wrapper.aboutstyle{margin:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {.wrapper.aboutstyle{margin:auto;}}
 .wrapper.aboutstyle li,.wrapper.aboutstyle p{padding: 0em;}
 .wrapper.aboutstyle a{text-decoration:none;padding: 0em;}
 
@@ -167,4 +167,4 @@ input[type=submit] {
 	-moz-box-shadow: 0px 0px 4px #444;
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
-@media screen and (max-width: 1000px) {#contact {float:none;margin:0 auto;width:auto;height:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {#contact {float:none;margin:0 auto;width:auto;height:auto;}}
