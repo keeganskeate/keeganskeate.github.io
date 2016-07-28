@@ -90,7 +90,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	height:431px;
 	border-radius: 15%;}
 @media screen and (max-width: 650px) {#tohelp{float: none;width:auto;}}
-@media screen and (max-width: 650px) {#tohelp img{width:auto;}}
+@media screen and (max-width: 650px) {#tohelp img{width:auto;height:auto;}}
 
 .wrapper.contactstyle .image {position: relative;width: 100%;border-radius: 15%;}
 
@@ -109,7 +109,7 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
 	-moz-box-shadow: 0px 0px 4px #444;
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
-@media screen and (max-width: 750px) {#contact {float:none;margin:0 auto;width:auto;}}
+@media screen and (max-width: 750px) {#contact {float:none;margin:0 auto;width:auto;height:auto;}}
 
 label {
 	float: left; clear: left; margin: 11px 20px 0 0; width: 95px;
