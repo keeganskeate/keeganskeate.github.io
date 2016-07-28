@@ -1,0 +1,56 @@
+/* Banner */
+	#banner {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		padding: 0 0 0 1em;
+		color: #131516;
+		-moz-transition: all .35s ease-in;
+		-webkit-transition: all .35s ease-in;
+		-o-transition: all .35s ease-in;
+		-ms-transition: all .35s ease-in;
+		transition: all .35s ease-in;
+	}
+		#banner .container {
+			width:100%;
+			padding: 0em 0em;
+			margin:2em auto 0 auto;
+			float:left;
+		}
+		#banner .container h2 {
+			float:left;
+			position:relative;
+			cursor: pointer;
+			display: inline-block;
+			padding: 0.0em .2em;
+			background: none;
+			text-transform: none;
+			font-weight: 700;
+		}
+		#banner .container h2:hover{
+			border-color: #813772;
+			background: none;
+			color: #131516;
+		}
+		#banner p, #banner li{
+			color:  #49274A;
+			display: block;
+			letter-spacing: 1px;
+			text-align: left;
+			font-size: 1em;
+			font-weight: 300;
+		}
+		
+		#banner li a:hover{
+			text-decoration: underline;
+			color:  #373D3F;
+		}
+		#banner p > a{
+			display: inline;
+			color: #373D3F;
+			text-decoration: underline;
+		}
+		#banner p > a:hover{
+			color: #107896;
+		}
