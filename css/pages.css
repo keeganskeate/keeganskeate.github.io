@@ -91,12 +91,12 @@ Light Blue: #107896  Dark Blue:  #333A56 Light Purple: #813772 Dark Purple: #492
    font-size:1.8em;
 }
 #tohelp{float:left;margin-left:2.5%;}
-#tohelp img{width:495px;height:431px;
+#tohelp img{width:495px;height:431px; max-width:100%;
 	border-radius: 5%;
 }
 @media screen and (max-width: 650px) {#tohelp{float: none;width:auto;}}
-@media screen and (max-width: 650px) {.wrapper.contactstyle .image{width:auto;height:auto;margin:0 auto;}}
-@media screen and (max-width: 650px) {#tohelp img{width:auto;height:auto;margin:0 auto;}}
+@media screen and (max-width: 650px) {.wrapper.contactstyle .image{width:auto;height:auto;}}
+@media screen and (max-width: 650px) {#tohelp img{width:auto;height:auto;}}
 
 #contact {
 	float:right; margin-right:2.5%;
