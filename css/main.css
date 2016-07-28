@@ -293,7 +293,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		}
 	.dropotron span{font-size: 1.2em;}
 /* Picture Dropdown Button */
-.dropbtn {
+/*.dropbtn {
 			float:left;
 			position:absolute;
 			cursor: pointer;
@@ -349,7 +349,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 	overflow:auto;
 }
 @media (max-height:: 1280px) and (max-width: 980px) {.dropdown-content {width:85vw}}
-.show {display:block;}
+.show {display:block;} */
 
 .profile {display:inline-block;float:left; margin:0 auto 0 2.5%;overflow:hidden;}
 
@@ -578,7 +578,7 @@ cursor:pointer;
 .transbutton:hover{
 	background:#333A56;
 }
-@media (max-height: 1280px) and (max-width: 980px) {.callto{display:block;width:auto;float:none;}}
+@media (max-height: 1280px) and (max-width: 980px) {.callto{display:block;width:auto;float:none;margin:0 auto;}}
 .transbutton:before,
 .transbutton:after {
     content: '';
