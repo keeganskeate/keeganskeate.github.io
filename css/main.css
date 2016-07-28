@@ -306,7 +306,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			border-color: #49274A;
 			box-shadow:  -2px #000;
 			border-radius: 5px;}
-@media screen and (max-width: 1000px) {.dropbtn {float:none;}}
+@media (min-width: 768px) and (max-width: 980px) {.dropbtn {float:none;}}
 .dropdown {
     -moz-appearance: none;
 	-webkit-appearance: none;
@@ -327,8 +327,8 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 	-o-transition: all 0.35s ease-in-out;
 	-ms-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;}
-@media screen and (max-width: 1000px) { .dropdown{ margin: 0em auto; } }
-@media screen and (max-width: 1000px) {.profile .dropdown{text-align:center;}}
+@media (min-width: 768px) and (max-width: 980px) { .dropdown{ margin: 0em auto; } }
+@media (min-width: 768px) and (max-width: 980px) {.profile .dropdown{text-align:center;}}
 .dropdown-content {
 	line-height: 1em;
 	padding: 0;
@@ -348,11 +348,11 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 	height:180px;
 	overflow:auto;
 }
-@media screen and (max-width: 1000px) {.dropdown-content {width:85vw}}
+@media (min-width: 768px) and (max-width: 980px) {.dropdown-content {width:85vw}}
 .show {display:block;}
 
 .profile {display:inline-block;float:left; margin:0 auto 0 2.5%;overflow:hidden;}
-@media screen and (max-width: 1000px) {.profile{float:none;display:block;margin: 0 auto;width:auto;}}
+@media (min-width: 768px) and (max-width: 980px) {.profile{float:none;display:block;margin: 0 auto;width:auto;}}
 	.profile div {text-align:left; height:175px;min-height: 175px;padding: 0px;}
 		#profilepic {vertical-align:bottom;float:left;margin-right:0em;width:155px;}
 		#profilepic p > a{display: inline;text-decoration: underline;color:#107896;}
@@ -363,7 +363,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		#profiletext {display:inline-block;overflow:hidden;min-height:175px;padding:0 0 0 0.5em;}
 		#profiletext li{line-height: 1.7em;}
 		#profiletext li a:hover{text-decoration: underline;color:  #373D3F;}
-		@media screen and (max-width: 1000px) {#profiletext{margin-top:2em;padding:0;}}
+		@media (min-width: 768px) and (max-width: 980px) {#profiletext{margin-top:2em;padding:0;}}
 
 /* Footer */
 .wrapper.endstyle {font-family: 'Lato', sans-serif;}
@@ -389,7 +389,7 @@ footer > :last-child {margin-bottom: 0;}
         	width:95%;
 		overflow:auto;
 		background: #E8E8E8}
-@media screen and (max-width: 1000px){ #footer .projectsbin{ display:block; width:auto; }}
+@media (min-width: 768px) and (max-width: 980px){ #footer .projectsbin{ display:block; width:auto; }}
 
 
 .projectsbin div {position:relative;float:left;text-align:left;}
@@ -400,7 +400,7 @@ footer > :last-child {margin-bottom: 0;}
 #projectwrap {float: left;position: relative;left: 50%;}
 #projectitem {float: left;position: relative;left: -50%;}
 
-@media screen and (max-width: 1000px){ #projectsection{ display:block; width:auto; }}
+@media (min-width: 768px) and (max-width: 980px){ #projectsection{ display:block; width:auto; }}
 
 .projectsbin img{
 	display:block; margin: 0 auto;
@@ -434,7 +434,7 @@ footer > :last-child {margin-bottom: 0;}
 	        	width:95%;
 			overflow:auto;
 			background: #E8E8E8}
-@media screen and (max-width: 1000px){ #footer .contactbin{ display:block; width:auto; }}
+@media (min-width: 768px) and (max-width: 980px){ #footer .contactbin{ display:block; width:auto; }}
 
 
 .contactbin div {position:relative;float:left;text-align:left;}
@@ -442,7 +442,7 @@ footer > :last-child {margin-bottom: 0;}
 		.contactbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 
 	#contactsection {display:inline-block;overflow:hidden;padding: 1em 0;margin: auto;width:33.3%;}
-@media screen and (max-width: 1000px){ #contactsection{ display:block; width:auto; }}
+@media (min-width: 768px) and (max-width: 980px){ #contactsection{ display:block; width:auto; }}
 #contactwrap {float: left;position: relative;left: 50%;}
 #contactitem {float: left;position: relative;left: -50%;}
 
@@ -549,7 +549,7 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 /* CALL TO ACTION */
 .callto{display:inline-block;width:25%;float:left;margin:3em auto 0 3em;}
  .callto a{color:#333A56;text-decoration:none;}
-@media screen and (max-width: 1000px) {#profiletext.callto div{min-height: 100px;}}
+@media (min-width: 768px) and (max-width: 980px) {#profiletext.callto div{min-height: 100px;}}
 *,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 .callto input[type="submit"],
 .callto input[type="reset"],
@@ -573,7 +573,7 @@ cursor:pointer;
 .transbutton:hover{
 	background:#333A56;
 }
-@media screen and (max-width: 1000px) {.callto{display:block;width:auto;}}
+@media (min-width: 768px) and (max-width: 980px) {.callto{display:block;width:auto;}}
 .transbutton:before,
 .transbutton:after {
     content: '';
