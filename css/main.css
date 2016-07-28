@@ -392,7 +392,7 @@ footer > :last-child {margin-bottom: 0;}
         	width:95%;
 		overflow:auto;
 		background: #E8E8E8}
-@media (max-height:: 1280px) and (max-width: 980px){ #footer .projectsbin{ display:block; width:auto; }}
+@media only screen and (max-width: 980px){ #footer .projectsbin{ display:block; width:auto; }}
 
 
 .projectsbin div {position:relative;float:left;text-align:left;}
@@ -403,7 +403,7 @@ footer > :last-child {margin-bottom: 0;}
 #projectwrap {float: left;position: relative;left: 50%;}
 #projectitem {float: left;position: relative;left: -50%;}
 
-@media (max-height:: 1280px) and (max-width: 980px){ #projectsection{ display:block; width:auto; }}
+@media screen and (max-width: 980px){ #projectsection{ display:block; width:auto; }}
 
 .projectsbin img{
 	display:block; margin: 0 auto;
@@ -437,7 +437,7 @@ footer > :last-child {margin-bottom: 0;}
 	        	width:95%;
 			overflow:auto;
 			background: #E8E8E8}
-@media (max-height:: 1280px) and (max-width: 980px){ #footer .contactbin{ display:block; width:auto; }}
+@media only screen and (max-width: 980px){ #footer .contactbin{ display:block; width:auto; }}
 
 
 .contactbin div {position:relative;float:left;text-align:left;}
@@ -445,7 +445,7 @@ footer > :last-child {margin-bottom: 0;}
 		.contactbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 
 	#contactsection {display:inline-block;overflow:hidden;padding: 1em 0;margin: auto;width:33.3%;}
-@media (max-height:: 1280px) and (max-width: 980px){ #contactsection{ display:block; width:auto; }}
+@media only screen and (max-width: 980px){ #contactsection{ display:block; width:auto; }}
 #contactwrap {float: left;position: relative;left: 50%;}
 #contactitem {float: left;position: relative;left: -50%;}
 
