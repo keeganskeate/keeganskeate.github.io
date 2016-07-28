@@ -552,7 +552,7 @@ div.no-touch .boxInner:hover img, div.touch .boxInner.touchFocus img{	border-col
 /* CALL TO ACTION */
 .callto{display:inline-block;width:25%;float:left;margin:3em auto 0 3em;}
  .callto a{color:#333A56;text-decoration:none;}
-@media (max-height:: 1280px) and (max-width: 980px) {#profiletext.callto div{max-width:95%;}}
+
 *,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 .callto input[type="submit"],
 .callto input[type="reset"],
@@ -576,7 +576,7 @@ cursor:pointer;
 .transbutton:hover{
 	background:#333A56;
 }
-@media (max-height: 1280px) and (max-width: 980px) {.callto{display:block;width:auto;float:none;margin:0 auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {.callto{display:block;width:auto;float:none;margin:0 1em;}}
 .transbutton:before,
 .transbutton:after {
     content: '';
