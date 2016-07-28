@@ -574,7 +574,7 @@ cursor:pointer;
 .transbutton:hover{
 	background:#333A56;
 }
-@media (max-height: 1280px) and (max-width: 980px) {.callto{display:block;width:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {.callto{display:block;width:auto;float:none;}}
 .transbutton:before,
 .transbutton:after {
     content: '';
