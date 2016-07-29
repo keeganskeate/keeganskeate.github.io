@@ -425,7 +425,7 @@ footer > :last-child {margin-bottom: 0;}
 
 .projectsbin p{max-width:80%;margin:0 auto;}
 
-.wrapper.endstyle #footer .contactbin{vertical-align:top;margin: 1em;}
+.wrapper.endstyle #footer .contactbin{margin: 1em;}
 	#footer .contactbin{
 		display: inline-block;margin: auto;
 		border: 1px solid #333A56;
@@ -438,12 +438,12 @@ footer > :last-child {margin-bottom: 0;}
 
 @media only screen and (max-width: 980px){ #footer .contactbin div{ float:none;}}
 
-.contactbin div {position:relative;float:left;text-align:left;}
+.contactbin div {position:relative;float:left;text-align:left;vertical-align:top;}
 		.contactbin div li{line-height: 1.6em;}
 		.contactbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 
 	#contactsection {display:inline-block;overflow:hidden;padding: 1em 0;margin: auto;width:33.3%;}
-@media only screen and (max-width: 980px){ #contactsection{ margin:0 auto;width:auto; }}
+@media only screen and (max-width: 980px){ #contactsection{ margin:0 1em;width:auto; }}
 #contactwrap {float: left;position: relative;left: 50%;}
 #contactitem {float: left;position: relative;left: -50%;}
 
