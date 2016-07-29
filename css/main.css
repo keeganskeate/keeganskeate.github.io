@@ -425,28 +425,25 @@ footer > :last-child {margin-bottom: 0;}
 
 .projectsbin p{max-width:80%;margin:0 auto;}
 
-
-
-
-	.wrapper.endstyle #footer .contactbin{vertical-align:top;margin: 1em;}
-		#footer .contactbin{
-			display: inline-block;margin: auto;
-			border: 1px solid #333A56;
-			-moz-box-shadow: 0px 0px 4px #444;
-			-webkit-box-shadow: 0px 0px 4px #444;
-	        	width:95%;
-			overflow:auto;
-			background: #E8E8E8}
+.wrapper.endstyle #footer .contactbin{vertical-align:top;margin: 1em;}
+	#footer .contactbin{
+		display: inline-block;margin: auto;
+		border: 1px solid #333A56;
+		-moz-box-shadow: 0px 0px 4px #444;
+		-webkit-box-shadow: 0px 0px 4px #444;
+        	width:95%;
+		overflow:auto;
+		background: #E8E8E8}
 @media only screen and (max-width: 980px){ #footer .contactbin{ display:block; width:auto;}}
 
-@media only screen and (max-width: 980px){ #footer .contactbin div{ float:none; text-align:center; }}
+@media only screen and (max-width: 980px){ #footer .contactbin div{ float:none;}}
 
 .contactbin div {position:relative;float:left;text-align:left;}
 		.contactbin div li{line-height: 1.6em;}
 		.contactbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 
 	#contactsection {display:inline-block;overflow:hidden;padding: 1em 0;margin: auto;width:33.3%;}
-@media only screen and (max-width: 980px){ #contactsection{ width:auto; margin:0 auto; }}
+@media only screen and (max-width: 980px){ #contactsection{ margin:0 auto; }}
 #contactwrap {float: left;position: relative;left: 50%;}
 #contactitem {float: left;position: relative;left: -50%;}
 
