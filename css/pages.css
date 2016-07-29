@@ -159,6 +159,23 @@ input[type=submit] {
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.aboutstyle{margin:auto;}}
 .wrapper.aboutstyle li,.wrapper.aboutstyle p{padding: 0em;margin:0 auto;}
 .wrapper.aboutstyle a{text-decoration:none;padding: 0em;}
+.wrapper.aboutstyle h5{
+	margin:1em auto;
+	max-width:90%;
+	color:#131516;
+	font-weight:400;
+	font-size:1.2em;
+}
+.wrapper.aboutstyle  p{
+	color:#373D3F;
+	font-weight:300;
+	}
+.wrapper.aboutstyle p{
+	margin:0 auto 1em auto;
+	max-width:90%;
+	font-size:1em;
+}
+.wrapper.aboutstyle a{text-decoration:underline;color:#107896;cursor:pointer;}
 
 #history{
 	float:left; width:50%; padding: 1em; margin-left:2.5%;
@@ -192,7 +209,6 @@ input[type=submit] {
 }
 #education ul h6{
 	color:;#131516;
-	font-weight:700;
 }
 
 
