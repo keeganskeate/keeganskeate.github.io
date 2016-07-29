@@ -437,7 +437,7 @@ footer > :last-child {margin-bottom: 0;}
 	        	width:95%;
 			overflow:auto;
 			background: #E8E8E8}
-@media only screen and (max-width: 980px){ #footer .contactbin{ width:auto;}}
+@media only screen and (max-width: 980px){ #footer .contactbin{ display:block; width:auto;}}
 
 @media only screen and (max-width: 980px){ #footer .contactbin div{ float:none; text-align:center; }}
 
@@ -446,7 +446,7 @@ footer > :last-child {margin-bottom: 0;}
 		.contactbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 
 	#contactsection {display:inline-block;overflow:hidden;padding: 1em 0;margin: auto;width:33.3%;}
-@media only screen and (max-width: 980px){ #contactsection{ display:block; width:auto; margin:0 auto; }}
+@media only screen and (max-width: 980px){ #contactsection{ width:auto; margin:0 auto; }}
 #contactwrap {float: left;position: relative;left: 50%;}
 #contactitem {float: left;position: relative;left: -50%;}
 
