@@ -207,33 +207,80 @@ input[type=submit] {
 #professional a:hover{text-decoration:underline;}
 
 
-#education {
-	padding: 1em;
-	margin: 0 auto;
-	text-align:center;
-}
+#education {padding: 1em;margin: 0 auto;text-align:center;}
 #education li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#education {float:none;margin:0 auto;width:auto;height:auto;}}
-
-.wrapper.aboutstyle #education .educationbin{margin: 1em;}
-
-	#education .educationbin{
-		display: inline-block;margin: auto;
+#education .educationbin{
+		display: inline-block;margin: 1em auto;
 		border: 1px solid #333A56;
 		-moz-box-shadow: 0px 0px 4px #444;
 		-webkit-box-shadow: 0px 0px 4px #444;
 		background: #E8E8E8}
 @media only screen and (max-width: 980px){ #education .educationbin{ display:block; width:auto;}}
 @media only screen and (max-width: 980px){ #education .educationbin div{ float:none;}}
-
 .educationbin div {position:relative;float:left;text-align:left;vertical-align:top;}
 .educationbin div li{line-height: 1.6em;}
 .educationbin div li a:hover{text-decoration: underline;color:  #373D3F;}
-
 #educationsection {display:inline-block;overflow:hidden;padding: 1em 0;margin: auto;width:33.3%;}
 @media only screen and (max-width: 980px){ #educationsection{ margin:0 1em;width:auto; }}
 #educationwrap {float: left;position: relative;left: 50%;}
 #educationitem {float: left;position: relative;left: -50%;}
+
+#teaching{
+	float:left; margin:1em auto 1em 2.5%; width:45%;padding:1em;
+	background:#E8E8E8;
+	border: 1px solid #333A56;
+	-moz-box-shadow: 0px 0px 4px #444;
+	-webkit-box-shadow: 0px 0px 4px #444;
+}
+@media (max-height: 1280px) and (max-width: 980px) {#teaching {float:none;margin:0 auto;width:auto;height:auto;}}
+
+#research{
+	float:right; margin:1em 2.5% 1em auto; width:45%;padding:1em;
+	background:#E8E8E8;
+	border: 1px solid #333A56;
+	-moz-box-shadow: 0px 0px 4px #444;
+	-webkit-box-shadow: 0px 0px 4px #444;
+}
+@media (max-height: 1280px) and (max-width: 980px) {#research {float:none;margin:0 auto;width:auto;height:auto;}}
+
+#work {	padding: 1em; margin: 0 auto; text-align:center;}
+#work li{text-align: left;}
+@media (max-height: 1280px) and (max-width: 980px) {#work {float:none;margin:0 auto;width:auto;height:auto;}}
+#work .workbin{
+		display: inline-block;margin: 1em auto;
+		border: 1px solid #333A56;
+		-moz-box-shadow: 0px 0px 4px #444;
+		-webkit-box-shadow: 0px 0px 4px #444;
+		background: #E8E8E8}
+@media only screen and (max-width: 980px){ #work .workbin{ display:block; width:auto;}}
+@media only screen and (max-width: 980px){ #work .workbin div{ float:none;}}
+.workbin div {position:relative;float:left;text-align:left;vertical-align:top;}
+.workbin div li{line-height: 1.6em;}
+.workbin div li a:hover{text-decoration: underline;color:  #373D3F;}
+#worksection {display:inline-block;overflow:hidden;padding: 1em 0;margin: auto;width:33.3%;}
+@media only screen and (max-width: 980px){ #worksection{ margin:0 1em;width:auto; }}
+#workwrap {float: left;position: relative;left: 50%;}
+#workitem {float: left;position: relative;left: -50%;}
+
+#skills{
+	float:left; margin:1em auto 1em 2.5%; width:45%;padding:1em;
+	background:#E8E8E8;
+	border: 1px solid #333A56;
+	-moz-box-shadow: 0px 0px 4px #444;
+	-webkit-box-shadow: 0px 0px 4px #444;
+}
+@media (max-height: 1280px) and (max-width: 980px) {#skills {float:none;margin:0 auto;width:auto;height:auto;}}
+
+#interests{
+	float:right; margin:1em 2.5% 1em auto; width:45%;padding:1em;
+	background:#E8E8E8;
+	border: 1px solid #333A56;
+	-moz-box-shadow: 0px 0px 4px #444;
+	-webkit-box-shadow: 0px 0px 4px #444;
+}
+@media (max-height: 1280px) and (max-width: 980px) {#interests {float:none;margin:0 auto;width:auto;height:auto;}}
+
 
 
 
