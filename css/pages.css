@@ -212,36 +212,15 @@ input[type=submit] {
 
 
 #education {
-	text-shadow: 0 -1px 0 #000;
-	list-style: none;
-	padding: 1em 0 0 0 ;
+	padding: 1em;
 	margin: 0 auto;
 	text-align:center;
 }
 
 #education li{
 		text-align: left;
-		color: #373D3F;
 	}
-		#education .educationbin a:hover
-		{text-decoration: underline;}
-	
-	#education ul{
-		padding: 0em;
-	}
-#education .educationbin li{
-		line-height: 2em;
-	}
-		#education h3{
-			font-weight: 400;
-			color:  #131516;
-			text-shadow: 0 -1px 0 #000;
-			text-align: center;
-			padding:0em 0 .5em 0;
-		}
-		#education h6{
-			text-align:left;padding:0em;
-		}
+
 @media (max-height: 1280px) and (max-width: 980px) {#education {float:none;margin:0 auto;width:auto;height:auto;}}
 
 .wrapper.aboutstyle #education .educationbin{margin: 1em;}
