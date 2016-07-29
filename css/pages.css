@@ -215,6 +215,7 @@ input[type=submit] {
 	padding: 1em;
 	margin: 0 auto;
 	text-align:center;
+	list-style-type: none;
 }
 
 #education li{
