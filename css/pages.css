@@ -190,5 +190,9 @@ input[type=submit] {
 #education ul{
 	margin:0 auto;
 }
+#education ul h6{
+	color:;#131516;
+	font-weight:700;
+}
 
 
