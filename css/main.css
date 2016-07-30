@@ -192,7 +192,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			list-style-type: none;
 			vertical-align: bottom;
 		}
-			#nav > ul > li  {
+			#nav > ul > li > a {
 				margin-left:0;
 				float: right;
 				display: block;
@@ -213,7 +213,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 					text-decoration: none;
 					font-weight: 500;
 				}
-				#nav ul li:first-child {
+				#nav ul li a:first-child {
 					float: left;
 					border: none;
 					padding: .5em 0 0em 2.5%;
