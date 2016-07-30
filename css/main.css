@@ -206,13 +206,15 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 				position: relative;
 				height:55px;
 			}
+			#nav >ul >li >a{
+				height:55px;
+			}
 				#nav > ul > li a {
 					color: inherit;
 					line-height: 1.2em;
 					letter-spacing: 2px;
 					text-decoration: none;
 					font-weight: 500;
-					height:55px;
 				}
 				#nav ul li:first-child {
 					float: left;
@@ -241,10 +243,6 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 				#nav ul li:nth-child(2){
 					padding: 0em 2.5% 0 1em;
 				} */
-
-				#nav > ul > li:not(:first-child) {
-					line-height:55px	
-				}
 				#nav > ul > li.active,
 				#nav ul > li:hover {
 					color: #EFD469;
