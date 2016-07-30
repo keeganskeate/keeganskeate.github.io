@@ -155,7 +155,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		display: none;
 	}
 	.homepage #nav {
-		position: relative;
+		position: static;
 		right: none;
 		margin: 0 auto;
 		text-align: center;
@@ -174,11 +174,12 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 
 		#logo a {color: #131516 ;}
 	#nav {
-		position: relative;
+		position: absolute;
+		top: 0;
 		right: 0;
 		display: block;
     		text-align: center;
-    		vertical-align: baseline
+    		vertical-align: baseline;
     		padding: 0em 1.6em 0 0;
     		margin: 0 auto;
 	}
