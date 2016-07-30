@@ -203,7 +203,6 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 				text-shadow: 0 -1px 0 #000;
 				position: relative;
 				height:55px;
-				line-height:55px;
 			}
 
 				#nav > ul > li a {
@@ -221,28 +220,13 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 					border: none;
 					padding: 0 0 0em 2.5%;
 				}
-				
-				/* margin:10px 0 0 0;
-					padding: 0em 0 0em 2.5%; */
-				
-				#nav ul li:first-child:hover{
-					cursor:pointer;
-					border:none;
-					background:none;
-				}
+
 				#nav > ul > li:first-child {
 					margin-left: 0;
 					position: relative;
 					line-height: 2em;
 				}
-				
-				/*#nav ul li{
-					padding: 0 1em;
-				}
-			
-				#nav ul li:nth-child(2){
-					padding: 0em 2.5% 0 1em;
-				} */
+
 				#nav > ul > li.active,
 				#nav ul > li:hover {
 					color: #EFD469;
