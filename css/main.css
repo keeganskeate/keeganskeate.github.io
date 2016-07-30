@@ -204,14 +204,11 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 				position: relative;
 				height:55px;
 			}
-			
-			#nav > ul > li > a{
-				display:block;
-				height:55px;
-					
-			}
-			
+
 				#nav > ul > li a {
+					display:block;
+				line-height:55px;
+				height:55px;
 					color: inherit;
 					letter-spacing: 2px;
 					text-decoration: none;
