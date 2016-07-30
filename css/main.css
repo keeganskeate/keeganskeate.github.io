@@ -399,7 +399,7 @@ footer > :last-child {margin-bottom: 0;}
 		.projectsbin div li{line-height: 1.6em;}
 		.projectsbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 
-#projectsection {display:inline-block;overflow:hidden;padding: 0 0 1em 0;margin: auto;width:33.3%;max-width:560px;}
+#projectsection {display:inline-block;overflow:hidden;padding: 0 0 1em 0;margin: auto;width:33.3%;}
 #projectwrap {float: left;position: relative;left: 50%;}
 #projectitem {float: left;position: relative;left: -50%;}
 
