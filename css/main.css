@@ -208,12 +208,10 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			
 				#nav > ul > li a {
 					color: inherit;
-					line-height: 1.2em;
 					letter-spacing: 2px;
 					text-decoration: none;
 					font-weight: 500;
-					height:55px;
-					vertical-align:baseline;
+					line-height:55px;
 				}
 				#nav ul li:first-child {
 					float: left;
