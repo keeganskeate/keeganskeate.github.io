@@ -182,13 +182,12 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		right: 0;
 		display: block;
     		text-align: center;
-    		padding: 0em 1.6em 0 0;
+    		padding: 0em 2.5% 0 0;
     		margin: 0 auto;
     		vertical-align: baseline;
 	}
 		#nav > ul {
-			margin: 0;
-			padding: 0em 0 0 0;
+			margin: 0;padding: 0;
 			list-style-type: none;
 			vertical-align: bottom;
 		}
@@ -196,7 +195,6 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 				margin-left:0;
 				float: right;
 				display: block;
-				padding: 0 1em 0 1em;
 				background: inherit;
 				text-decoration: none;
 				font-size: 1.2em;
@@ -213,11 +211,13 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 					letter-spacing: 2px;
 					text-decoration: none;
 					font-weight: 500;
-					width:100%;height:100%;
+					padding: 0 1em 0 1em;
 				}
 				#nav ul li:first-child {
 					float: left;
 					border: none;
+				}
+				#nav ul li a:first-child{
 					padding: .5em 0 0em 2.5%;
 				}
 				
