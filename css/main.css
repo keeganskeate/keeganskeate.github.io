@@ -425,7 +425,7 @@ border-color:#107896; */
 
 .projectsbin h4{text-align:center;padding-bottom:1em;}
 
-.projectsbin p{width:560px;max-width:80%;margin:0 auto;padding-top:1em;}
+.projectsbin p{max-width:80%;margin:0 auto;padding-top:1em;}
 
 .wrapper.endstyle #footer .contactbin{margin: 1em;}
 	#footer .contactbin{
