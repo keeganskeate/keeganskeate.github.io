@@ -154,19 +154,13 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 	.homepage #logo {
 		display: none;
 	}
-	
+
 	.homepage #nav {
-		position: static;
-		right: none;
-		text-align: center;
-	}
-	
-/*	.homepage #nav {
 		position: static;
 		right: none;
 		margin: 0 auto;
 		text-align: center;
-	}*/
+	}
 	#logo {
 		line-height: 2em;
 		letter-spacing: 2px;
@@ -186,17 +180,12 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		position: absolute;
 		top: 0;
 		right: 0;
-	}
-	/*#nav {
-		position: absolute;
-		top: 0;
-		right: 0;
 		display: block;
     		text-align: center;
     		padding: 0em 1.6em 0 0;
     		margin: 0 auto;
     		vertical-align: baseline;
-	}*/
+	}
 		#nav > ul {
 			margin: 0;
 			padding: 0em 0 0 0;
@@ -225,10 +214,12 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 				}
 				#nav ul li:first-child {
 					float: left;
-					margin:10px 0 0 0;
-					padding: 0em 0 0em 2.5%;
 					border: none;
 				}
+				
+				/* margin:10px 0 0 0;
+					padding: 0em 0 0em 2.5%; */
+				
 				#nav ul li:first-child:hover{
 					cursor:pointer;
 					border:none;
@@ -239,19 +230,18 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 					position: relative;
 					line-height: 2em;
 				}
-				#nav ul li{
+				
+				/*#nav ul li{
 					padding: 0em 1em;
 					margin:7.5px 0 0 0;
-				}
-				#nav ul li:nth-child(2){
-					padding: 0em 2.5% 0 1em;
-				}
-				/*#nav ul li:not(:first-child).active,
-				#nav ul li:not(:first-child):hover{
-					text-decoration:underline;
 				}*/
+			
+				/*#nav ul li:nth-child(2){
+					padding: 0em 2.5% 0 1em;
+				} */
+
 				#nav > ul > li:not(:first-child) {
-					line-height:50px	
+					line-height:55px	
 				}
 				#nav > ul > li.active,
 				#nav ul > li:hover {
