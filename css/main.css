@@ -423,9 +423,9 @@ border-color:#107896; */
 	border-color:#107896;
 }
 
-.projectsbin h4{text-align:center;}
+.projectsbin h4{text-align:center;font-size:1.4em;padding-bottom:1em;}
 
-.projectsbin p{max-width:80%;margin:0 auto;}
+.projectsbin p{max-width:80%;margin:0 auto;padding-top:1em;}
 
 .wrapper.endstyle #footer .contactbin{margin: 1em;}
 	#footer .contactbin{
