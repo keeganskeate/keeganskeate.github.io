@@ -416,9 +416,11 @@ border-color:#107896; */
 	max-width:75%;
 	cursor: pointer;
 	opacity: 1;  filter:alpha(opacity=100);
+	border: 1px solid #333A56;
 }
 .projectsbin img:hover{
 	opacity: .75;  filter:alpha(opacity=75);
+	border-color:#107896;
 }
 
 .projectsbin h4{text-align:center;}
