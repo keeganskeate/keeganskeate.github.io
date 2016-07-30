@@ -258,9 +258,9 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 					color: #EFD469;
 				}
 				
-				#nav > ul > li > ul{
+				/*#nav > ul > li > ul{
 					height: 0;
-				}
+				}*/
 				
 				#nav > ul > li > ul {
 					display: none;
