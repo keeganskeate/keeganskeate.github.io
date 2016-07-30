@@ -405,18 +405,19 @@ footer > :last-child {margin-bottom: 0;}
 
 @media screen and (max-width: 980px){ #projectsection{ display:block; width:auto; }}
 
-.projectsbin img{
-	border: 1px solid #333A56;
+/* border: 1px solid #333A56;
 	-moz-box-shadow: 0px 0px 4px #444;
 	-webkit-box-shadow: 0px 0px 4px #444;
+
+border-color:#107896; */
+
+.projectsbin img{
 	display:block; margin: 0 auto;
 	max-width:75%;
-	
 	cursor: pointer;
 	opacity: 1;  filter:alpha(opacity=100);
 }
 .projectsbin img:hover{
-	border-color:#107896;
 	opacity: .75;  filter:alpha(opacity=75);
 }
 
