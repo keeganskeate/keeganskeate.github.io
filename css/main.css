@@ -568,8 +568,6 @@ cursor:pointer;
     font-size: 2em;
     outline: none;
     border: 2px solid #333A56;
-    -moz-box-shadow: 0px 0px 4px #444;
-    -webkit-box-shadow: 0px 0px 4px #444;
     color: #333A56;
     background: none;
 }
