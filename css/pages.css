@@ -333,7 +333,7 @@ input[type=submit] {
    cursor:pointer;
    width:100%;
    border:none;
-   background:#991D57;
+   background:#333A56;
    background-image:linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
    background-image:-moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
    background-image:-webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
