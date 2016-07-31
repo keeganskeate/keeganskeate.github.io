@@ -91,8 +91,7 @@
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle .image{width:auto;height:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) {#tohelp img{width:auto;height:auto;}}
 
-#contact {
-	float:right; margin-right:2.5%;
+#contact {float:right; margin-right:2.5%;
 		width: 40%;height:431px; padding: 1em;
 	background: #E8E8E8;
 	border: 1px solid #333A56;
@@ -122,7 +121,7 @@ input {
 	}
 
 textarea {
-	width: 40%; height: 30%; padding: 15px 20px 0px 20px; margin: 0 0 20px 0; 
+	width: 80%; height: 80%; padding: 15px 20px 0px 20px; margin: 0 0 20px 0; 
 	background: #5E768D;
 	background: -moz-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* firefox */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D)); /* webkit */
