@@ -226,7 +226,6 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		top: 0em;
 		background: #E8E8E8;
 		font-weight: 500;
-		padding: 0.0em 1em;
 		margin:0;
 		color:  #373D3F;
 	}
@@ -240,12 +239,12 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		}
 			.dropotron > li > a {
 				color:  #373D3F;
-				font-weight: 500;
 				letter-spacing: 2px;
 				text-decoration: none;
+				padding: 0 1em;
 			}
-			.dropotron > li.active,
-			.dropotron > li:hover{
+			.dropotron > li.active > a,
+			.dropotron > li:hover > a{
 				color:#EFD469;
 				background:#333A56;
 				font-weight: 500;
@@ -254,6 +253,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		border-radius: 0;
 		font-size: 1em;
 		margin-left:0;
+		font-weight: 500;
 	}
 		.dropotron.level-1 {
 			border-radius: 0;
@@ -263,6 +263,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			padding:0 0.5em;
 			display:block;
 			float: right;
+			font-weight: 500;
 		}
 
 .profile {display:inline-block;float:left; margin:0 auto 0 2.5%;overflow:hidden;}
