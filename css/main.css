@@ -246,12 +246,11 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a{
-				color:#33A56;
 				font-weight:500;
-				text-shadow: 0 1px 0 #EFD469;
 			}
-			.dropotron > li:hover > span{
+			.dropotron > li:hover > a > span{
 				color:#107896;
+				text-shadow: 0 1px 0 #EFD469;
 			}
 	.dropotron.level-0 {
 		margin-left:0;
