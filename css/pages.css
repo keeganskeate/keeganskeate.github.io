@@ -211,7 +211,7 @@
    font-size:1.8em;
 }
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle h2{font-size:1.2em;}}
-#tohelp{margin: 0 auto;}
+#tohelp{margin: 0 auto;text-align:center;}
 #tohelp img{width:495px;height:431px; max-width:100%;
 	border-radius: 10%;
 }
