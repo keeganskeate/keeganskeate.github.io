@@ -247,6 +247,9 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a{
 				font-weight:500;
+				background:#D6D6D6;
+				color:#107896;
+				
 			}
 			.dropotron > li:hover > a > span{
 				color:#107896;
