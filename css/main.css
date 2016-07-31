@@ -252,8 +252,8 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 				
 			}
 			.dropotron > li:hover > a > span{
-				color:#107896;
-				text-shadow: 0 1px 0 #EFD469;
+				color:#49274A;
+				text-shadow: 0 4px 0 #EFD469;
 			}
 	.dropotron.level-0 {
 		margin-left:0;
