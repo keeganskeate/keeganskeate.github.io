@@ -219,7 +219,7 @@
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle .image{width:auto;height:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) {#tohelp img{width:auto;height:auto;}}
 
-#contact {margin:2em auto 0 auto;
+#contact {margin:2em 2.5% 0 2.5%;
 	width: 40%;
 	padding: 1em;
 	background: #E8E8E8;
@@ -233,4 +233,4 @@
 	font-size:1.2em;
 	margin:0;
 }
-}
+
