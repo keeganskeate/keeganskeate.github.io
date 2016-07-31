@@ -206,7 +206,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 					font-family: 'raleway', sans-serif;
 				}
 				
-				#nav ul li a:nth-child(2){
+				#nav > ul > li a:nth-child(2){
 					padding: 0 0 0 1em;
 				}
 
