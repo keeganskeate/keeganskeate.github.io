@@ -103,7 +103,7 @@
 .wrapper.aboutstyle li,.wrapper.aboutstyle p{padding: 0em;margin:0 auto;}
 .wrapper.aboutstyle a{text-decoration:none;padding: 0em;}
 .wrapper.aboutstyle h5{
-	margin:1em auto;
+	margin:0 auto 1em auto;
 	color:#131516;
 	font-weight:400;
 	font-size:1.2em;
