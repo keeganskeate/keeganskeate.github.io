@@ -233,7 +233,6 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			line-height: 2.25em;
 			padding: 0em;
 			position: relative;
-			font-weight: 500;
 		}
 		.dropotron > li > ul> li{
 			position: relative; display:block;
@@ -243,6 +242,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 				letter-spacing: 2px;
 				text-decoration: none;
 				padding: 0 1em;
+				font-weight: 500;
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a{
@@ -257,12 +257,12 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		.dropotron.level-1 {
 			border-radius: 0;
 			background: #E8E8E8;
-			margin-top:1em;
+			margin-top:0.8em;
 			display:block;
 			float: right;
 		}
 		.dropotron.level-1 a{
-			padding:0 0.5em;
+			padding: 0.5em;
 		}
 
 .profile {display:inline-block;float:left; margin:0 auto 0 2.5%;overflow:hidden;}
