@@ -248,7 +248,6 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			.dropotron > li:hover > a{
 				color:#EFD469;
 				background:#333A56;
-				font-weight: 500;
 			}
 	.dropotron.level-0 {
 		border-radius: 0;
@@ -257,7 +256,6 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		.dropotron.level-1 {
 			border-radius: 0;
 			background: #E8E8E8;
-			margin-top:0.8em;
 			display:block;
 			float: right;
 		}
