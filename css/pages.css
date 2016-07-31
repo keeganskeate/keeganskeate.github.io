@@ -118,7 +118,10 @@
 }
 .wrapper.aboutstyle a{text-decoration:underline;color:#107896;cursor:pointer;}
 #history{
-	float:right; width:50%; padding: 1em; margin-right:2.5%;
+	float:right;
+	width:50%;
+	padding: 2em;
+	margin-right:2.5%;
 	background: #E8E8E8;
 	border: 1px solid #333A56;
 	-moz-box-shadow: 0px 0px 4px #444;
@@ -129,7 +132,7 @@
 	float:left;
 	margin-left:2.5%;
 	width: 40%; 
-	padding: 1em;
+	padding: 2em;
 	background: #E8E8E8;
 	border: 1px solid #333A56;
 	-moz-box-shadow: 0px 0px 4px #444;
@@ -140,7 +143,7 @@
 	float:left;
 	margin:1em auto 1em 2.5%;
 	width:40%;
-	padding:1em;
+	padding:2em;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
 	-moz-box-shadow: 0px 0px 4px #444;
@@ -164,6 +167,7 @@
 #education .educationbin{
 		display: inline-block;
 		margin: 3em auto 0 auto;
+		padding:2em;
 		border: 1px solid #333A56;
 		-moz-box-shadow: 0px 0px 4px #444;
 		-webkit-box-shadow: 0px 0px 4px #444;
@@ -173,7 +177,7 @@
 .educationbin div {position:relative;float:left;text-align:left;vertical-align:top;}
 .educationbin div li{line-height: 1.6em;}
 .educationbin div li a:hover{text-decoration: underline;color:  #373D3F;}
-#educationsection {display:inline-block;overflow:hidden; padding: 1em; margin: auto;width:33.3%;}
+#educationsection {display:inline-block;overflow:hidden; margin: auto;width:33.3%;}
 @media only screen and (max-width: 980px){ #educationsection{ margin:1em; width:auto; }}
 #educationwrap {float: left;position: relative;left: 50%;}
 #educationitem {float: left;position: relative;left: -50%;}
