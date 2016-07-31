@@ -118,23 +118,20 @@
 	<div>
 		<p>If you have a question, comment, or want to get in touch, then please send a quick email.</p> 
 	</div>
-		   <form method="post" action="mailto:keeganskeate@gmail.com?subject=mySubject&body=myMessage">
+		   <form method="post" action:"MAILTO:someone@example.com" enctype="text/plain">>
 			<div>
-		      <label for="name">
 		      	<span class="required">Name: *</span> 
-		      	<input type="text" id="name" name="name" value="" placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
-		      </label> 
+		      	<input type="text" name="name" value="" placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
+		
 			</div>
 			<div>
-		      <label for="email">
 		      	<span class="required">Email: *</span>
-		      	<input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
-		      </label>  
+		      	<input type="text" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
+		    
 			</div>
-			<div>		          
-		      <label for="subject">
-		      <span>Subject: </span>
-			      <select id="subject" name="mySubject" tabindex="4">   
+			<div>
+		      		<span>Subject: </span>
+			      <select name="mySubject" tabindex="4">   
 			         <option value="hello">Employment Question</option>
               
 			         <option value="quote">Permission to Use Posted Work</option>  
@@ -142,13 +139,12 @@
 			         <option value="general">Get in Touch</option>
               
 			      </select>
-		      </label>
+		    
 			</div>
-			<div>		          
-		      <label for="message">
+			<div>	
 		      	<span class="required">Message: *</span> 
-		      	<textarea id="message" name="myMessage" placeholder="Please write your message here." tabindex="5" required="required"></textarea> 
-		      </label>  
+		      	<textarea type="text"  name="" placeholder="Please write your message here." tabindex="5" required="required"></textarea> 
+		 
 			</div>
 			<div>		           
 		      <button name="submit" type="submit" id="submit" >Send</button> 
