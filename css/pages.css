@@ -98,7 +98,7 @@
 
 
 /* ABOUT ME PAGE */
-.wrapper.aboutstyle {background: #F2F3F4; margin:10em 2.5% 1em 2.5%;}
+.wrapper.aboutstyle {background: #F2F3F4; margin:10em 5% 1em 5%;}
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.aboutstyle{margin:auto;}}
 .wrapper.aboutstyle li,.wrapper.aboutstyle p{padding: 0em;margin:0 auto;}
 .wrapper.aboutstyle a{text-decoration:none;padding: 0em;}
