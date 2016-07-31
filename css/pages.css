@@ -218,6 +218,7 @@
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle .image{width:auto;height:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) {#tohelp img{width:auto;height:auto;}}
 
+/*
 #contact {float:right; margin-right:2.5%;
 		width: 40%;height:431px; padding: 1em;
 	background: #E8E8E8;
@@ -276,11 +277,11 @@ input[type=submit] {
 	background: -moz-linear-gradient (top, #FFF 0%, #FFF 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#718DA9), color-stop(100%,#415D79));
 	cursor: pointer;
-} *
+} */
 
 
 
-/* Contact Form Styles 
+/* Contact Form Styles  */
 h1 {
    margin: 10px 0 0 0;
 }
