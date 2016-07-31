@@ -212,7 +212,7 @@
 }
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle h2{font-size:1.2em;}}
 #tohelp{width:495px;margin: 0 auto;}
-#tohelp img{width:495px;height:431px; max-width:100%;
+#tohelp img{width:495px;height:431px; max-width:40%;
 	border-radius: 10%;
 }
 @media (max-height: 1280px) and (max-width: 980px) {#tohelp{float: none;width:auto;}}
@@ -220,7 +220,7 @@
 @media (max-height: 1280px) and (max-width: 980px) {#tohelp img{width:auto;height:auto;}}
 
 #contact {margin:0 auto;
-	width: 30%;
+	width: 40%;
 	padding: 1em;
 	background: #E8E8E8;
 	border: 1px solid #333A56;
