@@ -244,8 +244,8 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 				letter-spacing: 2px;
 				text-decoration: none;
 			}
-			.dropotron > li.active > a,
-			.dropotron > li:hover > a {
+			.dropotron > li.active,
+			.dropotron > li:hover{
 				color:#EFD469;
 				background:#333A56;
 				font-weight: 500;
@@ -264,64 +264,6 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			display:block;
 			float: right;
 		}
-/* Picture Dropdown Button */
-/*.dropbtn {
-			float:left;
-			position:absolute;
-			cursor: pointer;
-			display: block;
-			background:#49274A url(../images/grad_pic.jpg) no-repeat;
-			background-size: 100%;
-			width: 155px;
-    			height: 175px;
-			border:2px solid;
-			border-color: #49274A;
-			box-shadow:  -2px #000;
-			border-radius: 5px;}
-@media (max-height: 1280px) and (max-width: 980px) {.dropbtn {float:none;}}
-.dropdown {
-    -moz-appearance: none;
-	-webkit-appearance: none;
-	-o-appearance: none;
-	-ms-appearance: none;
-	background: none;
-	background-size: 100%;
-	border-radius: 5px;
-	width: 155px;
-    	height: 175px;
-	opacity:1; filter:alpha(opacity=100);
-	position: absolute;
-	padding: 0.0em 0em 0em 0em;
-	margin: 0em;
-	display: inline-block;
-	-moz-transition: all 0.35s ease-in-out;
-	-webkit-transition: all 0.35s ease-in-out;
-	-o-transition: all 0.35s ease-in-out;
-	-ms-transition: all 0.35s ease-in-out;
-	transition: all 0.35s ease-in-out;}
-@media (max-height: 1280px) and (max-width: 980px) { .dropdown{ margin: 0em auto; } }
-@media (max-height: 1280px) and (max-width: 980px) {.profile .dropdown{text-align:center;}}
-.dropdown-content {
-	line-height: 1em;
-	padding: 0;
-	display: none;
-	position: absolute; z-index: 1 ;
-	float: left;
-	background: #E8E8E8;
-	background-size: 100%;
-	border:1px solid;
-	border-color: #49274A;
-	box-shadow:  -2px #000;
-	border-radius: 5px;
-	font-size: 1.2em;
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	width:300%;
-	height:180px;
-	overflow:auto;
-}
-@media (max-height:: 1280px) and (max-width: 980px) {.dropdown-content {width:85vw}}
-.show {display:block;} */
 
 .profile {display:inline-block;float:left; margin:0 auto 0 2.5%;overflow:hidden;}
 @media screen and (max-width: 980px) {.profile{text-align:center;float:none;display:block;margin: 0 auto;width:auto;}}
