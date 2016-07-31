@@ -228,3 +228,9 @@
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
 @media (max-height: 1280px) and (max-width: 980px) {#contact {width:auto;}}
+
+#contact p{
+	font-size:1.4em;
+	margin:0;
+}
+}
