@@ -98,13 +98,12 @@
 
 
 /* ABOUT ME PAGE */
-.wrapper.aboutstyle {background: #F2F3F4; margin:10em auto 1em auto;}
+.wrapper.aboutstyle {background: #F2F3F4; margin:10em 2.5% 1em 2.5%;}
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.aboutstyle{margin:auto;}}
 .wrapper.aboutstyle li,.wrapper.aboutstyle p{padding: 0em;margin:0 auto;}
 .wrapper.aboutstyle a{text-decoration:none;padding: 0em;}
 .wrapper.aboutstyle h5{
 	margin:1em auto;
-	max-width:90%;
 	color:#131516;
 	font-weight:400;
 	font-size:1.2em;
@@ -115,7 +114,6 @@
 	}
 .wrapper.aboutstyle p{
 	margin:0 auto 1em auto;
-	max-width:90%;
 	font-size:1em;
 }
 .wrapper.aboutstyle a{text-decoration:underline;color:#107896;cursor:pointer;}
@@ -146,7 +144,7 @@
 #professional a{text-decoration:none;color:#373D3F;}
 #professional a:hover{text-decoration:underline;}
 
-#education {padding: 1em;margin: 0 auto;text-align:center;max-width:90%;}
+#education {padding: 1em;margin: 0 auto;text-align:center;}
 #education li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#education {float:none;margin:0 auto;width:auto;height:auto;}}
 #education .educationbin{
