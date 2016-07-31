@@ -150,13 +150,20 @@
 #professional a{text-decoration:none;color:#373D3F;}
 #professional a:hover{text-decoration:underline;}
 
+
+
+
+
+
+
+
+
 #education {margin: 0 2.5%;text-align:center;}
 #education li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#education {float:none;margin:1em auto;width:auto;height:auto;}}
 #education .educationbin{
 		display: inline-block;
 		margin: 3em auto 0 auto;
-		padding: 1em;
 		border: 1px solid #333A56;
 		-moz-box-shadow: 0px 0px 4px #444;
 		-webkit-box-shadow: 0px 0px 4px #444;
@@ -170,6 +177,9 @@
 @media only screen and (max-width: 980px){ #educationsection{ margin:1em; width:auto; }}
 #educationwrap {float: left;position: relative;left: 50%;}
 #educationitem {float: left;position: relative;left: -50%;}
+#educationitem p{
+	max-width:90%;
+}
 
 
 
