@@ -197,6 +197,7 @@
 }
 @media (max-height: 1280px) and (max-width: 980px) {#interests {float:none;margin:0 auto;width:auto;height:auto;}}
 
+
 /* CONTACT PAGE */
 .wrapper.contactstyle {background: #F2F3F4; margin:10em auto 1em auto;}
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle{margin:auto;}}
@@ -210,7 +211,7 @@
    font-size:1.8em;
 }
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle h2{font-size:1.2em;}}
-#tohelp{float:left;margin-left:2.5%;}
+#tohelp{margin: 0 auto;}
 #tohelp img{width:495px;height:431px; max-width:100%;
 	border-radius: 10%;
 }
@@ -218,12 +219,12 @@
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle .image{width:auto;height:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) {#tohelp img{width:auto;height:auto;}}
 
-
-#contact {float:right; margin-right:2.5%;
-		width: 40%;height:431px; padding: 1em;
+#contact {margin:0 auto;
+	width: 30%;
+	padding: 1em;
 	background: #E8E8E8;
 	border: 1px solid #333A56;
 	-moz-box-shadow: 0px 0px 4px #444;
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
-@media (max-height: 1280px) and (max-width: 980px) {#contact {float:none;margin:0 auto;width:auto;height:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {#contact {width:auto;}}
