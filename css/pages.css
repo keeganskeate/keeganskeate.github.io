@@ -150,7 +150,7 @@
 #professional a{text-decoration:none;color:#373D3F;}
 #professional a:hover{text-decoration:underline;}
 
-#education {padding: 1em;margin: 0 auto;text-align:center;width:95%;}
+#education {padding: 1em;margin: 0 auto;text-align:center;width:100%;}
 #education li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#education {float:none;margin:1em auto;width:auto;height:auto;}}
 #education .educationbin{
@@ -196,7 +196,7 @@
 }
 @media (max-height: 1280px) and (max-width: 980px) {#research {float:none;margin:1em auto;width:auto;height:auto;}}
 
-#work {	padding: 1em; margin: 0 auto; text-align:center;}
+#work {	padding: 1em; margin: 0 auto; text-align:center;width:100%;}
 #work li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#work {float:none;margin:1em auto;width:auto;height:auto;}}
 #work .workbin{
