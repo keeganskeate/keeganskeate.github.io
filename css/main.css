@@ -232,7 +232,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 	}
 		.dropotron > li {
 			line-height: 2.25em;
-			padding: 0 0em;
+			padding: 0em;
 			position: relative;
 		}
 		.dropotron > li > ul> li{
@@ -246,24 +246,23 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
-				color:#107896;
+				color:#EFD469;
+				background:#333A56;
 				font-weight: 500;
 			}
 	.dropotron.level-0 {
-		border-radius: 0 0 5px 5px;
+		border-radius: 0;
 		font-size: 1em;
 		margin-left:0;
-		text-shadow: 0 -1px 0 #000;
 	}
 		.dropotron.level-1 {
-			border-radius: 0 0 5px 5px;
+			border-radius: 0;
 			background: #E8E8E8;
 			font-size: 1em;
 			margin-top:1em;
 			padding:0 0.5em;
 			display:block;
 			float: right;
-			text-shadow: 0 -1px 0 #000;
 		}
 /* Picture Dropdown Button */
 /*.dropbtn {
