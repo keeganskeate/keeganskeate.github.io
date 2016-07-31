@@ -127,6 +127,7 @@
 @media (max-height: 1280px) and (max-width: 980px) {#history {float:none;margin:1em auto;width:auto;height:auto;}}
 #objective {
 	float:left;
+	margin-left:2.5%;
 	width: 45%; 
 	padding: 1em;
 	background: #E8E8E8;
@@ -136,7 +137,10 @@
 }
 @media (max-height: 1280px) and (max-width: 980px) {#objective {float:none;margin:1em auto;width:auto;height:auto;}}
 #professional{
-	float:left; margin:1em auto 1em 2.5%; width:40%;padding:1em;
+	float:left;
+	margin:1em auto 1em 2.5%;
+	width:40%;
+	padding:1em;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
 	-moz-box-shadow: 0px 0px 4px #444;
@@ -146,7 +150,7 @@
 #professional a{text-decoration:none;color:#373D3F;}
 #professional a:hover{text-decoration:underline;}
 
-#education {padding: 1em;margin: 0 auto;text-align:center;}
+#education {padding: 1em;margin: 0 auto;text-align:center;width:95%;}
 #education li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#education {float:none;margin:1em auto;width:auto;height:auto;}}
 #education .educationbin{
