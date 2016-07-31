@@ -119,7 +119,20 @@
 				<p>If you have a question, comment, or want to get in touch, then please send a quick email.</p> 
 			</div>
 		   <form method="post" action="mailto:keeganskeate@gmail.com">
-			<div>
+		   	<fieldset>
+							<label for="name">Name:</label>
+							<input type="text" id="name" placeholder="Your name" />
+							
+							<label for="email">Email:</label>
+							<input type="email" id="email" placeholder="Your email" />
+							
+							<label for="message">Message:</label>
+							<textarea id="message" placeholder="Your message..."></textarea>
+							
+							<input type="submit" value="Send" />
+							
+						</fieldset>
+			<!--<div>
 				<label for="name">
 		      		<span class="required">Name: *</span> 
 		      		<input type="text" id="name" placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
@@ -153,7 +166,8 @@
 			</div>
 			<div>		           
 				<button name="submit" type="submit" id="submit" >Send</button> 
-			</div>
+			</div>-->
+			
 		   </form>
 		</div>
 				
