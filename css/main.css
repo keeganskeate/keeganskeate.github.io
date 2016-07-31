@@ -250,17 +250,15 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 				background:#333A56;
 			}
 	.dropotron.level-0 {
-		border-radius: 0;
 		margin-left:0;
 		line-height: 2.25em;
 	}
 		.dropotron.level-1 {
 			line-height: 2.25em;
-			border-radius: 0;
 			background: #E8E8E8;
 			display:block;
 			float: right;
-			margin-top:1em;
+			margin-top:.95em;
 		}
 		.dropotron.level-1 a{
 			padding: 0 0.5em;
