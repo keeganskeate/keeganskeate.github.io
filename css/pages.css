@@ -198,7 +198,7 @@
 }
 @media (max-height: 1280px) and (max-width: 980px) {#research {float:none; margin:1em auto;width:auto;height:auto;}}
 
-#work {margin: 0 2.5%;text-align:center;}
+#work {margin: 0 2.5%;}
 #work li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#work {float:none; margin:1em auto;width:auto;height:auto;}}
 #work .workbin{
