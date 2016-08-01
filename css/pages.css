@@ -151,7 +151,7 @@
 #professional a{text-decoration:none;color:#373D3F;}
 #professional a:hover{text-decoration:underline;}
 
-#education {margin: 0 2.5%;text-align:center;}
+#education {margin: 0 2.5%;}
 #education li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#education {float:none;margin:1em auto;width:auto;height:auto;}}
 #education .educationbin{
@@ -174,11 +174,7 @@
 #educationitem p,#educationitem h5{max-width:90%;}
 @media only screen and (max-width: 980px){#educationitem p,#educationitem h5{max-width:100%;}}
 #educationitem h5{margin:0 auto;}
-.educationbin h5{
-	margin:0 auto;
-	color:#131516;
-	font-weight:400;
-	font-size:1.2em;}
+
 
 #teaching{
 	float:left;
