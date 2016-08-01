@@ -117,7 +117,7 @@
 }
 #history{
 	float:right;
-	width:47.5%;
+	width:45%;
 	padding: 2em;
 	margin-right:2.5%;
 	background: #E8E8E8;
@@ -129,7 +129,7 @@
 #objective {
 	float:left;
 	margin-left:2.5%;
-	width: 47.5%; 
+	width: 45%; 
 	padding: 2em;
 	background: #E8E8E8;
 	border: 1px solid #333A56;
@@ -140,7 +140,7 @@
 #professional{
 	float:left;
 	margin: 2em auto 0em 2.5%;
-	width:47.5%;
+	width:45%;
 	padding:2em;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
@@ -156,7 +156,7 @@
 @media (max-height: 1280px) and (max-width: 980px) {#education {float:none;margin:1em auto;width:auto;height:auto;}}
 #education .educationbin{
 		display: inline-block;
-		margin: 1em auto 0 auto;
+		margin: 2em auto 0 auto;
 		padding:2em;
 		border: 1px solid #333A56;
 		-moz-box-shadow: 0px 0px 4px #444;
@@ -176,8 +176,8 @@
 
 #teaching{
 	float:left;
-	width:47.5%;
-	margin:2em auto 1em 2.5%;
+	width:45%;
+	margin:2em auto 0 2.5%;
 	padding:2em;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
@@ -190,7 +190,7 @@
 	float:right;
 	width:47.5%;
 	padding: 2em;
-	margin:2em 2.5% 1em auto;
+	margin:2em 2.5% 0 auto;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
 	-moz-box-shadow: 0px 0px 4px #444;
@@ -203,7 +203,7 @@
 @media (max-height: 1280px) and (max-width: 980px) {#work {float:none;margin:1em auto;width:auto;height:auto;}}
 #work .workbin{
 		display: inline-block;
-		margin: 1em auto 0 auto;
+		margin: 2em auto 0 auto;
 		padding: 2em;
 		border: 1px solid #333A56;
 		-moz-box-shadow: 0px 0px 4px #444;
@@ -221,8 +221,8 @@
 
 #skills{
 	float:left;
-	width:47.5%;
-	margin:1em auto 0 2.5%;
+	width:45%;
+	margin:2em auto 0 2.5%;
 	padding:2em;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
@@ -233,8 +233,8 @@
 
 #interests{
 	float:right;
-	width:47.5%;
-	margin:1em 2.5% 0 auto;
+	width:45%;
+	margin:2em 2.5% 1em auto;
 	padding:2em;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
