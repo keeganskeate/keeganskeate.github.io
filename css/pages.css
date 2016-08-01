@@ -117,7 +117,7 @@
 }
 #history{
 	float:right;
-	width:45%;
+	width:45%;max-width:90%;
 	padding: 2em;
 	margin-right:2.5%;
 	background: #E8E8E8;
@@ -129,7 +129,7 @@
 #objective {
 	float:left;
 	margin-left:2.5%;
-	width: 47.5%; 
+	width: 47.5%; max-width:90%;
 	padding: 2em;
 	background: #E8E8E8;
 	border: 1px solid #333A56;
@@ -140,7 +140,7 @@
 #professional{
 	float:left;
 	margin: 2em auto 0em 2.5%;
-	width:47.5%;
+	width:47.5%; max-width:90%;
 	padding:2em;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
@@ -151,7 +151,7 @@
 #professional a{text-decoration:none;color:#373D3F;}
 #professional a:hover{text-decoration:underline;}
 
-#education {margin: 0 2.5%;text-align:center;}
+#education {margin: 0 2.5%;text-align:center;max-width:90%;}
 #education li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#education {float:none;margin:1em auto;width:auto;height:auto;}}
 #education .educationbin{
@@ -176,7 +176,7 @@
 
 #teaching{
 	float:left;
-	width:47.5%;
+	width:47.5%;max-width:90%;
 	margin:2em auto 0 2.5%;
 	padding:2em;
 	background:#E8E8E8;
@@ -188,7 +188,7 @@
 
 #research{
 	float:right;
-	width:45%;
+	width:45%;max-width:90%;
 	padding: 2em;
 	margin:2em 2.5% 0 auto;
 	background:#E8E8E8;
@@ -198,7 +198,7 @@
 }
 @media (max-height: 1280px) and (max-width: 980px) {#research {float:none;margin:1em auto;width:auto;height:auto;}}
 
-#work {margin: 0 2.5%;text-align:center;}
+#work {margin: 0 2.5%;text-align:center;max-width:90%;}
 #work li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#work {float:none;margin:1em auto;width:auto;height:auto;}}
 #work .workbin{
@@ -218,10 +218,11 @@
 @media only screen and (max-width: 980px){ #worksection{ margin:1em;width:auto; }}
 #workwrap {float: left;position: relative;left: 50%;}
 #workitem {float: left;position: relative;left: -50%;}
+#educationitem h5{margin:0 auto;}
 
 #skills{
 	float:left;
-	width:45%;
+	width:45%;max-width:90%;
 	margin:2em auto 0 2.5%;
 	padding:2em;
 	background:#E8E8E8;
@@ -233,7 +234,7 @@
 
 #interests{
 	float:right;
-	width:45%;
+	width:45%;max-width:90%;
 	margin:2em 2.5% 1em auto;
 	padding:2em;
 	background:#E8E8E8;
