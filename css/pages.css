@@ -218,7 +218,7 @@
 @media only screen and (max-width: 980px){ #worksection{ margin:1em;width:auto; }}
 #workwrap {float: left;position: relative;left: 50%;}
 #workitem {float: left;position: relative;left: -50%;}
-#educationitem h5{margin:0 auto;}
+#workitem h5{margin:0 auto;}
 
 #skills{
 	float:left;
