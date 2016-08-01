@@ -167,8 +167,8 @@
 .educationbin div {position:relative;float:left;text-align:left;vertical-align:top;}
 .educationbin div li{line-height: 1.6em;}
 .educationbin div li a:hover{text-decoration: underline;color:  #373D3F;}
-#educationsection {display:inline-block;overflow:hidden; margin: 0 auto;width:33.3%;}
-@media only screen and (max-width: 980px){ #educationsection{ margin:1em auto; width:auto; }}
+#educationsection {display:inline-block;overflow:hidden; margin: 0;width:33.3%;}
+@media only screen and (max-width: 980px){ #educationsection{ margin:1em 0; width:auto; }}
 #educationwrap {float: left;position: relative;left: 50%;}
 #educationitem {float: left;position: relative;left: -50%;}
 #educationitem p,#educationitem h5{max-width:90%;}
@@ -221,8 +221,8 @@
 .workbin div {position:relative;float:left;text-align:left;vertical-align:top;}
 .workbin div li{line-height: 1.6em;}
 .workbin div li a:hover{text-decoration: underline;color:  #373D3F;}
-#worksection {display:inline-block;overflow:hidden;padding: 1em 0;margin: 0 auto;width:50%;}
-@media only screen and (max-width: 980px){ #worksection{ margin:1em auto;width:auto; }}
+#worksection {display:inline-block;overflow:hidden;padding: 1em 0;margin: 0;width:50%;}
+@media only screen and (max-width: 980px){ #worksection{ margin:1em 0;width:auto; }}
 #workwrap {float: left;position: relative;left: 50%;}
 #workitem {float: left;position: relative;left: -50%;}
 #workitem h5{margin:0 auto;}
