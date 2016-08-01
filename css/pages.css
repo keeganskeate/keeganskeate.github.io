@@ -167,7 +167,7 @@
 .educationbin div li{line-height: 1.6em;}
 .educationbin div li a:hover{text-decoration: underline;color:  #373D3F;}
 #educationsection {display:inline-block; overflow:hidden; margin: 0;padding:0; width:33.3%;}
-@media only screen and (max-width: 980px){ #educationsection{ margin:1em 0; width:auto; }}
+@media only screen and (max-width: 980px){ #educationsection{width:auto; }}
 #educationwrap {float: left;position: relative;left: 50%;}
 #educationitem {float: left;position: relative;left: -50%;}
 @media only screen and (max-width: 980px){#educationitem p,#educationitem h5{max-width:100%;}}
