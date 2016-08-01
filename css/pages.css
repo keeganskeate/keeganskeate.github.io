@@ -123,7 +123,7 @@
 	-moz-box-shadow: 0px 0px 4px #444;
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
-#history a{text-decoration:underline;color:#107896;}
+#history a{text-decoration:underline;color:#107896;cursor:pointer;}
 @media (max-height: 1280px) and (max-width: 980px) {#history {float:none;margin:1em auto;width:auto;height:auto;}}
 #objective {
 	float:left;
@@ -147,7 +147,7 @@
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
 @media (max-height: 1280px) and (max-width: 980px) {#professional {float:none;margin:1em auto;width:auto;height:auto;}}
-#professional a{text-decoration:none;color:#373D3F;}
+#professional a{text-decoration:none;color:#373D3F;cursor:pointer;}
 #professional a:hover{text-decoration:underline;}
 
 #education {margin: 0 2.5%;}
@@ -226,7 +226,7 @@
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
 @media (max-height: 1280px) and (max-width: 980px) {#skills {float:none;margin:1em auto;width:auto;height:auto;}}
-#skills a{text-decoration:none;color:#373D3F;}
+#skills a{text-decoration:none;color:#373D3F;cursor:pointer;}
 #skills a:hover{text-decoration:underline;}
 #interests{
 	float:right;
@@ -239,5 +239,5 @@
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
 @media (max-height: 1280px) and (max-width: 980px) {#interests {float:none;margin:1em auto;width:auto;height:auto;}}
-#interests a{text-decoration:none;color:#373D3F;}
+#interests a{text-decoration:none;color:#373D3F;cursor:pointer;}
 #interests a:hover{text-decoration:underline;}
