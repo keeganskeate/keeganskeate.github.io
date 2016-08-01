@@ -101,7 +101,8 @@
 .wrapper.aboutstyle {background: #F2F3F4; margin:10em 5% 1em 5%;}
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.aboutstyle{margin:auto;}}
 .wrapper.aboutstyle li,.wrapper.aboutstyle p{padding: 0em;margin:0 auto;}
-.wrapper.aboutstyle a{text-decoration:none;padding: 0em;}
+.wrapper.aboutstyle a{text-decoration:none;padding: 0em;cursor:pointer;}
+.wrapper.aboutstyle a:hover{text-decoration:underline;}
 .wrapper.aboutstyle h5{
 	margin:0 auto 1em auto;
 	color:#131516;
@@ -111,12 +112,9 @@
 .wrapper.aboutstyle  p{
 	color:#373D3F;
 	font-weight:300;
-	}
-.wrapper.aboutstyle p{
 	margin:0 auto 1em auto;
 	font-size:1em;
 }
-.wrapper.aboutstyle a{text-decoration:underline;color:#107896;cursor:pointer;}
 #history{
 	float:right;
 	width:47.5%;
