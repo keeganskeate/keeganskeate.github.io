@@ -174,9 +174,12 @@
 #educationitem p,#educationitem h5{max-width:90%;}
 @media only screen and (max-width: 980px){#educationitem p,#educationitem h5{max-width:100%;}}
 #educationitem h5{margin:0 auto;}
-.educationbin h5{color:#131516;
+.educationbin h5{
+	margin:0 auto;
+	text-align:left;
+	color:#131516;
 	font-weight:400;
-	font-size:1.2em;text-align:left;}
+	font-size:1.2em;}
 
 #teaching{
 	float:left;
