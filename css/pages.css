@@ -172,7 +172,10 @@
 #educationwrap {float: left;position: relative;left: 50%;}
 #educationitem {float: left;position: relative;left: -50%;}
 #educationitem p,#educationitem h5{max-width:90%;}
-#educationitem h5{margin:0 auto;text-align:center;}
+#educationitem h5{margin:0 auto;}
+.educationbin h5{color:#131516;
+	font-weight:400;
+	font-size:1.2em;text-align:left;}
 
 #teaching{
 	float:left;
