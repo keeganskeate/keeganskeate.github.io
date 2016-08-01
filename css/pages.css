@@ -172,8 +172,6 @@
 #educationitem {float: left;position: relative;left: -50%;}
 @media only screen and (max-width: 980px){#educationitem p,#educationitem h5{max-width:100%;}}
 #educationitem h5{margin:0 auto;}
-
-
 #teaching{
 	float:left;
 	width:47.5%;
@@ -185,7 +183,6 @@
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
 @media (max-height: 1280px) and (max-width: 980px) {#teaching {float:none;margin:1em auto;width:auto;height:auto;}}
-
 #research{
 	float:right;
 	width:45%;
@@ -197,7 +194,6 @@
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
 @media (max-height: 1280px) and (max-width: 980px) {#research {float:none; margin:1em auto;width:auto;height:auto;}}
-
 #work {margin: 0 2.5%;}
 #work li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#work {float:none; margin:1em auto;width:auto;height:auto;}}
@@ -219,7 +215,6 @@
 #workwrap {float: left;position: relative;left: 50%;}
 #workitem {float: left;position: relative;left: -50%;}
 #workitem h5{margin:0 auto;}
-
 #skills{
 	float:left;
 	width:45%;
@@ -231,7 +226,8 @@
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
 @media (max-height: 1280px) and (max-width: 980px) {#skills {float:none;margin:1em auto;width:auto;height:auto;}}
-
+#skills a{text-decoration:none;color:#373D3F;}
+#skills a:hover{text-decoration:underline;}
 #interests{
 	float:right;
 	width:45%;
