@@ -98,7 +98,7 @@
 
 
 /* ABOUT ME PAGE */
-.wrapper.aboutstyle {background: #F2F3F4; margin:10em 5% 1em 5%;}
+.wrapper.aboutstyle {background: #F2F3F4; margin:10em 5% 1em 5%;max-width:90%;}
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.aboutstyle{margin:auto;}}
 .wrapper.aboutstyle li,.wrapper.aboutstyle p{padding: 0em;margin:0 auto;}
 .wrapper.aboutstyle a{text-decoration:none;padding: 0em;cursor:pointer;}
@@ -117,7 +117,7 @@
 }
 #history{
 	float:right;
-	width:45%;max-width:90%;
+	width:45%;
 	padding: 2em;
 	margin-right:2.5%;
 	background: #E8E8E8;
@@ -129,7 +129,7 @@
 #objective {
 	float:left;
 	margin-left:2.5%;
-	width: 47.5%; max-width:90%;
+	width: 47.5%;
 	padding: 2em;
 	background: #E8E8E8;
 	border: 1px solid #333A56;
@@ -140,7 +140,7 @@
 #professional{
 	float:left;
 	margin: 2em auto 0em 2.5%;
-	width:47.5%; max-width:90%;
+	width:47.5%;
 	padding:2em;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
@@ -151,7 +151,7 @@
 #professional a{text-decoration:none;color:#373D3F;}
 #professional a:hover{text-decoration:underline;}
 
-#education {margin: 0 2.5%;text-align:center;max-width:90%;}
+#education {margin: 0 2.5%;text-align:center;}
 #education li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#education {float:none;margin:1em auto;width:auto;height:auto;}}
 #education .educationbin{
@@ -176,7 +176,7 @@
 
 #teaching{
 	float:left;
-	width:47.5%;max-width:90%;
+	width:47.5%;
 	margin:2em auto 0 2.5%;
 	padding:2em;
 	background:#E8E8E8;
@@ -188,7 +188,7 @@
 
 #research{
 	float:right;
-	width:45%;max-width:90%;
+	width:45%;
 	padding: 2em;
 	margin:2em 2.5% 0 auto;
 	background:#E8E8E8;
@@ -198,7 +198,7 @@
 }
 @media (max-height: 1280px) and (max-width: 980px) {#research {float:none;margin:1em auto;width:auto;height:auto;}}
 
-#work {margin: 0 2.5%;text-align:center;max-width:90%;}
+#work {margin: 0 2.5%;text-align:center;}
 #work li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#work {float:none;margin:1em auto;width:auto;height:auto;}}
 #work .workbin{
@@ -222,7 +222,7 @@
 
 #skills{
 	float:left;
-	width:45%;max-width:90%;
+	width:45%;
 	margin:2em auto 0 2.5%;
 	padding:2em;
 	background:#E8E8E8;
@@ -234,7 +234,7 @@
 
 #interests{
 	float:right;
-	width:45%;max-width:90%;
+	width:45%;
 	margin:2em 2.5% 1em auto;
 	padding:2em;
 	background:#E8E8E8;
