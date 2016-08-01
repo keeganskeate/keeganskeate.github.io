@@ -166,7 +166,7 @@
 .educationbin div {position:relative;float:left;text-align:left;vertical-align:top;}
 .educationbin div li{line-height: 1.6em;}
 .educationbin div li a:hover{text-decoration: underline;color:  #373D3F;}
-#educationsection {display:inline-block; overflow:hidden; margin: 0;padding:0; width:33.3%;}
+#educationsection {display:inline-block; overflow:hidden; margin: 0 0 1em 0;padding:0; width:33.3%;}
 @media only screen and (max-width: 980px){ #educationsection{width:auto; }}
 #educationwrap {float: left;position: relative;left: 50%;}
 #educationitem {float: left;position: relative;left: -50%;}
@@ -210,8 +210,8 @@
 .workbin div {position:relative;float:left;text-align:left;vertical-align:top;}
 .workbin div li{line-height: 1.6em;}
 .workbin div li a:hover{text-decoration: underline;color:  #373D3F;}
-#worksection {display:inline-block;overflow:hidden;padding:0;margin: 0;width:50%;}
-@media only screen and (max-width: 980px){ #worksection{ margin:1em 0;width:auto; }}
+#worksection {display:inline-block;overflow:hidden;padding:0;margin: 0 0 1em 0;width:50%;}
+@media only screen and (max-width: 980px){ #worksection{ width:auto; }}
 #workwrap {float: left;position: relative;left: 50%;}
 #workitem {float: left;position: relative;left: -50%;}
 #workitem h5{margin:0 auto;}
@@ -239,4 +239,5 @@
 	-webkit-box-shadow: 0px 0px 4px #444;
 }
 @media (max-height: 1280px) and (max-width: 980px) {#interests {float:none;margin:1em auto;width:auto;height:auto;}}
-
+#interests a{text-decoration:none;color:#373D3F;}
+#interests a:hover{text-decoration:underline;}
