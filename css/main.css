@@ -196,7 +196,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 					letter-spacing: 2px;
 					text-decoration: none;
 					font-weight: 500;
-					padding: 0 1em 0 1em;
+					margin: 0 1em 0 1em;
 				}
 				#nav ul li:first-child {
 					float: left;
@@ -251,10 +251,10 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 				color:#333A56;
 				
 			}
-			.dropotron > li:hover > a > span{
+			/*.dropotron > li:hover > a > span{
 				color:#333A56;
 				text-shadow: 0 -1px 0 #EFD469;
-			}
+			}*/
 	.dropotron.level-0 {
 		margin-left:0;
 		line-height: 2.25em;
