@@ -119,7 +119,7 @@
 .wrapper.aboutstyle a{text-decoration:underline;color:#107896;cursor:pointer;}
 #history{
 	float:right;
-	width:45%;
+	width:47.5%;
 	padding: 2em;
 	margin-right:2.5%;
 	background: #E8E8E8;
@@ -131,7 +131,7 @@
 #objective {
 	float:left;
 	margin-left:2.5%;
-	width: 45%; 
+	width: 47.5%; 
 	padding: 2em;
 	background: #E8E8E8;
 	border: 1px solid #333A56;
@@ -142,7 +142,7 @@
 #professional{
 	float:left;
 	margin: 2em auto 0em 2.5%;
-	width:50%;
+	width:47.5%;
 	padding:2em;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
@@ -175,8 +175,12 @@
 #educationitem {float: left;position: relative;left: -50%;}
 #educationitem p,#educationitem h5{max-width:90%;}
 #educationitem h5{margin:0 auto;}
+
 #teaching{
-	float:left; margin:2em auto 1em 2.5%; width:45%;padding:1em;
+	float:left;
+	width:47.5%;
+	margin:2em auto 1em 2.5%;
+	padding:2em;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
 	-moz-box-shadow: 0px 0px 4px #444;
@@ -186,7 +190,7 @@
 
 #research{
 	float:right;
-	width:50%;
+	width:47.5%;
 	padding: 2em;
 	margin:2em 2.5% 1em auto;
 	background:#E8E8E8;
@@ -196,11 +200,12 @@
 }
 @media (max-height: 1280px) and (max-width: 980px) {#research {float:none;margin:1em auto;width:auto;height:auto;}}
 
-#work {	padding: 1em; margin: 0 auto; text-align:center;width:100%;}
+#work {margin: 0 2.5%;text-align:center;}
 #work li{text-align: left;}
 @media (max-height: 1280px) and (max-width: 980px) {#work {float:none;margin:1em auto;width:auto;height:auto;}}
 #work .workbin{
-		display: inline-block;margin: 1em auto;
+		display: inline-block;
+		margin: 1em auto 0 auto;
 		padding: 2em;
 		border: 1px solid #333A56;
 		-moz-box-shadow: 0px 0px 4px #444;
@@ -218,8 +223,8 @@
 
 #skills{
 	float:left;
-	width:50%;
-	margin:1em auto 1em 2.5%;
+	width:47.5%;
+	margin:1em auto 0 2.5%;
 	padding:2em;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
@@ -230,8 +235,8 @@
 
 #interests{
 	float:right;
-	width:50%;
-	margin:1em 2.5% 1em auto;
+	width:47.5%;
+	margin:1em 2.5% 0 auto;
 	padding:2em;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
