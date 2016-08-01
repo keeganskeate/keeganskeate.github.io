@@ -166,7 +166,7 @@
 @media (max-height: 1280px) and (max-width: 980px) {#education {float:none;margin:1em auto;width:auto;height:auto;}}
 #education .educationbin{
 		display: inline-block;
-		margin: 3em auto 0 auto;
+		margin: 2em auto 0 auto;
 		padding:2em;
 		border: 1px solid #333A56;
 		-moz-box-shadow: 0px 0px 4px #444;
@@ -183,16 +183,8 @@
 #educationitem {float: left;position: relative;left: -50%;}
 #educationitem p,#educationitem h5{max-width:90%;}
 
-
-
-
-
-
-
-
-
 #teaching{
-	float:left; margin:1em auto 1em 2.5%; width:45%;padding:1em;
+	float:left; margin:2em auto 1em 2.5%; width:45%;padding:1em;
 	background:#E8E8E8;
 	border: 1px solid #333A56;
 	-moz-box-shadow: 0px 0px 4px #444;
