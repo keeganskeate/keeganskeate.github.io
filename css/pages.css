@@ -7,8 +7,14 @@
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle{margin:auto;}}
 .wrapper.contactstyle li,.wrapper.contactstyle p{padding: 0em;}
 .wrapper.contactstyle a{text-decoration:none;padding: 0em;}
-.wrapper.contactstyle .image {position: relative;width:495px;height:431px;max-width:100%;}
-.wrapper.contactstyle h2 {position: absolute; top: 2.5%; left: 55.5%; width: 100%;font-size:1.8em;}
+.wrapper.contactstyle .image {position: relative;
+width=40%;
+max-width:100%;}
+.wrapper.contactstyle h2 {position: absolute; 
+top: 2.5%; 
+left: 55.5%; 
+width: 100%;
+font-size:1.8em;}
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle h2{font-size:1.2em;}}
 #tohelp{width:495px;margin: 0 auto;}
 #tohelp img{width:495px;height:431px; max-width:100%; border-radius: 10%;}
