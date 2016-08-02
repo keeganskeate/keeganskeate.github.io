@@ -13,8 +13,8 @@ max-width:100%;}
 .wrapper.contactstyle h2 {position: absolute; display:inline-block;
 top: 2.5%; 
 left: 55.5%;
-font-size:1.8em;}
-@media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle h2{font-size:1.2em;}}
+font-size:1.6em;}
+@media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle h2{font-size:1em;}}
 #tohelp{width:40%
 ;margin: 0 auto;}
 #tohelp img{
