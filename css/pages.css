@@ -10,10 +10,9 @@
 .wrapper.contactstyle .image {position: relative;
 width=100%;
 max-width:100%;}
-.wrapper.contactstyle h2 {position: absolute; display:inline;
+.wrapper.contactstyle h2 {position: absolute; display:inline-block;
 top: 2.5%; 
-left: 55.5%; 
-width: 100%;
+left: 55.5%;
 font-size:1.8em;}
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle h2{font-size:1.2em;}}
 #tohelp{width:40%
