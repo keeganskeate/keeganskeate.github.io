@@ -161,62 +161,81 @@
 import numpy as np
 import pylab as py
     
-def Cond_Logit(Y,X,N,J):
+def Cond_Logit(Y, X, N, J):
     """
-    Estimates a conditional logit given
-    Y,X, # of N, and # of J.
+    Estimates a conditional logit
+    given Y, X, # of N, and # of J.
     """
-    initial_beta = np.dot(np.linalg.inv(np.dot(X.T,X)), \
-    		   np.dot(X.T,Y))
-    beta_MLE = newton_method(cond_score,cond_hessian, \
-    	       initial_beta,Y,X,N,J)
-    cov = -np.linalg.inv(cond_hessian(beta_MLE,Y,X,N,J))
+    initial_beta = np.dot(np.linalg.inv(
+    		   np.dot(X.T, X)),
+    		   np.dot(X.T, Y))
+    beta_MLE = newton_method(
+    	       cond_score,cond_hessian,
+    	       initial_beta, Y, X, N, J)
+    cov = - np.linalg.inv(
+    	    cond_hessian(
+    	    beta_MLE, Y, X, N, J))
     se = np.diag(np.sqrt(cov))    
     return beta_MLE, se, cov
 
 def cond_Pr(x,beta):
-    """Conditional Logit Choice Probability"""
+    """
+    Conditional Logit Choice Probability
+    """
     J = len(x)
     probabilities = []
     for i in range(J):
-        Num = np.exp(np.dot(x[i],beta))
+        Num = np.exp(np.dot(x[i], beta))
         Denom = 0.0
         for j in range(J):
-            Denom += np.exp(np.dot(x[j],beta))
-        probabilities.append(1.0*Num/Denom)
+            Denom += np.exp(np.dot(x[j], beta))
+        probabilities.append(1.0 * Num / Denom)
     return probabilities
     
-def cond_score(beta,Y,X,N,J):
+def cond_score(beta, Y, X, N, J):
     """Conditional Logit Score Function"""
     score = 0.0
     for n in range(N):
-        X_n = X[(n)*J:J+J*n]
-        y_n = Y[(n)*J:J+J*n]
+        X_n = X[(n) * J : J + J * n]
+        y_n = Y[(n) * J : J + J * n]
         for j in range (J):
-            score += (y_n[j] - cond_Pr(X_n,beta)[j])*\
-            X_n[[j],:].T
+            score += (y_n[j] - 
+            	      cond_Pr(X_n, beta)[j]) *\
+                      X_n[[j], :].T
     return score
 
-def cond_hessian(beta,Y,X,N,J):
-    """Conditional Logit Hessian Function"""
+def cond_hessian(beta, Y, X, N, J):
+    """
+    Conditional Logit Hessian Function
+    """
     hessian = 0.0
     for n in range(N):
-        X_n = X[(n)*J:J+J*n]
+        X_n = X[(n) * J : J + J * n]
         x_bar_n = 0.0
         for j in range(J):
-            x_bar_n += X_n[[j],:]*cond_Pr(X_n,beta)[j]
+            x_bar_n += X_n[[j], :] * 
+            	       cond_Pr(X_n, beta)[j]
         for j in range(J):
-            hessian -= np.dot((X_n[[j],:].T-x_bar_n.T),\
-            (X_n[[j],:]-x_bar_n))*cond_Pr(X_n,beta)[j]
+            hessian -= np.dot((
+            	       X_n[[j], :].T - x_bar_n.T),
+                       (X_n[[j], :] - x_bar_n)) *
+                       cond_Pr(X_n, beta)[j]
     return hessian
     
-def newton_method(gradient,hessian,beta0,Y,X,N,J,tol,maxIter):
-    """The Newton-Raphson Algorithm"""
+def newton_method(
+    gradient, hessian, beta0,
+    Y, X, N, J, tol, maxIter):
+    """
+    The Newton-Raphson Algorithm
+    """
     beta_old = beta0
     for i in range(maxIter):
-        beta_new = beta_old - np.dot(np.linalg.inv(\
-        hessian(beta_old,Y,X,N,J)),gradient(beta_old,Y,X,N,J))
-        if (py.norm(beta_new-beta_old) < tol):
+        beta_new = beta_old - 
+        	   np.dot(
+        	   np.linalg.inv(
+        	   hessian(beta_old, Y, X, N, J)),
+        	   gradient(beta_old, Y, X, N, J))
+        if (py.norm(beta_new - beta_old) < tol):
             break
         beta_old = beta_new
     return beta_new
@@ -247,42 +266,55 @@ def newton_method(gradient,hessian,beta0,Y,X,N,J,tol,maxIter):
 import numpy as np
 import scipy.stats as ss
 
-def gibbs(beta0,B0,v0,d0,y,X,iters):
+def gibbs(beta0, B0, v0, d0, y, X, iters):
     """
     Inputs:
         Priors - beta0, B0, v0, d0.
         Data - y and X.
         Desired iterations - iters.
     Returns:
-    	A sample of parameters from the posterior.
+    	A posterior distribution.
     """
-    beta = np.zeros((iters,len(beta0)))
+    beta = np.zeros((iters, len(beta0)))
     sigma_sq = np.ones(iters)
     B0_inv = np.linalg.inv(B0)  
     for i in range(iters):
         y_star = y
-        XB = np.dot(X,beta[i-1])
-        s = sigma_sq[i-1]
+        XB = np.dot(X, beta[i-1])
+        s = sigma_sq[i - 1]
         for n in range(len(y)):
             if y[n]==1:
                 y_star[n] = ss.truncnorm.rvs(
-                	    -np.infty,0.,loc=XB[n],scale=s)
+                	    - np.infty, 0.0,
+                	    loc = XB[n],
+                	    scale = s)
             if y[n]==2:
                 y_star[n] = ss.truncnorm.rvs(
-                	    0.,1.,loc=XB[n],scale=s)
+                	    0.0, 1.0,
+                	    loc = XB[n],
+                	    scale = s)
             if y[n]==3:
                 y_star[n] = ss.truncnorm.rvs(
-                	    1.,np.infty,loc=XB[n],scale=s)
-        v0_hat = v0 + (len(y)/2)
-        d0_hat = 1./((1/d0) + 
-        	.5*(np.dot((y_star-XB).T,y_star-XB)))
-        sigma_sq[i] = ss.invgamma.rvs(v0_hat,d0_hat) 
-        B_hat = np.linalg.inv(np.dot(X.T,X)/\
-        		      sigma_sq[i]+B0_inv)
-        beta_hat = np.dot(B_hat, (np.dot(B0_inv,beta0).T+ \
-                   (np.dot(X.T,y_star)/sigma_sq[i])).T)
+                	    1., np.infty,
+                	    loc = XB[n],
+                	    scale = s)
+        v0_hat = v0 + (len(y) / 2)
+        d0_hat = 1. / ((1 / d0) + 
+        	.5 * (np.dot(
+        	(y_star-XB).T,
+        	y_star-XB)))
+        sigma_sq[i] = ss.invgamma.rvs(
+        	      v0_hat, d0_hat) 
+        B_hat = np.linalg.inv(
+        	np.dot(X.T, X) /
+        	sigma_sq[i] + B0_inv)
+        beta_hat = np.dot(
+        	   B_hat, 
+        	   (np.dot(B0_inv, beta0).T +
+                   (np.dot(X.T, y_star) / 
+                   sigma_sq[i])).T)
         beta[i] = np.random.multivariate_normal(
-        		np.hstack(beta_hat),B_hat)      
+        	  np.hstack(beta_hat), B_hat)      
     return beta,sigma_sq
 						</pre>
 						</div>
@@ -307,7 +339,7 @@ def gibbs(beta0,B0,v0,d0,y,X,iters):
 import numpy as np
 from math import *
 
-def MV_t_pdf(x,mu,Sigma,df):
+def MV_t_pdf(x, mu, Sigma, df):
     """
     Inputs:
         x - kx1 Random variables.
@@ -318,13 +350,19 @@ def MV_t_pdf(x,mu,Sigma,df):
     	The density of the given element.
     """
     p = len(x)
-    numerator = gamma(1.*(p+df)/2)
-    denomenator = (gamma(1.*df/2)*pow(df*pi,1.*p/2)*
-                  pow(np.linalg.det(Sigma),1./2)*
-                  pow(1+(1./df)*
-                  np.dot(np.dot((x-mu),np.linalg.inv(Sigma)),
-                  (x-mu)),1.*(p+df)/2))
-    density = 1. * numerator/denomenator
+    numerator = gamma(1. * (p + df) / 2)
+    denomenator = (gamma(1. * df / 2) * 
+    		  pow(df * pi, 1. * p / 2) *
+                  pow(
+                  np.linalg.det(Sigma),
+                  1. / 2) *
+                  pow(1 + (1. / df) *
+                  np.dot(np.dot(
+                  (x - mu), 
+                  np.linalg.inv(Sigma)),
+                  (x - mu)), 
+                  1. * (p + df) / 2))
+    density = 1. * numerator / denomenator
     return density
     
 def MV_t_random_var(mu, Sigma, df):
@@ -334,41 +372,50 @@ def MV_t_random_var(mu, Sigma, df):
         Sigma - kxk Scale matrix.
         df - Degrees of freedom.
     Returns:
-    	n Independent draws from a MV-t distribution.
+    	Independent draws from
+    	a MV-t distribution.
     """
     mu = np.asarray(mu)
     p = len(mu)
     u = np.random.chisquare(df)
-    y = np.random.multivariate_normal(np.zeros(p),Sigma)
-    return mu + y*np.sqrt(df/u)
+    y = np.random.multivariate_normal(
+        np.zeros(p), Sigma)
+    return mu + y * np.sqrt(df / u)
     
-def Tailored_MH(f,prior,beta0,Sigma0,y,X,iters,df):
+def Tailored_MH(
+    f, prior, beta0, Sigma0,
+    y, X, iters, df):
     """
     Inputs:
         f - a likelihood function.
         prior - Your Bayesian prior.
         beta0 - kx1 initial values
         Sigma0 - kxk initial values
-        y - nx1 observations of the dependent variable.
-        X - nxk observations of the independent variables.
+        y - nx1 dependent variable.
+        X - nxk independent variables.
         iters - iterations.
         df - degrees of freedom.
     Returns:
-        The acceptance rate and
-        i draws of beta from the posterior.
+        The acceptance rate and i
+        draws of beta from the posterior.
     """
-    beta = np.zeros((iters,len(beta0)))
+    beta = np.zeros((iters, len(beta0)))
     beta[0]=beta0
     acceptance = np.zeros(iters)
     for i in range(iters):
-        beta_star = MV_t_random_var(beta0, Sigma0, df)
-        Numerator = f(beta_star,y,X)*\
-        	    prior(beta_star,beta0,Sigma0)*\
+        beta_star = MV_t_random_var(
+                    beta0, Sigma0, df)
+        Numerator = f(beta_star, y, X) *\
+        	    prior(
+        	    beta_star, beta0, Sigma0) *\
                     MV_t_pdf(beta[i-1],beta0,Sigma0,df)
-        Denomenator = f(beta[i-1],y,X)*\
-        	      prior(beta[i-1],beta0,Sigma0)*\
-                      MV_t_pdf(beta_star,beta0,Sigma0,df)
-        alpha = min(1.,1.*Numerator/Denomenator)
+        Denomenator = f(
+        	      beta[i - 1], y , X) *\
+        	      prior(
+        	      beta[i - 1], beta0, Sigma0)*\
+                      MV_t_pdf(
+                      beta_star, beta0, Sigma0, df)
+        alpha = min(1., 1. * Numerator / Denomenator)
         acceptance[i] = np.random.binomial(1, alpha)
         if acceptance[i]==1:
             beta[i] = beta_star
