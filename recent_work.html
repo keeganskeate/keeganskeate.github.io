@@ -201,7 +201,7 @@ def cond_score(beta, Y, X, N, J):
         for j in range (J):
             score += (y_n[j] - 
             	      cond_Pr(X_n, beta)[j]) *\
-                      X_n[[j], :].T
+                      X_n[[j],:].T
     return score
 
 def cond_hessian(beta, Y, X, N, J):
@@ -213,12 +213,12 @@ def cond_hessian(beta, Y, X, N, J):
         X_n = X[(n) * J : J + J * n]
         x_bar_n = 0.0
         for j in range(J):
-            x_bar_n += X_n[[j], :] * 
+            x_bar_n += X_n[[j],:] * 
             	       cond_Pr(X_n, beta)[j]
         for j in range(J):
             hessian -= np.dot((
-            	       X_n[[j], :].T - x_bar_n.T),
-                       (X_n[[j], :] - x_bar_n)) *
+            	       X_n[[j],:].T - x_bar_n.T),
+                       (X_n[[j],:] - x_bar_n)) *
                        cond_Pr(X_n, beta)[j]
     return hessian
     
@@ -283,17 +283,17 @@ def gibbs(beta0, B0, v0, d0, y, X, iters):
         XB = np.dot(X, beta[i-1])
         s = sigma_sq[i - 1]
         for n in range(len(y)):
-            if y[n]==1:
+            if y[n] == 1:
                 y_star[n] = ss.truncnorm.rvs(
                 	    - np.infty, 0.0,
                 	    loc = XB[n],
                 	    scale = s)
-            if y[n]==2:
+            if y[n] == 2:
                 y_star[n] = ss.truncnorm.rvs(
                 	    0.0, 1.0,
                 	    loc = XB[n],
                 	    scale = s)
-            if y[n]==3:
+            if y[n] == 3:
                 y_star[n] = ss.truncnorm.rvs(
                 	    1., np.infty,
                 	    loc = XB[n],
@@ -315,7 +315,7 @@ def gibbs(beta0, B0, v0, d0, y, X, iters):
                    sigma_sq[i])).T)
         beta[i] = np.random.multivariate_normal(
         	  np.hstack(beta_hat), B_hat)      
-    return beta,sigma_sq
+    return beta, sigma_sq
 						</pre>
 						</div>
 					</div>
@@ -406,21 +406,23 @@ def Tailored_MH(
         beta_star = MV_t_random_var(
                     beta0, Sigma0, df)
         Numerator = f(beta_star, y, X) *\
-        	    prior(
-        	    beta_star, beta0, Sigma0) *\
-                    MV_t_pdf(beta[i-1],beta0,Sigma0,df)
-        Denomenator = f(
-        	      beta[i - 1], y , X) *\
-        	      prior(
-        	      beta[i - 1], beta0, Sigma0)*\
-                      MV_t_pdf(
-                      beta_star, beta0, Sigma0, df)
-        alpha = min(1., 1. * Numerator / Denomenator)
-        acceptance[i] = np.random.binomial(1, alpha)
-        if acceptance[i]==1:
+        	    prior(beta_star,
+        	    beta0, Sigma0) *\
+                    MV_t_pdf(beta[i - 1],
+                    beta0, Sigma0, df)
+        Denomenator = f(beta[i - 1], y , X) *\
+        	      prior(beta[i - 1], 
+        	      beta0, Sigma0) *\
+                      MV_t_pdf(beta_star, 
+                      beta0, Sigma0, df)
+        alpha = min(1.,
+                1. * Numerator / Denomenator)
+        acceptance[i] = np.random.binomial(
+                        1, alpha)
+        if acceptance[i] == 1:
             beta[i] = beta_star
         else:
-            beta[i]=beta[i-1]
+            beta[i] = beta[i - 1]
     acceptance_rate = np.mean(acceptance)
     return beta, acceptance_rate
 </pre>
