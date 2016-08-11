@@ -1,15 +1,17 @@
 /*  SUBPAGE SPECIFIC */
+/*.subpage #nav ul li:first-child{padding: 0 0 0 2.5%;} for adding back in back button*/
 .subpage #logo{display: none;}.subpage #nav{position: static;right: none;text-align: center;}
-/*.subpage #nav ul li:first-child{padding: 0 0 0 2.5%;}*/
 .subpage #nav .thispage {color:#EFD469;}
 /* CONTACT PAGE */
 .wrapper.contactstyle {background: #F2F3F4; margin:10em auto 1em auto;}
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle{margin:auto;}}
 .wrapper.contactstyle li,.wrapper.contactstyle p{padding: 0em;}
 .wrapper.contactstyle a{text-decoration:none;padding: 0em;}
-.wrapper.contactstyle .image {position: relative;
-width=100%;
-max-width:100%;}
+
+.wrapper.contactstyle .image {
+	position: relative;
+	width=100%;
+	max-width:100%;}
 .wrapper.contactstyle #tohelp h2 {position: absolute; display:inline-block;
 top: 2.5%; 
 left: 55.5%;
