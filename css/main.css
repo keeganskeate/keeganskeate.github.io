@@ -12,6 +12,7 @@
 		Blue: #1955A5
 		Header Black: #131516
 		Text Grey: #444444
+		Light Grey: #
 
 		Light White: #F2F3F4
 		White:#F7F5E6
@@ -105,28 +106,13 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 	#header .container {
 		position: relative;
 	}
-/* Logo */
-	.homepage #logo {
-		display: none;
-	}
-	#logo {
-		line-height: 2em;
-		letter-spacing: 2px;
-		font-size: 2em;
-		font-weight: 500;
-	}
-		#logo h1 {
-			display: inline-block;
-			margin: 0;
-			padding: 0 1em;
-		}
 /* Navigation */
-	.homepage #nav {
-		position: static;
-		right: none;
-		margin: 0 auto;
-		text-align: center;
-	}	
+.homepage #nav {
+	position: static;
+	right: none;
+	margin: 0 auto;
+	text-align: center;
+}	
 	#nav {
 		position: absolute;
 		top: 0;
@@ -338,6 +324,8 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 			margin: 0 auto;
 			padding-top: 1em;
 			font-family: 'EB Garamond', serif;
+			font-weight: 200;
+			color: #444444;
 			font-size: 18px ;
 			line-height: 30.6px;
 		}
@@ -444,10 +432,25 @@ footer > :last-child {
 	#subfooter p{
 		padding: 0em;
 		text-align:center;
-		font-size: 8px;
+		line-height: 1.6em;
+		font-size: 12px;
 		font-weight: 300;
-		color: #999999;
 	}
-	/*#subfooter a{
-		color:#333A56;
-	}*/
+	#subfooter a{
+		color: color: #999999;
+	}
+/* Logo */
+	.homepage #logo {
+		display: none;
+	}
+	#logo {
+		line-height: 2em;
+		letter-spacing: 2px;
+		font-size: 2em;
+		font-weight: 500;
+	}
+		#logo h1 {
+			display: inline-block;
+			margin: 0;
+			padding: 0 1em;
+		}
