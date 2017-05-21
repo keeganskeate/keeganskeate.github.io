@@ -324,9 +324,9 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 			margin: 0 auto;
 			padding-top: 1em;
 			font-family: 'EB Garamond', serif;
-			font-weight: 200;
+			font-weight: 100;
 			color: #444444;
-			font-size: 18px ;
+			font-size: 16px ;
 			line-height: 30.6px;
 		}
 		.projectsbin img{
@@ -350,19 +350,13 @@ footer > :last-child {
 #footer {
 	text-shadow: 0 -1px 0 #000;
 	list-style: none;
-	padding: 1em 0 0 0 ;
+	padding: 1em 0 0 0;
 	margin: 0 auto;
 	text-align:center;
 	}
 	#footer li{
 		text-align: left;
-		color: #373D3F;
 	}
-		/*#footer .profiletext a:hover,
-		#footer .contactbin a:hover{
-			text-decoration: underline;
-		}*/
-	
 	#footer ul{
 		padding: 0em;
 	}
@@ -384,10 +378,8 @@ footer > :last-child {
 }
 	.contactbin div li a{
 		line-height: 1.6em;
+		font-size: 16px;
 		color: #444444;
-	}
-#footer .contactbin li{
-		line-height: 2em;
 	}
 		.contactbin div li a:hover {
 			color:  #1955A5;
@@ -434,7 +426,7 @@ footer > :last-child {
 		text-align:center;
 		line-height: 1.6em;
 		font-size: 12px;
-		font-weight: 300;
+		font-weight: 200;
 	}
 	#subfooter a{
 		color: color: #999999;
