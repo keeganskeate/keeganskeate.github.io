@@ -70,11 +70,10 @@ html,body {
 		font-weight: 400;
 		text-shadow: 0 -1px 0 #000;
 	}
-/* ul {margin: 0 0 2em 0;}
-p {line-height: 1.8em;}
+/*
 h1, h2, h3, h4, h5, h6 {color: inherit;	font-weight: 500;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: inherit;text-decoration: none;}
-h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
+h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 /* Content Containers */
 .container {
 	min-width: 840px;
@@ -94,22 +93,6 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		.wrapper.end-style {
 			padding-bottom: 2em;
 		}
-/* Old Wrappers
-		.wrapper.topstyle {
-			width:100%;
-			height: 55px;
-			margin: 0 auto;
-			padding: 0em;
-		}
-		}
-		.wrapper.topstyle p{padding: 0em;}
-
-		.wrapper.endstyle {font-family: 'Lato', sans-serif;}
-		.wrapper.endstyle a, .wrapper.endstyle p{color: #373D3F;}
-
-		.wrapper.endstyle #footer .contactbin{margin: 1em;}
-		.wrapper.endstyle #footer .projectsbin{vertical-align:top;margin: 1em;}
-
 /* Header */
 	#header {
 		height: 55px;
@@ -253,7 +236,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 .profile {
 	display:inline-block;
 	float:left;
-	margin:0 auto 0 2.5%;
+	margin: 2em auto 2em 2.5%;
 	overflow:hidden;
 }
 	.profile div {
@@ -262,9 +245,9 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		min-height: 175px;
 		padding: 0px;
 	}
-	.profile p {
+	/*.profile p {
 		padding: 0 0 0 0.5em;
-	}
+	}*/
 		#profilepic {
 			vertical-align:bottom;
 			float:left;
@@ -292,7 +275,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			min-height: 175px;
 			padding: 0 0 0 0.5em;
 		}
-			#profiletext li{
+			#profiletext li a{
 				line-height: 1.7em;
 				color: #444444;
 			}
@@ -338,13 +321,13 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			float:left;
 			text-align:left;
 		}
-			.projectsbin div li {
+			/*.projectsbin div li {
 				line-height: 30.6px;
 			}
 			.projectsbin div li a:hover {
 				text-decoration: underline;
 				color:  #373D3F;
-			}
+			}*/
 		.projectsbin h4{
 			text-align:center;
 			padding-bottom:1em;
@@ -354,8 +337,9 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			margin: 0 auto;
 			padding-top: 1em;
 			font-family: 'EB Garamond', serif;
+			font-weight: 300;
 			font-size: 18px ;
-			
+			line-height: 30.6px;
 		}
 		.projectsbin img{
 			display:block; margin: 0 auto;
@@ -410,9 +394,12 @@ footer > :last-child {
 	text-align:left;
 	vertical-align:top;
 }
-	.contactbin div li {
+	.contactbin div li a{
 		line-height: 1.6em;
 		color: #444444;
+	}
+#footer .contactbin li{
+		line-height: 2em;
 	}
 		.contactbin div li a:hover {
 			color:  #1955A5;
@@ -434,9 +421,6 @@ footer > :last-child {
 	position: relative;
 	left: -50%;
 }
-#footer .contactbin li{
-		line-height: 2em;
-	}
 		#footer h3{
 			font-weight: 400;
 			color:  #131516;
