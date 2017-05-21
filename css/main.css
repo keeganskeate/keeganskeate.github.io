@@ -235,7 +235,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 .profile {
 	display: inline-block;
 	float: left;
-	margin: 2em auto 2em 2.5%;
+	margin: 1.5em auto 1.5em 2.5%;
 	overflow: hidden;
 }
 	.profile div {
@@ -275,10 +275,10 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 					color: #D13351;
 					transform: rotateX(180deg);
 				}
-@media screen and (max-width: 980px) {.profile{text-align:center;float:none;display:block;margin: 0 auto;width:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {.profile{text-align:center;float:none;display:block;margin: 1em auto;width:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) { #profilepic{float:none;display:block;margin: 0em auto; } }
-@media (max-height:: 1280px) and (max-width: 980px) {#profilepic img{display:block;float:none;margin:0 auto;width:auto;}}
-@media only screen and (max-width: 980px) {#profiletext{float:none;margin:0.5em auto 1em auto;padding:0;}}
+@media (max-height: 1280px) and (max-width: 980px) {#profilepic img{display:block;float:none;margin:0 auto;width:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {#profiletext{float:none;margin:0.5em auto 1em auto;padding:0;}}
 
 /* Projects */
 	#footer .projectsbin {
@@ -339,8 +339,8 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 				opacity: .75;  filter:alpha(opacity=75);
 				border-color:#107896;
 			}
-@media only screen and (max-width: 980px){ #footer .projectsbin{ display:block; width:auto; }}
-@media screen and (max-width: 980px){ #projectsection{ display:block; width:auto; }}
+@media (max-height: 1280px) and (max-width: 980px){ #footer .projectsbin{ display:block; width:auto; }}
+@media (max-height: 1280px) and (max-width: 980px){ #projectsection{ display:block; width:auto; }}
 
 /* Footer */
 footer > :last-child {
@@ -405,9 +405,9 @@ footer > :last-child {
 			padding:0em 0 .5em 0;
 		}
 
-@media only screen and (max-width: 980px){ #footer .contactbin{ display:block; width:auto;}}
-@media only screen and (max-width: 980px){ #footer .contactbin div{ float:none;}}
-@media only screen and (max-width: 980px){ #contactsection{ margin:0 1em;width:auto; }}
+@media (max-height: 1280px) and (max-width: 980px){ #footer .contactbin{ display:block; width:auto;}}
+@media (max-height: 1280px) and (max-width: 980px){ #footer .contactbin div{ float:none;}}
+@media (max-height: 1280px) and (max-width: 980px){ #contactsection{ margin:0 1em;width:auto; }}
 
 /* Copyright */
 #subfooter {
