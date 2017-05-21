@@ -9,9 +9,10 @@
 @font-face {font-family: 'icomoon'; src:url('../fonts/icomoon.eot'); src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg#icomoon') format('svg');font-weight: normal; font-style: normal; }[data-icon]:before { font-family: 'icomoon'; content: attr(data-icon); speak: none; font-weight: normal; font-variant: normal;text-transform: none; line-height: 1;  -webkit-font-smoothing: antialiased;}
 /* Theme Colors
 		Light Blue: #7397C6
-		Blue: #1955A5		
-
+		Blue: #1955A5
 		Header Black: #131516
+		Text Grey: #444444
+
 		Light White: #F2F3F4
 		White:#F7F5E6
 		Offwhite: #E8E8E8
@@ -337,7 +338,6 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 			margin: 0 auto;
 			padding-top: 1em;
 			font-family: 'EB Garamond', serif;
-			font-weight: 300;
 			font-size: 18px ;
 			line-height: 30.6px;
 		}
@@ -444,8 +444,9 @@ footer > :last-child {
 	#subfooter p{
 		padding: 0em;
 		text-align:center;
-		font-size: 14px;
+		font-size: 8px;
 		font-weight: 300;
+		color: #999999;
 	}
 	/*#subfooter a{
 		color:#333A56;
