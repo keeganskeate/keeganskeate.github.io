@@ -37,7 +37,7 @@ Old Colors:
 		Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2199E8
 
 /*Lazy Loading*/
-html.loading,body.loading * {
+html.loading, body.loading * {
 		-moz-transition: none !important;
 		-webkit-transition: none !important;
 		-o-transition: none !important;
@@ -50,10 +50,10 @@ html.loading,body.loading * {
 		animation: none !important;
 	}
 /* Basic Format*/
-html,body {
+html, body {
 	margin: 0px
 	padding: 0px;
-	width:100%;
+	width: 100%;
 	overflow-x: hidden;
 	overflow-y: auto;
 	background: #F2F3F4;
@@ -76,6 +76,12 @@ html,body {
 		font-size: 12pt;
 		color: #131516 ;
 		font-weight: 400;
+		text-shadow: 0 -1px 0 #000;
+	}
+	h2 {
+		font-size: 10pt;
+		color: #444444;
+		font-weight: 300;
 		text-shadow: 0 -1px 0 #000;
 	}
 /*
@@ -107,7 +113,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 		-moz-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 		-webkit-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 		background: #333A56;
-		color:#F2F3F4;
+		color: #F2F3F4;
 	}
 	#header .container {
 		position: relative;
@@ -135,7 +141,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 			vertical-align: bottom;
 		}
 			#nav > ul > li {
-				margin-left:0;
+				margin-left: 0;
 				float: right;
 				display: block;
 				background: inherit;
@@ -144,12 +150,12 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 				letter-spacing: 2px;
 				font-weight: 500;
 				position: relative;
-				height:55px;
+				height: 55px;
 			}
 				#nav > ul > li a {
-					display:block;
-					line-height:55px;
-					height:55px;
+					display: block;
+					line-height: 55px;
+					height: 55px;
 					color: inherit;
 					letter-spacing: 2px;
 					text-decoration: none;
@@ -161,7 +167,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 					border: none;
 					padding: 0;
 					font-family: 'raleway', sans-serif;
-					font-weight:700;
+					font-weight: 700;
 				}
 				#nav > ul > li:first-child {
 					margin-left: 0;
@@ -177,90 +183,82 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 				}
 /* Dropotron */
 	.dropotron {
-			position:relative;
-			top: 0em;
-			background: #E8E8E8;
-			font-weight: 500;
-			margin:0;
-			color:  #373D3F;
+		position: relative;
+		top: 0em;
+		background: #E8E8E8;
+		font-weight: 500;
+		margin:0;
+		color:  #373D3F;
+	}
+		.dropotron > li {
+			padding: 0em;
+			position: relative;
 		}
-			.dropotron > li {
-				padding: 0em;
-				position: relative;
+		.dropotron > li > ul > li {
+			position: relative;
+			display: block;
+		}
+			.dropotron > li > a {
+				color:  #373D3F;
+				letter-spacing: 2px;
+				text-decoration: none;
+				padding: 0 1em;
+				font-size: 1em;
+				font-weight: 500;
+				text-shadow: 0 -1px 0 #000;
 			}
-			.dropotron > li > ul> li{
-				position: relative; display:block;
+			.dropotron > li.active > a,
+			.dropotron > li:hover > a {
+				font-weight: 500;
+				background: #D6D6D6;
+				color: #333A56;
 			}
-				.dropotron > li > a {
-					color:  #373D3F;
-					letter-spacing: 2px;
-					text-decoration: none;
-					padding: 0 1em;
-					font-size:1em;
-					font-weight:500;
-					text-shadow: 0 -1px 0 #000;
-				}
-				.dropotron > li.active > a,
-				.dropotron > li:hover > a{
-					font-weight:500;
-					background:#D6D6D6;
-					color:#333A56;
-
-				}
 				/*.dropotron > li:hover > a > span{
 					color:#333A56;
 					text-shadow: 0 -1px 0 #EFD469;
 				}*/
 		.dropotron.level-0 {
-			margin-left:0;
+			margin-left: 0;
 			line-height: 2.25em;
 		}
 			.dropotron.level-1 {
 				line-height: 2.25em;
 				background: #E8E8E8;
-				display:block;
+				display: block;
 				float: right;
-				margin-top:.95em;
+				margin-top: 0.95em;
 			}
-			.dropotron.level-1 a{
+			.dropotron.level-1 a {
 				padding: 0 0.5em;
 			}
 /* Profile */
 .profile {
-	display:inline-block;
-	float:left;
+	display: inline-block;
+	float: left;
 	margin: 2em auto 2em 2.5%;
-	overflow:hidden;
+	overflow: hidden;
 }
 	.profile div {
-		text-align:left;
-		height:175px;
+		text-align: left;
+		height: 175px;
 		min-height: 175px;
 		padding: 0px;
 	}
-	/*.profile p {
-		padding: 0 0 0 0.5em;
-	}*/
 		#profilepic {
-			vertical-align:bottom;
-			float:left;
-			margin-right:0em;
-			width:155px;
+			vertical-align: bottom;
+			float: left;
+			margin-right: 0em;
+			width: 155px;
 		}
-			/*#profilepic p > a {
-				display: inline;
-				text-decoration: underline;
-				color:#107896;
-			}*/
-			#profilepic img{
-				width:155px;
-				height:175px;
-				border-radius:50%;
+			#profilepic img {
+				width: 155px;
+				height: 175px;
+				border-radius: 50%;
 			}
-				#profilepic img:hover{
-					opacity: .75;
+				#profilepic img:hover {
+					opacity: 0.75;
 					filter:alpha(opacity=75);
-			}		
+				}		
 		#profiletext {
 			display: inline-block;
 			float: left;
@@ -268,12 +266,12 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 			min-height: 175px;
 			padding: 0 0 0 0.5em;
 		}
-			#profiletext li a{
+			#profiletext li a {
 				line-height: 1.7em;
 				color: #444444;
 				transition: 0.9s;
 			}
-				#profiletext li a:hover .fa-cube{
+				#profiletext li a:hover .fa-cube {
 					color: #D13351;
 					transform: rotateX(180deg);
 				}
@@ -283,23 +281,23 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 @media only screen and (max-width: 980px) {#profiletext{float:none;margin:0.5em auto 1em auto;padding:0;}}
 
 /* Projects */
-	#footer .projectsbin{
+	#footer .projectsbin {
 		display: inline-block;
 		margin: 0 auto;
-		padding:1em 0;
+		padding: 1em 0;
 		border: 1px solid #333A56;
 		-moz-box-shadow: 0px 0px 4px #444;
 		-webkit-box-shadow: 0px 0px 4px #444;
-        	width:95%;
-		overflow:auto;
+        	width: 95%;
+		overflow: auto;
 		background: #E8E8E8
 	}
 	#projectsection {
-		display:inline-block;
-		overflow:hidden;
+		display: inline-block;
+		overflow: hidden;
 		padding: 0 0 1em 0;
 		margin: auto;
-		width:33.3%;
+		width: 33.3%;
 	}
 		#projectwrap {
 			float: left;
@@ -312,22 +310,15 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 			left: -50%;
 		}
 		.projectsbin div {
-			position:relative;
-			float:left;
-			text-align:left;
+			position: relative;
+			float: left;
+			text-align: left;
 		}
-			/*.projectsbin div li {
-				line-height: 30.6px;
-			}
-			.projectsbin div li a:hover {
-				text-decoration: underline;
-				color:  #373D3F;
-			}*/
-		.projectsbin h4{
+		.projectsbin h4 {
 			text-align:center;
 			padding-bottom:1em;
 		}
-		.projectsbin p{
+		.projectsbin p {
 			max-width: 80%;
 			margin: 0 auto;
 			padding-top: 1em;
@@ -409,17 +400,11 @@ footer > :last-child {
 	position: relative;
 	left: -50%;
 }
-		#footer h3{
-			font-weight: 400;
-			color:  #131516;
-			text-shadow: 0 -1px 0 #000;
+		#footer h1{
 			text-align: center;
 			padding:0em 0 .5em 0;
 		}
-		#footer h6{
-			text-align: left;
-			padding: 0em;
-		}
+
 @media only screen and (max-width: 980px){ #footer .contactbin{ display:block; width:auto;}}
 @media only screen and (max-width: 980px){ #footer .contactbin div{ float:none;}}
 @media only screen and (max-width: 980px){ #contactsection{ margin:0 1em;width:auto; }}
