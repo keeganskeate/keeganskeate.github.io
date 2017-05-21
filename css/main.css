@@ -231,6 +231,22 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 			.dropotron.level-1 a {
 				padding: 0 0.5em;
 			}
+/* Content */
+content > :last-child {
+	margin-bottom: 0;
+}
+#content {
+	list-style: none;
+	padding: 1em 0 0 0;
+	margin: 0 auto;
+	text-align:center;
+	}
+	#content li{
+		text-align: left;
+	}
+	#content ul{
+		padding: 0em;
+	}
 /* Profile */
 .profile {
 	display: inline-block;
@@ -281,7 +297,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 @media (max-height: 1280px) and (max-width: 980px) {#profiletext{float:none;margin:0.5em auto 1em auto;padding:0;}}
 
 /* Projects */
-	#footer .projectsbin {
+	.projectsbin {
 		display: inline-block;
 		margin: 0 auto;
 		padding: 1em 0;
@@ -339,7 +355,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 				opacity: .75;  filter:alpha(opacity=75);
 				border-color:#107896;
 			}
-@media (max-height: 1280px) and (max-width: 980px){ #footer .projectsbin{ display:block; width:auto; }}
+@media (max-height: 1280px) and (max-width: 980px){.projectsbin{ display:block; width:auto; }}
 @media (max-height: 1280px) and (max-width: 980px){ #projectsection{ display:block; width:auto; }}
 
 /* Footer */
@@ -359,7 +375,7 @@ footer > :last-child {
 		padding: 0em;
 	}
 /* Contact */
-	#footer .contactbin{
+	.contactbin{
 		display: inline-block;
 		margin: auto;
 		border: 1px solid #333A56;
