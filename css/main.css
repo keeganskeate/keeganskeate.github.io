@@ -14,6 +14,12 @@
 		Text Grey: #444444
 		Light Grey: #
 
+		Red: #D13351
+		Yellow: #
+		Green: #
+		Blue: #
+		Violet: #
+
 		Light White: #F2F3F4
 		White:#F7F5E6
 		Offwhite: #E8E8E8
@@ -266,9 +272,11 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 				line-height: 1.7em;
 				color: #444444;
 			}
-				#profiletext li a:hover{
-					color:  #1955A5;
-			}
+				#profiletext li a:hover .fa-cube{
+					color: #D13351;
+					transition: 0.9s;
+					transform: rotateY(180deg);
+				}
 @media screen and (max-width: 980px) {.profile{text-align:center;float:none;display:block;margin: 0 auto;width:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) { #profilepic{float:none;display:block;margin: 0em auto; } }
 @media (max-height:: 1280px) and (max-width: 980px) {#profilepic img{display:block;float:none;margin:0 auto;width:auto;}}
