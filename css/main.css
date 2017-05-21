@@ -1,6 +1,9 @@
 /* Fonts */
-@import url("font-awesome-4.6.3/css/font-awesome.min.css");
+/*@import url("font-awesome-4.6.3/css/font-awesome.min.css"); */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=raleway:300,400,600,700,800");
 @font-face {font-family: 'icomoon'; src:url('../fonts/icomoon.eot'); src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg#icomoon') format('svg');font-weight: normal; font-style: normal; }[data-icon]:before { font-family: 'icomoon'; content: attr(data-icon); speak: none; font-weight: normal; font-variant: normal;text-transform: none; line-height: 1;  -webkit-font-smoothing: antialiased;}
@@ -303,55 +306,70 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 
 /* Projects */
 	#footer .projectsbin{
-		display: inline-block; margin: 0 auto; padding:1em 0;
+		display: inline-block;
+		margin: 0 auto;
+		padding:1em 0;
 		border: 1px solid #333A56;
 		-moz-box-shadow: 0px 0px 4px #444;
 		-webkit-box-shadow: 0px 0px 4px #444;
         	width:95%;
 		overflow:auto;
-		background: #E8E8E8}
-
+		background: #E8E8E8
+	}
+	#projectsection {
+		display:inline-block;
+		overflow:hidden;
+		padding: 0 0 1em 0;
+		margin: auto;
+		width:33.3%;
+	}
+		#projectwrap {
+			float: left;
+			position: relative;
+			left: 50%;
+		}
+		#projectitem {
+			float: left;
+			position: relative;
+			left: -50%;
+		}
+		.projectsbin div {
+			position:relative;
+			float:left;
+			text-align:left;
+		}
+			.projectsbin div li {
+				line-height: 30.6px;
+			}
+			.projectsbin div li a:hover {
+				text-decoration: underline;
+				color:  #373D3F;
+			}
+		.projectsbin h4{
+			text-align:center;
+			padding-bottom:1em;
+		}
+		.projectsbin p{
+			max-width: 80%;
+			margin: 0 auto;
+			padding-top: 1em;
+			font-family: 'EB Garamond', serif;
+			font-size: 18px ;
+			
+		}
+		.projectsbin img{
+			display:block; margin: 0 auto;
+			max-width:95%;
+			cursor: pointer;
+			opacity: 1;  filter:alpha(opacity=100);
+			border: 1px solid #333A56;
+		}
+			.projectsbin img:hover{
+				opacity: .75;  filter:alpha(opacity=75);
+				border-color:#107896;
+			}
 @media only screen and (max-width: 980px){ #footer .projectsbin{ display:block; width:auto; }}
-
-
-.projectsbin div {position:relative;float:left;text-align:left;}
-		.projectsbin div li{line-height: 1.6em;}
-		.projectsbin div li a:hover{text-decoration: underline;color:  #373D3F;}
-
-#projectsection {display:inline-block;overflow:hidden;padding: 0 0 1em 0;margin: auto;width:33.3%;}
-#projectwrap {float: left;position: relative;left: 50%;}
-#projectitem {float: left;position: relative;left: -50%;}
-
 @media screen and (max-width: 980px){ #projectsection{ display:block; width:auto; }}
-
-.projectsbin img{
-	display:block; margin: 0 auto;
-	max-width:95%;
-	cursor: pointer;
-	opacity: 1;  filter:alpha(opacity=100);
-	border: 1px solid #333A56;
-}
-.projectsbin img:hover{
-	opacity: .75;  filter:alpha(opacity=75);
-	border-color:#107896;
-}
-
-.projectsbin h4{text-align:center;padding-bottom:1em;}
-
-.projectsbin p{max-width:80%;margin:0 auto;padding-top:1em;}
-
-	#footer .contactbin{
-		display: inline-block;margin: auto;
-		border: 1px solid #333A56;
-		-moz-box-shadow: 0px 0px 4px #444;
-		-webkit-box-shadow: 0px 0px 4px #444;
-        	width:95%;
-		overflow:auto;
-		background: #E8E8E8}
-
-@media only screen and (max-width: 980px){ #footer .contactbin{ display:block; width:auto;}}
-
-@media only screen and (max-width: 980px){ #footer .contactbin div{ float:none;}}
 
 /* Footer */
 footer > :last-child {
@@ -377,6 +395,15 @@ footer > :last-child {
 		padding: 0em;
 	}
 /* Contact */
+	#footer .contactbin{
+		display: inline-block;margin: auto;
+		border: 1px solid #333A56;
+		-moz-box-shadow: 0px 0px 4px #444;
+		-webkit-box-shadow: 0px 0px 4px #444;
+        	width:95%;
+		overflow:auto;
+		background: #E8E8E8
+	}
 .contactbin div {
 	position:relative;
 	float:left;
@@ -397,7 +424,6 @@ footer > :last-child {
 		margin: auto;
 		width:33.3%;
 	}
-@media only screen and (max-width: 980px){ #contactsection{ margin:0 1em;width:auto; }}
 #contactwrap {
 	float: left;
 	position: relative;
@@ -422,6 +448,9 @@ footer > :last-child {
 			text-align:left;
 			padding:0em;
 		}
+@media only screen and (max-width: 980px){ #footer .contactbin{ display:block; width:auto;}}
+@media only screen and (max-width: 980px){ #footer .contactbin div{ float:none;}}
+@media only screen and (max-width: 980px){ #contactsection{ margin:0 1em;width:auto; }}
 /* Copyright */
 #subfooter {
 	padding: 0em;
