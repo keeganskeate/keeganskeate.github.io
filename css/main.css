@@ -62,7 +62,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 /* Content Containers */
 .container {
 	min-width: 840px;
-  	width: 70%;
+  	width: 90%;
 	max-width: 1344px;
 }
 /* Wrappers */
