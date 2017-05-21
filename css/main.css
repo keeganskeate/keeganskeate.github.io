@@ -17,7 +17,7 @@
 		Red: #D13351
 		Yellow: #
 		Green: #
-		Blue: #
+		Blue: #03A9F4
 		Violet: #
 
 		Light White: #F2F3F4
@@ -285,11 +285,29 @@ content > :last-child {
 			#profiletext li a {
 				line-height: 1.7em;
 				color: #444444;
-				transition: 0.9s;
 			}
-				#profiletext li a:hover .fa-cube {
+			#profiletext li a .fa-cube{
+				transition: 1.5s;
+			}
+				#profiletext li a .Red:hover .fa-cube{
 					color: #D13351;
-					transform: rotateX(180deg);
+					transform: rotateY(180deg);
+				}
+				#profiletext li a .Yellow:hover .fa-cube{
+					color: #D13351;
+					transform: rotateY(180deg);
+				}
+				#profiletext li a .Green:hover .fa-cube{
+					color: #D13351;
+					transform: rotateY(180deg);
+				}
+				#profiletext li a .Blue:hover .fa-cube{
+					color: #03A9F4;
+					transform: rotateY(180deg);
+				}
+				#profiletext li a .Violet:hover .fa-cube{
+					color: #03A9F4;
+					transform: rotateY(180deg);
 				}
 @media (max-height: 1280px) and (max-width: 980px) {.profile{text-align:center;float:none;display:block;margin: 1em auto;width:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) { #profilepic{float:none;display:block;margin: 0em auto; } }
