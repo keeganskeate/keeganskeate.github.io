@@ -99,9 +99,9 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 
 /* Header */
 	#header {
-		color: #131516;
-		margin:0 auto;
 		height: 55px;
+		-moz-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
+		-webkit-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 		background: #333A56;
 		color:#F2F3F4;
 	}
