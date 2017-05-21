@@ -5,6 +5,9 @@
 @import url("https://fonts.googleapis.com/css?family=raleway:300,400,600,700,800");
 @font-face {font-family: 'icomoon'; src:url('../fonts/icomoon.eot'); src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg#icomoon') format('svg');font-weight: normal; font-style: normal; }[data-icon]:before { font-family: 'icomoon'; content: attr(data-icon); speak: none; font-weight: normal; font-variant: normal;text-transform: none; line-height: 1;  -webkit-font-smoothing: antialiased;}
 /* Theme Colors
+		Light Blue: #7397C6
+		Blue: #1955A5		
+
 		Header Black: #131516
 		Light White: #F2F3F4
 		White:#F7F5E6
@@ -82,7 +85,7 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 		.wrapper.top-style {
 			padding: 0em;
 		}
-		.wrapper.banner-style {
+		.wrapper.body-style {
 			padding: 0em;
 		}
 		.wrapper.end-style {
@@ -194,55 +197,55 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 					display: none;
 				}
 /* Dropotron */
-.dropotron {
-		position:relative;
-		top: 0em;
-		background: #E8E8E8;
-		font-weight: 500;
-		margin:0;
-		color:  #373D3F;
-	}
-		.dropotron > li {
-			padding: 0em;
-			position: relative;
-		}
-		.dropotron > li > ul> li{
-			position: relative; display:block;
-		}
-			.dropotron > li > a {
-				color:  #373D3F;
-				letter-spacing: 2px;
-				text-decoration: none;
-				padding: 0 1em;
-				font-size:1em;
-				font-weight:500;
-				text-shadow: 0 -1px 0 #000;
-			}
-			.dropotron > li.active > a,
-			.dropotron > li:hover > a{
-				font-weight:500;
-				background:#D6D6D6;
-				color:#333A56;
-				
-			}
-			/*.dropotron > li:hover > a > span{
-				color:#333A56;
-				text-shadow: 0 -1px 0 #EFD469;
-			}*/
-	.dropotron.level-0 {
-		margin-left:0;
-		line-height: 2.25em;
-	}
-		.dropotron.level-1 {
-			line-height: 2.25em;
+	.dropotron {
+			position:relative;
+			top: 0em;
 			background: #E8E8E8;
-			display:block;
-			float: right;
-			margin-top:.95em;
+			font-weight: 500;
+			margin:0;
+			color:  #373D3F;
 		}
-		.dropotron.level-1 a{
-			padding: 0 0.5em;
+			.dropotron > li {
+				padding: 0em;
+				position: relative;
+			}
+			.dropotron > li > ul> li{
+				position: relative; display:block;
+			}
+				.dropotron > li > a {
+					color:  #373D3F;
+					letter-spacing: 2px;
+					text-decoration: none;
+					padding: 0 1em;
+					font-size:1em;
+					font-weight:500;
+					text-shadow: 0 -1px 0 #000;
+				}
+				.dropotron > li.active > a,
+				.dropotron > li:hover > a{
+					font-weight:500;
+					background:#D6D6D6;
+					color:#333A56;
+
+				}
+				/*.dropotron > li:hover > a > span{
+					color:#333A56;
+					text-shadow: 0 -1px 0 #EFD469;
+				}*/
+		.dropotron.level-0 {
+			margin-left:0;
+			line-height: 2.25em;
 		}
+			.dropotron.level-1 {
+				line-height: 2.25em;
+				background: #E8E8E8;
+				display:block;
+				float: right;
+				margin-top:.95em;
+			}
+			.dropotron.level-1 a{
+				padding: 0 0.5em;
+			}
 /* Profile */
 .profile {
 	display:inline-block;
@@ -285,13 +288,13 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 			overflow: hidden;
 			min-height: 175px;
 			padding: 0 0 0 0.5em;
-			color: #444444;
 		}
 			#profiletext li{
 				line-height: 1.7em;
+				color: #444444;
 			}
 				#profiletext li a:hover{
-					color:  #7397c6;
+					color:  #1955A5;
 			}
 @media screen and (max-width: 980px) {.profile{text-align:center;float:none;display:block;margin: 0 auto;width:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) { #profilepic{float:none;display:block;margin: 0em auto; } }
@@ -351,8 +354,9 @@ h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}
 @media only screen and (max-width: 980px){ #footer .contactbin div{ float:none;}}
 
 /* Footer */
-footer > :last-child {margin-bottom: 0;}
-
+footer > :last-child {
+	margin-bottom: 0;
+}
 #footer {
 	text-shadow: 0 -1px 0 #000;
 	list-style: none;
@@ -360,15 +364,14 @@ footer > :last-child {margin-bottom: 0;}
 	margin: 0 auto;
 	text-align:center;
 	}
-
 	#footer li{
 		text-align: left;
 		color: #373D3F;
 	}
-		#footer .profiletext a:hover,
+		/*#footer .profiletext a:hover,
 		#footer .contactbin a:hover{
 			text-decoration: underline;
-		}
+		}*/
 	
 	#footer ul{
 		padding: 0em;
@@ -382,10 +385,11 @@ footer > :last-child {margin-bottom: 0;}
 }
 	.contactbin div li {
 		line-height: 1.6em;
+		color: #444444;
 	}
 		.contactbin div li a:hover {
-			text-decoration: underline;
-			color:  #373D3F;}
+			color:  #1955A5;
+		}
 	#contactsection {
 		display:inline-block;
 		overflow:hidden;
@@ -424,15 +428,12 @@ footer > :last-child {margin-bottom: 0;}
 	margin: 0 auto;
 	text-align: center;
 }
-	#subfooter img {
-		padding: 0em;
-		margin: auto;
-		display: block;
-		max-width:50%;
-	}
 	#subfooter p{
 		padding: 0em;
 		text-align:center;
-		font-size:0.8em;
+		font-size: 14px;
+		font-weight: 300;
 	}
-	#subfooter a{color:#333A56;}
+	/*#subfooter a{
+		color:#333A56;
+	}*/
