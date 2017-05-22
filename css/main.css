@@ -193,15 +193,14 @@ html, body {
 		letter-spacing: 2px;
 	}
 		.dropotron > li {
-			padding: 0 0.5em;
+			padding: 0;
 			position: relative;
-			overflow: hidden;
 		}
 		.dropotron > li > ul > li {
 			position: relative;
 			display: block;
 			overflow: hidden;
-			padding: 0 0.5em;
+			padding: 0;
 		}
 			.dropotron > li > a {
 				text-decoration: none;
