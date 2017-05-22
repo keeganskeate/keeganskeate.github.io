@@ -284,7 +284,13 @@ content > :last-child {
 					color: #D13351;
 					transform: rotateY(180deg);
 				}
-				#profiletext li a:hover:second-child .fa-cube{
+
+#profiletext li:hover:first-child a .fa-cube{ color: #D13351;}
+#profiletext li:first-child + li:hover a .fa-cube{ background-color:blue; }
+#profiletext li:first-child + li + li:hover a .fa-cube{ background-color:green; }
+#profiletext li:first-child + li + li + li:hover a .fa-cube{ background-color:yellow; }
+
+				/*#profiletext li a:hover:second-child .fa-cube{
 					color: #D13351;
 					transform: rotateY(180deg);
 				}
@@ -299,7 +305,7 @@ content > :last-child {
 				#profiletext li a:hover:fifth-child .fa-cube{
 					color: #03A9F4;
 					transform: rotateY(180deg);
-				}
+				} */
 @media (max-height: 1280px) and (max-width: 980px) {.profile{text-align:center;float:none;display:block;margin: 1.5em auto 0 auto;width:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) { #profilepic{float:none;display:block;margin: 0em auto; } }
 @media (max-height: 1280px) and (max-width: 980px) {#profilepic img{display:block;float:none;margin:0 auto;width:auto;}}
