@@ -290,24 +290,24 @@ content > :last-child {
 				font-weight: 400;
 			}
 			#profiletext li a .fa-cube{
-				-webkit-transition: -webkit-transform .8s ease-in-out;
-          			transition: transform 0.33s ease-in-out;
+				-webkit-transition: -webkit-transform .8s;
+          			transition: transform 0.33s; /*ease-in-out*/
 			}
 				#profiletext li a:hover .fa-cube:first-child{
 					color: #D13351;
-    					-webkit-transform: rotate(540deg);
-					-moz-transform: rotate(540deg);
-					-o-transform: rotate(540deg);
-					-ms-transform: rotate(540deg);
-					transform: rotate(540deg);
+    					-webkit-transform: rotate(360deg);
+					-moz-transform: rotate(360deg);
+					-o-transform: rotate(360deg);
+					-ms-transform: rotate(360deg);
+					transform: rotate(360deg);
 				}
-				#profiletext li a:hover .fa-cube:nth-child(2){
+				#profiletext li:nth-child(2) a:hover .fa-cube{
 					color: #FFBB0B;
-					-webkit-transform: rotate(540deg);
-					-moz-transform: rotate(540deg);
-					-o-transform: rotate(540deg);
-					-ms-transform: rotate(540deg);
-					transform: rotate(540deg);
+					-webkit-transform: rotate(360deg);
+					-moz-transform: rotate(360deg);
+					-o-transform: rotate(360deg);
+					-ms-transform: rotate(360deg);
+					transform: rotate(360deg);
 				}
 #profiletext li a:hover .fa-cube:nth-child(3){
 					color: #39AD48;
