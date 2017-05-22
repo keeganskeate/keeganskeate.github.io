@@ -294,7 +294,7 @@ content > :last-child {
 				-webkit-transition: -webkit-transform .8s;
           			transition: transform 0.33s; /*ease-in-out*/
 			}
-				#profiletext li:first-child a:hover .fa-cube{
+				#profiletext li:nth-child(1) a:hover .fa-cube{
 					color: #D13351;
     					-webkit-transform: rotate(360deg);
 					-moz-transform: rotate(360deg);
@@ -453,13 +453,13 @@ footer > :last-child {
 	}
 	.contactbin li{
 		line-height: 1.8em;
-		font-size: 0.95em;
+		font-size: 0.9em;
 		color: #444444;
 		font-weight: 300;
 	}
 		.contactbin div li a {
 			line-height: 1.8em;
-			font-size: 0.95em;
+			font-size: 0.9em;
 			color: #444444;
 			font-weight: 300;
 		}
