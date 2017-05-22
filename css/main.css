@@ -122,7 +122,7 @@ html, body {
 	text-align: center;
 }	
 	#nav {
-		width: 90%;
+		width: 85%;
 		position: absolute;
 		top: 0;
 		right: 0;
@@ -252,9 +252,8 @@ content > :last-child {
 		}
 /* Profile */
 .profile {
-	width: 90%;
+	width: 85%;
 	display: inline-block;
-	float: left;
 	margin: 1.5em auto 1.5em 0;
 	overflow: hidden;
 }
@@ -329,17 +328,17 @@ content > :last-child {
 @media (max-height: 1280px) and (max-width: 980px) {#profiletext{float:none;margin:0.5em auto 1em auto;padding:0;}}
 
 /* Projects */
-	.projectsbin {
-		display: inline-block;
-		margin: 0 auto;
-		padding: 1em 0;
-		border: 1px solid #333A56;
-		-moz-box-shadow: 0px 0px 4px #444;
-		-webkit-box-shadow: 0px 0px 4px #444;
-        	width: 90%;
-		overflow: auto;
-		background: #FFFFFF
-	}
+.projectsbin {
+	width: 85%;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 1em 0;
+	border: 1px solid #333A56;
+	-moz-box-shadow: 0px 0px 4px #444;
+	-webkit-box-shadow: 0px 0px 4px #444;
+	overflow: auto;
+	background: #FFFFFF
+}
 	#projectsection {
 		display: inline-block;
 		overflow: hidden;
@@ -423,16 +422,16 @@ footer > :last-child {
 		padding: 0em 0 .5em 0;
 	}
 /* Contact */
-	.contactbin{
-		width: 90%;
-		display: inline-block;
-		margin: auto;
-		border: 1px solid #333A56;
-		-moz-box-shadow: 0px 0px 4px #444;
-		-webkit-box-shadow: 0px 0px 4px #444;
-		overflow: auto;
-		background: #FFFFFF;
-	}
+.contactbin{
+	width: 85%;
+	display: inline-block;
+	margin: auto;
+	border: 1px solid #333A56;
+	-moz-box-shadow: 0px 0px 4px #444;
+	-webkit-box-shadow: 0px 0px 4px #444;
+	overflow: auto;
+	background: #FFFFFF;
+}
 	.contactbin div {
 		position: relative;
 		float: left;
