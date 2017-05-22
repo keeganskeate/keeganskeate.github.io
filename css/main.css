@@ -280,11 +280,11 @@ content > :last-child {
 			#profiletext li a .fa-cube{
 				transition: 0.9s;
 			}
-				/*#profiletext li a:hover:first-child .fa-cube{
+				#profiletext li:first-child a:hover .fa-cube{
 					color: #D13351;
 					transform: rotateY(180deg);
-				} */
-
+				}
+/*
 #profiletext li:hover:first-child a .fa-cube{ color: #D13351;}
 #profiletext li:first-child + li:hover a .fa-cube{ background-color:blue; }
 #profiletext li:first-child + li + li:hover a .fa-cube{ background-color:green; }
