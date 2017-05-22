@@ -440,7 +440,8 @@ footer > :last-child {
 		text-align: left;
 		vertical-align: top;
 	}
-	.contactbin li{
+	.contactbin li,
+	.contactbin p {
 		line-height: 1.8em;
 		font-size: 0.95em;
 		color: #444444;
