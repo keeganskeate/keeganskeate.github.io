@@ -294,7 +294,7 @@ content > :last-child {
 				-webkit-transition: -webkit-transform .8s;
           			transition: transform 0.33s; /*ease-in-out*/
 			}
-				#profiletext li a:hover .fa-cube:first-child{
+				#profiletext li:first-child a:hover .fa-cube{
 					color: #D13351;
     					-webkit-transform: rotate(360deg);
 					-moz-transform: rotate(360deg);
