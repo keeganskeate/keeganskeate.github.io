@@ -282,6 +282,8 @@ content > :last-child {
 			}
 				#profiletext li a:first-child:hover .fa-cube{
 					color: #D13351;
+					-ms-transform: rotateX(540deg);
+    					-webkit-transform: rotateX(540deg);
 					transform: rotateX(540deg);
 				}
 				#profiletext li a:nth-child(2):hover .fa-cube{
