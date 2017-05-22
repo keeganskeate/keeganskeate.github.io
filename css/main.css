@@ -17,7 +17,7 @@
 		Red: #D13351
 		Yellow: #
 		Green: #
-		Blue: #03A9F4
+		Blue: #2199E8
 		Violet: #
 
 		Light White: #F2F3F4
@@ -29,12 +29,7 @@
 		Light Purple: #813772
 		Dark Purple: #49274A
 		Golden: #EFD469
-Old Colors:
-		Teal #07889B fades to Powder #66B9BF
-		Tangerine #E37222 fades to Tan EEAA7B
-		Ochre - #C06014  fades to Peach #EDDBCD
-		Vermillion #333A56  fades to Sunshine #52658F
-		Sunset beige - #FFEBD0   Text color:  Dark yellow - #F0B500  and Light Blue - #2199E8
+		BrightBlue - #03A9F4
 
 /*Lazy Loading*/
 html.loading, body.loading * {
@@ -76,18 +71,12 @@ html, body {
 		font-size: 12pt;
 		color: #131516 ;
 		font-weight: 400;
-		text-shadow: 0 -1px 0 #000;
 	}
 	h2 {
 		font-size: 10pt;
 		color: #444444;
 		font-weight: 300;
-		text-shadow: 0 -1px 0 #000;
 	}
-/*
-h1, h2, h3, h4, h5, h6 {color: inherit;	font-weight: 500;}
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: inherit;text-decoration: none;}
-h2,h3,h6 {line-height: 1.5em;	font-size: 1.5em;}*/
 /* Content Containers */
 .container {
 	min-width: 840px;
@@ -292,23 +281,23 @@ content > :last-child {
 			#profiletext li a .fa-cube{
 				transition: 1.5s;
 			}
-				#profiletext li a .Red:hover .fa-cube{
+				#profiletext li a:hover .Red .fa-cube{
 					color: #D13351;
 					transform: rotateY(180deg);
 				}
-				#profiletext li a .Yellow:hover .fa-cube{
+				#profiletext li a:hover .Yellow .fa-cube{
 					color: #D13351;
 					transform: rotateY(180deg);
 				}
-				#profiletext li a .Green:hover .fa-cube{
+				#profiletext li a:hover .Green .fa-cube{
 					color: #D13351;
 					transform: rotateY(180deg);
 				}
-				#profiletext li a .Blue:hover .fa-cube{
+				#profiletext li a:hover .Blue .fa-cube{
 					color: #03A9F4;
 					transform: rotateY(180deg);
 				}
-				#profiletext li a .Violet:hover .fa-cube{
+				#profiletext li a:hover .Violet .fa-cube{
 					color: #03A9F4;
 					transform: rotateY(180deg);
 				}
@@ -415,11 +404,13 @@ footer > :last-child {
 		float: left;
 		text-align: left;
 		vertical-align: top;
-		font-size: 16px;
+		font-size: 15px;
 		color: #444444;
 	}
 		.contactbin div li a{
 			line-height: 2em;
+			font-size: 15px;
+			color: #444444;
 		}
 			.contactbin div li a:hover {
 				color:  #1955A5;
@@ -460,7 +451,7 @@ footer > :last-child {
 		font-weight: 200;
 	}
 	#subfooter a{
-		color: color: #999999;
+		color: #999999;
 	}
 /* Logo */
 	.homepage #logo {
