@@ -82,7 +82,7 @@ html, body {
 		text-transform: uppercase;
 		font-size: 1.0em;
 		color: #444444;
-		font-weight: 300;
+		font-weight: 400;
 	}
 /* Content Containers */
 .container {
@@ -446,13 +446,13 @@ footer > :last-child {
 		line-height: 1.8em;
 		font-size: 0.95em;
 		color: #444444;
-		font-weight: 300;
+		font-weight: 400;
 	}
 		.contactbin div li a {
 			line-height: 1.8em;
 			font-size: 0.95em;
 			color: #444444;
-			font-weight: 300;
+			font-weight: 400;
 		}
 			.contactbin div li a:hover {
 				color:  #2199E8;
