@@ -286,10 +286,11 @@ content > :last-child {
     					-webkit-transform: rotateX(540deg);
 					transform: rotateX(540deg);
 				}
-				#profiletext li a:nth-child(2):hover .fa-cube{
+				#profiletext li a:first-child + a:hover .fa-cube{
 					color: #FFBB0B;
 					transform: rotateX(540deg);
 				}
+
 /*
 #profiletext li:hover:first-child a .fa-cube{ color: #D13351;}
 #profiletext li:first-child + li:hover a .fa-cube{ background-color:blue; }
