@@ -278,17 +278,24 @@ content > :last-child {
 				color: #444444;
 			}
 			#profiletext li a .fa-cube{
-				transition: 0.9s;
+				-webkit-transition: -webkit-transform .8s ease-in-out;
+          			transition: transform 0.8s ease-in-out;
 			}
 				#profiletext li a:first-child:hover .fa-cube{
 					color: #D13351;
-					-ms-transform: rotateX(540deg);
-    					-webkit-transform: rotateX(540deg);
-					transform: rotateX(540deg);
+    					-webkit-transform: rotate(180deg);
+					-moz-transform: rotate(180deg);
+					-o-transform: rotate(180deg);
+					-ms-transform: rotate(180deg);
+					transform: rotate(180deg);
 				}
 				#profiletext li a:first-child + a:hover .fa-cube{
 					color: #FFBB0B;
-					transform: rotateX(540deg);
+					-webkit-transform: rotate(180deg);
+					-moz-transform: rotate(180deg);
+					-o-transform: rotate(180deg);
+					-ms-transform: rotate(180deg);
+					transform: rotate(180deg);
 				}
 
 /*
