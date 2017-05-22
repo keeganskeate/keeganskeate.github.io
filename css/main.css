@@ -280,9 +280,9 @@ content > :last-child {
 			}
 			#profiletext li a .fa-cube{
 				-webkit-transition: -webkit-transform .8s ease-in-out;
-          			transition: transform 0.8s ease-in-out;
+          			transition: transform 0.33s ease-in-out;
 			}
-				#profiletext li a:first-child:hover .fa-cube{
+				#profiletext li a:hover .fa-cube:first-child{
 					color: #D13351;
     					-webkit-transform: rotate(540deg);
 					-moz-transform: rotate(540deg);
@@ -290,7 +290,7 @@ content > :last-child {
 					-ms-transform: rotate(540deg);
 					transform: rotate(540deg);
 				}
-				#profiletext li a:nth-child(2):hover .fa-cube{
+				#profiletext li a:hover .fa-cube:nth-child(2){
 					color: #FFBB0B;
 					-webkit-transform: rotate(540deg);
 					-moz-transform: rotate(540deg);
@@ -298,29 +298,36 @@ content > :last-child {
 					-ms-transform: rotate(540deg);
 					transform: rotate(540deg);
 				}
-
+#profiletext li a:hover .fa-cube:nth-child(3){
+					color: #39AD48;
+					-webkit-transform: rotate(540deg);
+					-moz-transform: rotate(540deg);
+					-o-transform: rotate(540deg);
+					-ms-transform: rotate(540deg);
+					transform: rotate(540deg);
+				}
+#profiletext li a:hover .fa-cube:nth-child(4){
+					color: #2199E8;
+					-webkit-transform: rotate(540deg);
+					-moz-transform: rotate(540deg);
+					-o-transform: rotate(540deg);
+					-ms-transform: rotate(540deg);
+					transform: rotate(540deg);
+				}
+#profiletext li a:hover .fa-cube:nth-child(5){
+					color: #6A3d9A;
+					-webkit-transform: rotate(540deg);
+					-moz-transform: rotate(540deg);
+					-o-transform: rotate(540deg);
+					-ms-transform: rotate(540deg);
+					transform: rotate(540deg);
+				}
 /*
 #profiletext li:hover:first-child a .fa-cube{ color: #D13351;}
 #profiletext li:first-child + li:hover a .fa-cube{ background-color:blue; }
 #profiletext li:first-child + li + li:hover a .fa-cube{ background-color:green; }
 #profiletext li:first-child + li + li + li:hover a .fa-cube{ background-color:yellow; }
-
-				/*#profiletext li a:hover:second-child .fa-cube{
-					color: #D13351;
-					transform: rotateY(180deg);
-				}
-				#profiletext li a:hover:third-child .fa-cube{
-					color: #D13351;
-					transform: rotateY(180deg);
-				}
-				#profiletext li a:hover:fourth-child .fa-cube{
-					color: #03A9F4;
-					transform: rotateY(180deg);
-				}
-				#profiletext li a:hover:fifth-child .fa-cube{
-					color: #03A9F4;
-					transform: rotateY(180deg);
-				} */
+ */
 @media (max-height: 1280px) and (max-width: 980px) {.profile{text-align:center;float:none;display:block;margin: 1.5em auto 0 auto;width:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) { #profilepic{float:none;display:block;margin: 0em auto; } }
 @media (max-height: 1280px) and (max-width: 980px) {#profilepic img{display:block;float:none;margin:0 auto;width:auto;}}
@@ -369,9 +376,9 @@ content > :last-child {
 			margin: 0 auto;
 			padding-top: 1em;
 			font-family: 'EB Garamond', serif;
-			font-weight: 300;
+			font-weight: 400;
 			color: #444444;
-			font-size: 16px ;
+			font-size: 18px;
 			line-height: 30.6px;
 		}
 		.projectsbin img{
@@ -383,7 +390,7 @@ content > :last-child {
 		}
 			.projectsbin img:hover{
 				opacity: .75;  filter:alpha(opacity=75);
-				border-color:#107896;
+				border-color: #2199E8;
 			}
 @media (max-height: 1280px) and (max-width: 980px){.projectsbin{ display:block; width:auto; }}
 @media (max-height: 1280px) and (max-width: 980px){ #projectsection{ display:block; width:auto; }}
