@@ -159,10 +159,10 @@ html, body {
 					font-weight: 500;
 					padding: 0 1em 0 1em;
 				}
-				#nav > ul > li a:first-child {
+				#nav > ul > li:first-child a {
 					padding 0em;
 				}
-				#nav > ul > li a:last-child {
+				#nav > ul > li:last-child a {
 					padding 0 0em 0 1em;
 				}
 				#nav ul li:first-child {
