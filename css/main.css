@@ -280,23 +280,23 @@ content > :last-child {
 			#profiletext li a .fa-cube{
 				transition: 1.5s;
 			}
-				#profiletext li a:hover .Red .fa-cube{
+				#profiletext li a:hover:first-child .fa-cube{
 					color: #D13351;
 					transform: rotateY(180deg);
 				}
-				#profiletext li a:hover .Yellow .fa-cube{
+				#profiletext li a:hover:second-child .fa-cube{
 					color: #D13351;
 					transform: rotateY(180deg);
 				}
-				#profiletext li a:hover .Green .fa-cube{
+				#profiletext li a:hover:third-child .fa-cube{
 					color: #D13351;
 					transform: rotateY(180deg);
 				}
-				#profiletext li a:hover .Blue .fa-cube{
+				#profiletext li a:hover:fourth-child .fa-cube{
 					color: #03A9F4;
 					transform: rotateY(180deg);
 				}
-				#profiletext li a:hover .Violet .fa-cube{
+				#profiletext li a:hover:fifth-child .fa-cube{
 					color: #03A9F4;
 					transform: rotateY(180deg);
 				}
