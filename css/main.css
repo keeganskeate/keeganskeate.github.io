@@ -78,6 +78,7 @@ html, body {
 	}
 	h2 {
 		font-family: 'Oranienbaum', serif;
+		text-transform: uppercase;
 		font-size: 1.1em;
 		color: #444444;
 		font-weight: 300;
@@ -143,7 +144,7 @@ html, body {
 				background: inherit;
 				text-decoration: none;
 				font-family: 'Lato', sans-serif;
-				font-size: 13px;
+				font-size: 1.0em;
 				letter-spacing: 1px;
 				font-weight: 500;
 			}
@@ -162,6 +163,7 @@ html, body {
 					border: none;
 					padding: 0;
 					font-family: 'Oranienbaum', serif;
+					font-size: 1.8em;
 					font-weight: 700;
 				}
 				#nav > ul > li:first-child {
@@ -180,10 +182,13 @@ html, body {
 	.dropotron {
 		position: relative;
 		top: 0em;
+		margin: 0;
 		background: #E8E8E8;
 		font-weight: 500;
-		margin:0;
 		color:  #373D3F;
+		font-family: 'Lato', sans-serif;
+		font-size: 1.0em;
+		letter-spacing: 1px;
 	}
 		.dropotron > li {
 			padding: 0em;
@@ -194,17 +199,11 @@ html, body {
 			display: block;
 		}
 			.dropotron > li > a {
-				color:  #373D3F;
-				letter-spacing: 2px;
 				text-decoration: none;
 				padding: 0 1em;
-				font-size: 1em;
-				font-weight: 500;
-				text-shadow: 0 -1px 0 #000;
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
-				font-weight: 500;
 				background: #D6D6D6;
 				color: #333A56;
 			}
@@ -217,8 +216,6 @@ html, body {
 			line-height: 2.25em;
 		}
 			.dropotron.level-1 {
-				line-height: 2.25em;
-				background: #E8E8E8;
 				display: block;
 				float: right;
 				margin-top: 0.95em;
@@ -371,6 +368,9 @@ content > :last-child {
 			float: left;
 			text-align: left;
 		}
+		.projectsbin h1 {
+			padding-bottom: 1em;
+		}
 		.projectsbin h2 {
 			text-align: center;
 			padding-bottom: 1em;
@@ -492,7 +492,7 @@ footer > :last-child {
 		padding: 0em;
 		text-align: center;
 		line-height: 1.6em;
-		font-size: 10px;
+		font-size: 0.8em;
 		font-weight: 300;
 	}
 	#subfooter a {
