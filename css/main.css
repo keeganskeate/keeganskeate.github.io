@@ -378,13 +378,11 @@ content > :last-child {
 		.projectsbin h1 {
 			padding-bottom: 1em;
 		}
-		.projectsbin h2 {
+		.projectsbin h2 a {
 			text-align: center;
 			padding-bottom: 1em;
+			color: #999999;
 		}
-			.projectsbin h2:hover {
-				color: #2199E8;
-			}
 		.projectsbin p {
 			max-width: 80%;
 			margin: 0 auto;
