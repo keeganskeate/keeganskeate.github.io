@@ -182,8 +182,7 @@ html, body {
 	.dropotron {
 		position: relative;
 		top: 0em;
-		margin: 0;
-		margin-left: 2em;
+		margin: 0 0 0 2em;
 		background: #FFFFFF;
 		font-weight: 500;
 		font-family: 'Lato', sans-serif;
