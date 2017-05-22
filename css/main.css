@@ -13,8 +13,7 @@
 		Light Blue: #7397C6
 		Blue: #2199E8 > #1955A5 > #03A9F4
 		Header Black: #131516
-		Text Grey: #444444
-		Light Grey: #999999
+		Text Grey: #444444 or  #999999 or #CCCCCC or #E2E2E2
 		Offwhite: #F7F7F7 or #F6F7F8
 		White: #FFFFFF
 
@@ -82,7 +81,7 @@ html, body {
 		text-transform: uppercase;
 		font-size: 1.0em;
 		color: #444444;
-		font-weight: 500;
+		font-weight: 600;
 	}
 /* Content Containers */
 .container {
@@ -108,8 +107,12 @@ html, body {
 		height: 55px;
 		-moz-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 		-webkit-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
-		background: #333A56;
 		color: #FFFFFF;
+		background: #333A56;
+		background: -webkit-linear-gradient(-90deg, #333A56, #022132);
+		background: -o-linear-gradient(-90deg, #333A56, #022132);
+		background: -moz-linear-gradient(-90deg, #333A56, #022132);
+		background: linear-gradient(-90deg, #333A56, #022132);
 	}
 	#header .container {
 		position: relative;
