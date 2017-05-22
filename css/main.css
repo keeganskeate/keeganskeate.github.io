@@ -265,8 +265,12 @@ content > :last-child {
 		min-height: 175px;
 		padding: 0px;
 	}
+	.profile h1{
+		padding-bottom: 0.5em;
+	}
 		#profilepic {
-			vertical-align: bottom;
+			vertical-align: 
+				;
 			float: left;
 			margin-right: 0em;
 			width: 155px;
