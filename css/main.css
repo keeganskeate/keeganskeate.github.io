@@ -149,24 +149,17 @@ html, body {
 				font-size: 1.0em;
 				letter-spacing: 2px;
 				font-weight: 500;
-				padding: 0 0.5em 0 0.5em;
+				padding: 0 1em 0 1em;
 			}
-				#nav > ul > li a {
-					display: block;
-					line-height: 55px;
-					height: 55px;
-					color: inherit;
-					text-decoration: none;
-				}
 				#nav ul li:last-child{
-					padding 0 0 0 0.5em;
+					padding 0 0 0 1em;
 				}
 				#nav ul li:first-child {
 					float: left;
 					border: none;
 					padding: 0;
 					font-family: 'Arimo', sans-serif;
-					font-size: 1.8em;
+					font-size: 1.5em;
 					font-weight: 700;
 				}
 				#nav > ul > li:first-child {
@@ -177,7 +170,14 @@ html, body {
 				#nav > ul > li.active,
 				#nav ul > li:hover {
 					color: #EFD469;
-				}				
+				}
+					#nav > ul > li a {
+						display: block;
+						line-height: 55px;
+						height: 55px;
+						color: inherit;
+						text-decoration: none;
+					}
 				#nav > ul > li > ul {
 					display: none;
 				}
@@ -204,6 +204,7 @@ html, body {
 		.dropotron > li > ul > li {
 			position: relative;
 			display: block;
+			overflow: hidden;
 		}
 			.dropotron > li > a {
 				text-decoration: none;
@@ -221,7 +222,6 @@ html, body {
 		.dropotron.level-0 {
 			margin-left: 0;
 			line-height: 2.0em;
-			overflow: hidden;
 		}
 			.dropotron.level-1 {
 				display: block;
