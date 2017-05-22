@@ -17,10 +17,10 @@
 		White: #FFFFFF
 
 		Red: #D13351
-		Yellow: #
-		Green: #
+		Yellow: #FFBB0B
+		Green: #39ad48
 		Blue: #2199E8
-		Violet: #
+		Violet: #6a3d9a
 
 		Light White: #F2F3F4
 		White:#F7F5E6
@@ -280,7 +280,7 @@ content > :last-child {
 			#profiletext li a .fa-cube{
 				transition: 0.9s;
 			}
-				#profiletext li:first-child a:hover .fa-cube{
+				#profiletext li a:first-child:hover .fa-cube{
 					color: #D13351;
 					transform: rotateY(180deg);
 				}
