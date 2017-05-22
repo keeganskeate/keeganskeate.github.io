@@ -2,6 +2,7 @@
 /*@import url("font-awesome-4.6.3/css/font-awesome.min.css"); */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Oranienbaum:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800");
@@ -70,14 +71,16 @@ html, body {
 		font-style: italic;
 	}
 	h1 {
-		font-size: 12pt;
+		font-family: 'Oswald', serif;
+		font-size: 1.2em;
 		color: #131516 ;
-		font-weight: 500;
+		font-weight: 300;
 	}
 	h2 {
-		font-size: 11pt;
+		font-family: 'Oranienbaum', serif;
+		font-size: 1.1em;
 		color: #444444;
-		font-weight: 400;
+		font-weight: 300;
 	}
 /* Content Containers */
 .container {
@@ -158,7 +161,7 @@ html, body {
 					float: left;
 					border: none;
 					padding: 0;
-					font-family: 'raleway', sans-serif;
+					font-family: 'Oranienbaum', serif;
 					font-weight: 700;
 				}
 				#nav > ul > li:first-child {
@@ -372,6 +375,9 @@ content > :last-child {
 			text-align: center;
 			padding-bottom: 1em;
 		}
+			.projectsbin h2:hover {
+				color: #2199E8;
+			}
 		.projectsbin p {
 			max-width: 80%;
 			margin: 0 auto;
@@ -381,6 +387,12 @@ content > :last-child {
 			color: #444444;
 			font-size: 18px;
 			line-height: 30.6px;
+		}
+		.projectsbin a {
+			color: #2199E8;
+		}
+		.projectsbin a:hover {
+			color: #ff23a2;
 		}
 		.projectsbin img{
 			display:block; margin: 0 auto;
@@ -433,13 +445,18 @@ footer > :last-child {
 		text-align: left;
 		vertical-align: top;
 	}
-		.contactbin div li p,
-		.contactbin div li a {
+	.contactbin li{
+		line-height: 2em;
+		font-size: 15px;
+		color: #444444;
+		font-weight: 300;
+	}
+		/*.contactbin div li a {
 			line-height: 2em;
 			font-size: 15px;
 			color: #444444;
 			font-weight: 300;
-		}
+		}*/
 			.contactbin div li a:hover {
 				color:  #2199E8;
 			}
