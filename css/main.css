@@ -283,19 +283,19 @@ content > :last-child {
 			}
 				#profiletext li a:first-child:hover .fa-cube{
 					color: #D13351;
-    					-webkit-transform: rotate(180deg);
-					-moz-transform: rotate(180deg);
-					-o-transform: rotate(180deg);
-					-ms-transform: rotate(180deg);
-					transform: rotate(180deg);
+    					-webkit-transform: rotate(540deg);
+					-moz-transform: rotate(540deg);
+					-o-transform: rotate(540deg);
+					-ms-transform: rotate(540deg);
+					transform: rotate(540deg);
 				}
-				#profiletext li a:first-child + a:hover .fa-cube{
+				#profiletext li a:nth-child(2):hover .fa-cube{
 					color: #FFBB0B;
-					-webkit-transform: rotate(180deg);
-					-moz-transform: rotate(180deg);
-					-o-transform: rotate(180deg);
-					-ms-transform: rotate(180deg);
-					transform: rotate(180deg);
+					-webkit-transform: rotate(540deg);
+					-moz-transform: rotate(540deg);
+					-o-transform: rotate(540deg);
+					-ms-transform: rotate(540deg);
+					transform: rotate(540deg);
 				}
 
 /*
