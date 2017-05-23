@@ -172,10 +172,6 @@ html, body {
 					position: relative;
 					line-height: 2em;
 				}
-				/*#nav > ul > li.active,
-				#nav ul > li:hover {
-					color: #EFD469;
-				} */
 					#nav > ul > li a {
 						display: block;
 						line-height: 55px;
@@ -191,7 +187,7 @@ html, body {
 						#nav > ul > li.active > a > span,
 						#nav > ul > li:hover > a > span{
 							color: #FFBB0B;
-							text-shadow: 0 -1px 0 #EFD469;
+							/*text-shadow: 0 -1px 0 #EFD469;*/
 						}
 /* Dropotron */
 .dropotron {
