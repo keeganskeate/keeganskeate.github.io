@@ -165,20 +165,32 @@ html, body {
 				}
 				#nav > ul > li:first-child {
 					margin-left: 0;
+					border: none;
 					position: relative;
 					line-height: 2em;
 				}
-				#nav > ul > li.active,
+				/*#nav > ul > li.active,
 				#nav ul > li:hover {
 					color: #EFD469;
-				}
+				} */
+
 					#nav > ul > li a {
 						display: block;
 						line-height: 55px;
 						height: 55px;
 						color: inherit;
 						text-decoration: none;
+						border-bottom: 2px solid inherit;
 					}
+					#nav > ul > li:first-child.active > a,
+					#nav > ul > li:first-child:hover > a {
+						border-bottom: 2px solid #fff;
+					}
+					#nav > ul > li:active > a,
+					#nav > ul > li:hover > a{
+						border-bottom: 2px solid #D70026;
+					}
+
 				#nav > ul > li > ul {
 					display: none;
 				}
