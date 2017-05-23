@@ -184,13 +184,13 @@ html, body {
 					#nav > ul > li:first-child:hover > a {
 						opacity: 1.0; 
 					}
-					#nav > ul > li.active > a,
-					#nav > ul > li:hover > a {
-						background-color: rgba(0, 0, 0, 0.5); 
+					#nav > ul > li.active,
+					#nav > ul > li:hover {
+						background-color: rgba(246, 247, 248, 0.75); 
 					}
 						#nav > ul > li.active > a > span,
 						#nav > ul > li:hover > a > span{
-							color: #FFBB0B;
+							color: #ff23a2;
 							/*text-shadow: 0 -1px 0 #EFD469;*/
 						}
 /* Dropotron */
