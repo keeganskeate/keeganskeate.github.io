@@ -191,7 +191,6 @@ html, body {
 						#nav > ul > li.active > a > span,
 						#nav > ul > li:hover > a > span{
 							color: #ff23a2;
-							text-shadow: 0 -1px 0 #EFD469;
 						}
 /* Dropotron */
 .dropotron {
@@ -248,7 +247,7 @@ html, body {
 						}
 						.dropotron > li:hover > a > span{
 							color: #ff23a2;
-							text-shadow: 0 -1px 0 #EFD469;
+							/*text-shadow: 0 -1px 0 #EFD469;*/
 						}
 /* Content */
 content > :last-child {
@@ -270,7 +269,7 @@ content > :last-child {
 .profile {
 	width: 85%;
 	display: inline-block;
-	margin: 1.5em 0 1.5em 7.5%;
+	margin: 1.5em 0 1em 7.5%;
 	overflow: hidden;
 }
 	.profile div {
