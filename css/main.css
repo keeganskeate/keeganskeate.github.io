@@ -184,11 +184,11 @@ html, body {
 					}
 					#nav > ul > li:first-child.active > a,
 					#nav > ul > li:first-child:hover > a {
-						border-bottom: 2px solid #fff;
+						border-bottom: 5px solid #FFFFFF;
 					}
 					#nav > ul > li:active > a,
 					#nav > ul > li:hover > a{
-						border-bottom: 2px solid #D70026;
+						color: #ff23a2;
 					}
 
 				#nav > ul > li > ul {
@@ -317,11 +317,11 @@ content > :last-child {
           			transition: transform 0.33s; /*ease-in-out*/
 			}
 				#profiletext li a:hover .fa-cube{
-    					-webkit-transform: rotate(360deg);
-					-moz-transform: rotate(360deg);
-					-o-transform: rotate(360deg);
-					-ms-transform: rotate(360deg);
-					transform: rotate(360deg);
+    					-webkit-transform: rotateZ(360deg);
+					-moz-transform: rotateZ(360deg);
+					-o-transform: rotateZ(360deg);
+					-ms-transform: rotateZ(360deg);
+					transform: rotateZ(360deg);
 				}
 				#profiletext li:nth-child(2) a:hover .fa-cube{
 					color: #D13351;
