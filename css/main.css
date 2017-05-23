@@ -231,6 +231,7 @@ html, body {
 			margin-left: 2em;
 			line-height: 2.0em;
 			border: 1px solid #333A56;
+			border-top: none !important;
 			-moz-box-shadow: 0px 0px 4px #444;
 			-webkit-box-shadow: 0px 0px 4px #444;
 			-moz-border-radius: 0 0 5px 5px;
@@ -256,9 +257,9 @@ content > :last-child {
 }
 	#content {
 		list-style: none;
-		padding: 1em 0 0 0;
+		padding: 0;
 		margin: 0 auto;
-		text-align:center;
+		text-align: center;
 	}
 		#content li{
 			text-align: left;
