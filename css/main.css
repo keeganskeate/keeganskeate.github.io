@@ -298,10 +298,21 @@ content > :last-child {
 			display: inline-block;
 			float: left;
 			overflow: hidden;
+			max-width: 33%;
 			min-height: 175px;
 			padding: 0 1em 0 0.5em;
 			border-right: 1px solid #cccccc;
 		}
+			#profiletext p{
+				max-width: 80%;
+				margin: 0 auto;
+				padding-top: 1em;
+				font-family: 'EB Garamond', serif;
+				font-weight: 400;
+				color: #444444;
+				font-size: 18px;
+				line-height: 30.6px;
+			}
 			#profiletext li a {
 				line-height: 1.8em;
 				font-size: 0.9em;
