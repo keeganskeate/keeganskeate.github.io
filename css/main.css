@@ -5,7 +5,6 @@
 @import url("https://fonts.googleapis.com/css?family=Oranienbaum:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700,800");
-@import url("https://fonts.googleapis.com/css?family=Catamaran:300,400,600,700,800");
 /*
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=raleway:300,400,600,700,800");*/
@@ -164,7 +163,6 @@ html, body {
 					float: left;
 					border: none;
 					padding: 0;
-					font-family: 'Catamaran', sans-serif;
 					font-size: 1.4em;
 					font-weight: 500;
 				}
@@ -529,21 +527,22 @@ footer > :last-child {
 /* Underline */
 .cmn-t-underline {
   position: relative;
-  color: #ff3296;
+  color: #FFBB0B;
 }
 .cmn-t-underline:after {
   display: block;
   position: absolute;
   left: 0;
-  bottom: -10px;
+  bottom: 0px;
   width: 0;
-  height: 10px;
-  background-color: #98004a;
+  height: 3px;
+  background-color: #FFBB0B;
   content: "";
-  transition: width 0.2s;
+  -webkit-transition: 0.33s;
+  transition: width 0.33s;
 }
 .cmn-t-underline:hover {
-  color: #98004a;
+  color: #FFBB0B;
 }
 .cmn-t-underline:hover:after {
   width: 100%;
