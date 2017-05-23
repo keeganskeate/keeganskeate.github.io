@@ -104,7 +104,7 @@ html, body {
 	}
 /* Header */
 #header {
-	height: 50px;
+	height: 55px;
 	-moz-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 	-webkit-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 	color: #FFFFFF;
@@ -147,7 +147,7 @@ html, body {
 		}
 			#nav > ul > li {
 				position: relative;
-				height: 50px;
+				height: 55px;
 				margin-left: 0;
 				float: right;
 				display: block;
@@ -174,8 +174,8 @@ html, body {
 				}
 					#nav > ul > li a {
 						display: block;
-						line-height: 50px;
-						height: 50px;
+						line-height: 55px;
+						height: 55px;
 						color: inherit;
 						text-decoration: none;
 					}
@@ -189,7 +189,7 @@ html, body {
 					} */
 						#nav > ul > li.active > a > span,
 						#nav > ul > li:hover > a > span{
-							color: #F6F7F8;
+							color: #EFD469;
 							/*text-shadow: 0 -1px 0 #EFD469;*/
 						}
 /* Dropotron */
@@ -526,7 +526,7 @@ footer > :last-child {
 /* Underline */
 .slide-underline {
 	position: relative;
-	color: #FFBB0B;
+	color: #EFD469;
 }
 	.slide-underline:after {
 		display: block;
@@ -535,13 +535,13 @@ footer > :last-child {
 		bottom: 0px;
 		width: 0;
 		height: 4px;
-		background-color: #FFBB0B;
+		background-color: #EFD469;
 		content: "";
 		-webkit-transition: 0.33s;
 		transition: width 0.33s;
 	}
 	.slide-underline:hover {
-		color: #FFBB0B;
+		color: #EFD469;
 	}
 	.slide-underline:hover:after {
 		width: 100%;
