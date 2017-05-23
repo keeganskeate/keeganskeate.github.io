@@ -188,7 +188,7 @@ html, body {
 					}
 					#nav > ul > li:active > a,
 					#nav > ul > li:hover > a{
-						color: #ff23a2;
+						border-bottom: 5px solid #FFFFFF;
 					}
 
 				#nav > ul > li > ul {
