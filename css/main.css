@@ -180,10 +180,14 @@ html, body {
 						text-decoration: none;
 						border-bottom: 2px solid inherit;
 					}
-					/*#nav > ul > li:first-child.active > a,
+					#nav > ul > li:first-child.active > a,
 					#nav > ul > li:first-child:hover > a {
-						border-bottom: 4px solid #FFFFFF;
-					}*/
+						opacity: 1.0; 
+					}
+					#nav > ul > li.active > a,
+					#nav > ul > li:hover > a {
+						opacity: 0.6; 
+					}
 						#nav > ul > li.active > a > span,
 						#nav > ul > li:hover > a > span{
 							color: #FFBB0B;
@@ -244,7 +248,7 @@ html, body {
 						}
 						.dropotron > li:hover > a > span{
 							color: #ff23a2;
-							text-shadow: 0 -1px 0 #EFD469;
+							/*text-shadow: 0 -1px 0 #EFD469;*/
 						}
 /* Content */
 content > :last-child {
