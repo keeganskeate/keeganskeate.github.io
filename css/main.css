@@ -176,17 +176,9 @@ html, body {
 						display: block;
 						line-height: 55px;
 						height: 55px;
-						color: inherit;
+						color: #ffffff;
 						text-decoration: none;
 					}
-					/*#nav > ul > li:first-child.active > a,
-					#nav > ul > li:first-child:hover > a {
-						opacity: 1.0; 
-					}
-					#nav > ul > li.active,
-					#nav > ul > li:hover {
-						background-color: rgba(246, 247, 248, 0.75); 
-					} */
 						#nav > ul > li.active > a > span,
 						#nav > ul > li:hover > a > span{
 							color: #EFD469;
@@ -300,9 +292,8 @@ content > :last-child {
 			float: left;
 			overflow: hidden;
 			min-height: 175px;
-			padding: 0 0 0 0.5em;
-			margin-right: 1em;
-			border-right: 1px solid #e2e2e2;
+			padding: 0 1em 0 0.5em;
+			border-right: 1px solid #cccccc;
 		}
 			#profiletext li a {
 				line-height: 1.8em;
