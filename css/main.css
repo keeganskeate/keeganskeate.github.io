@@ -301,6 +301,8 @@ content > :last-child {
 			overflow: hidden;
 			min-height: 175px;
 			padding: 0 0 0 0.5em;
+			margin-right: 1em;
+			border-right: 1px solid #e2e2e2;
 		}
 			#profiletext li a {
 				line-height: 1.8em;
