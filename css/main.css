@@ -54,7 +54,10 @@ html, body {
 	width: 100%;
 	overflow-x: hidden;
 	overflow-y: auto;
-	background: #F6F7F8;
+	/*background: #F6F7F8;*/
+	background: #F6F7F8 url(/images/BannerBackground.png) top right no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
 	color: #131516;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
@@ -97,9 +100,6 @@ html, body {
 		padding: 0;
 	}
 	.wrapper.banner-style {
-		background: url(/images/BannerBackground.png) top right no-repeat;
-		background-size: 100% 100%;
-		background-attachment: fixed;
 		padding: 0;
 	}
 	.wrapper.body-style {
