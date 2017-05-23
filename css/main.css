@@ -97,7 +97,7 @@ html, body {
 		padding: 0em;
 	}
 	.wrapper.banner-style {
-		background: url(/images/BannerBackground.jpg) no-repeat;
+		background: url(/images/BannerBackground.svg) no-repeat;
 		background-size: 100% 100%;
 		background-attachment:fixed;
 		padding: 0em;
