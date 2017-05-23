@@ -191,7 +191,8 @@ html, body {
 					}
 						#nav > ul > li.active > a > span,
 						#nav > ul > li:hover > a > span{
-							color: #ff23a2;
+							color: #D13351;
+							text-shadow: 0 -1px 0 #EFD469;
 						}
 /* Dropotron */
 .dropotron {
@@ -247,8 +248,8 @@ html, body {
 							background: #F6F7F8;
 						}
 						.dropotron > li:hover > a > span{
-							color: #ff23a2;
-							/*text-shadow: 0 -1px 0 #EFD469;*/
+							color: #2199E8;
+							text-shadow: 0 -1px 0 #EFD469;
 						}
 /* Content */
 content > :last-child {
