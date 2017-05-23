@@ -104,7 +104,7 @@ html, body {
 	}
 /* Header */
 #header {
-	height: 60px;
+	height: 50px;
 	-moz-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 	-webkit-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 	color: #FFFFFF;
@@ -147,7 +147,7 @@ html, body {
 		}
 			#nav > ul > li {
 				position: relative;
-				height: 60px;
+				height: 50px;
 				margin-left: 0;
 				float: right;
 				display: block;
@@ -174,23 +174,22 @@ html, body {
 				}
 					#nav > ul > li a {
 						display: block;
-						line-height: 60px;
-						height: 60px;
+						line-height: 50px;
+						height: 50px;
 						color: inherit;
 						text-decoration: none;
-						border-bottom: 2px solid inherit;
 					}
-					#nav > ul > li:first-child.active > a,
+					/*#nav > ul > li:first-child.active > a,
 					#nav > ul > li:first-child:hover > a {
 						opacity: 1.0; 
 					}
 					#nav > ul > li.active,
 					#nav > ul > li:hover {
 						background-color: rgba(246, 247, 248, 0.75); 
-					}
+					} */
 						#nav > ul > li.active > a > span,
 						#nav > ul > li:hover > a > span{
-							color: #ff23a2;
+							color: #F6F7F8;
 							/*text-shadow: 0 -1px 0 #EFD469;*/
 						}
 /* Dropotron */
