@@ -303,12 +303,19 @@ content > :last-child {
 			#profiletext p{
 				/*max-width: 80%;
 				margin: 0 auto;*/
+				padding-bottom: 0.5em;
 				font-family: 'EB Garamond', serif;
 				font-weight: 400;
 				color: #444444;
 				font-size: 1.0em;
 				line-height: 1.1em;
 			}
+			.projectsbin p > a {
+				color: #2199E8;
+			}
+				.projectsbin p > a:hover {
+					color: #ff23a2;
+				}
 			#profiletext li a {
 				line-height: 1.8em;
 				font-size: 0.9em;
