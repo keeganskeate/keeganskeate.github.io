@@ -297,7 +297,7 @@ content > :last-child {
 			display: inline-block;
 			float: left;
 			overflow: hidden;
-			max-width: 60%;
+			max-width: 55%;
 			/*min-height: 175px;*/
 			padding: 0 1em;
 			border-right: 1px solid #cccccc;
