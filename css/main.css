@@ -51,12 +51,11 @@ html.loading, body.loading * {
 html, body {
 	margin: 0;
 	padding: 0;
-	width: 100%;
 	overflow-x: hidden;
 	overflow-y: auto;
-	/*background: #F6F7F8;*/
+	width: 100%;
 	background: #F6F7F8 url(/images/BannerBackground.png) top right no-repeat;
-	background-size: 100% 100%;
+	/*background-size: 100% 100%;*/
 	background-attachment: fixed;
 	color: #131516;
 	font-family: 'Open Sans', sans-serif;
@@ -298,7 +297,7 @@ content > :last-child {
 			display: inline-block;
 			float: left;
 			overflow: hidden;
-			max-width: 50%;
+			max-width: 40%;
 			min-height: 175px;
 			padding: 0 1.5em 0 0.5em;
 			border-right: 1px solid #cccccc;
@@ -309,8 +308,8 @@ content > :last-child {
 				font-family: 'EB Garamond', serif;
 				font-weight: 400;
 				color: #444444;
-				font-size: 0.9em;
-				line-height: 1em;
+				font-size: 1.0em;
+				line-height: 1.1em;
 			}
 			#profiletext li a {
 				line-height: 1.8em;
