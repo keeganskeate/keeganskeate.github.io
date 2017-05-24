@@ -184,12 +184,12 @@ html, body {
 						display: block;
 						line-height: 55px;
 						height: 55px;
-						color: #ffffff;
+						color: #cccccc;
 						text-decoration: none;
 					}
-						#nav > ul > li.active > a > span,
-						#nav > ul > li:hover > a > span{
-							color: #EFD469;
+						#nav > ul > li.active > a,
+						#nav > ul > li:hover > a {
+							color: #ffffff;
 							/*text-shadow: 0 -1px 0 #EFD469;*/
 						}
 /* Dropotron */
