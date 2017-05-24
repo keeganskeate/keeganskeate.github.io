@@ -54,6 +54,7 @@ html, body {
 	overflow-x: hidden;
 	overflow-y: auto;
 	width: 100%;
+	height: auto;
 	background: #F6F7F8 url(/images/BannerBackground.png) top right no-repeat;
 	/*background-size: 100% 100%;*/
 	background-attachment: fixed;
