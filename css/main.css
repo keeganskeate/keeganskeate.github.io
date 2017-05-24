@@ -297,11 +297,15 @@ content > :last-child {
 			display: inline-block;
 			float: left;
 			overflow: hidden;
-			max-width: 40%;
+			max-width: 50%;
 			/*min-height: 175px;*/
 			padding: 0 1em;
 			border-right: 1px solid #cccccc;
 		}
+			#profiletext:last-child {
+				padding: 0 0 0 1em;
+				border-right: none;
+			}
 			#profiletext p{
 				/*max-width: 80%;
 				margin: 0 auto;*/
