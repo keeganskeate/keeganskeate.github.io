@@ -310,10 +310,10 @@ content > :last-child {
 				font-size: 1.0em;
 				line-height: 1.1em;
 			}
-			.projectsbin p > a {
+			#profiletext p > a {
 				color: #2199E8;
 			}
-				.projectsbin p > a:hover {
+				#profiletext p > a:hover {
 					color: #ff23a2;
 				}
 			#profiletext li a {
