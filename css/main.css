@@ -281,6 +281,10 @@ content > :last-child {
 	.profile h1{
 		padding-bottom: 0.25em;
 	}
+	.profile img:hover {
+		opacity: 0.75;
+		filter: alpha(opacity=75);
+	}
 		#profilepic {
 			float: left;
 			margin-right: 0;
@@ -288,11 +292,7 @@ content > :last-child {
 		}
 			#profilepic img {
 				border-radius: 50%;
-			}
-				#profilepic img:hover {
-					opacity: 0.75;
-					filter: alpha(opacity=75);
-				}		
+			}		
 		#profiletext {
 			display: inline-block;
 			float: left;
