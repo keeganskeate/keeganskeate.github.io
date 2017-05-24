@@ -353,7 +353,7 @@ content > :last-child {
 @media (max-height: 1280px) and (max-width: 980px) {.profile{text-align:center;float:none;display:block;margin: 1.5em auto 0 auto;width:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) { #profilepic{float:none;display:block;margin: 0em auto; } }
 @media (max-height: 1280px) and (max-width: 980px) {#profilepic img{display:block;float:none;margin:0 auto;width:auto;}}
-@media (max-height: 1280px) and (max-width: 980px) {#profiletext{float:none;margin:0.5em auto 1em auto;padding:0;}}
+@media (max-height: 1280px) and (max-width: 980px) {#profiletext{float:none;margin:0.5em auto 1em auto;padding:0;width:auto;}}
 
 /* Projects */
 .projectsbin {
