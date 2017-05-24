@@ -272,7 +272,7 @@ content > :last-child {
 }
 	.profile div {
 		text-align: left;
-		height: 175px;
+		/*height: 175px;*/
 		min-height: 175px;
 		padding: 0;
 	}
@@ -285,8 +285,6 @@ content > :last-child {
 			width: 155px;
 		}
 			#profilepic img {
-				width: 155px;
-				height: 175px;
 				border-radius: 50%;
 			}
 				#profilepic img:hover {
@@ -298,7 +296,7 @@ content > :last-child {
 			float: left;
 			overflow: hidden;
 			max-width: 40%;
-			min-height: 175px;
+			/*min-height: 175px;*/
 			padding: 0 1.5em 0 0.5em;
 			border-right: 1px solid #cccccc;
 		}
