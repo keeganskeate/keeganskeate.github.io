@@ -297,7 +297,7 @@ content > :last-child {
 			overflow: hidden;
 			max-width: 40%;
 			/*min-height: 175px;*/
-			padding: 0 1.5em 0 0.5em;
+			padding: 0 1em;
 			border-right: 1px solid #cccccc;
 		}
 			#profiletext p{
