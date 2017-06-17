@@ -127,12 +127,12 @@ html, body {
 		position: relative;
 	}
 /* Navigation */
-.homepage #nav {
+/*.homepage #nav {
 	position: static;
 	right: none;
 	margin: 0 auto;
 	text-align: center;
-}	
+}*/	
 	#nav {
 		width: 85%;
 		position: absolute;
@@ -532,7 +532,7 @@ footer > :last-child {
 		color: #444444;
 	}
 /* Logo */
-	.homepage #logo {
+	#logo {
 		display: none;
 	}
 	#logo {
