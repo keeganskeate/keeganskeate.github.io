@@ -127,12 +127,12 @@ html, body {
 		position: relative;
 	}
 /* Navigation */
-/*.homepage #nav {
+.homepage #nav {
 	position: static;
 	right: none;
 	margin: 0 auto;
 	text-align: center;
-}*/	
+}	
 	#nav {
 		width: 85%;
 		position: absolute;
@@ -356,8 +356,9 @@ content > :last-child {
 				}
 
 @media (max-height: 1280px) and (max-width: 980px) {.profile{display:block; width:auto;}}
-@media (max-height: 1280px) and (max-width: 980px) {#profilepic img{display:block; width:auto;}}
-@media (max-height: 1280px) and (max-width: 980px) {#profiletext{display:block; width:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {.profile div{float:none;}}
+@media (max-height: 1280px) and (max-width: 980px) {#profilepic img{margin:0 1em; width:auto; }}
+@media (max-height: 1280px) and (max-width: 980px) {#profiletext{margin:0 1em; width:auto; }}
 
 /* Projects */
 .projectsbin {
