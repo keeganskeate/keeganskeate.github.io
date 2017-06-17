@@ -116,10 +116,10 @@ html, body {
 	-webkit-box-shadow: 0 1px 6px 1px rgba(70,70,70,0.3);
 	color: #FFFFFF;
 	background: #000B29;
-	background: -webkit-linear-gradient(141deg, #000B29 0, #344D90 50%, #000B29 100%);
-	background: -o-linear-gradient(141deg, #000B29 0, #344D90 50%, #000B29 100%);
-	background: -moz-linear-gradient(141deg, #000B29 0, #344D90 50%, #000B29 100%);
-	background: linear-gradient(141deg, #000B29 0, #344D90 50%, #000B29 100%);
+	background: -webkit-linear-gradient(141deg, #000B29 0, #344D90 90%, #000B29 100%);
+	background: -o-linear-gradient(141deg, #000B29 0, #344D90 90%, #000B29 100%);
+	background: -moz-linear-gradient(141deg, #000B29 0, #344D90 90%, #000B29 100%);
+	background: linear-gradient(141deg, #000B29 0, #344D90 90%, #000B29 100%);
 	/* (-45deg, #344D90, #000B29) */
 }
 	/* good light blue #4CB5F5 */
@@ -288,7 +288,7 @@ content > :last-child {
 		#profilepic {
 			float: left;
 			margin-right: 0;
-			width: 155px;
+			min-width: 155px;
 		}
 			#profilepic img {
 				border-radius: 50%;
@@ -297,7 +297,7 @@ content > :last-child {
 			display: inline-block;
 			float: left;
 			overflow: hidden;
-			max-width: 55%;
+			max-width: 50%;
 			/*min-height: 175px;*/
 			padding: 0 1em;
 			border-right: 1px solid #cccccc;
@@ -355,10 +355,9 @@ content > :last-child {
 					color: #6A3d9A;
 				}
 
-@media (max-height: 1280px) and (max-width: 980px) {.profile{text-align:center;float:none;display:block;margin: 1.5em auto 0 auto;width:auto;}}
-@media (max-height: 1280px) and (max-width: 980px) { #profilepic{float:none;display:block;margin: 0em auto; } }
-@media (max-height: 1280px) and (max-width: 980px) {#profilepic img{display:block;float:none;margin:0 auto;width:auto;}}
-@media (max-height: 1280px) and (max-width: 980px) {#profiletext{float:none;margin:0.5em auto 1em auto;padding:0;width:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {.profile{display:block; width:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {#profilepic img{display:block; width:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {#profiletext{display:block; width:auto;}}
 
 /* Projects */
 .projectsbin {
