@@ -115,11 +115,11 @@ html, body {
 	-moz-box-shadow: 0 1px 6px 1px rgba(70,70,70,0.3);
 	-webkit-box-shadow: 0 1px 6px 1px rgba(70,70,70,0.3);
 	color: #FFFFFF;
-	background: #000B29;
-	background: -webkit-linear-gradient(141deg, #000B29 0, #344D90 90%, #000B29 100%);
-	background: -o-linear-gradient(141deg, #000B29 0, #344D90 90%, #000B29 100%);
-	background: -moz-linear-gradient(141deg, #000B29 0, #344D90 90%, #000B29 100%);
-	background: linear-gradient(141deg, #000B29 0, #344D90 90%, #000B29 100%);
+	background: #344D90;
+	background: -webkit-linear-gradient(141deg, #000B29 0, #344D90 95%, #000B29 100%);
+	background: -o-linear-gradient(141deg, #000B29 0, #344D90 95%, #000B29 100%);
+	background: -moz-linear-gradient(141deg, #000B29 0, #344D90 95%, #000B29 100%);
+	background: linear-gradient(141deg, #000B29 0, #344D90 95%, #000B29 100%);
 	/* (-45deg, #344D90, #000B29) */
 }
 	/* good light blue #4CB5F5 */
@@ -356,9 +356,9 @@ content > :last-child {
 				}
 
 @media (max-height: 1280px) and (max-width: 980px) {.profile{display:block; width:auto;}}
-@media (max-height: 1280px) and (max-width: 980px) {.profile div{float:none;}}
-@media (max-height: 1280px) and (max-width: 980px) {#profilepic img{margin:0 1em; width:auto; }}
-@media (max-height: 1280px) and (max-width: 980px) {#profiletext{margin:0 1em; width:auto; }}
+@media (max-height: 1280px) and (max-width: 980px) {.profile div{display:block; width:auto; float:none;}}
+@media (max-height: 1280px) and (max-width: 980px) {#profilepic img{display:block; width:auto; margin:0 1em;}}
+@media (max-height: 1280px) and (max-width: 980px) {#profiletext{display:block; width:auto; margin:0 1em; border-right:none;}}
 
 /* Projects */
 .projectsbin {
