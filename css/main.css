@@ -365,7 +365,7 @@ content > :last-child {
 	display: inline-block;
 	margin: 0 auto;
 	padding: 1em 0;
-	border: 1px solid #333A56;
+	/*border: 1px solid #333A56;*/
 	-moz-box-shadow: 0 0 4px #444;
 	-webkit-box-shadow: 0 0 4px #444;
 	overflow: auto;
