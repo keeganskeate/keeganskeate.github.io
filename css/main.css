@@ -371,18 +371,22 @@ content > :last-child {
 	margin: 0 auto;
 	padding: 0;
 	overflow: auto;
+	border-top: 3px solid #2a2a2a;
 }
 	#projectsection {
 		display: inline-block;
 		overflow: hidden;
 		padding: 0 0 1em 0;
-		margin: auto 1em;
+		margin: auto 2em auto 0;
 		width: 33.3%;
 		background: #ffffff;
 		border: 1px solid #e9e9e9;
 		border-bottom-color: #d5d5d5;
 		border-bottom-width: 2px;
 		border-radius: 4px;
+	}
+	#projectsection:last-child {
+		margin: auto 0;
 	}
 		#projectwrap {
 			float: left;
@@ -400,8 +404,9 @@ content > :last-child {
 			text-align: left;
 		}
 		.projectsbin h1 {
-			padding-bottom: 1em;
 			text-align: left;
+			margin-bottom: 1em;
+			border-bottom: 1px solid #cccccc;
 		}
 		.projectsbin h2{
 			text-align: center;
