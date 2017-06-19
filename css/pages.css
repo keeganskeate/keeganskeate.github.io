@@ -71,7 +71,6 @@
 /* LATEST WORK PAGE */
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
 .wrapper.blogstyle {
-	background: #F2F3F4;
 	margin: 2em auto 1em auto;
 }
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.blogstyle{margin:auto;}}
@@ -103,6 +102,10 @@
 	color: #2199E8;
 	cursor: pointer;
 }
+	#blog a:hover {
+		color: #ff23a2;
+	}
+
 #blog a span {
 	position: absolute;
 	font-size: 3em;
