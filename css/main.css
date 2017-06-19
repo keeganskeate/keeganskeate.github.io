@@ -104,7 +104,7 @@ html, body {
 		padding: 0;
 	}
 	.wrapper.body-style {
-		padding: 0;
+		padding: 0 0 2em 0;
 	}
 	.wrapper.end-style {
 		padding-bottom: 1em;
