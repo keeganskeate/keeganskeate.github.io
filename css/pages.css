@@ -217,7 +217,12 @@
 	border-bottom-width: 2px;
 	border-radius: 4px;
 }
-#history a{text-decoration:underline;color:#107896;}
+#history p > a {
+	color: #2199E8;
+}
+	#history p > a:hover {
+		color: #ff23a2;
+    	}
 @media (max-height: 1280px) and (max-width: 980px) {#history {float:none;margin:1em auto;width:auto;height:auto;}}
 #objective {
 	float:left;
@@ -243,8 +248,12 @@
 	border-radius: 4px;
 }
 @media (max-height: 1280px) and (max-width: 980px) {#professional {float:none;margin:1em auto;width:auto;height:auto;}}
-#professional a{text-decoration:none;color:#373D3F;}
-#professional a:hover{text-decoration:underline;}
+#professional a {
+	text-decoration:none;
+}
+	#professional a:hover > span {
+		color: #2199E8;
+	}
 
 #education {
 	margin: 0 2.5%;
@@ -253,7 +262,7 @@
 	text-align: left;
 }
 @media (max-height: 1280px) and (max-width: 980px) {#education {float:none;margin:1em auto;width:auto;height:auto;}}
-#education .educationbin{
+#education .educationbin {
 		display: inline-block;
 		margin: 1em auto 0 auto;
 		padding:2em;
@@ -274,7 +283,7 @@
 #educationitem {float: left;position: relative;left: -50%;}
 @media only screen and (max-width: 980px){#educationitem p,#educationitem h5{max-width:100%;}}
 #educationitem h5{margin:0 auto;}
-#teaching{
+#teaching {
 	float:left;
 	width:47.5%;
 	margin:2em auto 0 2.5%;
@@ -355,11 +364,10 @@
 @media (max-height: 1280px) and (max-width: 980px) {#skills {float:none;margin:1em auto;width:auto;height:auto;}}
 #skills a {
 	text-decoration:none;
-	color:#373D3F;
 }
-#skills a:hover {
-	text-decoration: underline;
-}
+	#skills a:hover > span {
+		color: #2199E8;
+	}
 #interests{
 	float:right;
 	width:47.5%;
@@ -374,8 +382,7 @@
 @media (max-height: 1280px) and (max-width: 980px) {#interests {float:none;margin:1em auto;width:auto;height:auto;}}
 #interests a{
 	text-decoration:none;
-	color:#373D3F;
 }
-#interests a:hover{
-	text-decoration:underline;
-}
+	#interests a:hover > span{
+		color: #2199E8;
+	}
