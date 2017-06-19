@@ -68,16 +68,25 @@
 
 /* LATEST WORK PAGE */
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
-.wrapper.blogstyle {background: #F2F3F4; margin:10em auto 1em auto;}
+.wrapper.blogstyle {
+	background: #F2F3F4;
+	margin: 2em auto 1em auto;
+}
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.blogstyle{margin:auto;}}
-.wrapper.blogstyle li,.wrapper.blogstyle p{padding: 0em;}
-.wrapper.blogstyle a{text-decoration:none;padding: 0em;}
+.wrapper.blogstyle li,
+.wrapper.blogstyle p {
+	padding: 0em;
+}
+.wrapper.blogstyle a {
+	text-decoration: none;
+	padding: 0em;
+}
 #blog h5{
-	margin:1em auto;
-	max-width:90%;
-	color:#131516;
+	margin: 1em auto;
+	max-width: 90%;
+	color: #131516;
 	font-weight:400;
-	font-size:1.2em;
+	font-size: 1.2em;
 }
 #blog p{
 	color:#373D3F;
@@ -88,9 +97,19 @@
 	max-width:90%;
 	font-size:1em;
 }
-#blog a{text-decoration:underline;color:#107896;cursor:pointer;}
-#blog a span{position:absolute;font-size:3em;margin-left:-2.5%;}
-#blog .blogicon{float:right;}
+#blog a {
+	text-decoration: underline;
+	color: #107896;
+	cursor:pointer;
+}
+#blog a span {
+	position:absolute;
+	font-size: 3em;
+	margin-left:-2.5%;
+}
+#blog .blogicon {
+	float:right;
+}
 /* PDFS */
 #blog .paperpost {
 	margin:4em auto;
