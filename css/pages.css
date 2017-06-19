@@ -28,8 +28,7 @@
 #contact {
 	display: inline-block;
 	margin: 0 auto;
-	width: auto;
-	max-width:90%;
+	max-width: 90%;
 	padding: 1em;
 	background: #ffffff;
 	border: 1px solid #e9e9e9;
