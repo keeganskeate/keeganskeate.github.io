@@ -410,13 +410,13 @@ content > :last-child {
 		}
 		.projectsbin h2{
 			text-align: center;
-			padding-bottom: 1em;
+			padding: 1em 0;
 		}
 		.projectsbin h2 a {
 			color: #444444;
 		}
 		.projectsbin p {
-			max-width: 80%;
+			max-width: 90%;
 			margin: 0 auto;
 			padding-top: 1em;
 			font-family: 'EB Garamond', serif;
