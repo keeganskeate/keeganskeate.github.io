@@ -1,21 +1,36 @@
 /*  SUBPAGE SPECIFIC */
 /*.subpage #nav ul li:first-child{padding: 0 0 0 2.5%;} for adding back in back button*/
-.subpage #logo{display: none;}.subpage #nav{position: static;right: none;text-align: center;}
-.subpage #nav .thispage {color:#EFD469;}
+.subpage #logo {
+	display: none;
+}
+.subpage #nav {
+	position: static;
+	right: none;
+	text-align: center;
+}
+#thispage {
+	color: #ffffff;
+}
 /* CONTACT PAGE */
-.wrapper.contactstyle {background: #F2F3F4; margin:10em auto 1em auto;}
+.wrapper.contactstyle {
+	background: #F2F3F4;
+	margin: 2em auto;
+}
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle{margin:auto;}}
-.wrapper.contactstyle li,.wrapper.contactstyle p{padding: 0em;}
-.wrapper.contactstyle a{text-decoration:none;padding: 0em;}
 
-.wrapper.contactstyle .image {
+.wrapper.contactstyle li,
+.wrapper.contactstyle p {
+	padding: 0em;
+}
+.wrapper.contactstyle a {
+	text-decoration: none;
+	padding: 0em;
+}
+/*.wrapper.contactstyle .image {
 	position: relative;
 	width=100%;
 	max-width:100%;}
-.wrapper.contactstyle #tohelp h2 {position: absolute; display:inline-block;
-top: 2.5%; 
-left: 55.5%;
-font-size:1.6em;}
+.wrapper.contactstyle #tohelp h2 {position: absolute; display:inline-block;top: 2.5%; left: 55.5%;font-size:1.6em;}
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle #tohelp h2{font-size:1em;}}
 #tohelp{width:40%
 ;margin: 0 auto;}
@@ -24,9 +39,10 @@ font-size:1.6em;}
 	border-radius: 10%;}
 @media (max-height: 1280px) and (max-width: 980px) {#tohelp{float: none;width:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle .image{width:auto;height:auto;}}
-@media (max-height: 1280px) and (max-width: 980px) {#tohelp img{width:auto;height:auto;}}
+@media (max-height: 1280px) and (max-width: 980px) {#tohelp img{width:auto;height:auto;}}*/
 
-#contact {margin:0em auto 0 auto;
+#contact {
+	margin: 0 auto;
 	width: 60%; max-width:90%;
 	padding: 1em;
 	background: #E8E8E8;
@@ -46,7 +62,6 @@ font-size:1.6em;}
 		color: #ff23a2;
 	}
 @media (max-height: 1280px) and (max-width: 980px) {#contact {width:auto;}}
-#contact p{font-size:1.2em;margin:0;}
 
 
 
