@@ -8,12 +8,12 @@
 	right: none;
 	text-align: center;
 }
-.thispage {
+.subpage #nav .thispage {
 	color: #ffffff;
 }
 /* CONTACT PAGE */
 .wrapper.contactstyle {
-	margin: 3em auto;
+	margin: 4em auto 3em auto;
 }
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle{margin:auto;}}
 
