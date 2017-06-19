@@ -13,8 +13,7 @@
 }
 /* CONTACT PAGE */
 .wrapper.contactstyle {
-	background: #F2F3F4;
-	margin: 2em auto;
+	margin: 3em auto;
 }
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle{margin:auto;}}
 
@@ -26,6 +25,28 @@
 	text-decoration: none;
 	padding: 0em;
 }
+#contact {
+	margin: 0 auto;
+	width: 50%; max-width:90%;
+	padding: 1em;
+	background: #E8E8E8;
+	border: 1px solid #333A56;
+	-moz-box-shadow: 0px 0px 4px #444;
+	-webkit-box-shadow: 0px 0px 4px #444;
+	font-family: 'EB Garamond', serif;
+	font-weight: 400;
+	color: #444444;
+	font-size: 1.4em;
+	line-height: 1.8em;
+}
+#contact p > a {
+	color: #2199E8;
+}
+	#contact p > a:hover {
+		color: #ff23a2;
+    	}
+@media (max-height: 1280px) and (max-width: 980px) {#contact {width:auto;}}
+
 /*.wrapper.contactstyle .image {
 	position: relative;
 	width=100%;
@@ -40,29 +61,6 @@
 @media (max-height: 1280px) and (max-width: 980px) {#tohelp{float: none;width:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.contactstyle .image{width:auto;height:auto;}}
 @media (max-height: 1280px) and (max-width: 980px) {#tohelp img{width:auto;height:auto;}}*/
-
-#contact {
-	margin: 0 auto;
-	width: 60%; max-width:90%;
-	padding: 1em;
-	background: #E8E8E8;
-	border: 1px solid #333A56;
-	-moz-box-shadow: 0px 0px 4px #444;
-	-webkit-box-shadow: 0px 0px 4px #444;
-	font-family: 'EB Garamond', serif;
-	font-weight: 400;
-	color: #444444;
-	font-size: 1.0em;
-	line-height: 1.1em;
-}
-#contact p > a {
-	color: #2199E8;
-}
-	#profiletext p > a:hover {
-		color: #ff23a2;
-	}
-@media (max-height: 1280px) and (max-width: 980px) {#contact {width:auto;}}
-
 
 
 
@@ -117,7 +115,8 @@
 	background: #FFF;
 	border: 1px solid #333A56;
 	-moz-box-shadow: 0px 0px 4px #444;
-	-webkit-box-shadow: 0px 0px 4px #444;}
+	-webkit-box-shadow: 0px 0px 4px #444;
+}
 @media (max-height: 1280px) and (max-width: 980px) {#blog .paperpost{width:auto;margin:3em auto;}}
 #blog .paperpost .paper {text-align:center;margin:0;}
 #blog .paperpost .paper {position: relative;overflow: hidden;height:0;}
