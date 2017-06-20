@@ -210,6 +210,12 @@
 	font-size: 1.2em;
 	line-height: 1.4em;
 }
+.wrapper.aboutstyle a {
+	color: #2199E8;
+}
+	.wrapper.aboutstyle a:hover {
+		color: #ff23a2;
+    	}
 #history{
 	float:right;
 	width:45%;
@@ -221,12 +227,6 @@
 	border-bottom-width: 2px;
 	border-radius: 4px;
 }
-#history p > a {
-	color: #2199E8;
-}
-	#history p > a:hover {
-		color: #ff23a2;
-    	}
 @media (max-height: 1280px) and (max-width: 980px) {#history {float:none;margin:1em auto;width:auto;height:auto;}}
 #objective {
 	float:left;
