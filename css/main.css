@@ -388,6 +388,7 @@ content > :last-child {
 	#projectsection:last-child {
 		margin: 0;
 	}
+@media (max-height: 1280px) and (max-width: 980px){ #projectsection{width:auto; margin: 0 auto; }}
 		#projectwrap {
 			float: left;
 			position: relative;
