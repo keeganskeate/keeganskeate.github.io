@@ -447,7 +447,6 @@ content > :last-child {
 			}
 @media (max-height: 1280px) and (max-width: 980px){ #projectsection{display:block; width:auto; margin: 0 auto; }}
 @media (max-height: 1280px) and (max-width: 980px){.projectsbin{ display:block; width:auto; }}
-@media (max-height: 1280px) and (max-width: 980px){.projectsbin h1{ margin-left: 5%; }}
 /* Footer */
 footer > :last-child {
 	margin-bottom: 0;
