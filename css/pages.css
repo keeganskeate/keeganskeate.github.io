@@ -185,9 +185,8 @@
 
 /* ABOUT ME PAGE */
 .wrapper.aboutstyle {
-	width: 100%;
-	min-width: 840px;
-	max-width: 1344px;
+	margin: 4em 5% 1em 5%;
+ 	max-width:90%;
 }
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.aboutstyle{margin:auto;}}
 .wrapper.aboutstyle li,
