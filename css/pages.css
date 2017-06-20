@@ -185,8 +185,9 @@
 
 /* ABOUT ME PAGE */
 .wrapper.aboutstyle {
-	margin: 4em 5% 1em 5%;
-	max-width:90%;
+	width: 100%;
+	min-width: 840px;
+	max-width: 1344px;
 }
 @media (max-height: 1280px) and (max-width: 980px) {.wrapper.aboutstyle{margin:auto;}}
 .wrapper.aboutstyle li,
@@ -252,6 +253,7 @@
 @media (max-height: 1280px) and (max-width: 980px) {#professional {float:none;margin:1em auto;width:auto;height:auto;}}
 #professional a {
 	text-decoration:none;
+	color: #444444;
 }
 	#professional a:hover > span {
 		color: #2199E8;
@@ -366,6 +368,7 @@
 @media (max-height: 1280px) and (max-width: 980px) {#skills {float:none;margin:1em auto;width:auto;height:auto;}}
 #skills a {
 	text-decoration:none;
+	color: #444444;
 }
 	#skills a:hover > span {
 		color: #2199E8;
@@ -384,6 +387,7 @@
 @media (max-height: 1280px) and (max-width: 980px) {#interests {float:none;margin:1em auto;width:auto;height:auto;}}
 #interests a{
 	text-decoration:none;
+	color: #444444;
 }
 	#interests a:hover > span{
 		color: #2199E8;
