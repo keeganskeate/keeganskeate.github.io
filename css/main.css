@@ -438,12 +438,12 @@ content > :last-child {
 			cursor: pointer;
 			opacity: 1;
 			filter: alpha(opacity=100);
-			border: 1px solid #333A56;
+			/*border: 1px solid #333A56;*/
 		}
 			.projectsbin img:hover{
 				opacity: .75;
 				filter: alpha(opacity=75);
-				border-color: #ff23a2;
+				/*border-color: #ff23a2;*/
 			}
 @media (max-height: 1280px) and (max-width: 980px){.projectsbin{ display:block; width:auto; }}
 @media (max-height: 1280px) and (max-width: 980px){ #projectsection{ display:block; width:auto; }}
