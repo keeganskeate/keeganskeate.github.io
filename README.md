@@ -1,6 +1,6 @@
 # Keegan Skeate's Personal Website
 
-A professional website that is intended to provide easy access to my contact information and work that I have created.
+A professional website that is intended to provide easy access to Keegan's contact information and work portfolio.
 
 ## License
 
