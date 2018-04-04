@@ -1,5 +1,6 @@
 /* Fonts */
 /*@import url("font-awesome-4.6.3/css/font-awesome.min.css"); */
+@import url("http://fonts.googleapis.com/css?family=Space+Mono:300,400,600,700,800");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Oranienbaum:300,400,600,700,800");
@@ -114,6 +115,12 @@ html, body {
 		background: -moz-linear-gradient(to bottom, rgba(0,0,0,.3), rgba(0,0,0,0));
 		background: linear-gradient(to bottom, rgba(0,0,0,.3), rgba(0,0,0,0));
 	}
+
+/* New CSS */
+.sitename {
+	font-family: 'Space Mono', monospace;
+}
+
 /* Header */
 #header {
 	height: 55px;
