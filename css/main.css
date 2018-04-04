@@ -508,7 +508,8 @@ footer > :last-child {
 		overflow: hidden;
 		padding: 1em 0;
 		margin: auto;
-		width: 33.3%;
+		float: none;
+		width: 25%;
 	}
 	#contactwrap {
 		float: left;
