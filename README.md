@@ -4,4 +4,4 @@ Welcome to my personal website. This site is intended to provide easy access to 
 
 ## License
 
-All content and graphics on this website are the property of Keegan Skeate. Please ask to use any content on this site.
+All content on this website is the property of Keegan Skeate. Please ask if you would like to use any content on this site.
