@@ -77,7 +77,7 @@
 	        $(this).closest('.boxInner').toggleClass('touchFocus'); }); } });
 		
 		//Hover Title Appearance
-		$(document).tooltip({show: null});
+		//$(document).tooltip({show: null});
 
 });})(jQuery);
 
