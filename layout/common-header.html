@@ -1,34 +1,37 @@
 <!-- Header -->
 <div id="header" class="StickyHeader">
-	<section class="column">
-		<h1><a id="mobile-logo" title="The Economicon" href="http://www.theeconomicon.com">The Economicon<i class="fa fa-copyright" style="font-size:12px; vertical-align: top;"></i></a></h1>
-		<nav id="nav">
-			<ul>
-				<li class="sitename">
-					<a title="Go to the homepage" href="http://www.keeganskeate.com">Keegan Skeate</a>
-				</li>
-        
-			</ul>
-		</nav>
-	</section>
+  <section class="column">
+    <h1>
+      <a id="mobile-logo" title="Keegan Skeate" href="http://www.keeganskeate.com">Keegan Skeate</a>
+    </h1>
+    <nav id="nav">
+      <ul>
+        <li class="sitename">
+          <a title="Go to the homepage" href="http://www.keeganskeate.com">Keegan Skeate</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
 </div>
+
+<!-- Header JS -->
 <script>
-	// Sticky header with slide down effect
-	$(function() {
-		$("#header").before($(".StickyHeader").clone().addClass("fixed"));
-		$(window).scroll(function(){
-			if ($(window).scrollTop() >= 200) {
-				$('.StickyHeader.fixed').addClass('slideDown');
-			} else{
-				$('.StickyHeader.fixed').removeClass('slideDown');
-			}
-		});
-	});
-	// Initiate Dropdowns.
-	$(function() {
-		$('#nav > ul').dropotron({
-			offsetY: -15,
-			hoverDelay: 0
-		});
-	});
+// Sticky header with slide down effect
+$(function() {
+  $("#header").before($(".StickyHeader").clone().addClass("fixed"));
+  $(window).scroll(function(){
+    if ($(window).scrollTop() >= 200) {
+      $('.StickyHeader.fixed').addClass('slideDown');
+    } else{
+      $('.StickyHeader.fixed').removeClass('slideDown');
+    }
+  });
+});
+// Initiate Dropdowns.
+$(function() {
+  $('#nav > ul').dropotron({
+    offsetY: -15,
+    hoverDelay: 0
+  });
+});
 </script>
