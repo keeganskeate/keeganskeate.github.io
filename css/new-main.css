@@ -417,59 +417,59 @@ input[type="button"],
 
 /* Marquee */
 .wrapper.marquee-style {
-	position: relative;
-	padding: 0;
-	height: 400px;
+  position: relative;
+  padding: 0;
+  height: 400px;
 }
 .marquee {
-	position: absolute;
-	display: inline-block;
-	top: 0px;
-	width: 100%;
-	height: inherit;
+  position: absolute;
+  display: inline-block;
+  top: 0px;
+  width: 100%;
+  height: inherit;
 }
-	.marquee-text {
-		height: 100%;
-		color: #414042;
-		display: flex;
-		text-align: center;
-		flex-direction: column;
-		justify-content: center;
-	}
-		.marquee-text h1 {
-			color: #414042;
-			font-size: 3em;
-			font-weight: 600;
-			line-height: 150%;
-			margin: 0 2em;
-			padding-top: 2em;
-		}
-		.marquee-text h2 {
-			font-size: 90%;
-		}
-		.marquee-text h6 {
-			font-size: 90%;
-		}
-			.marquee-text h6 a {
-				color: #2199E8;
-				line-height: 125%;
-				display: inline-block;
-			}
-				.marquee-text h6 a:after {
-					content: '';
-					display: block;
-					height: 1px;
-					width: 0;
-					margin: auto;
-					background: transparent;
-					transition: width .3s ease, background .3s ease;
-					-webkit-transition: width .3s ease, background .3s ease;
-					-moz-transition: width .3s ease, background .3s ease;
-				}
-					.marquee-text h6 a:hover:after {
-						width: 100%;
-						background: #2199E8;
-					}
+  .marquee-text {
+    height: 100%;
+    color: #414042;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+      .marquee-text h1 {
+        color: #414042;
+        font-size: 3em;
+        font-weight: 600;
+        line-height: 150%;
+        margin: 0 2em;
+        padding-top: 2em;
+      }
+      .marquee-text h2 {
+        font-size: 90%;
+      }
+      .marquee-text h6 {
+        font-size: 90%;
+      }
+        .marquee-text h6 a {
+          color: #2199E8;
+          line-height: 125%;
+          display: inline-block;
+        }
+          .marquee-text h6 a:after {
+            content: '';
+            display: block;
+            height: 1px;
+            width: 0;
+            margin: auto;
+            background: transparent;
+            -webkit-transition: width .3s ease, background .3s ease;
+            -moz-transition: width .3s ease, background .3s ease;
+            transition: width .3s ease, background .3s ease;
+          }
+            .marquee-text h6 a:hover:after {
+              width: 100%;
+              background: #2199E8;
+            }
 @media only screen and (max-width: 980px){.marquee-text h1{padding-top:1em;}}
 
 /* Footer */
