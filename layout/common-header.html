@@ -4,10 +4,26 @@
     <h1>
       <a id="mobile-logo" title="Keegan Skeate" href="http://www.keeganskeate.com">Keegan Skeate</a>
     </h1>
-    <nav id="nav">
-      <ul>
+		<nav id="nav">
+			<ul>
         <li class="sitename">
-          <a title="Go to the homepage" href="http://www.keeganskeate.com">Keegan Skeate</a>
+          <a style="width:350px; height:50px;" title="Keegan Skeate" href="http://www.keeganskeate.com">Keegan Skeate</a>
+        </li>
+        <li><a class="top-row" href="#" aria-label="Search"><i class="fa fa-search" aria-hidden="true" title="Search"></i></a></li>
+        <li><a class="top-row" href="#">Contact</a></li>
+        <li><a class="top-row" href="#">item?</a></li>
+        <li><a class="top-row" href="/blog">Blog</a></li>
+        <li><a class="top-row" href="#">item?</a></li>
+        <li class="split"><a href="#" title="">Action?</a></li>
+        <li><a class="underline" href="/about">About</a></li>
+        <li><a class="underline" href="#">item?</a></li>
+        <li><a class="underline" href="#">item? <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          <ul>
+            <li><a href=""><i class="fa fa-book fa-fw" aria-hidden="true"></i> 1</a></li>
+            <li><a href=""><i class="fa fa-window-restore fa-fw" aria-hidden="true"></i> 2</a></li>
+            <li><a href=""><i class="fa fa-line-chart fa-fw" aria-hidden="true"></i> 3</a></li>
+            <li class="bottom-item"><a href=""><i class="fa fa-comments fa-fw" aria-hidden="true"></i> 4</a></li>
+          </ul>
         </li>
       </ul>
     </nav>
@@ -20,7 +36,7 @@
 $(function() {
   $("#header").before($(".StickyHeader").clone().addClass("fixed"));
   $(window).scroll(function(){
-    if ($(window).scrollTop() >= 200) {
+    if ($(window).scrollTop() >= 100) {
       $('.StickyHeader.fixed').addClass('slideDown');
     } else{
       $('.StickyHeader.fixed').removeClass('slideDown');
