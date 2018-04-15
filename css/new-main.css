@@ -1,63 +1,53 @@
-/* -----------------------------------------------------
-/* Main Style Sheet for Keegan Skeate's personal website
-/* -----------------------------------------------------
-/* Colors:
-	Off-Black: #131516
-	Lightest Grey: #eee
-	Light Grey: #ccc
-	Medium Grey: #E0E1E1
-	Dark Grey: #999
-	Decorative Grey: #e6e6e6
-	Light White: #F2F3F4
-	White: #F7F5E6
-	Off White: #E8E8E8
-	Darkest White: #D6D6D6
-	Dark Purple: #2D004F
-	Lime Green: #B2E522
-	Dark Green: #006A3F
-	Sky Blue: #2199E8
-	Regular Background Blue: #176599
-	Navy: #01516e
-	Pastel yellow: #F3D250
-	Pastel blue: #90CCF4
-	Pastel pink: #F78888
-	Soft Red: #EE464F
-	Soft Green: #14a76c
-	Soft Blue: #90CCF4
-	Soft Orange: #FF8F69
-	Soft Light Green: #61EBA9
-----------------------------------------------
-/* Fonts */
+/*
+Main Style Sheet for Keegan Skeate's personal website
+
+Color Palette
+
+blue-black: #2f2e33
+night: #000b29
+ink: #20232a
+aluminum: #acbebe
+warm gray: #bcbabe
+cool gray: #d5d6d2
+overcast: #f1f1f2
+paper: #f4f4ef
+ruby red: #a01D26
+phone-booth red: #d70036
+brick: #fa8d62
+cobalt: #3a5199
+glacier blue: #1995ad
+ice: #a1d6e2
+soft blue: #90ccf4
+sky blue: #2199e8
+
+/* San-Serif Fonts */
 @import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800");
-@import url("https://fonts.googleapis.com/css?family=Sanchez:200,300,400,600,700,800");
+/* Serif Fonts */
 @import url("https://fonts.googleapis.com/css?family=Cinzel:200,300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Sanchez:200,300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Lusitana:200,300,400,600,700,800");
-/*@import url("https://fonts.googleapis.com/css?family=Droid+Serif:200,300,400,600,700,800");*/
-/*@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:200,300,400,600,700,800");*/
-/*@import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");*/
-/*@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700,800");*/
 
 /* Icomoon Icons */
 @font-face {
-	font-family: 'icomoon';
-	src:  url('fonts/icomoon.eot?9oakzz');
-	src:  url('fonts/icomoon.eot?9oakzz#iefix') format('embedded-opentype'),
-	url('fonts/icomoon.ttf?9oakzz') format('truetype'),
-	url('fonts/icomoon.woff?9oakzz') format('woff'),
-	url('fonts/icomoon.svg?9oakzz#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9oakzz');
+  src:  url('fonts/icomoon.eot?9oakzz#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?9oakzz') format('truetype'),
+  url('fonts/icomoon.woff?9oakzz') format('woff'),
+  url('fonts/icomoon.svg?9oakzz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon' !important;
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .icon-office:before {content: "\e903";}
 .icon-newspaper:before {content: "\e904";}
@@ -71,49 +61,45 @@
 
 /* Lazy Loading */
 html.loading, body.loading * {
-	-moz-transition: none !important;
-	-webkit-transition: none !important;
-	-o-transition: none !important;
-	-ms-transition: none !important;
-	transition: none !important;
-	-moz-animation: none !important;
-	-webkit-animation: none !important;
-	-o-animation: none !important;
-	-ms-animation: none !important;
-	animation: none !important;
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+  -moz-animation: none !important;
+  -webkit-animation: none !important;
+  -o-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
 }
 
 /* Basic Format */
 html, body {
-	overflow-x: hidden;
-	overflow-y: auto;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	background: #fff;
-	color: #131516;
-	line-height: 1.65em;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 12pt;
-	font-weight: 400;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #fff;
+  color: #131516;
+  line-height: 1.65em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
 }
-a {
-	text-decoration: none;
-}
-b {
-	font-weight: 600;
-}
+a {text-decoration: none;}
+b {font-weight: 600;}
 /* Selection Color 
-	a::selection,
-	p::selection,
-	span::selection {
-		background: #14a76c;
-	}
-	a::-moz-selection,
-	p::-moz-selection,
-	span::-moz-selection {
-		background: #14a76c;
-	} */
+  a::selection,
+  p::selection,
+  span::selection {
+    background: #14a76c;
+  }
+  a::-moz-selection,
+  p::-moz-selection,
+  span::-moz-selection {
+    background: #14a76c;
+  } */
 /* Containers */
 .container {
 	min-width: 840px;
