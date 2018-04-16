@@ -17,7 +17,7 @@
 <script src="javascripts/skel.min.js"></script>
 <script src="javascripts/skel-layers.min.js"></script>
 <script src="javascripts/new-main.js"></script>
-<script> $(function(){$("#common-header").load("layout/common-header.html");}); </script>
+<script> $(function(){$("#common-header").load("/layout/common-header.html");}); </script>
 <!-- Style Sheets -->
 <link rel="stylesheet" href="css/new-main.css"/>
 <link rel="stylesheet" href="css/blog.css"/>
@@ -54,9 +54,39 @@
   </div>
 </div>
 <!-- Blog Archive -->
+<!-- News Reel -->
+	<div id="news">
+		<section class="column">
+<!-- More Top Stories -->
+			<div class="more-top-stories">
+				<section class="column">
+					
+					<!-- Using Python in Excel -->
+					<div class="news-story">
+						<a href="#" title="Using Python in Excel">
+							<div class="news-story-image" style="background-image:url('/images/tessellation.png');"></div>
+						</a>
+						<div class="news-story-info">
+							<h3>
+								<a href="#" title="Using Python in Excel">Using Python in Excel</a>
+							</h3>
+							<p>Blurb...<a class="read-more" href="#">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+							<div class="publishing-info">
+								<span><a href="#" title="April 16th, 2018"><i class="fa fa-calendar-o" aria-hidden="true"></i>&nbsp; April 16th, 2018</a></span>
+								<span><a href="#" title="Keegan Skeate"><i class="fa fa-user" aria-hidden="true"></i>&nbsp; Keegan Skeate</a></span>
+								<span><i class="fa fa-tags" aria-hidden="true"></i>&nbsp; <a href="#"> Python</a></span>
+							</div>
+						</div>
+					</div>
+					
+				</section>
+			</div>
+
+		</section>
+	</div>
 <a href="#" class="back-to-top"><img src="images/up-caret.png" style="width:15px; height:15px;"></a>
 <!-- Footer -->
-<script> $(function(){$("#common-footer").load("layout/common-footer.html");}); </script>
+<script> $(function(){$("#common-footer").load("/layout/common-footer.html");}); </script>
 <div id="common-footer"></div>
 </body>
 </html>
