@@ -603,7 +603,7 @@ input[type="button"],
 					margin: 0;
 					width: 27px;
 					height: 27px;
-					background: url('/images/style/disqus-social-icon-sprite.svg') no-repeat left top;
+					background: url('/images/social/disqus-social-icon-sprite.svg') no-repeat left top;
 					background-size: 100% 200%;
 				}
 					#footer .blurb .social .disqus-icon:active,
