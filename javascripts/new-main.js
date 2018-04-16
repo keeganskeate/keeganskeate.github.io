@@ -8,7 +8,7 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			global:		{ range: '*', href: '/stylesheets/style.css', containers: 1400, grid: { gutters: 50 } },
+			global:		{ range: '*', href: '/stylesheets/new-main.css', containers: 1400, grid: { gutters: 50 } },
 			wide:		{ range: '-1680', href: '/stylesheets/style-wide.css', containers: 1200, grid: { gutters: 40 } },
 			normal:		{ range: '-1280', href: '/stylesheets/style-normal.css', containers: 960, lockViewport: true },
 			narrow:		{ range: '-1028', href: '/stylesheets/style-narrow.css', containers: '70%', grid: { gutters: 25 } },
