@@ -4,7 +4,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
-/* Basic */
+/* Basic
 
 	#skel-layers-wrapper {
 		padding-top: 44px;
@@ -22,7 +22,7 @@
 		font-size: 1.1em;
 	}
 
-/* Button */
+/* Button
 
 	input[type="submit"],
 	input[type="reset"],
@@ -78,13 +78,13 @@
 			width: 30%;
 		}
 
-/* Header */
+/* Header
 
 	#header {
 		display: none;
 	}
 
-/* Layers */
+/* Layers
 
 	#titleBar {
 		background: #000;
@@ -193,7 +193,7 @@
 				width: 5em;
 			}
 
-/* Banner */
+/* Banner 
 
 	#banner {
 		padding: 6em 0em 3em 0em;
