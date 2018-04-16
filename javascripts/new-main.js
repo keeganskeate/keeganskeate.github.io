@@ -21,11 +21,9 @@ jQuery(document).ready(function() {
 
   // Disable animations/transitions until page has loaded.
   jQuery(document).ready((function() {
-    var $window = jQuery(window),
-    $body = jQuery('body');
-    $body.addClass('loading');
-    $window.on('load', function() {
-      $body.removeClass('loading');
+    jQuery('body').addClass('loading');
+    jQuery(window).on('load', function() {
+      jQuery('body').removeClass('loading');
     });
   });
 
