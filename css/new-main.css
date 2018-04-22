@@ -19,6 +19,8 @@ ice: #a1d6e2
 soft blue: #90ccf4
 sky blue: #2199e8
 
+Serious blue: #477dca
+
 /* San-Serif Fonts */
 @import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800");
 /* Serif Fonts */
@@ -542,7 +544,7 @@ input[type="button"],
 		}
 			#footer .index ul > li > a:active,
 			#footer .index ul > li > a:hover {
-				color: #14a76c;
+				color: #477dca;
 			}
 
 			#footer .index ul > li > a:after {
@@ -591,7 +593,7 @@ input[type="button"],
 			}
 				#footer .blurb .social a:active,
 				#footer .blurb .social a:hover {
-					color: #14a76c;
+					color: #477dca;
 				}
 				#footer .blurb .social a:hover:after {
 					background: transparent;
@@ -649,7 +651,7 @@ input[type="button"],
 		}
 			#footer .copyright ul > li > a:active,
 			#footer .copyright ul > li > a:hover {
-				color: #14a76c;
+				color: #477dca;
 			}
 			#footer .copyright ul > li > a:after {
 				content: '';
