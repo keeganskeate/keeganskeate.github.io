@@ -1,9 +1,21 @@
 // Main JavaScript file
 
-// Javascript Core Functions
-jQuery(document).ready(function() {
+// Disable animations/transitions until page has loaded.
+(function($) {
+	$(function() {
+		var	$window = $(window),
+			$body = $('body');
+			$body.addClass('loading');
+			$window.on('load', function() {
+				$body.removeClass('loading');
+			});
+	});
+})
 
-  // Back-to-top Button
+(jQuery);
+  
+// Back-to-top Button
+jQuery(document).ready(function() {
   var offset = 250; // When the button will appear.
   var duration = 300; // The time until the button will appear in milliseconds.
   jQuery(window).scroll(function() {
@@ -18,13 +30,4 @@ jQuery(document).ready(function() {
     jQuery('html, body').animate({scrollTop: 0}, duration);
     return false;
   });
-
-  // Disable animations/transitions until page has loaded.
-  jQuery(document).ready((function() {
-    jQuery('body').addClass('loading');
-    jQuery(window).on('load', function() {
-      jQuery('body').removeClass('loading');
-    });
-  });
-
 });
