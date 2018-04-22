@@ -472,8 +472,9 @@ input[type="button"],
 @media only screen and (max-width: 980px){.marquee-text h1{padding-top:1em;}}
 
 /* Footer */
-.wrapper.dark {
-  background: #181818;
+.wrapper.footer {
+  background: #f2f5fa;
+  border-top: #dfe8f3 1px solid;
 }
 #footer {
 	max-width: 1344px;
