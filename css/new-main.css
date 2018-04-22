@@ -560,7 +560,7 @@ input[type="button"],
 			}
 				#footer .index ul > li > a:hover:after {
 					width: 100%;
-					background: #14a76c;
+					background: #477dca;
 				}
 
 @media only screen and (max-width: 980px){#footer .index{justify-content: space-evenly;flex-wrap:wrap;}}
@@ -666,7 +666,7 @@ input[type="button"],
 			}
 				#footer .copyright ul > li > a:hover:after {
 					width: 100%;
-					background: #14a76c;
+					background: #477dca;
 				}
 		#footer .copyright .home-icon {
 			margin: 0;
