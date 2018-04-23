@@ -40,7 +40,7 @@ skel.init({
 $(function() {
   $("#header").before($(".StickyHeader").clone().addClass("fixed"));
   $(window).scroll(function(){
-    if ($(window).scrollTop() >= 100) {
+    if ($(window).scrollTop() >= 250) {
       $('.StickyHeader.fixed').addClass('slideDown');
     } else{
       $('.StickyHeader.fixed').removeClass('slideDown');
@@ -70,7 +70,7 @@ $(function() {
   
 /* Back-to-top Button */
 jQuery(document).ready(function() {
-  var offset = 100;
+  var offset = 250;
   var duration = 300;
   jQuery(window).scroll(function() {
     if (jQuery(this).scrollTop() > offset) {
