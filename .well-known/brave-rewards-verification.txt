@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: keeganskeate.com
+Token: ae92b4a3b65ab8360cf52f15e5df7d4bb0409b753dce91a83f6848b78b9fd105
